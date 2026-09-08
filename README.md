@@ -25,13 +25,13 @@
 | Anthropic | Newsroom 和发布正文 |
 | Google | 官方 AI RSS、Gemini 模型博客 |
 | xAI | 官方 News 和发布正文 |
-| DeepSeek | 官方新闻、API 文档新闻链接 |
-| 阿里千问 | 官方 QwenLM GitHub 仓库列表、博客入口 |
+| DeepSeek | 官方 Research & News 发布目录与正文 |
+| 阿里千问 | 官方 QwenLM GitHub 仓库列表、最新系列 README 的 News 发布日志 |
 | 月之暗面 Kimi | 官方 Research Blog |
 | 智谱 GLM | 官方中文模型发布记录 |
 | 字节豆包 | Seed 官方博客目录及正文 |
 
-另外每天检查 TechCrunch、The Verge 和 Google News 搜索 RSS。新闻用于发现遗漏，不直接作为自动批准依据。Google News 只是聚合线索，来源可信度必须在审核时逐条确认。千问博客当前依赖客户端渲染；官方 GitHub 作为可用的替代入口。来源异常会在网站及 Actions 摘要中显示。目录解析为空会被当作异常，不被当作「没有新发布」。
+另外每天检查 TechCrunch、The Verge 和 Google News 搜索 RSS。新闻用于发现遗漏，不直接作为自动批准依据。Google News 只是聚合线索，来源可信度必须在审核时逐条确认。千问博客当前依赖客户端渲染，旧版 DeepSeek 文档新闻入口已失效；已分别改用官方 GitHub 发布日志和新官网新闻入口。来源异常会在网站及 Actions 摘要中显示。目录解析为空会被当作异常，不被当作「没有新发布」。
 
 每次回看最近 45 天；没有发布日期的仓库/候选保留待核实。每个入口每次最多读取 12 篇新的官方正文，超额留待下次重试。请求有超时、大小限制和重试；单个来源失败不会删除已有日历。数据和健康状态在部署前提交入仓库，构建失败不覆盖现有站点。
 

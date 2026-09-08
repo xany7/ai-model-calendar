@@ -29,7 +29,7 @@ def test_date_only_and_midnight_are_not_fabricated():
 def test_verified_major_auto_publishes():
  assert app.classify(sample(),SOURCE,TODAY)['status']=='published'
 @pytest.mark.parametrize('changes',[
- {'title':'Introducing GPT-7.1'}, {'raw_date':'2026-09-07'},
+ {'title':'Introducing GPT-7.1'}, {'title':'Introducing GPT-7.01'}, {'raw_date':'2026-09-07'},
  {'raw_date':'2026-09-10T17:00:00Z'}, {'detail_verified':False},
  {'title':'GPT-7 will launch next week'}, {'text':'A nice update is now available.'}
 ])
@@ -83,3 +83,34 @@ def test_article_date_prefers_real_timestamp_to_day_meta():
 def test_invalid_source_is_not_a_healthy_empty_day(monkeypatch):
  monkeypatch.setattr(app,'fetch',lambda _:('<html><body>Enable JavaScript</body></html>','https://qwen.ai/blog'))
  with pytest.raises(ValueError):app.discover({'kind':'links','url':'https://qwen.ai/blog','domains':['qwen.ai'],'path_pattern':'/blog'})
+
+def test_empty_anchor_article_cards_have_titles_and_dates(monkeypatch):
+ raw='<main><div><a href="/en/blog/kimi-k3" aria-label="Kimi K3"></a><h4>Kimi K3</h4><p>2026-07-16</p></div></main>'
+ monkeypatch.setattr(app,'fetch',lambda _:(raw,'https://www.kimi.com/en/blog/'))
+ rows=app.discover({'kind':'links','url':'https://www.kimi.com/en/blog/','domains':['kimi.com'],'path_pattern':'/en/blog/[^/]+/?$'})
+ assert rows[0]['title']=='Kimi K3' and rows[0]['raw_date']=='2026-07-16'
+
+def test_review_approval_persists_original_candidate_key(tmp_path,monkeypatch):
+ root=tmp_path/'repo';(root/'data').mkdir(parents=True);monkeypatch.setattr(app,'ROOT',root)
+ c={'id':'original-candidate','status':'pending','model':'New Model','vendor':'OpenAI','release_date':None,'published_at':None,'date_precision':'unknown','score':40,'source_url':'https://openai.com/launch','summary':'pending','evidence':[]}
+ app.write('candidates.json',[c]);app.write('events.json',[])
+ app.write('sources.json',[{'vendor':'OpenAI','official':True,'domains':['openai.com']}])
+ env={'REVIEW_ACTION':'approve','CANDIDATE_ID':c['id'],'MODEL_NAME':'GPT-7','RELEASE_DATE':'2026-09-08',
+      'OFFICIAL_URL':'https://openai.com/launch','REVIEW_SUMMARY':'发布新一代模型。','REVIEW_REASON':'新一代旗舰。','DATE_NOTE':'官方日期，无具体时刻。'}
+ for k,v in env.items():monkeypatch.setenv(k,v)
+ app.review()
+ saved=app.read('candidates.json')[0];e=app.read('events.json')[0]
+ assert saved['id']=='original-candidate' and saved['status']=='approved'
+ assert e['id']==app.model_key('OpenAI','GPT-7') and e['release_date']=='2026-09-08'
+ app.validate([e])
+
+def test_review_cannot_publish_news_url_or_future_date(tmp_path,monkeypatch):
+ root=tmp_path/'repo';(root/'data').mkdir(parents=True);monkeypatch.setattr(app,'ROOT',root)
+ c={'id':'news-candidate','status':'pending','vendor':'OpenAI','source_url':'https://news.example/model'}
+ app.write('candidates.json',[c]);app.write('events.json',[])
+ app.write('sources.json',[{'vendor':'OpenAI','official':True,'domains':['openai.com']}])
+ monkeypatch.setenv('REVIEW_ACTION','approve');monkeypatch.setenv('CANDIDATE_ID',c['id'])
+ monkeypatch.setenv('RELEASE_DATE','2026-09-08');monkeypatch.setenv('OFFICIAL_URL','https://news.example/model')
+ with pytest.raises(ValueError,match='official source'):app.review()
+ monkeypatch.setenv('RELEASE_DATE','2099-01-01')
+ with pytest.raises(ValueError,match='future release'):app.review()

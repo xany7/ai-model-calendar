@@ -186,7 +186,8 @@ def classify(item, source, today):
  title=clean(item['title']); vendor,model=identify(title,source.get('vendor'))
  if not model:
   if source.get('official') and LAUNCH.search(title) and re.search(r'model|模型|Claude|Gemini|Grok|DeepSeek|Qwen|Kimi|GLM|Seed|豆包',title,re.I) and not EXCLUDE.search(title):
-   return {'status':'pending','model':title[:110],'vendor':vendor,'score':40,'reasons':['未知命名：需确认是否为通用旗舰模型及规范模型名。'],'release_date':None,'published_at':None,'date_precision':'unknown'}
+   day,stamp,precision=parse_date(item.get('raw_date'))
+   return {'status':'pending','model':title[:110],'vendor':vendor,'score':40,'reasons':['未知命名：需确认是否为通用旗舰模型及规范模型名。'],'release_date':day,'published_at':stamp,'date_precision':precision}
   return None
  if EXCLUDE.search(title):return None
  text=title+' '+item.get('text','')[:2500]
@@ -197,7 +198,7 @@ def classify(item, source, today):
  else:reasons.append('未确认已经发布/可用。')
  if milestone:score+=15
  else:reasons.append('需确认旗舰级或里程碑意义。')
- major=not re.search(r'\d+\.[1-9]',model)
+ major=not any(int(part)!=0 for part in re.findall(r'\.(\d+)',model))
  if major:score+=10
  else:reasons.append('小数版本默认人工判断，防止常规迭代混入。')
  if precision=='timestamp':score+=15
@@ -313,6 +314,8 @@ def review():
   url=os.environ.get('OFFICIAL_URL','').strip() or c['source_url']
   domains=[d for s in read('sources.json') if s.get('vendor')==c['vendor'] and s['official'] for d in s['domains']]
   if not allowed(url,domains):raise ValueError('An official source URL for this vendor is required')
+  if urlsplit(url).hostname in ('github.com','raw.githubusercontent.com') and not urlsplit(url).path.lower().startswith('/qwenlm/'):
+   raise ValueError('Official GitHub evidence must belong to the configured vendor organization')
   for env in ('MODEL_NAME','REVIEW_SUMMARY','REVIEW_REASON','DATE_NOTE'):
    if not os.environ.get(env,'').strip():raise ValueError(env+' is required to approve')
   c.update(model=clean(os.environ['MODEL_NAME']),release_date=day,summary=clean(os.environ['REVIEW_SUMMARY']),
@@ -320,9 +323,10 @@ def review():
   # A manual date override cannot retain an incompatible timestamp.
   if c.get('published_at') and parse_date(c['published_at'])[0]!=day:c['published_at']=None
   c['date_precision']='timestamp' if c.get('published_at') else 'reviewed-date'
-  c['id']=model_key(c['vendor'],c['model'])
-  if any(e['id']==c['id'] for e in events):raise ValueError('Model already exists; edit its event to correct it')
-  events.append(event_from_candidate(c,os.getenv('GITHUB_ACTOR','maintainer'),now()));c['status']='approved'
+  event_id=model_key(c['vendor'],c['model'])
+  if any(e['id']==event_id for e in events):raise ValueError('Model already exists; edit its event to correct it')
+  events.append(event_from_candidate({**c,'id':event_id},os.getenv('GITHUB_ACTOR','maintainer'),now()))
+  c['event_id']=event_id;c['status']='approved'
  else:raise ValueError('Unknown review action')
  c['reviewed_at']=now();c['reviewed_by']=os.getenv('GITHUB_ACTOR','maintainer')
  write('events.json',events);write('candidates.json',candidates)
