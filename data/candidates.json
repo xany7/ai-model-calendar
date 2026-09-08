@@ -171,7 +171,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Introducing Grok Bot",
     "vendor": "xAI",
     "score": 40,
@@ -199,7 +199,10 @@
         "excerpt": "Introducing Grok Bot | SpaceXAI Back to news Aug 11, 2026 Introducing Grok Bot Grok Bot is your team of always-on agents. They have their own computer, work inside tools and apps like you do, and keep working 24/7. Download for macOS Contact sales 0:00 / 0:00 Today we’re launching Grok Bot, AI teammates you can give re",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "Grok Bot 是智能体产品发布，不能确认属于通用大模型旗舰首发。",
+    "reviewed_at": "2026-09-08T07:01:43+00:00",
+    "reviewed_by": "xany7"
   },
   {
     "status": "pending",
