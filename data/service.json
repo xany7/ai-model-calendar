@@ -1,1 +1,10 @@
-{"enabled": true, "base_url": "https://xany7.github.io/ai-model-calendar", "repository": "xany7/ai-model-calendar", "timezone": "Asia/Shanghai", "history_start": "2025-01-01", "lookback_days": 45, "auto_publish": true}
+{
+  "enabled": false,
+  "base_url": "https://xany7.github.io/ai-model-calendar",
+  "repository": "xany7/ai-model-calendar",
+  "timezone": "Asia/Shanghai",
+  "history_start": "2025-01-01",
+  "lookback_days": 45,
+  "auto_publish": true,
+  "changed_at": "2026-09-08T07:03:29+00:00"
+}
