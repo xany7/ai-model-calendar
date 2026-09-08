@@ -1,0 +1,65 @@
+name: Review a candidate
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Approve or reject a pending candidate
+        type: choice
+        options: [approve, reject]
+        required: true
+      candidate_id:
+        description: Copy ID from the website review list
+        required: true
+      model_name:
+        description: Canonical model name (required to approve)
+      release_date:
+        description: Verified calendar date YYYY-MM-DD (required to approve)
+      official_url:
+        description: Official announcement URL (required for news-only candidates)
+      summary:
+        description: One sentence in Chinese (required to approve)
+      reason:
+        description: Why this is a milestone, or why reject (required to approve)
+      date_note:
+        description: Date evidence/timezone; disclose if date-only (required to approve)
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: calendar-production
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Record review decision
+        env:
+          REVIEW_ACTION: ${{ inputs.action }}
+          CANDIDATE_ID: ${{ inputs.candidate_id }}
+          MODEL_NAME: ${{ inputs.model_name }}
+          RELEASE_DATE: ${{ inputs.release_date }}
+          OFFICIAL_URL: ${{ inputs.official_url }}
+          REVIEW_SUMMARY: ${{ inputs.summary }}
+          REVIEW_REASON: ${{ inputs.reason }}
+          DATE_NOTE: ${{ inputs.date_note }}
+        run: python calendar_service.py review
+      - run: python calendar_service.py validate
+      - name: Commit reviewed data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          git commit -m 'Review model release candidate'
+          git push origin HEAD:main
+      - name: Deploy reviewed calendar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run calendar.yml -f collect=false

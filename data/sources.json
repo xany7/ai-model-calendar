@@ -1,0 +1,157 @@
+[
+  {
+    "id": "openai-rss",
+    "vendor": "OpenAI",
+    "kind": "rss",
+    "official": true,
+    "url": "https://openai.com/news/rss.xml",
+    "domains": [
+      "openai.com"
+    ],
+    "trusted_feed_content": true
+  },
+  {
+    "id": "anthropic-news",
+    "vendor": "Anthropic",
+    "kind": "links",
+    "official": true,
+    "url": "https://www.anthropic.com/news",
+    "domains": [
+      "anthropic.com"
+    ],
+    "path_pattern": "/(news/|claude-)"
+  },
+  {
+    "id": "google-ai",
+    "vendor": "Google",
+    "kind": "rss",
+    "official": true,
+    "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+    "domains": [
+      "blog.google",
+      "deepmind.google"
+    ]
+  },
+  {
+    "id": "google-models",
+    "vendor": "Google",
+    "kind": "links",
+    "official": true,
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+    "domains": [
+      "blog.google"
+    ],
+    "path_pattern": "/gemini-models/[^/]+/?$"
+  },
+  {
+    "id": "xai-news",
+    "vendor": "xAI",
+    "kind": "links",
+    "official": true,
+    "url": "https://x.ai/news",
+    "domains": [
+      "x.ai"
+    ],
+    "path_pattern": "/news/[^/]+"
+  },
+  {
+    "id": "deepseek-news",
+    "vendor": "DeepSeek",
+    "kind": "links",
+    "official": true,
+    "url": "https://www.deepseek.com/en/news/",
+    "domains": [
+      "deepseek.com",
+      "api-docs.deepseek.com"
+    ],
+    "path_pattern": "/news/[^/]+"
+  },
+  {
+    "id": "qwen-github",
+    "vendor": "阿里千问",
+    "kind": "github_org",
+    "official": true,
+    "url": "https://api.github.com/orgs/QwenLM/repos?sort=created&per_page=100",
+    "domains": [
+      "github.com",
+      "qwen.ai"
+    ]
+  },
+  {
+    "id": "qwen-release-log",
+    "vendor": "阿里千问",
+    "kind": "github_readme",
+    "official": true,
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen3.8/main/README.md",
+    "page_url": "https://github.com/QwenLM/Qwen3.8",
+    "domains": [
+      "github.com",
+      "qwen.ai",
+      "raw.githubusercontent.com"
+    ]
+  },
+  {
+    "id": "kimi-blog",
+    "vendor": "月之暗面 Kimi",
+    "kind": "links",
+    "official": true,
+    "url": "https://www.kimi.com/en/blog/",
+    "domains": [
+      "kimi.com"
+    ],
+    "path_pattern": "/en/blog/[^/]+/?$"
+  },
+  {
+    "id": "glm-releases",
+    "vendor": "智谱 GLM",
+    "kind": "changelog",
+    "official": true,
+    "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+    "domains": [
+      "docs.bigmodel.cn",
+      "z.ai",
+      "docs.z.ai"
+    ]
+  },
+  {
+    "id": "seed-blog",
+    "vendor": "字节豆包",
+    "kind": "seed",
+    "official": true,
+    "url": "https://seed.bytedance.com/zh/blog",
+    "domains": [
+      "seed.bytedance.com"
+    ]
+  },
+  {
+    "id": "techcrunch-ai",
+    "vendor": null,
+    "kind": "rss",
+    "official": false,
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "domains": [
+      "techcrunch.com"
+    ]
+  },
+  {
+    "id": "verge-ai",
+    "vendor": null,
+    "kind": "rss",
+    "official": false,
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "domains": [
+      "theverge.com"
+    ]
+  },
+  {
+    "id": "china-news-discovery",
+    "vendor": null,
+    "kind": "rss",
+    "official": false,
+    "url": "https://news.google.com/rss/search?q=%28DeepSeek+OR+Qwen+OR+Kimi+OR+GLM+OR+%E8%B1%86%E5%8C%85%29+%28%E5%8F%91%E5%B8%83+OR+launch%29+when%3A45d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "domains": [
+      "news.google.com"
+    ],
+    "discovery_only": true
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "id": "f130238a26cdd84215b6",
+    "vendor": "OpenAI",
+    "model": "OpenAI o3",
+    "release_date": "2025-04-16",
+    "published_at": "2025-04-16T10:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方公告时间已换算为北京时间。",
+    "summary": "旗舰推理模型 o3 发布，支持在推理中使用搜索、代码与视觉工具。",
+    "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+    "sources": [
+      "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "https://openai.com/news/rss.xml"
+    ],
+    "milestone_reason": "新一代旗舰推理模型。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c09db8d5b29fb1223b20",
+    "vendor": "阿里千问",
+    "model": "Qwen3",
+    "release_date": "2025-04-29",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方博客日期 2025-04-29，按中国厂商公告日期记录；未提供具体时刻。",
+    "summary": "Qwen3 开源，统一思考与非思考模式，并扩展多语言和智能体能力。",
+    "source_url": "https://qwenlm.github.io/blog/qwen3/",
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/"
+    ],
+    "milestone_reason": "Qwen 主系列跨代发布。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "760eca27e3cadf29b218",
+    "vendor": "Anthropic",
+    "model": "Claude 4",
+    "release_date": "2025-05-22",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "Claude Opus 4 与 Sonnet 4 发布，强化编程、长任务推理与工具协作。",
+    "source_url": "https://www.anthropic.com/news/claude-4",
+    "sources": [
+      "https://www.anthropic.com/news/claude-4"
+    ],
+    "milestone_reason": "Claude 新一代旗舰系列首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b4fa8eed9ab3841bcb5b",
+    "vendor": "xAI",
+    "model": "Grok 4",
+    "release_date": "2025-07-09",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方页面标注 7 月 9 日；结构化午夜时间疑似日期占位，按公告日记录，未推断北京时间。",
+    "summary": "Grok 4 与 Heavy 版本发布，强化推理，并原生整合工具使用和实时搜索。",
+    "source_url": "https://x.ai/news/grok-4",
+    "sources": [
+      "https://x.ai/news/grok-4"
+    ],
+    "milestone_reason": "Grok 主系列跨代旗舰首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "9bac993eabc4e7693b77",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K2",
+    "release_date": "2025-07-11",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方研究博客目录标注 2025-07-11；具体时刻未公开。",
+    "summary": "Kimi K2 首次发布，以万亿参数 MoE 推进开源模型的编程与智能体能力。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k2",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k2",
+      "https://www.kimi.com/en/blog/"
+    ],
+    "milestone_reason": "Kimi 主系列跨代首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "7381770f5e4a9b300bce",
+    "vendor": "OpenAI",
+    "model": "GPT-5",
+    "release_date": "2025-08-07",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "GPT-5 首次发布，将快速响应与深度推理整合进统一模型系统。",
+    "source_url": "https://openai.com/index/introducing-gpt-5/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5/"
+    ],
+    "milestone_reason": "GPT 主系列跨代发布。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "0b79b4a0f991c5499c4c",
+    "vendor": "Google",
+    "model": "Gemini 3",
+    "release_date": "2025-11-19",
+    "published_at": "2025-11-18T16:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方公告时间已换算为北京时间。",
+    "summary": "Gemini 3 首次发布，提升多模态推理和智能体编程能力，Pro 率先开放。",
+    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/gemini/gemini-3/"
+    ],
+    "milestone_reason": "Gemini 主系列跨代首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "3fb7d64e5b69dcb0f34c",
+    "vendor": "智谱 GLM",
+    "model": "GLM-5",
+    "release_date": "2026-02-12",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "采用官方中文发布记录 2026-02-12；具体时刻未公开。",
+    "summary": "GLM-5 旗舰模型上线，面向复杂系统工程与长程智能体任务。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-02-12",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2026-02-12"
+    ],
+    "milestone_reason": "GLM 主系列跨代旗舰首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c5266e5b3f67a22dc3c7",
+    "vendor": "字节豆包",
+    "model": "Seed2.0",
+    "release_date": "2026-02-14",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方中文公告日期 2026-02-14；具体时刻未公开。",
+    "summary": "Seed2.0 发布，Pro 与 Code 分别上线豆包和 TRAE，强化现实复杂任务与专业工作能力。",
+    "source_url": "https://seed.bytedance.com/zh/blog/seed2-0-正式发布",
+    "sources": [
+      "https://seed.bytedance.com/zh/blog/seed2-0-正式发布"
+    ],
+    "milestone_reason": "豆包/Seed 通用模型系列跨代首发；不混入 Seedance 视频模型。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "252b85f1599159a2c924",
+    "vendor": "阿里千问",
+    "model": "Qwen3.5",
+    "release_date": "2026-02-16",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "采用官方仓库 News 明确记录的 2026-02-16；博客显示 02-15 存在差异，已披露并以发布日志为准。",
+    "summary": "Qwen3.5 首发开放 397B-A17B 权重，将原生视觉理解、推理和智能体能力融入统一模型。",
+    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
+    "sources": [
+      "https://github.com/QwenLM/Qwen3.8#news",
+      "https://qwen.ai/blog?id=qwen3.5"
+    ],
+    "milestone_reason": "人工规则例外：原生多模态架构及基础模型能力显著升级。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "9a8dd0e16d6ce5745758",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-V4",
+    "release_date": "2026-04-24",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "DeepSeek-V4 预览版开放并开源，Pro 与 Flash 支持百万上下文及思考/非思考模式。",
+    "source_url": "https://www.deepseek.com/en/news/v4-preview/",
+    "sources": [
+      "https://www.deepseek.com/en/news/v4-preview/"
+    ],
+    "milestone_reason": "DeepSeek V 系列跨代首发；明确标记公开预览阶段。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bb34bb59c61d4cc075f4",
+    "vendor": "Google",
+    "model": "Gemini 3.5",
+    "release_date": "2026-05-20",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方公告时间已换算为北京时间。",
+    "summary": "Gemini 3.5 系列发布，以复杂智能体执行为主要升级方向，首批推出 Flash。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+    ],
+    "milestone_reason": "人工规则例外：官方作为新模型家族发布并明确宣告智能体能力跃迁；不另记后续小型号。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "e5d6f6d137fd3519b05d",
+    "vendor": "Anthropic",
+    "model": "Claude Fable 5",
+    "release_date": "2026-06-09",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "Fable 5 首次发布，提升复杂编程、知识工作和科学研究能力；同场宣布受限的 Mythos 5。",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "sources": [
+      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    ],
+    "milestone_reason": "新增旗舰层级；按首次发布记录，后续暂停/恢复访问不重复计入。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "1f8cc5fa923547548406",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K3",
+    "release_date": "2026-07-16",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方研究博客目录标注 2026-07-16；新闻页另有 7 月 17 日报道，采用研究发布目录。",
+    "summary": "Kimi K3 发布，采用 2.8T 参数、原生视觉与百万上下文；完整权重后续开放。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k3",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k3",
+      "https://www.kimi.com/en/blog/"
+    ],
+    "milestone_reason": "Kimi 主系列跨代首发；记录首次产品/API 可用，7 月 27 日权重开放不重复计入。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "0bf293dee2efdeeda04e",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 5",
+    "release_date": "2026-07-24",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "Opus 5 发布，面向日常专业工作与长程智能体任务，提高能力与运行效率。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-5",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-5"
+    ],
+    "milestone_reason": "Opus 旗舰层级跨代首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "08071aed7e889a8a6be6",
+    "vendor": "阿里千问",
+    "model": "Qwen3.8",
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "采用官方仓库 News 的 2026-08-12 首发记录；具体时刻未公开。",
+    "summary": "Qwen3.8 首次开放 2.4T-A95B 级别权重，把 Qwen-Max 级能力带入开放模型。",
+    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
+    "sources": [
+      "https://github.com/QwenLM/Qwen3.8#news"
+    ],
+    "milestone_reason": "人工规则例外：官方说明首次开放 Qwen-Max 级模型，属于开放生态里程碑。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "7623417cbabaf37dcc36",
+    "vendor": "OpenAI",
+    "model": "GPT-6 Astra",
+    "release_date": "2026-09-03",
+    "published_at": "2026-09-03T11:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方公告时间已换算为北京时间。",
+    "summary": "新一代旗舰 GPT-6 Astra 发布，强化计算机操作、软件工程和复杂专业任务，首发分阶段开放。",
+    "source_url": "https://openai.com/index/gpt-6-astra/",
+    "sources": [
+      "https://openai.com/index/gpt-6-astra/",
+      "https://openai.com/news/rss.xml"
+    ],
+    "milestone_reason": "GPT 主系列跨代发布；记录首次受限公开可用阶段。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  }
+]

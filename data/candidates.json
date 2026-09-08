@@ -1,0 +1,449 @@
+[
+  {
+    "status": "pending",
+    "model": "GPT-5.6",
+    "vendor": "OpenAI",
+    "score": 75,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。",
+      "多个官方来源日期冲突，须人工核实。"
+    ],
+    "release_date": "2026-08-06",
+    "published_at": "2026-08-06T10:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "48b2d20ae3ea2b9ce7a8",
+    "official": true,
+    "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "source_title": "Improving GPT‐5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users",
+    "summary": "OpenAI 发布 GPT-5.6；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/replit",
+        "title": "Replit expands access to software creation with GPT-5.6 Luna",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+        "sha256": "cf5b4748b0b13398dc0fe5274b9cbffbc7a0fe9c9f2b22d4828fb722ab25c94a",
+        "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+        "title": "Improving GPT‐5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Thu, 06 Aug 2026 10:00:00 GMT",
+        "sha256": "ca0494a7d2d9e2b177b881b63d381e8902b5f4912e91aa6b768f3db87f4f13a1",
+        "excerpt": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+        "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Wed, 29 Jul 2026 00:00:00 GMT",
+        "sha256": "91e2b06c6d8d4f8106fe7ec429c2a9351355944fb2a42ca3cc01315e449cdd52",
+        "excerpt": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "GPT-5.6 Sol",
+    "vendor": "OpenAI",
+    "score": 55,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-08-10",
+    "published_at": "2026-08-10T12:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "ce0e79ef978d560596a7",
+    "official": true,
+    "source_url": "https://openai.com/index/model-ml",
+    "source_title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    "summary": "OpenAI 发布 GPT-5.6 Sol；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/previewing-ultrafast",
+        "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Thu, 13 Aug 2026 10:00:00 GMT",
+        "sha256": "6ab3262733fba3c4c1f4a4038623e72805d883f31784cc1ade285c1a3d3be4ae",
+        "excerpt": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://openai.com/index/model-ml",
+        "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Mon, 10 Aug 2026 12:00:00 GMT",
+        "sha256": "3c927c4ec774443f9cde0b1af9ca6a0630304d134c3a5f750861e78c8eb2de24",
+        "excerpt": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Grok 4.6",
+    "vendor": "xAI",
+    "score": 75,
+    "reasons": [
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "发布日期无可核实的非占位时间戳；需确认日期口径。",
+      "多个官方来源日期冲突，须人工核实。"
+    ],
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "8026ead63e75ef026fae",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-4-6",
+    "source_title": "Introducing Grok 4.6",
+    "summary": "xAI 发布 Grok 4.6；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
+        "title": "Grok 4.6 on Microsoft Foundry",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-26T00:00:00Z",
+        "sha256": "8389a37f26b86ebe0d7df84fe7b4e12688b89cd597d99e603d5f797309cab086",
+        "excerpt": "Grok 4.6 on Microsoft Foundry | SpaceXAI Back to news Aug 26, 2026 Grok 4.6 on Microsoft Foundry Grok 4.6 is now available via Microsoft Foundry. Today, we’re excited to announce that Grok 4.6 is now available on Microsoft Foundry. Grok 4.6 is our latest flagship model, built for long-running agents and ambitious inter",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://x.ai/news/grok-4-6-vertex-ai",
+        "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-21T00:00:00Z",
+        "sha256": "520c7cd25c916c649f37facb1953f9ecd2bd807f453ebef700b69fb1eabb4635",
+        "excerpt": "Grok 4.6 on Gemini Enterprise Agent Platform | SpaceXAI Back to news Aug 21, 2026 Grok 4.6 on Gemini Enterprise Agent Platform Grok 4.6 is now available via Gemini Enterprise Agent Platform. Today, we’re excited to announce that Grok 4.6 is now available on Gemini Enterprise Agent Platform. Grok 4.6 is our latest flags",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+        "title": "Grok 4.6 on Amazon Bedrock",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-19T00:00:00Z",
+        "sha256": "73bd850ec83ec5f47a64e5b3924c706034466564cbdd89e72191655dfc9c2c96",
+        "excerpt": "Grok 4.6 on Amazon Bedrock | SpaceXAI Back to news Aug 19, 2026 Grok 4.6 on Amazon Bedrock Grok 4.6 is now available via Amazon Bedrock. Today, we’re excited to announce that Grok 4.6 is now generally available on Amazon Bedrock. Grok 4.6 is our latest flagship model, built for long-running agents and ambitious interac",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://x.ai/news/grok-4-6-github-copilot",
+        "title": "Grok 4.6 in GitHub Copilot",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-14T00:00:00Z",
+        "sha256": "b43ef3632123f4cc53511854ac67ef259cd8762bb1db9edb5440d52d68b1b94e",
+        "excerpt": "Grok 4.6 in GitHub Copilot | SpaceXAI Back to news Aug 14, 2026 Grok 4.6 in GitHub Copilot Grok 4.6, our latest coding model, is now available in GitHub Copilot. Try Grok 4.6 in the API Open GitHub Copilot Grok 4.6 is now live in GitHub Copilot for the millions of developers who work in VS Code and across GitHub every ",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://x.ai/news/grok-4-6",
+        "title": "Introducing Grok 4.6",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-12T00:00:00Z",
+        "sha256": "f40078a519c5bd7ffc8631816e26e556b36c5baf9b78519b76fbf3619a99e047",
+        "excerpt": "Introducing Grok 4.6 | SpaceXAI Back to news Aug 12, 2026 Introducing Grok 4.6 Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work. Try for free Start building Today we are releasing Grok 4.6 . Grok 4.6 builds on Grok 4.5 with a particular focus on l",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Introducing Grok Bot",
+    "vendor": "xAI",
+    "score": 40,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "id": "2432e11df286e2e961f8",
+    "official": true,
+    "source_url": "https://x.ai/news/introducing-grok-bot",
+    "source_title": "Introducing Grok Bot",
+    "summary": "xAI 发布 Introducing Grok Bot；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/introducing-grok-bot",
+        "title": "Introducing Grok Bot",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-08-11T00:00:00Z",
+        "sha256": "348cb768ea41337133a8173475d37b941293c924a0ef2db5c747a7cb773d3574",
+        "excerpt": "Introducing Grok Bot | SpaceXAI Back to news Aug 11, 2026 Introducing Grok Bot Grok Bot is your team of always-on agents. They have their own computer, work inside tools and apps like you do, and keep working 24/7. Download for macOS Contact sales 0:00 / 0:00 Today we’re launching Grok Bot, AI teammates you can give re",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Grok 4.5",
+    "vendor": "xAI",
+    "score": 60,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "发布日期无可核实的非占位时间戳；需确认日期口径。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-07-28",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "a78eb632aa80c47840c0",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-github-copilot",
+    "source_title": "Grok 4.5 in GitHub Copilot",
+    "summary": "xAI 发布 Grok 4.5；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-github-copilot",
+        "title": "Grok 4.5 in GitHub Copilot",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-07-28T00:00:00Z",
+        "sha256": "d143bb143edfd5d305e404ae03b5903fa31e49e5d66f4783d209db4c3ca2c76c",
+        "excerpt": "Grok 4.5 in GitHub Copilot | SpaceXAI Back to news Jul 28, 2026 Grok 4.5 in GitHub Copilot Grok 4.5, our smartest coding model, is now available in GitHub Copilot. Try Grok 4.5 in the API Open GitHub Copilot Grok 4.5 is now available in GitHub Copilot for millions of developers who use VSCode and GitHub products every ",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Qwen2.5",
+    "vendor": "阿里千问",
+    "score": 40,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "发布日期无可核实的非占位时间戳；需确认日期口径。",
+      "正文未验证或只有目录/仓库信息。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "id": "39d94a140d0119fc8ca9",
+    "official": true,
+    "source_url": "https://github.com/QwenLM/Qwen2.5-Math",
+    "source_title": "Qwen2.5-Math",
+    "summary": "阿里千问 发布 Qwen2.5；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "title": "Qwen2.5-Omni",
+        "official": true,
+        "source_id": "qwen-github",
+        "raw_date": null,
+        "sha256": "1ee6c068e868fc269789a7ccf6960e0b8a99af7465b23ad6e161b9c3965ad508",
+        "excerpt": "Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      },
+      {
+        "url": "https://github.com/QwenLM/Qwen2.5-Math",
+        "title": "Qwen2.5-Math",
+        "official": true,
+        "source_id": "qwen-github",
+        "raw_date": null,
+        "sha256": "2c40242780503a0bfdda43977bab233793db7aff45d230e780d1f46ba407fecf",
+        "excerpt": "A series of math-specific large language models of our Qwen2 series.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Qwen2",
+    "vendor": "阿里千问",
+    "score": 50,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "发布日期无可核实的非占位时间戳；需确认日期口径。",
+      "正文未验证或只有目录/仓库信息。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "id": "47aa3ac129ac3dcda1fa",
+    "official": true,
+    "source_url": "https://github.com/QwenLM/Qwen2-Audio",
+    "source_title": "Qwen2-Audio",
+    "summary": "阿里千问 发布 Qwen2；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://github.com/QwenLM/Qwen2-Audio",
+        "title": "Qwen2-Audio",
+        "official": true,
+        "source_id": "qwen-github",
+        "raw_date": null,
+        "sha256": "e098a36629a17c59f3c261d0e18248667754b46d669beccf966e8958f17b0f0f",
+        "excerpt": "The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "GLM-5.3",
+    "vendor": "智谱 GLM",
+    "score": 75,
+    "reasons": [
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "发布日期无可核实的非占位时间戳；需确认日期口径。"
+    ],
+    "release_date": "2026-08-19",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "29bd08384df9e282863a",
+    "official": true,
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19",
+    "source_title": " 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力:GLM-5.3 的编程能力大幅提升,在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%,在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水",
+    "summary": "智谱 GLM 发布 GLM-5.3；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19",
+        "title": " 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力:GLM-5.3 的编程能力大幅提升,在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%,在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水",
+        "official": true,
+        "source_id": "glm-releases",
+        "raw_date": "2026-8-19",
+        "sha256": "aa6904781a91d22582e32c3b0542d4a5636271ee2c36086c3a0a9fc01fc912c9",
+        "excerpt": " 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力:GLM-5.3 的编程能力大幅提升,在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%,在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力:在白盒代码审查与漏洞发现持平 Mythos 5,已联合多个中国安全团队测试并累计发现 2436 个漏洞(1097 个中高危)",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互",
+    "vendor": "字节豆包",
+    "score": 40,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "id": "457489a136ac55ead35d",
+    "official": true,
+    "source_url": "https://seed.bytedance.com/zh/blog/seedrealtime-音视频全双工大模型发布-走向全模态自然交互",
+    "source_title": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互",
+    "summary": "字节豆包 发布 SeedRealtime 音视频全双工大模型发布:走向全模态自然交互；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://seed.bytedance.com/zh/blog/seedrealtime-音视频全双工大模型发布-走向全模态自然交互",
+        "title": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互",
+        "official": true,
+        "source_id": "seed-blog",
+        "raw_date": "2026-08-05",
+        "sha256": "df3a6b56b63cf9d83ed323622265d15727dc93142c6182b4887090a5ed5e9d98",
+        "excerpt": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互 SeedRealtime 音视频全双工大模型发布:走向全模态自然交互 日期 2026-08-05 分类 语音智能 今天,我们正式推出原生音视频全双工大模型 SeedRealtime。 作为走向全模态交互的关键一步,SeedRealtime 用统一架构原生融合音频、视频与文本,能在连续的多模态信息流上实时交互,带来“边看、边听、边说”的全新体验。它实现了以下三项核心突破: 音视频联合理解: 原生支持声音、画面与时序信息的深度融合。模型既能结合场景消解同音词歧义,也能准确理解视觉中的时序指代,让所见、所闻与所说融为一体。 主动的交互能力: 具备持续的环境感知与主动表达",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "豆包2.2",
+    "vendor": "字节豆包",
+    "score": 45,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小数版本默认人工判断，防止常规迭代混入。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-08-30",
+    "published_at": "2026-08-30T07:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "a87666403e5995254bd3",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nN0puMjZYazVYb2M0d09DN0xPWlNDeVR1TlppQ0JqaUVUM0M4WHJESTFjTlNLUzdrQm41YU9oWDVZYVpwRjJfVUpQc2lleTRTUzFrZkFlTmYwV25keU1xUFpOQXJpUQ?oc=5",
+    "source_title": "豆包2.2推迟发布,字节发力Coding与Agent能力补强 - TradingView",
+    "summary": "字节豆包 发布 豆包2.2；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nN0puMjZYazVYb2M0d09DN0xPWlNDeVR1TlppQ0JqaUVUM0M4WHJESTFjTlNLUzdrQm41YU9oWDVZYVpwRjJfVUpQc2lleTRTUzFrZkFlTmYwV25keU1xUFpOQXJpUQ?oc=5",
+        "title": "豆包2.2推迟发布,字节发力Coding与Agent能力补强 - TradingView",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sun, 30 Aug 2026 07:00:00 GMT",
+        "sha256": "056fc3dff33bbd0bd774e3e24d492f9ae815fde80b32941a25a6fac32484c70d",
+        "excerpt": "豆包2.2推迟发布,字节发力Coding与Agent能力补强 TradingView",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "豆包3.0",
+    "vendor": "字节豆包",
+    "score": 55,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-05",
+    "published_at": "2026-09-04T23:16:44+00:00",
+    "date_precision": "timestamp",
+    "id": "b1c6f3dd355f808463fa",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCdXdYWjQtR2FwRldiQU5kN21leGR3bHMxbThiVDk1UHFWUmJnTXE4Qnp6ZzhqN1ZjeFVHaGkzTE9uSmR2RU9sd1cyU2ZzbGtjbWlBbV9mUVM2YnpfWmNPTHNUQmtPU2JYTFBJ?oc=5",
+    "source_title": "昨夜今晨:嘉博手机APP正式上线 华为麒麟9100发布 字节跳动豆包3.0亮相 比亚迪固态电池量产 小米SU7智驾升级 - 体坛",
+    "summary": "字节豆包 发布 豆包3.0；具体里程碑意义待审核。",
+    "first_seen": "2026-09-08T06:57:40+00:00",
+    "last_seen": "2026-09-08T06:57:40+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCdXdYWjQtR2FwRldiQU5kN21leGR3bHMxbThiVDk1UHFWUmJnTXE4Qnp6ZzhqN1ZjeFVHaGkzTE9uSmR2RU9sd1cyU2ZzbGtjbWlBbV9mUVM2YnpfWmNPTHNUQmtPU2JYTFBJ?oc=5",
+        "title": "昨夜今晨:嘉博手机APP正式上线 华为麒麟9100发布 字节跳动豆包3.0亮相 比亚迪固态电池量产 小米SU7智驾升级 - 体坛",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 04 Sep 2026 23:16:44 GMT",
+        "sha256": "27025fd45cc5e1fce03d4790e57695549924f303a95e61aaa0ccb55d3c69ed1d",
+        "excerpt": "昨夜今晨:嘉博手机APP正式上线 华为麒麟9100发布 字节跳动豆包3.0亮相 比亚迪固态电池量产 小米SU7智驾升级 体坛",
+        "checked_at": "2026-09-08T06:57:40+00:00"
+      }
+    ]
+  }
+]

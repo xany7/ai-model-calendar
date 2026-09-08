@@ -1,0 +1,362 @@
+{
+  "openai-rss|https://openai.com/index/legora-financial-statement-review-with-astra": {
+    "fingerprint": "c1001997958c001bf1b9b44261776eebb810334b479d883701f69ac159ab9407",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/playco-game-prototyping-with-astra": {
+    "fingerprint": "0416ee52106d1f5380cf2da7265c3bf3ce3916c37504bdc347e0989ee73299da",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/gpt-6-astra": {
+    "fingerprint": "0e793f4bcbd0a989c7b94f9661d3dbb4b8e9304f54caea2ba39e741b2c014ba3",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/safety-overview-gpt-6-astra": {
+    "fingerprint": "af2dbdb4583e1f232ee9552843a132615f50a59bdf19b484234514bdd685657e",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-admin-plugin": {
+    "fingerprint": "f112730e87265a979bee97d429bdf836bbceab84b98fc57cf99b93b9f46e62dd",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-intelligence-age": {
+    "fingerprint": "7b281cf68ff77eeddac8915fd91d2b4b34c5e2477355252d8b7a2a6887e67e5a",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/stampli": {
+    "fingerprint": "82bc7432b7f1d8c85daefa6af24632304c396e5aa25e5a329e02a8ad915662e9",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/replit": {
+    "fingerprint": "667cf29620e2b80434638edd5dc779b5464c64e4cd79c7c4aad53218cd15a557",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/chatgpt-for-teens": {
+    "fingerprint": "18479f5cf9341313c8583a9ccbfc0b458220f8ccb4bf007badaf670ac7f75b6a",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/previewing-ultrafast": {
+    "fingerprint": "50464afe852caf352792536787d4b2ad765473cf50ad6771c1f4b4ccdf93f781",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/model-ml": {
+    "fingerprint": "f03ac0ffb189ea3811a114b9ccc6e260095642f9c10e2317a401aec8e83ac435",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt": {
+    "fingerprint": "3e00904a91880e18b1af53c6759eb047b412e18c4c8ceac8699303362f6cdbf0",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6": {
+    "fingerprint": "85adb50f83c32c15f78ce4860eafc27d68fdc73efae393c3650c494a93d1981e",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "openai-rss|https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency": {
+    "fingerprint": "7742844f29273f5817444ff59bd8dae7728df9d42929c062ba65611bd4cefc86",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/claude-fable-and-mythos-5-1": {
+    "fingerprint": "476006eb9b00157fde35fbbcb4b72f2b0f91aa48b34a50b553366618d269790c",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/enterprise-frontier-safeguards": {
+    "fingerprint": "6940a40c66d7903734427e63b9b09cd1eecefde052253ae19c35d77e58439c42",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/improving-alignment-security-efforts": {
+    "fingerprint": "89bf4216ae45a03606fe6d45cec1b11d70050c66f6ba7b8c1f8a2858407b726b",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/expanding-support-for-scientists": {
+    "fingerprint": "bb83636a577c8d74662525a804f9985bacf4d148a859fb3810de00b295e01a28",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/wellbeing-research-grants": {
+    "fingerprint": "e4796e764463fd6fabe8397a3becc7f738a8ac51dd6933d6a252a5b23a009cd4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/tino-cuellar": {
+    "fingerprint": "b95aebe82450442d814db02a729e2356fedd9d8f1ab09968c2c271af2deca4c4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+    "fingerprint": "376bd3eedfb0743c2eeda684f49d648b2a5a61c3213220e0d6b97a6620eeb12b",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/position-open-weights-models": {
+    "fingerprint": "83ca657a37396cbc3da71b933acf4625c21d21dfbeead07cc597d68a369d7eba",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026": {
+    "fingerprint": "5bbae52288b7e020877495275b5354ff85c2d4af0ef43ad2a2dc5ecb1427d87d",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026": {
+    "fingerprint": "b7d719a9d7ce37dc1f06b9c186b3dbe68ea490bec9f500875d40ab0c66101175",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "google-models|https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber": {
+    "fingerprint": "2e53550e8c363ea8c5db2e2173c1a1998ff5c4eff6b9ec49904a653f0f3c49e0",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-6-microsoft-foundry": {
+    "fingerprint": "adac88484160a7f014ad41c4388cf2b236b00d33e803adb1cf9641283195ff4e",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-6-vertex-ai": {
+    "fingerprint": "c76cf1ae51f24d4fbdeebdb388ff26a7f58b5b833da600a8e5293f8dac7f2009",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-6-amazon-bedrock": {
+    "fingerprint": "25b27ce46ced7f6a57d65120a326b8b49f13e15da768134921d92e25df01812c",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-6-github-copilot": {
+    "fingerprint": "417cadbdb40fe8cdcec4bf5bce8a93b3301ba78c4837227b34dcebff61102e34",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-6": {
+    "fingerprint": "25478d5ac90ede569991c2719a97e5f5b2f8289ef38fb33d331e03c4789da4a4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/introducing-grok-bot": {
+    "fingerprint": "1694718bbe2114bf9c187ac67ba8919aa3a04aa462a6527758a4b19e18300284",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-voice-think-fast-2": {
+    "fingerprint": "98d8b441e2a03d229a0e3e3be3be262a01f77ba38e9696dc25264029c764b31d",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-build-mode": {
+    "fingerprint": "7d6b68588d70e3debbd54dbcb27b712d0861409cd6eeaf4c2761446f51e60593",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-github-copilot": {
+    "fingerprint": "62888717a549eb9db23fbe6bb01a264771e51910d5950672ba646c72c6d53d3c",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3.8-Flash-Next": {
+    "fingerprint": "f0446540f52797c4ab51b8ad3c55a07748c9530855b39e6bab0f8a9b20044217",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-ASR": {
+    "fingerprint": "878ba7ce0060213fdd72c38a86875fa3f6ec2f11ba6ec9b9ee77bf42e43c68ef",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-TTS": {
+    "fingerprint": "8c64abd4bb1d91188148d77aee7d1dce17546201f89a6f370a384b7625623dd4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-VL-Embedding": {
+    "fingerprint": "3e9ba80b6bfa9a3092182472381efe65dbfeaac575508ec193ba677553a88403",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-Omni": {
+    "fingerprint": "50e7eaceda7b535f0dd0d997aca5cf1742d8ae41f6918cc419a3e332a66eea5d",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-ASR-Toolkit": {
+    "fingerprint": "aa34592b603170a84b10e0f10ff5eea7110a547091f7150af81a781be87cdebb",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3.8": {
+    "fingerprint": "6a0d6422d4f87a1d1a9417b7d6139b594911989da12fd5a85746bc30f407d9f2",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-Embedding": {
+    "fingerprint": "a838a44e4971ddf4e9cc92b3dc2d82588a724bc496bbeabac5a460a214ebd34f",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen2.5-Omni": {
+    "fingerprint": "05bbd4183c7dd8b5a48a39f7d2d55ddc7386f59fffb7ed2d7f955ec72a4ed65e",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-VL": {
+    "fingerprint": "3c19b010f5a21c20ee3d8fc521bfbb4aa6c80c20fd791a6abb3eeb5c157d65c3",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen2.5-Math": {
+    "fingerprint": "1f543988fe34d58ede40c15f893109b0fb6f5e64cf723f958622b962aca032d0",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen2-Audio": {
+    "fingerprint": "472c5a87b38c244d73a0adc459256c070d139c7065005d3f83dde83a1999f76c",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3-Coder": {
+    "fingerprint": "7cf250265649f17e5a15d6c3a3843a9a535c5e95acfed8f059bed327fe8e309a",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-github|https://github.com/QwenLM/Qwen3": {
+    "fingerprint": "175c69250fabfb8a1d34d7d42cb292a1770faf6c614b03f753eafbd9fd9f43d7",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-release-log|https://github.com/QwenLM/Qwen3.8#news|2026-08-14": {
+    "fingerprint": "fede6ac91d19c443eac85f289f6447f4c141b1c5186e8f1ee61a2323f669a648",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "qwen-release-log|https://github.com/QwenLM/Qwen3.8#news|2026-08-12": {
+    "fingerprint": "9d5dd299c81d0666ce7a78ca89e92d6e43b75ba1edb1af9eebd631815dde39c9",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "glm-releases|https://docs.bigmodel.cn/cn/update/new-releases#2026-08-26": {
+    "fingerprint": "7a7414ac46744768056a354b733836a27116c3e769100ffd982ebb8787c5be72",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "glm-releases|https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19": {
+    "fingerprint": "54610662cf7128a42866728cafe5f3a48483e4c8084da410e6d558d8dedb7b8f",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "seed-blog|https://seed.bytedance.com/zh/blog/seedrealtime-音视频全双工大模型发布-走向全模态自然交互": {
+    "fingerprint": "3ced1efb6883dd24ded8226afb2ac558ff7e5095bb2f30c1857ae64e5d749499",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "seed-blog|https://seed.bytedance.com/zh/blog/一镜成片-随心参考-seedance-2-5-正式发布": {
+    "fingerprint": "daca46a51e428203d46b2528879a6eed50f6d1b2394045e03ab2ff5c77cfc715",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "verge-ai|https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout": {
+    "fingerprint": "be40ed3e14b781d8b6df717b30b7c1589201de1b9a3d27f1ac6cabff6ca01321",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMijAFBVV95cUxOcTI1NXJYMjUwajA1WDE0cnRoOGxKbk9QUWFvdl96QXVhWnJqU1hMUUJlVDJFeE16ai1vT2J5QWl1N0ZFSlFscUU2Y19RQmoyWlZjLUFLM2NudHFhRnljTkMyendCOEl5N2E4NEFQem9KSnZOM1FQbVdwRTJKVGVHaEtPZEZRZkNQZVNGNQ?oc=5": {
+    "fingerprint": "bbaf931686ad207a1e27db331aed9e1259464c43239ba68e0d4f8721383e6b34",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Odmlnc2FvdzhmUmY1UFhnYjRjSlRfZ0U5UmVEaC1GNEN4ZUI4dVFrX29BMWJwQnJIY0NyQlFoMzNySEVESFZjWkpjaERiSThEUW1MMlRUb19zd3o3eVJuVnRTMk0?oc=5": {
+    "fingerprint": "4df8b0777e4a100658a4270f714c83fb83c982785dd9a02de1efe3f29f34709a",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiU0FVX3lxTFBERU9zZHNuRmhsVDRBakVhZUI3aHMxYUQ1WjQ3YmVya0V3aW9zNjRtQXBDYmNjang2Zi1JYkFRNjBIT3ZSSFdiSjAzTnhlVTdNVE1j?oc=5": {
+    "fingerprint": "aa01523399faa1c3e38f2731dc06e1613fb4507306801887ced3697243dfa183",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WE5wbWxmMGRyZWMzb0dqQmZPWFFXQjR4N0pmRTJEcXdDTkZRb1p1d2ptOGx4SGxzZ1U1clNvc2NtN21ES3pMRGM3SFR6Zw?oc=5": {
+    "fingerprint": "0793681726050dd86dbfe64d8231b86299984b5403a8e00a7c4037a5c4c600c4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YR3llSFo0X1FkSFh2eE5WRXN3blJvMHFiRmh3NG9UTWNoZE9mcGhLbGhWM01OaDl6ejYxTDZqd1FMbFVUMHNtclI0djFKN0l2cm1XTU9lRTNXRGsy?oc=5": {
+    "fingerprint": "9db44285d206a09f5eb02002b38d22a8bf989972ff6183fa18f190bca4738be9",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UdWVxUURSRy1aV2laVUVFVGE4NHhzVVNMNFE5bVV2YmJsOHRzeTlCdm81RFpkZEgxUEtpNWY0VmQ4NUVTWWVWejk1bXZ3aHBnLUFtSGxMUV9zY2FQeHluSmxEQ0E?oc=5": {
+    "fingerprint": "464d2a913f31ddd55ae8b68a3e59f168094e8a6402f42ad054f29667a855bd48",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wZEpzVXVQLW95NDRpZzhsMDVlVzRqSkh4M0cwektnbEFRcnhXR2JpUDlQZU1TRUt1d0hkaVZONlhmaFdYdWxCRVlKSHV3Y1hKOWRzYjROR3U?oc=5": {
+    "fingerprint": "34a4a79ed003deb611f0e1c174c6cee66e74ee0fe87409d2735423d07e368989",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tdUlUZkdPMzhfVVp4T1VER01zWVF4NVFFcUpkUGM2ZFBXSHpZRnhWN3hsX1Q5M2hiaDR0YVBuVTAtN1BnUDlMaTIxR3NHSHpuS2cw?oc=5": {
+    "fingerprint": "2293129bc007d97a0eec624fda7bd0e27ec2048ac6629a56fdf80068bb28e3fa",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rVExfWWxKVFdMSXNkelprTXRNUnJxckVxeTR2UUFGbEZwYTNhY0plUnRuaE05ek4wNndiemhPRHN0WGRwQ3F1RnIwWkNId1p4dXhB?oc=5": {
+    "fingerprint": "8aa86cb0bd52a92ea28e961e98a60be35420f2c8193ff76be4c457c58ba4e981",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LbmlrbVdzRVh5bEpKY0lxTzhGM1hxcXd0ZmtHTFZETEx4dGVFVWw0R2dQaF90VUhpLXFqMkNqcy04Wl80Qk8tc0hFQk83TUVtVHU0dW1BcjU?oc=5": {
+    "fingerprint": "4245e0c060a125baca9e2ddb7413dba5ff624c8c499e0732a74bf2d119996d6b",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTEFVX3lxTE43MXNQMFFyWTN5MGtOeXJBYVlkOEZFOEJybnNtRDhZTXctUV9XX1MtSm5yU2J5aXN2MUw1eGVEWTRRaEdDcThDSUVTNVc?oc=5": {
+    "fingerprint": "4343cf83ebde3a448c5b678a1e954ccb1af7541ac66e7c9666c95c32d35ab105",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE16NmFxYnQ1Q25JMlFjaUtvbmtnZFJxbkEyZ2pCcThHanFVUlhCSzZYRXFZWGV6R1daVG1yYl96WVBPT19UV1pWTjQ5ZlVmZw?oc=5": {
+    "fingerprint": "2b8d2e0129ae04cee8b766360e0eea30a765d4f0611c1d3ef5db4b5ab420af2f",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EdDBiNTh5MTI5YmthSFZHRXhRZDFFVEx2QXJ6Mmc1bWhRcVA4VWNJNXc0NHlHSEVCMlVlR1FIdmN2QjI2THdFdXk5aXBwdw?oc=5": {
+    "fingerprint": "0ed912eb83825e46822b86a8ad30592638cc8b6130571e1d8489408e8af703c1",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nN0puMjZYazVYb2M0d09DN0xPWlNDeVR1TlppQ0JqaUVUM0M4WHJESTFjTlNLUzdrQm41YU9oWDVZYVpwRjJfVUpQc2lleTRTUzFrZkFlTmYwV25keU1xUFpOQXJpUQ?oc=5": {
+    "fingerprint": "a47a32a5e784a35e207aa38c091f7d758efb77053ba533ea476da41eb2d863a3",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ia3dkbFFkSUJEY3Q3enU4ZFhXRzcwbkdNUi1tb2VFY2RuVDA3MGNJYVZTSDFISG1YTjdfeEF2MWNmMXBtUzRuWlVmeWFJdw?oc=5": {
+    "fingerprint": "78d7880b22ec41616673a86ae39dedd246e66eff15896f9b3cb709f58385db8c",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMia0FVX3lxTFBCdXdYWjQtR2FwRldiQU5kN21leGR3bHMxbThiVDk1UHFWUmJnTXE4Qnp6ZzhqN1ZjeFVHaGkzTE9uSmR2RU9sd1cyU2ZzbGtjbWlBbV9mUVM2YnpfWmNPTHNUQmtPU2JYTFBJ?oc=5": {
+    "fingerprint": "2856144cd2c5eec9efde73767ec70f44ccb4b768690eb14033a38fea399c27f6",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE9obUJwU0JXU1VPRjljcGw3TEJqVmRpUkhUeVA3Wm9CYWxnZXI2TWxjT3hIQmM4Q281YW1tWms1WWV5d1JKRXFlT3p2LS1pS3N0TDlwY0hualA?oc=5": {
+    "fingerprint": "8e9279002b6d724fe2dcbdaa886dcf3646429934bbc87552784bf28b0dfef8c4",
+    "completed": true,
+    "checked_at": "2026-09-08T06:57:40+00:00"
+  }
+}

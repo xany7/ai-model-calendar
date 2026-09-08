@@ -1,0 +1,63 @@
+name: Daily update & deploy
+on:
+  schedule:
+    - cron: '23 1 * * *' # 09:23 Asia/Shanghai; avoid the top-of-hour queue.
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      collect:
+        description: Check sources before deployment
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: calendar-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt pytest==9.1.1
+      - run: python -m pytest -q
+      - name: Collect official sources and news
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python calendar_service.py collect
+      - name: Build and validate
+        run: python calendar_service.py build
+      - name: Save evidence and daily health record
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update calendar data and source health'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Publish fixed subscription URL
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Run summary and degraded-source alert
+        run: |
+          python scripts/run_summary.py

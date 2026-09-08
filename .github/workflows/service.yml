@@ -1,0 +1,44 @@
+name: Service on-off
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: offline removes the ICS feed; online restores it
+        type: choice
+        options: [offline, online]
+        default: offline
+        required: true
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: calendar-production
+  cancel-in-progress: false
+jobs:
+  control:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Change service status
+        env:
+          SERVICE_MODE: ${{ inputs.mode }}
+        run: python calendar_service.py "$SERVICE_MODE"
+      - name: Save status and request deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/service.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Change calendar service availability'
+            git push origin HEAD:main
+          fi
+          gh workflow run calendar.yml -f collect=false

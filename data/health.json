@@ -1,0 +1,181 @@
+{
+  "checked_at": "2026-09-08T06:57:40+00:00",
+  "finished_at": "2026-09-08T06:57:54+00:00",
+  "status": "ok",
+  "sources": [
+    {
+      "id": "openai-rss",
+      "vendor": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "official": true,
+      "status": "ok",
+      "entries": 300,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "anthropic-news",
+      "vendor": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "official": true,
+      "status": "ok",
+      "entries": 12,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "google-ai",
+      "vendor": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "official": true,
+      "status": "ok",
+      "entries": 20,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "google-models",
+      "vendor": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+      "official": true,
+      "status": "ok",
+      "entries": 2,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "xai-news",
+      "vendor": "xAI",
+      "url": "https://x.ai/news",
+      "official": true,
+      "status": "ok",
+      "entries": 84,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "deepseek-news",
+      "vendor": "DeepSeek",
+      "url": "https://www.deepseek.com/en/news/",
+      "official": true,
+      "status": "ok",
+      "entries": 5,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "qwen-github",
+      "vendor": "阿里千问",
+      "url": "https://api.github.com/orgs/QwenLM/repos?sort=created&per_page=100",
+      "official": true,
+      "status": "ok",
+      "entries": 50,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "qwen-release-log",
+      "vendor": "阿里千问",
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen3.8/main/README.md",
+      "official": true,
+      "status": "ok",
+      "entries": 8,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "kimi-blog",
+      "vendor": "月之暗面 Kimi",
+      "url": "https://www.kimi.com/en/blog/",
+      "official": true,
+      "status": "ok",
+      "entries": 9,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "glm-releases",
+      "vendor": "智谱 GLM",
+      "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+      "official": true,
+      "status": "ok",
+      "entries": 23,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "seed-blog",
+      "vendor": "字节豆包",
+      "url": "https://seed.bytedance.com/zh/blog",
+      "official": true,
+      "status": "ok",
+      "entries": 8,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "techcrunch-ai",
+      "vendor": null,
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "official": false,
+      "status": "ok",
+      "entries": 20,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "verge-ai",
+      "vendor": null,
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "official": false,
+      "status": "ok",
+      "entries": 10,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    },
+    {
+      "id": "china-news-discovery",
+      "vendor": null,
+      "url": "https://news.google.com/rss/search?q=%28DeepSeek+OR+Qwen+OR+Kimi+OR+GLM+OR+%E8%B1%86%E5%8C%85%29+%28%E5%8F%91%E5%B8%83+OR+launch%29+when%3A45d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "official": false,
+      "status": "ok",
+      "entries": 100,
+      "checked_at": "2026-09-08T06:57:40+00:00",
+      "errors": [],
+      "consecutive_failures": 0,
+      "last_success": "2026-09-08T06:57:40+00:00"
+    }
+  ],
+  "stats": {
+    "published": 0,
+    "pending": 11,
+    "duplicates": 29
+  },
+  "pending": 11
+}
