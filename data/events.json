@@ -431,5 +431,48 @@
     "updated_at": "2026-09-08T09:58:19+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "a2b4c142efafee31d4ce",
+    "vendor": "Anthropic",
+    "model": "Claude Fable 5.1",
+    "release_date": "2026-09-01",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "Anthropic 官方 Newsroom 标注 2026-09-01；发布正文只标 September 2026，未提供具体时刻。",
+    "summary": "Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，在编码、知识工作、长程问题求解和科学研究能力上建立新的性能前沿。",
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "sources": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "https://www.anthropic.com/news"
+    ],
+    "milestone_reason": "虽为 5.1 小版本，官方称其为编码与知识工作领域最先进模型，并明确为新的性能前沿。",
+    "reviewed_by": "Codex-important-minor-review",
+    "created_at": "2026-09-08T10:30:00+00:00",
+    "updated_at": "2026-09-08T10:30:00+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "04c98407bae4d732c226",
+    "vendor": "Google",
+    "model": "Gemini 3.8 Flash",
+    "release_date": "2026-09-02",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "Google 官方发布公告及 DeepMind 模型卡均标注 2026-09-02；页面未提供可核实的具体时刻。",
+    "summary": "Google 发布 Gemini 3.8 Flash，显著提升软件工程、长程智能体任务和多步专业推理，并保持 Flash 级速度与成本。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "https://deepmind.google/models/gemini/flash/",
+      "https://deepmind.google/models/model-cards/gemini-3-8-flash/"
+    ],
+    "milestone_reason": "虽为 3.8 小版本，官方称其为当时最强的推理与编程型号，并确认相对 3.7 有显著能力提升。",
+    "reviewed_by": "Codex-important-minor-review",
+    "created_at": "2026-09-08T10:30:00+00:00",
+    "updated_at": "2026-09-08T10:30:00+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]

@@ -29,7 +29,8 @@ def test_date_only_and_midnight_are_not_fabricated():
 def test_verified_major_auto_publishes():
  assert app.classify(sample(),SOURCE,TODAY)['status']=='published'
 @pytest.mark.parametrize('changes',[
- {'title':'Introducing GPT-7.1'}, {'title':'Introducing GPT-7.01'}, {'raw_date':'2026-09-07'},
+ {'title':'Introducing GPT-7.1','text':'A useful update is available today.'},
+ {'title':'Introducing GPT-7.01','text':'A useful update is available today.'}, {'raw_date':'2026-09-07'},
  {'raw_date':'2026-09-10T17:00:00Z'}, {'detail_verified':False},
  {'title':'GPT-7 will launch next week'}, {'text':'A nice update is now available.'}
 ])
@@ -37,6 +38,14 @@ def test_uncertain_candidates_need_review(changes):
  assert app.classify(sample(**changes),SOURCE,TODAY)['status']=='pending'
 def test_news_cannot_auto_publish():
  assert app.classify(sample(),{'official':False,'vendor':None},TODAY)['status']=='pending'
+def test_verified_important_minor_auto_publishes():
+ item=sample(title='Introducing Gemini 3.8 Flash',text='Our best reasoning and coding model yet is available today.')
+ result=app.classify(item,{'official':True,'vendor':'Google'},TODAY)
+ assert result['model']=='Gemini 3.8 Flash' and result['important_minor'] and result['status']=='published'
+def test_routine_flash_update_needs_review():
+ item=sample(title='Introducing Gemini 3.7 Flash',text='A quality update is available today.')
+ result=app.classify(item,{'official':True,'vendor':'Google'},TODAY)
+ assert not result['important_minor'] and result['status']=='pending'
 def test_announcement_outranks_later_integration_even_with_lower_score():
  announcement={'title_announcement':True,'score':70}
  integration={'title_announcement':False,'score':85}
