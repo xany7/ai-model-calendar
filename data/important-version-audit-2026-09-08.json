@@ -1,0 +1,314 @@
+{
+  "audited_at": "2026-09-08T10:41:32+00:00",
+  "scope": "2025-01-01 through 2026-09-08; nine configured vendors; official launch evidence only",
+  "included": [
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.1",
+      "release_date": "2025-11-12",
+      "source_url": "https://openai.com/index/gpt-5-1/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.2",
+      "release_date": "2025-12-11",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.2-Codex",
+      "release_date": "2025-12-18",
+      "source_url": "https://openai.com/index/introducing-gpt-5-2-codex/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.3-Codex",
+      "release_date": "2026-02-05",
+      "source_url": "https://openai.com/index/introducing-gpt-5-3-codex/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.4",
+      "release_date": "2026-03-05",
+      "source_url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "vendor": "OpenAI",
+      "model": "GPT-5.5",
+      "release_date": "2026-04-23",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude 3.7 Sonnet",
+      "release_date": "2025-02-24",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.1",
+      "release_date": "2025-08-05",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-1"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Sonnet 4.5",
+      "release_date": "2025-09-29",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.5",
+      "release_date": "2025-11-24",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.6",
+      "release_date": "2026-02-05",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Sonnet 4.6",
+      "release_date": "2026-02-17",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.7",
+      "release_date": "2026-04-16",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Opus 4.8",
+      "release_date": "2026-05-28",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "vendor": "Anthropic",
+      "model": "Claude Sonnet 5",
+      "release_date": "2026-06-30",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "vendor": "Google",
+      "model": "Gemini 2.5 Pro",
+      "release_date": "2025-03-25",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/"
+    },
+    {
+      "vendor": "Google",
+      "model": "Gemini 3 Flash",
+      "release_date": "2025-12-17",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/"
+    },
+    {
+      "vendor": "Google",
+      "model": "Gemini 3.1 Pro",
+      "release_date": "2026-02-19",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    },
+    {
+      "vendor": "Google",
+      "model": "Gemini 3.6 Flash",
+      "release_date": "2026-07-21",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    },
+    {
+      "vendor": "Google",
+      "model": "Gemini 3.7 Flash",
+      "release_date": "2026-08-13",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 3",
+      "release_date": "2025-02-19",
+      "source_url": "https://x.ai/news/grok-3"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.1",
+      "release_date": "2025-11-17",
+      "source_url": "https://x.ai/news/grok-4-1"
+    },
+    {
+      "vendor": "xAI",
+      "model": "Grok 4.20",
+      "release_date": "2026-04-07",
+      "source_url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-R1",
+      "release_date": "2025-01-20",
+      "source_url": "https://api-docs.deepseek.com/news/news250120/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.1",
+      "release_date": "2025-08-21",
+      "source_url": "https://www.deepseek.com/en/news/deepseek-v3-1/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.2-Exp",
+      "release_date": "2025-09-29",
+      "source_url": "https://deepseek.com/news/v3-2-exp/"
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "DeepSeek-V3.2",
+      "release_date": "2025-12-01",
+      "source_url": "https://www.deepseek.com/en/news/deepseek-v3-2/"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen2.5-Max",
+      "release_date": "2025-01-28",
+      "source_url": "https://qwenlm.github.io/zh/blog/qwen2.5-max/"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen3-Coder",
+      "release_date": "2025-07-22",
+      "source_url": "https://qwenlm.github.io/blog/qwen3-coder/"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen3-Max",
+      "release_date": "2025-09-24",
+      "source_url": "https://qwen.ai/blog?id=qwen3-max"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen3-Max-Thinking",
+      "release_date": "2026-01-25",
+      "source_url": "https://qwen.ai/blog?id=qwen3-max-thinking"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen3.6-Max-Preview",
+      "release_date": "2026-04-18",
+      "source_url": "https://qwen.ai/blog?id=qwen3.6-max-preview"
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "Qwen3.8-Flash-Next",
+      "release_date": "2026-08-26",
+      "source_url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+    },
+    {
+      "vendor": "月之暗面 Kimi",
+      "model": "Kimi K1.5",
+      "release_date": "2025-01-20",
+      "source_url": "https://www.kimi.com/en/blog/kimi-k1-5"
+    },
+    {
+      "vendor": "月之暗面 Kimi",
+      "model": "Kimi K2 Thinking",
+      "release_date": "2025-11-06",
+      "source_url": "https://platform.kimi.com/blog/posts/k2-think"
+    },
+    {
+      "vendor": "月之暗面 Kimi",
+      "model": "Kimi K2.5",
+      "release_date": "2026-01-27",
+      "source_url": "https://www.kimi.com/en/blog/kimi-k2-5"
+    },
+    {
+      "vendor": "月之暗面 Kimi",
+      "model": "Kimi K2.6",
+      "release_date": "2026-04-20",
+      "source_url": "https://www.kimi.com/en/blog/kimi-k2-6"
+    },
+    {
+      "vendor": "智谱 GLM",
+      "model": "GLM-4.5",
+      "release_date": "2025-07-28",
+      "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-07-28"
+    },
+    {
+      "vendor": "智谱 GLM",
+      "model": "GLM-4.6",
+      "release_date": "2025-09-30",
+      "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-09-30"
+    },
+    {
+      "vendor": "智谱 GLM",
+      "model": "GLM-4.7",
+      "release_date": "2025-12-22",
+      "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-12-22"
+    },
+    {
+      "vendor": "智谱 GLM",
+      "model": "GLM-5.1",
+      "release_date": "2026-04-07",
+      "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-04-07"
+    },
+    {
+      "vendor": "智谱 GLM",
+      "model": "GLM-5.2",
+      "release_date": "2026-06-16",
+      "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-06-16"
+    },
+    {
+      "vendor": "字节豆包",
+      "model": "Seed1.6",
+      "release_date": "2025-06-25",
+      "source_url": "https://seed.bytedance.com/zh/blog/seed1-6-%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D"
+    },
+    {
+      "vendor": "字节豆包",
+      "model": "Seed1.8",
+      "release_date": "2025-12-18",
+      "source_url": "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model"
+    },
+    {
+      "vendor": "字节豆包",
+      "model": "Seed2.1",
+      "release_date": "2026-06-23",
+      "source_url": "https://seed.bytedance.com/zh/blog/seed2-1-officially-released-advancing-ai-productivity"
+    }
+  ],
+  "excluded_or_deferred": [
+    {
+      "model": "GPT-5.3 Instant",
+      "reason": "主要是默认聊天体验、措辞与拒答表现更新；没有达到通用旗舰能力跃迁阈值。"
+    },
+    {
+      "model": "GPT-5.3-Codex-Spark",
+      "reason": "明确为更小、实时、低延迟型号，按小尺寸/速度优化排除。"
+    },
+    {
+      "model": "Claude Haiku 4.5",
+      "reason": "官方明确定位为 small model，按小尺寸型号排除。"
+    },
+    {
+      "model": "DeepSeek-V3.1-Terminus",
+      "reason": "修复语言混杂并提高稳定性，属于例行质量修正。"
+    },
+    {
+      "model": "Grok 4.3",
+      "reason": "找到的官方材料是第三方平台接入或产品功能页，无法可靠确认首次公开发布日。"
+    },
+    {
+      "model": "Qwen3.7-Max / Plus",
+      "reason": "当前官方模型目录能确认存在，但未找到可核实的独立首发公告与日期。"
+    },
+    {
+      "model": "Seed1.5 / Doubao-1.5-pro",
+      "reason": "官方现有材料能确认模型，但没有找到足以统一口径的首次公开发布页和日期。"
+    },
+    {
+      "model": "Seed Prover 1.5",
+      "reason": "发布时仅公开技术报告和证明结果，API 尚未开放，暂不计为公开可用发布。"
+    },
+    {
+      "model": "各厂商 Mini / Nano / Lite / Haiku / Flash-Lite",
+      "reason": "小尺寸或成本优先型号，除非形成新的通用能力范式，否则不进入主日历。"
+    }
+  ]
+}

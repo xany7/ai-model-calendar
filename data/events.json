@@ -1,5 +1,125 @@
 [
   {
+    "id": "d75ba4bf3183812162c4",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-R1",
+    "release_date": "2025-01-20",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-01-20；未提供具体时刻。",
+    "summary": "DeepSeek 发布并开源 R1 推理模型，在数学、代码和复杂推理上达到当时闭源旗舰水平。",
+    "source_url": "https://api-docs.deepseek.com/news/news250120/",
+    "sources": [
+      "https://api-docs.deepseek.com/news/news250120/"
+    ],
+    "milestone_reason": "开源推理模型的重要里程碑，官方发布模型、技术报告和 API。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "345419e1f559358042f6",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K1.5",
+    "release_date": "2025-01-20",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-01-20；未提供具体时刻。",
+    "summary": "月之暗面发布 Kimi K1.5，通过大规模强化学习推进数学、编程、视觉和长上下文推理。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k1-5",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k1-5"
+    ],
+    "milestone_reason": "Kimi 推理模型的重要早期里程碑，官方研究博客公开模型方法与评测。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "1e397474a6e6c27652ec",
+    "vendor": "阿里千问",
+    "model": "Qwen2.5-Max",
+    "release_date": "2025-01-28",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-01-28；未提供具体时刻。",
+    "summary": "阿里发布 Qwen2.5-Max，以超大规模 MoE 和超过 20 万亿 token 训练推进旗舰模型能力。",
+    "source_url": "https://qwenlm.github.io/zh/blog/qwen2.5-max/",
+    "sources": [
+      "https://qwenlm.github.io/zh/blog/qwen2.5-max/"
+    ],
+    "milestone_reason": "Qwen2.5 系列的 Max 旗舰发布，在多项推理、代码和知识评测领先。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "6def0703cb4a76159d83",
+    "vendor": "xAI",
+    "model": "Grok 3",
+    "release_date": "2025-02-19",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-02-19；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "xAI 发布 Grok 3 Beta，显著提升推理、数学、编程、知识和指令遵循，并开放 Think 与 DeepSearch。",
+    "source_url": "https://x.ai/news/grok-3",
+    "sources": [
+      "https://x.ai/news/grok-3"
+    ],
+    "milestone_reason": "Grok 主系列跨代发布，官方称其为当时最先进模型。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c5de212444df16aeeee3",
+    "vendor": "Anthropic",
+    "model": "Claude 3.7 Sonnet",
+    "release_date": "2025-02-24",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-02-24；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude 3.7 Sonnet，首次在同一模型中统一快速回答与可控的扩展思考。",
+    "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "sources": [
+      "https://www.anthropic.com/news/claude-3-7-sonnet"
+    ],
+    "milestone_reason": "官方称其为当时最智能模型和首个混合推理模型，属于架构级里程碑。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "00b61744a8888ed07aed",
+    "vendor": "Google",
+    "model": "Gemini 2.5 Pro",
+    "release_date": "2025-03-25",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-03-25；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Google 发布 Gemini 2.5 Pro Experimental，将思考能力原生融入模型并显著提升推理、编程和长上下文表现。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/"
+    ],
+    "milestone_reason": "官方称其为当时最智能模型；原生思考架构构成重要代际跃迁。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "f130238a26cdd84215b6",
     "vendor": "OpenAI",
     "model": "OpenAI o3",
@@ -61,6 +181,26 @@
     "status": "confirmed"
   },
   {
+    "id": "8c941da1fa1f591c0582",
+    "vendor": "字节豆包",
+    "model": "Seed1.6",
+    "release_date": "2025-06-25",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-06-25；未提供具体时刻。",
+    "summary": "字节发布 Seed1.6，原生融合多模态、自适应深度思考、GUI 操作和 256K 长上下文。",
+    "source_url": "https://seed.bytedance.com/zh/blog/seed1-6-%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D",
+    "sources": [
+      "https://seed.bytedance.com/zh/blog/seed1-6-%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D"
+    ],
+    "milestone_reason": "通用模型的重要架构升级，首次系统融合多模态与自适应思考。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "b4fa8eed9ab3841bcb5b",
     "vendor": "xAI",
     "model": "Grok 4",
@@ -102,6 +242,66 @@
     "status": "confirmed"
   },
   {
+    "id": "eb4545ff81825a92a633",
+    "vendor": "阿里千问",
+    "model": "Qwen3-Coder",
+    "release_date": "2025-07-22",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-07-22；未提供具体时刻。",
+    "summary": "阿里发布并开源 Qwen3-Coder，面向长上下文智能体编程、浏览器和工具使用。",
+    "source_url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3-coder/"
+    ],
+    "milestone_reason": "官方称其为当时最具智能体能力的代码模型，属于专业旗舰里程碑。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "879943e43d7630b94a91",
+    "vendor": "智谱 GLM",
+    "model": "GLM-4.5",
+    "release_date": "2025-07-28",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-07-28；未提供具体时刻。",
+    "summary": "智谱发布 GLM-4.5 系列，采用 MoE 与混合推理，重点强化智能体编程、工具调用和网页浏览。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-07-28",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2025-07-28"
+    ],
+    "milestone_reason": "官方定位为 SOTA 级原生智能体大模型和新一代基座。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "4cd00c84f942e3c8d3ef",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.1",
+    "release_date": "2025-08-05",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-08-05；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.1，提升真实编程、智能体任务、深度研究和数据分析。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-1",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-1"
+    ],
+    "milestone_reason": "Opus 旗舰档的重要升级，官方报告其刷新当时的智能体编程表现。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "7381770f5e4a9b300bce",
     "vendor": "OpenAI",
     "model": "GPT-5",
@@ -122,6 +322,166 @@
     "status": "confirmed"
   },
   {
+    "id": "2db0fd9799403dd49cc6",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-V3.1",
+    "release_date": "2025-08-21",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-08-21；未提供具体时刻。",
+    "summary": "DeepSeek 发布 V3.1，在同一模型中统一思考与非思考模式，并增强工具使用和多步智能体能力。",
+    "source_url": "https://www.deepseek.com/en/news/deepseek-v3-1/",
+    "sources": [
+      "https://www.deepseek.com/en/news/deepseek-v3-1/"
+    ],
+    "milestone_reason": "官方称其为迈向智能体时代的第一步，包含混合推理架构和大规模继续预训练。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "584258f80eedaa3cc2e4",
+    "vendor": "阿里千问",
+    "model": "Qwen3-Max",
+    "release_date": "2025-09-24",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-09-24；未提供具体时刻。",
+    "summary": "阿里发布 Qwen3-Max，采用万亿参数 MoE，在编程、智能体、知识和多语言能力上全面提升。",
+    "source_url": "https://qwen.ai/blog?id=qwen3-max",
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3-max"
+    ],
+    "milestone_reason": "官方称其为当时规模最大、能力最强的 Qwen 模型。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "0bde2c75250fb178383c",
+    "vendor": "Anthropic",
+    "model": "Claude Sonnet 4.5",
+    "release_date": "2025-09-29",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-09-29；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Sonnet 4.5，显著提升编程、复杂智能体、计算机操作、推理和数学能力。",
+    "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "sources": [
+      "https://www.anthropic.com/news/claude-sonnet-4-5"
+    ],
+    "milestone_reason": "官方称其为当时最强编程、复杂智能体和计算机操作模型。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "dc6af1fc8a9be3e7ca97",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-V3.2-Exp",
+    "release_date": "2025-09-29",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-09-29；未提供具体时刻。",
+    "summary": "DeepSeek 发布 V3.2-Exp，首次验证细粒度稀疏注意力架构，大幅降低长上下文训练与推理成本。",
+    "source_url": "https://deepseek.com/news/v3-2-exp/",
+    "sources": [
+      "https://deepseek.com/news/v3-2-exp/"
+    ],
+    "milestone_reason": "作为新一代架构的公开中间里程碑，首次引入 DeepSeek Sparse Attention。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "f4a31b1b1647928c53fd",
+    "vendor": "智谱 GLM",
+    "model": "GLM-4.6",
+    "release_date": "2025-09-30",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-09-30；未提供具体时刻。",
+    "summary": "智谱发布 GLM-4.6，全面超过 4.5，并扩展至 200K 上下文与推理中工具调用。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-09-30",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2025-09-30"
+    ],
+    "milestone_reason": "官方称其为当时最强编码模型，属于基座模型重要升级。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "3d326196e79856e7452f",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K2 Thinking",
+    "release_date": "2025-11-06",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-11-06；未提供具体时刻。",
+    "summary": "月之暗面发布并开源 Kimi K2 Thinking，原生支持边思考边使用工具，全面提升搜索、编程和综合推理。",
+    "source_url": "https://platform.kimi.com/blog/posts/k2-think",
+    "sources": [
+      "https://platform.kimi.com/blog/posts/k2-think"
+    ],
+    "milestone_reason": "官方称其为当时能力最强的开源思考模型和新一代 Thinking Agent。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "6b779d3e511bea70f490",
+    "vendor": "OpenAI",
+    "model": "GPT-5.1",
+    "release_date": "2025-11-12",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-11-12；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.1 Instant 与 Thinking，提升指令遵循、适应性推理和复杂任务持续推理能力。",
+    "source_url": "https://openai.com/index/gpt-5-1/",
+    "sources": [
+      "https://openai.com/index/gpt-5-1/"
+    ],
+    "milestone_reason": "GPT-5 系列的重要能力升级；官方称智能与沟通表现均有显著提升。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b669f1f8b875470926cf",
+    "vendor": "xAI",
+    "model": "Grok 4.1",
+    "release_date": "2025-11-17",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-11-17；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "xAI 发布 Grok 4.1，显著提升真实交互、创作、情感理解、事实性和通用能力。",
+    "source_url": "https://x.ai/news/grok-4-1",
+    "sources": [
+      "https://x.ai/news/grok-4-1"
+    ],
+    "milestone_reason": "官方独立发布且宣称其在人类偏好评测建立新标准。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "0b79b4a0f991c5499c4c",
     "vendor": "Google",
     "model": "Gemini 3",
@@ -138,6 +498,226 @@
     "reviewed_by": "initial-source-review (Codex)",
     "created_at": "2026-09-08T06:53:31+00:00",
     "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "0ebe71d1127a7e4f98f4",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.5",
+    "release_date": "2025-11-24",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-11-24；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.5，推进编程、智能体、计算机操作、研究和办公任务能力。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-5"
+    ],
+    "milestone_reason": "官方称其为当时编码、智能体和计算机操作领域最佳模型。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c33ff314b10b64852dfb",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-V3.2",
+    "release_date": "2025-12-01",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-12-01；未提供具体时刻。",
+    "summary": "DeepSeek 发布 V3.2 与 Speciale，首次把思考直接融入工具使用，并达到世界级推理表现。",
+    "source_url": "https://www.deepseek.com/en/news/deepseek-v3-2/",
+    "sources": [
+      "https://www.deepseek.com/en/news/deepseek-v3-2/"
+    ],
+    "milestone_reason": "V3.2 正式版为智能体推理的重要升级，并完整开源模型与技术报告。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b614c54190c3a82c6685",
+    "vendor": "OpenAI",
+    "model": "GPT-5.2",
+    "release_date": "2025-12-11",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-12-11；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.2，强化专业知识工作、长上下文、智能体工具调用、视觉和端到端复杂任务执行。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-2/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-2/"
+    ],
+    "milestone_reason": "官方称其为当时最强模型系列，并在多类专业任务建立新的领先水平。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "442e1fff397553d17c30",
+    "vendor": "Google",
+    "model": "Gemini 3 Flash",
+    "release_date": "2025-12-17",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-12-17；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Google 发布 Gemini 3 Flash，以 Flash 级速度和成本提供 Pro 级推理、多模态与智能体编程能力。",
+    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
+    "sources": [
+      "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/"
+    ],
+    "milestone_reason": "官方称其把前沿智能带到高效档位，并在多项能力上超过 Gemini 2.5 Pro。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "fb1c546fc04885788cf2",
+    "vendor": "OpenAI",
+    "model": "GPT-5.2-Codex",
+    "release_date": "2025-12-18",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-12-18；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.2-Codex，面向长程软件工程、代码重构、迁移和防御性网络安全。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-2-codex/"
+    ],
+    "milestone_reason": "官方称其为当时最先进的智能体编程模型，属于重要专业旗舰。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "8dead3fcefce710274aa",
+    "vendor": "字节豆包",
+    "model": "Seed1.8",
+    "release_date": "2025-12-18",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-12-18；未提供具体时刻。",
+    "summary": "字节发布 Seed1.8 通用智能体模型，原生整合搜索、编程、GUI 和复杂工作流执行。",
+    "source_url": "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model",
+    "sources": [
+      "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model"
+    ],
+    "milestone_reason": "官方独立发布的通用 Agent 基座，在多模态和真实工作流能力上取得突破。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "e18ae4001a6432cfe42b",
+    "vendor": "智谱 GLM",
+    "model": "GLM-4.7",
+    "release_date": "2025-12-22",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-12-22；未提供具体时刻。",
+    "summary": "智谱发布 GLM-4.7，升级智能体编程、长程规划、工具协同、前端生成与通用表达。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2025-12-22",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2025-12-22"
+    ],
+    "milestone_reason": "官方将其定位为最新旗舰文本模型和高智能基座。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c6302dea460fc5cc9837",
+    "vendor": "阿里千问",
+    "model": "Qwen3-Max-Thinking",
+    "release_date": "2026-01-25",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-01-25；未提供具体时刻。",
+    "summary": "阿里发布 Qwen3-Max-Thinking，加入自适应工具使用和测试时扩展，强化复杂推理与智能体搜索。",
+    "source_url": "https://qwen.ai/blog?id=qwen3-max-thinking",
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3-max-thinking"
+    ],
+    "milestone_reason": "官方定位为最新旗舰推理模型，并报告多维能力显著提升。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "3a658721d56f14c31a11",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K2.5",
+    "release_date": "2026-01-27",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-01-27；未提供具体时刻。",
+    "summary": "月之暗面发布 Kimi K2.5，加入原生多模态、视觉编程和可自主编排百个子智能体的 Agent Swarm。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k2-5",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k2-5"
+    ],
+    "milestone_reason": "官方称其为当时最强开源模型，并将 Agent Swarm 作为新的智能体范式。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b8ea20dbeef9723934ec",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.6",
+    "release_date": "2026-02-05",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-02-05；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.6，加入百万上下文并强化长程智能体、代码审查、调试和专业工作。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-6"
+    ],
+    "milestone_reason": "官方称其为当时发布过的最强模型，并在多项评测达到领先水平。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "5ecdba70d38549cd707c",
+    "vendor": "OpenAI",
+    "model": "GPT-5.3-Codex",
+    "release_date": "2026-02-05",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-02-05；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.3-Codex，将前沿编程、专业知识和长程工具执行能力整合进同一智能体模型。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-3-codex/"
+    ],
+    "milestone_reason": "官方称其为当时最强智能体编程模型，并首次按高网络安全能力部署。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -203,6 +783,186 @@
     "status": "confirmed"
   },
   {
+    "id": "19d4331294639cf9ce28",
+    "vendor": "Anthropic",
+    "model": "Claude Sonnet 4.6",
+    "release_date": "2026-02-17",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-02-17；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Sonnet 4.6，全面升级编程、计算机操作、长上下文推理、规划和知识工作。",
+    "source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "sources": [
+      "https://www.anthropic.com/news/claude-sonnet-4-6"
+    ],
+    "milestone_reason": "官方称其为当时最强 Sonnet，且为覆盖核心能力的完整升级。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c9418963f638b72c07ba",
+    "vendor": "Google",
+    "model": "Gemini 3.1 Pro",
+    "release_date": "2026-02-19",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-02-19；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Google 发布 Gemini 3.1 Pro，升级核心智能，在复杂推理和智能体工作流上相较 Gemini 3 Pro 大幅提升。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    ],
+    "milestone_reason": "官方称其为核心推理能力的重要前进，ARC-AGI-2 表现超过前代两倍。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "73bd2684e9cc048aeb83",
+    "vendor": "OpenAI",
+    "model": "GPT-5.4",
+    "release_date": "2026-03-05",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-03-05；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.4，将前沿推理、编程、工具使用和办公文档能力整合为主线专业工作模型。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-4/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-4/"
+    ],
+    "milestone_reason": "官方称其为当时最强且最高效的专业工作前沿模型。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "d1931c148c3658229871",
+    "vendor": "xAI",
+    "model": "Grok 4.20",
+    "release_date": "2026-04-07",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-04-07；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "xAI 发布 Grok 4.20，加入高级推理与多智能体能力，面向通用专业任务提供百万上下文。",
+    "source_url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
+    "sources": [
+      "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf"
+    ],
+    "milestone_reason": "官方模型卡将其定义为最新通用模型，并报告多项前沿评测表现。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "abbd4a2949304a0150fa",
+    "vendor": "智谱 GLM",
+    "model": "GLM-5.1",
+    "release_date": "2026-04-07",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-04-07；未提供具体时刻。",
+    "summary": "智谱发布新一代旗舰 GLM-5.1，显著提升编码、八小时长程任务、自主规划和工具使用。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-04-07",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2026-04-07"
+    ],
+    "milestone_reason": "官方明确标注为新一代旗舰模型，并报告长程工程能力跃迁。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "66f456c1cefc17227f93",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.7",
+    "release_date": "2026-04-16",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-04-16；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.7，显著提升高难软件工程、长程任务、视觉和专业内容生成。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-7"
+    ],
+    "milestone_reason": "官方将其定性为相对 4.6 的显著升级，面向最困难的长程工作。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "7583deab78a09bb34740",
+    "vendor": "阿里千问",
+    "model": "Qwen3.6-Max-Preview",
+    "release_date": "2026-04-18",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-04-18；未提供具体时刻。",
+    "summary": "阿里发布 Qwen3.6-Max 预览版，显著提升智能体编程、知识、指令遵循和真实任务可靠性。",
+    "source_url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3.6-max-preview"
+    ],
+    "milestone_reason": "虽为预览版，官方已公开体验和 API，并将其定位为下一款自研旗舰的早期版本。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "580ac7257464eb020b04",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K2.6",
+    "release_date": "2026-04-20",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-04-20；未提供具体时刻。",
+    "summary": "月之暗面发布并开源 Kimi K2.6，显著提升长程编程、视觉理解和大规模 Agent Swarm 执行。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k2-6",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k2-6"
+    ],
+    "milestone_reason": "官方称其为当时最强编程模型，支持更长时间和更大规模的自主任务。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "da143d3a0967eb2d785f",
+    "vendor": "OpenAI",
+    "model": "GPT-5.5",
+    "release_date": "2026-04-23",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-04-23；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.5，显著提升智能体编程、计算机操作、知识工作和长程自主执行。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-5/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-5/"
+    ],
+    "milestone_reason": "官方称其为当时最聪明、最易用的模型，并带来新的工作智能范式。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "9a8dd0e16d6ce5745758",
     "vendor": "DeepSeek",
     "model": "DeepSeek-V4",
@@ -243,6 +1003,26 @@
     "status": "confirmed"
   },
   {
+    "id": "162489f213a32741b3f4",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.8",
+    "release_date": "2026-05-28",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-05-28；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.8，提升智能体协作、判断、工具效率、计算机操作和诚实性。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-8"
+    ],
+    "milestone_reason": "虽为连续小版本，官方证据显示其在计算机使用与长程智能体上建立新高。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "e5d6f6d137fd3519b05d",
     "vendor": "Anthropic",
     "model": "Claude Fable 5",
@@ -263,84 +1043,62 @@
     "status": "confirmed"
   },
   {
-    "id": "1f8cc5fa923547548406",
-    "vendor": "月之暗面 Kimi",
-    "model": "Kimi K3",
-    "release_date": "2026-07-16",
+    "id": "8ad6021eb49f4f2edc42",
+    "vendor": "智谱 GLM",
+    "model": "GLM-5.2",
+    "release_date": "2026-06-16",
     "published_at": null,
-    "date_precision": "official-date-only",
-    "date_note": "官方研究博客目录标注 2026-07-16；新闻页另有 7 月 17 日报道，采用研究发布目录。",
-    "summary": "Kimi K3 发布，采用 2.8T 参数、原生视觉与百万上下文；完整权重后续开放。",
-    "source_url": "https://www.kimi.com/en/blog/kimi-k3",
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-06-16；未提供具体时刻。",
+    "summary": "智谱发布新一代旗舰 GLM-5.2，支持百万无损上下文并强化复杂工程、深度调试和长程任务。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-06-16",
     "sources": [
-      "https://www.kimi.com/en/blog/kimi-k3",
-      "https://www.kimi.com/en/blog/"
+      "https://docs.bigmodel.cn/cn/update/new-releases#2026-06-16"
     ],
-    "milestone_reason": "Kimi 主系列跨代首发；记录首次产品/API 可用，7 月 27 日权重开放不重复计入。",
-    "reviewed_by": "initial-source-review (Codex)",
-    "created_at": "2026-09-08T06:53:31+00:00",
-    "updated_at": "2026-09-08T06:53:31+00:00",
+    "milestone_reason": "官方明确标注为新一代旗舰模型，并报告上下文与交付能力显著提升。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
   {
-    "id": "0bf293dee2efdeeda04e",
+    "id": "e68087bf3078a6c622bc",
+    "vendor": "字节豆包",
+    "model": "Seed2.1",
+    "release_date": "2026-06-23",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-06-23；未提供具体时刻。",
+    "summary": "字节发布 Seed2.1，显著提升跨工具通用智能体、代码工程交付、多模态和长视频理解。",
+    "source_url": "https://seed.bytedance.com/zh/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "sources": [
+      "https://seed.bytedance.com/zh/blog/seed2-1-officially-released-advancing-ai-productivity"
+    ],
+    "milestone_reason": "官方定位为面向真实生产力的新一代智能体，核心能力有明确跃迁。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b3a7f97d4c1df336c3f7",
     "vendor": "Anthropic",
-    "model": "Claude Opus 5",
-    "release_date": "2026-07-24",
+    "model": "Claude Sonnet 5",
+    "release_date": "2026-06-30",
     "published_at": null,
-    "date_precision": "official-date-only",
-    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
-    "summary": "Opus 5 发布，面向日常专业工作与长程智能体任务，提高能力与运行效率。",
-    "source_url": "https://www.anthropic.com/news/claude-opus-5",
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-06-30；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Sonnet 5，显著提升推理、工具使用、编程、知识工作和自主智能体执行。",
+    "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
     "sources": [
-      "https://www.anthropic.com/news/claude-opus-5"
+      "https://www.anthropic.com/news/claude-sonnet-5"
     ],
-    "milestone_reason": "Opus 旗舰层级跨代首发。",
-    "reviewed_by": "initial-source-review (Codex)",
-    "created_at": "2026-09-08T06:53:31+00:00",
-    "updated_at": "2026-09-08T06:53:31+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "08071aed7e889a8a6be6",
-    "vendor": "阿里千问",
-    "model": "Qwen3.8",
-    "release_date": "2026-08-12",
-    "published_at": null,
-    "date_precision": "official-date-only",
-    "date_note": "采用官方仓库 News 的 2026-08-12 首发记录；具体时刻未公开。",
-    "summary": "Qwen3.8 首次开放 2.4T-A95B 级别权重，把 Qwen-Max 级能力带入开放模型。",
-    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
-    "sources": [
-      "https://github.com/QwenLM/Qwen3.8#news"
-    ],
-    "milestone_reason": "人工规则例外：官方说明首次开放 Qwen-Max 级模型，属于开放生态里程碑。",
-    "reviewed_by": "initial-source-review (Codex)",
-    "created_at": "2026-09-08T06:53:31+00:00",
-    "updated_at": "2026-09-08T06:53:31+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "7623417cbabaf37dcc36",
-    "vendor": "OpenAI",
-    "model": "GPT-6 Astra",
-    "release_date": "2026-09-03",
-    "published_at": "2026-09-03T11:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_note": "官方公告时间已换算为北京时间。",
-    "summary": "新一代旗舰 GPT-6 Astra 发布，强化计算机操作、软件工程和复杂专业任务，首发分阶段开放。",
-    "source_url": "https://openai.com/index/gpt-6-astra/",
-    "sources": [
-      "https://openai.com/index/gpt-6-astra/",
-      "https://openai.com/news/rss.xml"
-    ],
-    "milestone_reason": "GPT 主系列跨代发布；记录首次受限公开可用阶段。",
-    "reviewed_by": "initial-source-review (Codex)",
-    "created_at": "2026-09-08T06:53:31+00:00",
-    "updated_at": "2026-09-08T06:53:31+00:00",
+    "milestone_reason": "Sonnet 系列跨代发布，官方称其为最具智能体能力的 Sonnet。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -361,30 +1119,6 @@
       "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
     ],
     "milestone_reason": "OpenAI 官方明确称其为旗舰推理模型,属于 GPT-5.6 系列的主要公开发布。",
-    "reviewed_by": "Codex-official-source-review",
-    "created_at": "2026-09-08T09:58:19+00:00",
-    "updated_at": "2026-09-08T09:58:19+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "8026ead63e75ef026fae",
-    "vendor": "xAI",
-    "model": "Grok 4.6",
-    "release_date": "2026-08-12",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "xAI 官方公告标注 2026-08-12;页面结构化时间为午夜占位,按官方公告日记录。",
-    "summary": "xAI 发布 Grok 4.6,重点提升长程智能体、交互式视觉工作、编程与知识任务能力。",
-    "source_url": "https://x.ai/news/grok-4-6",
-    "sources": [
-      "https://x.ai/news/grok-4-6",
-      "https://x.ai/news/grok-4-6-microsoft-foundry",
-      "https://x.ai/news/grok-4-6-vertex-ai",
-      "https://x.ai/news/grok-4-6-amazon-bedrock",
-      "https://x.ai/news/grok-4-6-github-copilot"
-    ],
-    "milestone_reason": "官方称 Grok 4.6 为最新旗舰模型,并单独发布正式公告。",
     "reviewed_by": "Codex-official-source-review",
     "created_at": "2026-09-08T09:58:19+00:00",
     "updated_at": "2026-09-08T09:58:19+00:00",
@@ -413,6 +1147,131 @@
     "status": "confirmed"
   },
   {
+    "id": "1f8cc5fa923547548406",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K3",
+    "release_date": "2026-07-16",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方研究博客目录标注 2026-07-16；新闻页另有 7 月 17 日报道，采用研究发布目录。",
+    "summary": "Kimi K3 发布，采用 2.8T 参数、原生视觉与百万上下文；完整权重后续开放。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k3",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k3",
+      "https://www.kimi.com/en/blog/"
+    ],
+    "milestone_reason": "Kimi 主系列跨代首发；记录首次产品/API 可用，7 月 27 日权重开放不重复计入。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "6322b5ab2f7afffe61a6",
+    "vendor": "Google",
+    "model": "Gemini 3.6 Flash",
+    "release_date": "2026-07-21",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-07-21；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Google 发布 Gemini 3.6 Flash，提升编程、知识工作、多模态和大规模智能体任务的效率与质量。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    ],
+    "milestone_reason": "Flash 主力档的重要升级，在更低输出成本下取得显著编程与智能体提升。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "0bf293dee2efdeeda04e",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 5",
+    "release_date": "2026-07-24",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "官方只标日期，保留公告标注日；无法确定北京时间是否跨日。",
+    "summary": "Opus 5 发布，面向日常专业工作与长程智能体任务，提高能力与运行效率。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-5",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-5"
+    ],
+    "milestone_reason": "Opus 旗舰层级跨代首发。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "8026ead63e75ef026fae",
+    "vendor": "xAI",
+    "model": "Grok 4.6",
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "xAI 官方公告标注 2026-08-12;页面结构化时间为午夜占位,按官方公告日记录。",
+    "summary": "xAI 发布 Grok 4.6,重点提升长程智能体、交互式视觉工作、编程与知识任务能力。",
+    "source_url": "https://x.ai/news/grok-4-6",
+    "sources": [
+      "https://x.ai/news/grok-4-6",
+      "https://x.ai/news/grok-4-6-microsoft-foundry",
+      "https://x.ai/news/grok-4-6-vertex-ai",
+      "https://x.ai/news/grok-4-6-amazon-bedrock",
+      "https://x.ai/news/grok-4-6-github-copilot"
+    ],
+    "milestone_reason": "官方称 Grok 4.6 为最新旗舰模型,并单独发布正式公告。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "08071aed7e889a8a6be6",
+    "vendor": "阿里千问",
+    "model": "Qwen3.8",
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "采用官方仓库 News 的 2026-08-12 首发记录；具体时刻未公开。",
+    "summary": "Qwen3.8 首次开放 2.4T-A95B 级别权重，把 Qwen-Max 级能力带入开放模型。",
+    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
+    "sources": [
+      "https://github.com/QwenLM/Qwen3.8#news"
+    ],
+    "milestone_reason": "人工规则例外：官方说明首次开放 Qwen-Max 级模型，属于开放生态里程碑。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "d91642ed9822fbee7e0f",
+    "vendor": "Google",
+    "model": "Gemini 3.7 Flash",
+    "release_date": "2026-08-13",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-08-13；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Google 发布 Gemini 3.7 Flash，显著提升软件工程、知识工作、网页开发和智能体视频理解。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+    ],
+    "milestone_reason": "官方称其为当时最智能的 Flash 主力模型，并确认核心推理算法升级。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "29bd08384df9e282863a",
     "vendor": "智谱 GLM",
     "model": "GLM-5.3",
@@ -429,6 +1288,26 @@
     "reviewed_by": "Codex-official-source-review",
     "created_at": "2026-09-08T09:58:19+00:00",
     "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "974f33847f59d26b5a14",
+    "vendor": "阿里千问",
+    "model": "Qwen3.8-Flash-Next",
+    "release_date": "2026-08-26",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2026-08-26；未提供具体时刻。",
+    "summary": "阿里开源 Qwen3.8-Flash-Next，预览 Qwen4 的注意力、残差、嵌入和优化新架构。",
+    "source_url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3.8-flash-next"
+    ],
+    "milestone_reason": "官方明确将其作为 Qwen4 架构预览，属于架构级里程碑。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -472,6 +1351,27 @@
     "reviewed_by": "Codex-important-minor-review",
     "created_at": "2026-09-08T10:30:00+00:00",
     "updated_at": "2026-09-08T10:30:00+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "7623417cbabaf37dcc36",
+    "vendor": "OpenAI",
+    "model": "GPT-6 Astra",
+    "release_date": "2026-09-03",
+    "published_at": "2026-09-03T11:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方公告时间已换算为北京时间。",
+    "summary": "新一代旗舰 GPT-6 Astra 发布，强化计算机操作、软件工程和复杂专业任务，首发分阶段开放。",
+    "source_url": "https://openai.com/index/gpt-6-astra/",
+    "sources": [
+      "https://openai.com/index/gpt-6-astra/",
+      "https://openai.com/news/rss.xml"
+    ],
+    "milestone_reason": "GPT 主系列跨代发布；记录首次受限公开可用阶段。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
     "sequence": 0,
     "status": "confirmed"
   }

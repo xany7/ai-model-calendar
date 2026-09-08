@@ -46,6 +46,15 @@ def test_routine_flash_update_needs_review():
  item=sample(title='Introducing Gemini 3.7 Flash',text='A quality update is available today.')
  result=app.classify(item,{'official':True,'vendor':'Google'},TODAY)
  assert not result['important_minor'] and result['status']=='pending'
+@pytest.mark.parametrize(('vendor','title','model'),[
+ ('OpenAI','Introducing GPT-5.3-Codex','GPT-5.3-Codex'),
+ ('DeepSeek','Introducing DeepSeek-V3.2-Exp','DeepSeek-V3.2-Exp'),
+ ('阿里千问','Qwen3.6-Max-Preview: a new architecture','Qwen3.6-Max-Preview'),
+ ('阿里千问','Qwen3.8-Flash-Next is available','Qwen3.8-Flash-Next'),
+ ('月之暗面 Kimi','Kimi K2 Thinking released','Kimi K2 Thinking'),
+])
+def test_material_variant_names_do_not_collapse_into_base_model(vendor,title,model):
+ assert app.identify(title,vendor)==(vendor,model)
 def test_announcement_outranks_later_integration_even_with_lower_score():
  announcement={'title_announcement':True,'score':70}
  integration={'title_announcement':False,'score':85}

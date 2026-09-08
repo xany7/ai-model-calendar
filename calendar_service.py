@@ -18,19 +18,19 @@ ROOT = Path(__file__).resolve().parent
 CST = ZoneInfo('Asia/Shanghai')
 VENDORS = ['OpenAI','Anthropic','Google','xAI','DeepSeek','阿里千问','月之暗面 Kimi','智谱 GLM','字节豆包']
 PATTERNS = {
- 'OpenAI': r'\b(?:GPT[ -]?\d+(?:\.\d+)*(?:[ -](?:Astra|Sol))?|OpenAI\s+o\d+)\b',
+ 'OpenAI': r'\b(?:GPT[ -]?\d+(?:\.\d+)*(?:[ -](?:Astra|Sol|Codex))?|OpenAI\s+o\d+)\b',
  'Anthropic': r'\bClaude\s+(?:(?:Opus|Sonnet|Haiku|Fable|Mythos)\s+)?\d+(?:\.\d+)*\b',
  'Google': r'\bGemini[ -]?\d+(?:\.\d+)*(?:\s+(?:Flash(?:\s+Cyber)?|Pro|Deep Think))?\b',
  'xAI': r'\bGrok[ -]?\d+(?:\.\d+)*\b',
- 'DeepSeek': r'\bDeepSeek[ -]?(?:V|R)\d+(?:\.\d+)*\b',
- '阿里千问': r'\bQwen[ -]?\d+(?:\.\d+)*\b',
- '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*\b',
+ 'DeepSeek': r'\bDeepSeek[ -]?(?:V|R)\d+(?:\.\d+)*(?:-Exp)?\b',
+ '阿里千问': r'\bQwen[ -]?\d+(?:\.\d+)*(?:-(?:Coder|Max(?:-Thinking|-Preview)?|Flash-Next))?\b',
+ '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*(?:\s+Thinking)?\b',
  '智谱 GLM': r'\bGLM[ -]?\d+(?:\.\d+)*\b',
  '字节豆包': r'(?:\bSeed[ -]?\d+(?:\.\d+)*\b|(?:豆包|Doubao)(?:大模型)?\s*\d+(?:\.\d+)*)',
 }
 LAUNCH = re.compile(r'introduc(?:e|es|ing)|announc(?:e|es|ing)|launch(?:ed|es)?|releas(?:e|ed|ing)|available (?:today|now)|officially live|正式发布|正式上线|现已上线|全新发布|开源|发布',re.I)
 MILESTONE = re.compile(r'flagship|frontier|next.generation|new generation|most (?:capable|advanced|intelligent|powerful)|best .{0,40} model yet|major leap|significant (?:leap|improvement)|step change|旗舰|新一代|里程碑|全新一代|最强.{0,12}模型|重大(?:能力|性能)跃迁',re.I)
-IMPORTANT_MINOR = re.compile(r'new performance frontier|sets? a new standard|world.?s most advanced|best .{0,40} model yet|most (?:capable|advanced|intelligent|powerful).{0,24}model|significant (?:leap|improvement)|step change|(?:latest|newest) flagship model|新一代旗舰|性能新前沿|最强.{0,12}模型|重大(?:能力|性能)跃迁',re.I)
+IMPORTANT_MINOR = re.compile(r'new performance frontier|sets? a new standard|state.of.the.art|world.?s most advanced|best .{0,40} model yet|most (?:capable|advanced|agentic|intelligent|powerful).{0,24}model|significant (?:gain|leap|improvement)|substantial (?:gain|improvement|upgrade)|notable improvement|full upgrade|step change|breakthrough|hybrid inference|new architecture|native multimodal|first model to|(?:latest|newest) flagship model|新一代旗舰|性能新前沿|最强.{0,12}模型|重大(?:能力|性能)跃迁|显著(?:提升|进步)|大幅(?:提升|增强)|全面升级|混合推理架构|原生多模态|新架构|突破',re.I)
 EXCLUDE = re.compile(r'\b(?:mini|nano|lite|haiku|fast|turbo|ocr|embedding|retire|retirement|deprecat\w*|pricing|price|discount|outage|cookbook|benchmark|system card|safety overview|guide|partnership|integration|watermark|safeguards|in (?:kiro|copilot|foundry))\b|降价|优惠|下线|退役|修复|教程|评测|接入|开放日|技术报告|框架|Seedance|Seedream|Seed Audio',re.I)
 RUMOR = re.compile(r'rumou?r|leak|reportedly|coming soon|will launch|will release|plans to|expected to|传闻|据悉|或将|即将|预计|计划发布|预告',re.I)
 DATES = re.compile(r'\b20\d{2}[./-]\d{1,2}[./-]\d{1,2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2},?\s+20\d{2}\b',re.I)
