@@ -37,6 +37,10 @@ def test_uncertain_candidates_need_review(changes):
  assert app.classify(sample(**changes),SOURCE,TODAY)['status']=='pending'
 def test_news_cannot_auto_publish():
  assert app.classify(sample(),{'official':False,'vendor':None},TODAY)['status']=='pending'
+def test_announcement_outranks_later_integration_even_with_lower_score():
+ announcement={'title_announcement':True,'score':70}
+ integration={'title_announcement':False,'score':85}
+ assert app.candidate_rank(announcement)>app.candidate_rank(integration)
 @pytest.mark.parametrize('title',['Introducing GPT-7 mini','GPT-7 pricing update','GPT-7 safety overview','GPT-7 retirement','Introducing GPT-7 in Copilot'])
 def test_noise_excluded(title):assert app.classify(sample(title=title),SOURCE,TODAY) is None
 def test_benchmark_body_cannot_impersonate_release():

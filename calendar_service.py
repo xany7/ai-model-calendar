@@ -134,7 +134,8 @@ def discover(source):
   for repo in json.loads(raw):
    if repo.get('fork') or repo.get('archived'):continue
    rows.append({'title':repo['name'],'url':repo['html_url'],'text':repo.get('description') or '',
-                'raw_date':None,'date_note':'仓库创建/推送时间不等于模型发布日期；需核实官方公告。'})
+                'raw_date':None,'discovered_at':repo.get('created_at'),
+                'date_note':'仓库创建时间只用于发现窗口，不等于模型发布日期；需核实官方公告。'})
  else:
   s=BeautifulSoup(raw,'html.parser')
   if kind=='seed':
@@ -187,7 +188,7 @@ def classify(item, source, today):
  if not model:
   if source.get('official') and LAUNCH.search(title) and re.search(r'model|模型|Claude|Gemini|Grok|DeepSeek|Qwen|Kimi|GLM|Seed|豆包',title,re.I) and not EXCLUDE.search(title):
    day,stamp,precision=parse_date(item.get('raw_date'))
-   return {'status':'pending','model':title[:110],'vendor':vendor,'score':40,'reasons':['未知命名：需确认是否为通用旗舰模型及规范模型名。'],'release_date':day,'published_at':stamp,'date_precision':precision}
+   return {'status':'pending','model':title[:110],'vendor':vendor,'score':40,'title_announcement':False,'reasons':['未知命名：需确认是否为通用旗舰模型及规范模型名。'],'release_date':day,'published_at':stamp,'date_precision':precision}
   return None
  if EXCLUDE.search(title):return None
  text=title+' '+item.get('text','')[:2500]
@@ -213,7 +214,11 @@ def classify(item, source, today):
        and item.get('detail_verified') and not RUMOR.search(title+' '+item.get('text','')[:220])
        and day and date.fromisoformat(day)<=today)
  return {'status':'published' if auto else 'pending','model':model,'vendor':vendor,'score':score,
-         'reasons':reasons,'release_date':day,'published_at':stamp,'date_precision':precision}
+         'title_announcement':title_announcement,'reasons':reasons,'release_date':day,'published_at':stamp,'date_precision':precision}
+
+def candidate_rank(candidate):
+ """Prefer the model's own announcement over later integrations and case studies."""
+ return (int(bool(candidate.get('title_announcement'))), candidate.get('score',0))
 
 def collect():
  config=read('service.json');
@@ -231,6 +236,8 @@ def collect():
           'status':'error' if error else 'ok','entries':len(items),'checked_at':start,'errors':[error] if error else []}
   attempted=0
   for item in items:
+   discovered=parse_date(item.get('discovered_at'))[0]
+   if discovered and date.fromisoformat(discovered)<cutoff:continue
    if not identify(item['title'],source.get('vendor'))[1] and not (source['official'] and LAUNCH.search(item['title'])):continue
    parsed=parse_date(item.get('raw_date'))[0]
    if parsed and date.fromisoformat(parsed)<cutoff:continue
@@ -272,7 +279,7 @@ def collect():
    candidate['evidence']=[e for e in candidate['evidence'] if e['url']!=url]+[evidence]
    if old and old.get('official') and not source['official']:
     old['evidence']=candidate['evidence'];old['last_seen']=start;continue
-   if old and old.get('official')==source['official'] and old['score']>candidate['score']:
+   if old and old.get('official')==source['official'] and candidate_rank(old)>candidate_rank(candidate):
     old['evidence']=candidate['evidence'];old['last_seen']=start;continue
    if conflict:
     candidate['status']='pending';candidate['reasons'].append('多个官方来源日期冲突，须人工核实。')

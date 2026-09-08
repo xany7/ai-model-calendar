@@ -343,5 +343,93 @@
     "updated_at": "2026-09-08T06:53:31+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "ce0e79ef978d560596a7",
+    "vendor": "OpenAI",
+    "model": "GPT-5.6 Sol",
+    "release_date": "2026-07-09",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "OpenAI 官方模型发布说明标注 2026-07-09;该页面只提供日期,未提供具体时刻。",
+    "summary": "OpenAI 推出旗舰推理模型 GPT-5.6 Sol,面向编码、研究、科学、网络安全、计算机操作和设计等复杂工作。",
+    "source_url": "https://help.openai.com/zh-hans-cn/articles/9624314-model-release-notes",
+    "sources": [
+      "https://help.openai.com/zh-hans-cn/articles/9624314-model-release-notes",
+      "https://openai.com/index/replit",
+      "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+    ],
+    "milestone_reason": "OpenAI 官方明确称其为旗舰推理模型,属于 GPT-5.6 系列的主要公开发布。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "8026ead63e75ef026fae",
+    "vendor": "xAI",
+    "model": "Grok 4.6",
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "xAI 官方公告标注 2026-08-12;页面结构化时间为午夜占位,按官方公告日记录。",
+    "summary": "xAI 发布 Grok 4.6,重点提升长程智能体、交互式视觉工作、编程与知识任务能力。",
+    "source_url": "https://x.ai/news/grok-4-6",
+    "sources": [
+      "https://x.ai/news/grok-4-6",
+      "https://x.ai/news/grok-4-6-microsoft-foundry",
+      "https://x.ai/news/grok-4-6-vertex-ai",
+      "https://x.ai/news/grok-4-6-amazon-bedrock",
+      "https://x.ai/news/grok-4-6-github-copilot"
+    ],
+    "milestone_reason": "官方称 Grok 4.6 为最新旗舰模型,并单独发布正式公告。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "a78eb632aa80c47840c0",
+    "vendor": "xAI",
+    "model": "Grok 4.5",
+    "release_date": "2026-07-16",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "xAI 官方首发公告标注 2026-07-16;7 月 28 日是接入 GitHub Copilot的日期,不是模型首发日。",
+    "summary": "xAI 发布 Grok 4.5,定位为面向编程、智能体任务和知识工作的最强模型。",
+    "source_url": "https://x.ai/news/grok-4-5",
+    "sources": [
+      "https://x.ai/news/grok-4-5",
+      "https://x.ai/news/grok-github-copilot"
+    ],
+    "milestone_reason": "官方称其为当时最强、最智能的 Grok 模型,并有独立首发公告。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "29bd08384df9e282863a",
+    "vendor": "智谱 GLM",
+    "model": "GLM-5.3",
+    "release_date": "2026-08-19",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "智谱官方中文发布记录标注 2026-08-19;未提供具体时刻。",
+    "summary": "智谱发布新一代旗舰 GLM-5.3,强化编程、长程智能体任务和网络安全能力。",
+    "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19",
+    "sources": [
+      "https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19"
+    ],
+    "milestone_reason": "智谱官方发布记录明确标注为新一代旗舰模型。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]

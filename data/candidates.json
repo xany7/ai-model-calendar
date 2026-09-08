@@ -1,7 +1,7 @@
 [
   {
-    "status": "pending",
-    "model": "GPT-5.6",
+    "status": "approved",
+    "model": "GPT-5.6 Sol",
     "vendor": "OpenAI",
     "score": 75,
     "reasons": [
@@ -10,14 +10,14 @@
       "标题不是明确发布公告，需排除使用案例或后续报道。",
       "多个官方来源日期冲突，须人工核实。"
     ],
-    "release_date": "2026-08-06",
-    "published_at": "2026-08-06T10:00:00+00:00",
-    "date_precision": "timestamp",
+    "release_date": "2026-07-09",
+    "published_at": null,
+    "date_precision": "reviewed-date",
     "id": "48b2d20ae3ea2b9ce7a8",
     "official": true,
-    "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "source_url": "https://help.openai.com/zh-hans-cn/articles/9624314-model-release-notes",
     "source_title": "Improving GPT‐5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users",
-    "summary": "OpenAI 发布 GPT-5.6；具体里程碑意义待审核。",
+    "summary": "OpenAI 推出旗舰推理模型 GPT-5.6 Sol,面向编码、研究、科学、网络安全、计算机操作和设计等复杂工作。",
     "first_seen": "2026-09-08T06:57:40+00:00",
     "last_seen": "2026-09-08T06:57:40+00:00",
     "evidence": [
@@ -51,10 +51,15 @@
         "excerpt": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "milestone_reason": "OpenAI 官方明确称其为旗舰推理模型,属于 GPT-5.6 系列的主要公开发布。",
+    "date_note": "OpenAI 官方模型发布说明标注 2026-07-09;该页面只提供日期,未提供具体时刻。",
+    "event_id": "ce0e79ef978d560596a7",
+    "reviewed_at": "2026-09-08T09:58:19+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "GPT-5.6 Sol",
     "vendor": "OpenAI",
     "score": 55,
@@ -95,10 +100,13 @@
         "excerpt": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "这是 GPT-5.6 Sol 的后续使用案例误触发；模型已按 2026-07-09 的官方首发日收录。",
+    "reviewed_at": "2026-09-08T09:58:20+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "Grok 4.6",
     "vendor": "xAI",
     "score": 75,
@@ -109,12 +117,12 @@
     ],
     "release_date": "2026-08-12",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "8026ead63e75ef026fae",
     "official": true,
     "source_url": "https://x.ai/news/grok-4-6",
     "source_title": "Introducing Grok 4.6",
-    "summary": "xAI 发布 Grok 4.6；官方将其定位为新一代或旗舰模型。",
+    "summary": "xAI 发布 Grok 4.6,重点提升长程智能体、交互式视觉工作、编程与知识任务能力。",
     "first_seen": "2026-09-08T06:57:40+00:00",
     "last_seen": "2026-09-08T06:57:40+00:00",
     "evidence": [
@@ -168,7 +176,12 @@
         "excerpt": "Introducing Grok 4.6 | SpaceXAI Back to news Aug 12, 2026 Introducing Grok 4.6 Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work. Try for free Start building Today we are releasing Grok 4.6 . Grok 4.6 builds on Grok 4.5 with a particular focus on l",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "milestone_reason": "官方称 Grok 4.6 为最新旗舰模型,并单独发布正式公告。",
+    "date_note": "xAI 官方公告标注 2026-08-12;页面结构化时间为午夜占位,按官方公告日记录。",
+    "event_id": "8026ead63e75ef026fae",
+    "reviewed_at": "2026-09-08T09:58:19+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
     "status": "rejected",
@@ -205,7 +218,7 @@
     "reviewed_by": "xany7"
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "Grok 4.5",
     "vendor": "xAI",
     "score": 60,
@@ -215,14 +228,14 @@
       "发布日期无可核实的非占位时间戳；需确认日期口径。",
       "标题不是明确发布公告，需排除使用案例或后续报道。"
     ],
-    "release_date": "2026-07-28",
+    "release_date": "2026-07-16",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "a78eb632aa80c47840c0",
     "official": true,
-    "source_url": "https://x.ai/news/grok-github-copilot",
+    "source_url": "https://x.ai/news/grok-4-5",
     "source_title": "Grok 4.5 in GitHub Copilot",
-    "summary": "xAI 发布 Grok 4.5；具体里程碑意义待审核。",
+    "summary": "xAI 发布 Grok 4.5,定位为面向编程、智能体任务和知识工作的最强模型。",
     "first_seen": "2026-09-08T06:57:40+00:00",
     "last_seen": "2026-09-08T06:57:40+00:00",
     "evidence": [
@@ -236,10 +249,15 @@
         "excerpt": "Grok 4.5 in GitHub Copilot | SpaceXAI Back to news Jul 28, 2026 Grok 4.5 in GitHub Copilot Grok 4.5, our smartest coding model, is now available in GitHub Copilot. Try Grok 4.5 in the API Open GitHub Copilot Grok 4.5 is now available in GitHub Copilot for millions of developers who use VSCode and GitHub products every ",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "milestone_reason": "官方称其为当时最强、最智能的 Grok 模型,并有独立首发公告。",
+    "date_note": "xAI 官方首发公告标注 2026-07-16;7 月 28 日是接入 GitHub Copilot的日期,不是模型首发日。",
+    "event_id": "a78eb632aa80c47840c0",
+    "reviewed_at": "2026-09-08T09:58:19+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Qwen2.5",
     "vendor": "阿里千问",
     "score": 40,
@@ -282,10 +300,13 @@
         "excerpt": "A series of math-specific large language models of our Qwen2 series.",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "候选来自 Qwen2.5 专项仓库且没有发布日期；通用 Qwen2.5 官方首发是 2024-09-19，早于本日历 2025 年起的历史范围。",
+    "reviewed_at": "2026-09-08T09:58:20+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Qwen2",
     "vendor": "阿里千问",
     "score": 50,
@@ -317,10 +338,13 @@
         "excerpt": "The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "候选来自 Qwen2-Audio 专项仓库；通用 Qwen2 官方首发是 2024-06-07，早于本日历 2025 年起的历史范围。",
+    "reviewed_at": "2026-09-08T09:58:20+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "GLM-5.3",
     "vendor": "智谱 GLM",
     "score": 75,
@@ -330,12 +354,12 @@
     ],
     "release_date": "2026-08-19",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "29bd08384df9e282863a",
     "official": true,
     "source_url": "https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19",
     "source_title": " 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力:GLM-5.3 的编程能力大幅提升,在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%,在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水",
-    "summary": "智谱 GLM 发布 GLM-5.3；官方将其定位为新一代或旗舰模型。",
+    "summary": "智谱发布新一代旗舰 GLM-5.3,强化编程、长程智能体任务和网络安全能力。",
     "first_seen": "2026-09-08T06:57:40+00:00",
     "last_seen": "2026-09-08T06:57:40+00:00",
     "evidence": [
@@ -349,10 +373,15 @@
         "excerpt": " 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力:GLM-5.3 的编程能力大幅提升,在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%,在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力:在白盒代码审查与漏洞发现持平 Mythos 5,已联合多个中国安全团队测试并累计发现 2436 个漏洞(1097 个中高危)",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "milestone_reason": "智谱官方发布记录明确标注为新一代旗舰模型。",
+    "date_note": "智谱官方中文发布记录标注 2026-08-19;未提供具体时刻。",
+    "event_id": "29bd08384df9e282863a",
+    "reviewed_at": "2026-09-08T09:58:19+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互",
     "vendor": "字节豆包",
     "score": 40,
@@ -380,10 +409,13 @@
         "excerpt": "SeedRealtime 音视频全双工大模型发布:走向全模态自然交互 SeedRealtime 音视频全双工大模型发布:走向全模态自然交互 日期 2026-08-05 分类 语音智能 今天,我们正式推出原生音视频全双工大模型 SeedRealtime。 作为走向全模态交互的关键一步,SeedRealtime 用统一架构原生融合音频、视频与文本,能在连续的多模态信息流上实时交互,带来“边看、边听、边说”的全新体验。它实现了以下三项核心突破: 音视频联合理解: 原生支持声音、画面与时序信息的深度融合。模型既能结合场景消解同音词歧义,也能准确理解视觉中的时序指代,让所见、所闻与所说融为一体。 主动的交互能力: 具备持续的环境感知与主动表达",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "SeedRealtime 官方发布日为 2026-08-05，但它是音视频全双工专项模型，不属于本日历的通用旗舰大模型范围。",
+    "reviewed_at": "2026-09-08T09:58:21+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "豆包2.2",
     "vendor": "字节豆包",
     "score": 45,
@@ -414,10 +446,13 @@
         "excerpt": "豆包2.2推迟发布,字节发力Coding与Agent能力补强 TradingView",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "新闻标题明确称豆包 2.2 推迟发布，未找到官方正式发布公告，不能把新闻日期当作模型发布日期。",
+    "reviewed_at": "2026-09-08T09:58:21+00:00",
+    "reviewed_by": "Codex-official-source-review"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "豆包3.0",
     "vendor": "字节豆包",
     "score": 55,
@@ -447,6 +482,9 @@
         "excerpt": "昨夜今晨:嘉博手机APP正式上线 华为麒麟9100发布 字节跳动豆包3.0亮相 比亚迪固态电池量产 小米SU7智驾升级 体坛",
         "checked_at": "2026-09-08T06:57:40+00:00"
       }
-    ]
+    ],
+    "decision_reason": "候选只有非官方聚合新闻，未找到字节 Seed 或火山引擎的豆包 3.0 通用模型正式发布公告，不能确认发布时间。",
+    "reviewed_at": "2026-09-08T09:58:21+00:00",
+    "reviewed_by": "Codex-official-source-review"
   }
 ]
