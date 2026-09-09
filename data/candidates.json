@@ -1,5 +1,42 @@
 [
   {
+    "status": "pending",
+    "model": "DeepSeek V4.1",
+    "vendor": "DeepSeek",
+    "score": 35,
+    "important_minor": true,
+    "title_announcement": false,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-09-08",
+    "published_at": "2026-09-07T20:15:00+00:00",
+    "date_precision": "timestamp",
+    "id": "7ab9fbb2e86b6ca52cfc",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
+    "source_title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36kr.com",
+    "summary": "DeepSeek 发布 DeepSeek V4.1；具体里程碑意义待审核。",
+    "first_seen": "2026-09-09T06:01:52+00:00",
+    "last_seen": "2026-09-09T06:01:52+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
+        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
+        "sha256": "25258ca56e5135c2a3de6d6cbc10274aa4fc3506352bafaa6968252781dfe45b",
+        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36kr.com",
+        "checked_at": "2026-09-09T06:01:52+00:00"
+      }
+    ]
+  },
+  {
     "status": "approved",
     "model": "GPT-5.6 Sol",
     "vendor": "OpenAI",

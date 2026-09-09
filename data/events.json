@@ -1,25 +1,5 @@
 [
   {
-    "id": "d75ba4bf3183812162c4",
-    "vendor": "DeepSeek",
-    "model": "DeepSeek-R1",
-    "release_date": "2025-01-20",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "官方中文发布页标注 2025-01-20；未提供具体时刻。",
-    "summary": "DeepSeek 发布并开源 R1 推理模型，在数学、代码和复杂推理上达到当时闭源旗舰水平。",
-    "source_url": "https://api-docs.deepseek.com/news/news250120/",
-    "sources": [
-      "https://api-docs.deepseek.com/news/news250120/"
-    ],
-    "milestone_reason": "开源推理模型的重要里程碑，官方发布模型、技术报告和 API。",
-    "reviewed_by": "Codex-2025-2026-official-backfill",
-    "created_at": "2026-09-08T10:41:32+00:00",
-    "updated_at": "2026-09-08T10:41:32+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
     "id": "345419e1f559358042f6",
     "vendor": "月之暗面 Kimi",
     "model": "Kimi K1.5",
@@ -33,6 +13,26 @@
       "https://www.kimi.com/en/blog/kimi-k1-5"
     ],
     "milestone_reason": "Kimi 推理模型的重要早期里程碑，官方研究博客公开模型方法与评测。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "d75ba4bf3183812162c4",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-R1",
+    "release_date": "2025-01-20",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方中文发布页标注 2025-01-20；未提供具体时刻。",
+    "summary": "DeepSeek 发布并开源 R1 推理模型，在数学、代码和复杂推理上达到当时闭源旗舰水平。",
+    "source_url": "https://api-docs.deepseek.com/news/news250120/",
+    "sources": [
+      "https://api-docs.deepseek.com/news/news250120/"
+    ],
+    "milestone_reason": "开源推理模型的重要里程碑，官方发布模型、技术报告和 API。",
     "reviewed_by": "Codex-2025-2026-official-backfill",
     "created_at": "2026-09-08T10:41:32+00:00",
     "updated_at": "2026-09-08T10:41:32+00:00",
@@ -582,26 +582,6 @@
     "status": "confirmed"
   },
   {
-    "id": "fb1c546fc04885788cf2",
-    "vendor": "OpenAI",
-    "model": "GPT-5.2-Codex",
-    "release_date": "2025-12-18",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "官方发布页标注 2025-12-18；未提供可核实的具体时刻，按公告日记录。",
-    "summary": "OpenAI 发布 GPT-5.2-Codex，面向长程软件工程、代码重构、迁移和防御性网络安全。",
-    "source_url": "https://openai.com/index/introducing-gpt-5-2-codex/",
-    "sources": [
-      "https://openai.com/index/introducing-gpt-5-2-codex/"
-    ],
-    "milestone_reason": "官方称其为当时最先进的智能体编程模型，属于重要专业旗舰。",
-    "reviewed_by": "Codex-2025-2026-official-backfill",
-    "created_at": "2026-09-08T10:41:32+00:00",
-    "updated_at": "2026-09-08T10:41:32+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
     "id": "8dead3fcefce710274aa",
     "vendor": "字节豆包",
     "model": "Seed1.8",
@@ -615,6 +595,26 @@
       "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model"
     ],
     "milestone_reason": "官方独立发布的通用 Agent 基座，在多模态和真实工作流能力上取得突破。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "fb1c546fc04885788cf2",
+    "vendor": "OpenAI",
+    "model": "GPT-5.2-Codex",
+    "release_date": "2025-12-18",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2025-12-18；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "OpenAI 发布 GPT-5.2-Codex，面向长程软件工程、代码重构、迁移和防御性网络安全。",
+    "source_url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-2-codex/"
+    ],
+    "milestone_reason": "官方称其为当时最先进的智能体编程模型，属于重要专业旗舰。",
     "reviewed_by": "Codex-2025-2026-official-backfill",
     "created_at": "2026-09-08T10:41:32+00:00",
     "updated_at": "2026-09-08T10:41:32+00:00",
@@ -682,26 +682,6 @@
     "status": "confirmed"
   },
   {
-    "id": "b8ea20dbeef9723934ec",
-    "vendor": "Anthropic",
-    "model": "Claude Opus 4.6",
-    "release_date": "2026-02-05",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "官方发布页标注 2026-02-05；未提供可核实的具体时刻，按公告日记录。",
-    "summary": "Anthropic 发布 Claude Opus 4.6，加入百万上下文并强化长程智能体、代码审查、调试和专业工作。",
-    "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
-    "sources": [
-      "https://www.anthropic.com/news/claude-opus-4-6"
-    ],
-    "milestone_reason": "官方称其为当时发布过的最强模型，并在多项评测达到领先水平。",
-    "reviewed_by": "Codex-2025-2026-official-backfill",
-    "created_at": "2026-09-08T10:41:32+00:00",
-    "updated_at": "2026-09-08T10:41:32+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
     "id": "5ecdba70d38549cd707c",
     "vendor": "OpenAI",
     "model": "GPT-5.3-Codex",
@@ -715,6 +695,26 @@
       "https://openai.com/index/introducing-gpt-5-3-codex/"
     ],
     "milestone_reason": "官方称其为当时最强智能体编程模型，并首次按高网络安全能力部署。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b8ea20dbeef9723934ec",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 4.6",
+    "release_date": "2026-02-05",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-02-05；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "Anthropic 发布 Claude Opus 4.6，加入百万上下文并强化长程智能体、代码审查、调试和专业工作。",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-6"
+    ],
+    "milestone_reason": "官方称其为当时发布过的最强模型，并在多项评测达到领先水平。",
     "reviewed_by": "Codex-2025-2026-official-backfill",
     "created_at": "2026-09-08T10:41:32+00:00",
     "updated_at": "2026-09-08T10:41:32+00:00",
@@ -843,26 +843,6 @@
     "status": "confirmed"
   },
   {
-    "id": "d1931c148c3658229871",
-    "vendor": "xAI",
-    "model": "Grok 4.20",
-    "release_date": "2026-04-07",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "官方发布页标注 2026-04-07；未提供可核实的具体时刻，按公告日记录。",
-    "summary": "xAI 发布 Grok 4.20，加入高级推理与多智能体能力，面向通用专业任务提供百万上下文。",
-    "source_url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
-    "sources": [
-      "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf"
-    ],
-    "milestone_reason": "官方模型卡将其定义为最新通用模型，并报告多项前沿评测表现。",
-    "reviewed_by": "Codex-2025-2026-official-backfill",
-    "created_at": "2026-09-08T10:41:32+00:00",
-    "updated_at": "2026-09-08T10:41:32+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
     "id": "abbd4a2949304a0150fa",
     "vendor": "智谱 GLM",
     "model": "GLM-5.1",
@@ -876,6 +856,26 @@
       "https://docs.bigmodel.cn/cn/update/new-releases#2026-04-07"
     ],
     "milestone_reason": "官方明确标注为新一代旗舰模型，并报告长程工程能力跃迁。",
+    "reviewed_by": "Codex-2025-2026-official-backfill",
+    "created_at": "2026-09-08T10:41:32+00:00",
+    "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "d1931c148c3658229871",
+    "vendor": "xAI",
+    "model": "Grok 4.20",
+    "release_date": "2026-04-07",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "官方发布页标注 2026-04-07；未提供可核实的具体时刻，按公告日记录。",
+    "summary": "xAI 发布 Grok 4.20，加入高级推理与多智能体能力，面向通用专业任务提供百万上下文。",
+    "source_url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
+    "sources": [
+      "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf"
+    ],
+    "milestone_reason": "官方模型卡将其定义为最新通用模型，并报告多项前沿评测表现。",
     "reviewed_by": "Codex-2025-2026-official-backfill",
     "created_at": "2026-09-08T10:41:32+00:00",
     "updated_at": "2026-09-08T10:41:32+00:00",
@@ -1126,27 +1126,6 @@
     "status": "confirmed"
   },
   {
-    "id": "a78eb632aa80c47840c0",
-    "vendor": "xAI",
-    "model": "Grok 4.5",
-    "release_date": "2026-07-16",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "xAI 官方首发公告标注 2026-07-16;7 月 28 日是接入 GitHub Copilot的日期,不是模型首发日。",
-    "summary": "xAI 发布 Grok 4.5,定位为面向编程、智能体任务和知识工作的最强模型。",
-    "source_url": "https://x.ai/news/grok-4-5",
-    "sources": [
-      "https://x.ai/news/grok-4-5",
-      "https://x.ai/news/grok-github-copilot"
-    ],
-    "milestone_reason": "官方称其为当时最强、最智能的 Grok 模型,并有独立首发公告。",
-    "reviewed_by": "Codex-official-source-review",
-    "created_at": "2026-09-08T09:58:19+00:00",
-    "updated_at": "2026-09-08T09:58:19+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
     "id": "1f8cc5fa923547548406",
     "vendor": "月之暗面 Kimi",
     "model": "Kimi K3",
@@ -1164,6 +1143,27 @@
     "reviewed_by": "initial-source-review (Codex)",
     "created_at": "2026-09-08T06:53:31+00:00",
     "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "a78eb632aa80c47840c0",
+    "vendor": "xAI",
+    "model": "Grok 4.5",
+    "release_date": "2026-07-16",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "xAI 官方首发公告标注 2026-07-16;7 月 28 日是接入 GitHub Copilot的日期,不是模型首发日。",
+    "summary": "xAI 发布 Grok 4.5,定位为面向编程、智能体任务和知识工作的最强模型。",
+    "source_url": "https://x.ai/news/grok-4-5",
+    "sources": [
+      "https://x.ai/news/grok-4-5",
+      "https://x.ai/news/grok-github-copilot"
+    ],
+    "milestone_reason": "官方称其为当时最强、最智能的 Grok 模型,并有独立首发公告。",
+    "reviewed_by": "Codex-official-source-review",
+    "created_at": "2026-09-08T09:58:19+00:00",
+    "updated_at": "2026-09-08T09:58:19+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -1208,6 +1208,26 @@
     "status": "confirmed"
   },
   {
+    "id": "08071aed7e889a8a6be6",
+    "vendor": "阿里千问",
+    "model": "Qwen3.8",
+    "release_date": "2026-08-12",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_note": "采用官方仓库 News 的 2026-08-12 首发记录；具体时刻未公开。",
+    "summary": "Qwen3.8 首次开放 2.4T-A95B 级别权重，把 Qwen-Max 级能力带入开放模型。",
+    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
+    "sources": [
+      "https://github.com/QwenLM/Qwen3.8#news"
+    ],
+    "milestone_reason": "人工规则例外：官方说明首次开放 Qwen-Max 级模型，属于开放生态里程碑。",
+    "reviewed_by": "initial-source-review (Codex)",
+    "created_at": "2026-09-08T06:53:31+00:00",
+    "updated_at": "2026-09-08T06:53:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "8026ead63e75ef026fae",
     "vendor": "xAI",
     "model": "Grok 4.6",
@@ -1228,26 +1248,6 @@
     "reviewed_by": "Codex-official-source-review",
     "created_at": "2026-09-08T09:58:19+00:00",
     "updated_at": "2026-09-08T09:58:19+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "08071aed7e889a8a6be6",
-    "vendor": "阿里千问",
-    "model": "Qwen3.8",
-    "release_date": "2026-08-12",
-    "published_at": null,
-    "date_precision": "official-date-only",
-    "date_note": "采用官方仓库 News 的 2026-08-12 首发记录；具体时刻未公开。",
-    "summary": "Qwen3.8 首次开放 2.4T-A95B 级别权重，把 Qwen-Max 级能力带入开放模型。",
-    "source_url": "https://github.com/QwenLM/Qwen3.8#news",
-    "sources": [
-      "https://github.com/QwenLM/Qwen3.8#news"
-    ],
-    "milestone_reason": "人工规则例外：官方说明首次开放 Qwen-Max 级模型，属于开放生态里程碑。",
-    "reviewed_by": "initial-source-review (Codex)",
-    "created_at": "2026-09-08T06:53:31+00:00",
-    "updated_at": "2026-09-08T06:53:31+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
