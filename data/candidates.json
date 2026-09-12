@@ -18,7 +18,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-11T06:04:01+00:00",
+    "last_seen": "2026-09-12T05:52:44+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -81,26 +81,6 @@
         "checked_at": "2026-09-11T06:04:01+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
-        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36 Kr",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
-        "sha256": "2f6ced373741a6dcececfe11dc247b77dca1de2d22091a6b35beee7a63cc9138",
-        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36 Kr",
-        "checked_at": "2026-09-11T06:04:01+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
-        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36 Kr",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
-        "sha256": "4ab4bcef526bd311a54df4232598c70c597507a4c39a7e35098b738f782c6a36",
-        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36 Kr",
-        "checked_at": "2026-09-11T06:04:01+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQYUlocnF2MjdKOURTUGFITm1tbzgtcG5Wc1ZqTm9lOTYyNjVOM3NyRUZYVzRTM29obVY1MnJBNXFpbHNZdllQQk5VRFA?oc=5",
         "title": "DeepSeek V4.1 Flash发布:全面超越V4 Pro - 凤凰网科技",
         "official": false,
@@ -109,6 +89,46 @@
         "sha256": "62808044c081cfc913a8aaa1274d83ebf7796e5234e8ea120df67fdb39fbdbf5",
         "excerpt": "DeepSeek V4.1 Flash发布:全面超越V4 Pro 凤凰网科技",
         "checked_at": "2026-09-11T06:04:01+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
+        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
+        "sha256": "51400f7c2b0e4ba60d3af1e3ede8c4f330fa7999d3005e6b651f03400466f2c5",
+        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36kr.com",
+        "checked_at": "2026-09-12T05:52:44+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
+        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
+        "sha256": "25258ca56e5135c2a3de6d6cbc10274aa4fc3506352bafaa6968252781dfe45b",
+        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36kr.com",
+        "checked_at": "2026-09-12T05:52:44+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbHBYNG9zOF8yaW43ekoxaVc0TkVrenlNaHRxV0lYeVBidW1TckgzX2I1VnkxSWF6aVJxMHhUYmZIX194enNqRmFrU1hyUGI1djNV?oc=5",
+        "title": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! - 电子工程专辑",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 11 Sep 2026 10:10:00 GMT",
+        "sha256": "6574644fd0306bedebfcced86a15e8a14925cbc69cf6871153ea88aadede0d5a",
+        "excerpt": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! 电子工程专辑",
+        "checked_at": "2026-09-12T05:52:44+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5scmlBRi1NaUpXeU91NXhFUlpxY09HYWdLTzZWTFpnN0FrYU4yU2JkZk1WcUJmOElzMFloQ1I0UU9td3p4dXJ6dl8xNmk?oc=5",
+        "title": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 - geekpark.net",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 11 Sep 2026 00:33:41 GMT",
+        "sha256": "412d3a008d4c78d664e21f0af0e07723e21b8b84b5d63230a690d6b335cd6102",
+        "excerpt": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 geekpark.net",
+        "checked_at": "2026-09-12T05:52:44+00:00"
       }
     ]
   },
