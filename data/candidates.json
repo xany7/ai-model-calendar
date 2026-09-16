@@ -18,7 +18,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-15T06:11:42+00:00",
+    "last_seen": "2026-09-16T06:06:11+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -112,23 +112,33 @@
       },
       {
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
-        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36kr.com",
+        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36Kr",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
-        "sha256": "51400f7c2b0e4ba60d3af1e3ede8c4f330fa7999d3005e6b651f03400466f2c5",
-        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36kr.com",
-        "checked_at": "2026-09-15T06:11:42+00:00"
+        "sha256": "c839ece9b3ce34989bf32e81056eefd70d5a25a132eff1ce48b8e68c17116b92",
+        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36Kr",
+        "checked_at": "2026-09-16T06:06:11+00:00"
       },
       {
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
-        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36kr.com",
+        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36Kr",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
-        "sha256": "25258ca56e5135c2a3de6d6cbc10274aa4fc3506352bafaa6968252781dfe45b",
-        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36kr.com",
-        "checked_at": "2026-09-15T06:11:42+00:00"
+        "sha256": "d2d80c9dc24533d369be249b94bb666ce079cd0b8a7a8b55bc17fa6a869c5b02",
+        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36Kr",
+        "checked_at": "2026-09-16T06:06:11+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
+        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 03:50:21 GMT",
+        "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
+        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
+        "checked_at": "2026-09-16T06:06:11+00:00"
       }
     ]
   },
