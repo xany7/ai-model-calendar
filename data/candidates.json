@@ -18,7 +18,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-16T06:06:11+00:00",
+    "last_seen": "2026-09-17T06:10:53+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -91,16 +91,6 @@
         "checked_at": "2026-09-12T05:52:44+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTmw3X3hjWjB5TUUtSDlnVHBGQm9hUlRpSEllMVVTQzNlcWt4SC00ZjdDb0ZaSEtpTE53Z2ZzMjdHY1pqNzV6NUt1ZHpDalRuUXBiS3FPZzBwTk0tYlBXMWlZbGZGQ3BrZWxVS0hBS3kza0VjY2haSGVTX2JYbmM?oc=5",
-        "title": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 - 新浪财经",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 05:50:00 GMT",
-        "sha256": "ccaa4c79d6933cd2620813be89cd1c9ea7de758c956e7a5387cc568f24ba0c89",
-        "excerpt": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 新浪财经",
-        "checked_at": "2026-09-14T06:22:29+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ydHp1NkFEejZ2YTdQSHcyWU0xSjIwQ3RrX2hhOVJQY1llWDg1ZnFudjNuTnRKLUwzQ0I3MXY1bDBsRGg2RFNUZ0VJRVY4cHlDenhUODF5VTg?oc=5",
         "title": "DeepSeek V4.1 Flash模型正式发布 - Jiemian.com",
         "official": false,
@@ -111,26 +101,6 @@
         "checked_at": "2026-09-14T06:22:29+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
-        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36Kr",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
-        "sha256": "c839ece9b3ce34989bf32e81056eefd70d5a25a132eff1ce48b8e68c17116b92",
-        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36Kr",
-        "checked_at": "2026-09-16T06:06:11+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
-        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36Kr",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
-        "sha256": "d2d80c9dc24533d369be249b94bb666ce079cd0b8a7a8b55bc17fa6a869c5b02",
-        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36Kr",
-        "checked_at": "2026-09-16T06:06:11+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
         "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
         "official": false,
@@ -139,6 +109,46 @@
         "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
         "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
         "checked_at": "2026-09-16T06:06:11+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
+        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36氪",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
+        "sha256": "79accef3638b9d8e3b7b453f8e068d3637df03003f925121157da70c710c7ff4",
+        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36氪",
+        "checked_at": "2026-09-17T06:10:53+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTmw3X3hjWjB5TUUtSDlnVHBGQm9hUlRpSEllMVVTQzNlcWt4SC00ZjdDb0ZaSEtpTE53Z2ZzMjdHY1pqNzV6NUt1ZHpDalRuUXBiS3FPZzBwTk0tYlBXMWlZbGZGQ3BrZWxVS0hBS3kza0VjY2haSGVTX2JYbmM?oc=5",
+        "title": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 - finance.sina.com.cn",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 05:50:00 GMT",
+        "sha256": "d9404ca177a0618c06b38a025a2d560590bd9bab9ea09cdfc34d734add9010e2",
+        "excerpt": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 finance.sina.com.cn",
+        "checked_at": "2026-09-17T06:10:53+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
+        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36氪",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
+        "sha256": "be70577313b3d5f4cbcb5d01f93309ab7e949b7ef027a28ba50ba89d8fda430e",
+        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36氪",
+        "checked_at": "2026-09-17T06:10:53+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5aSmE2UVg4V0tTTXBSLVlNSGFCRjR6QmdGZm1TSUtQaFJxM1Rrb0VMWVlaZjctZmo4S1kyT2tvN25xbXpFLURzdVRzdy0?oc=5",
+        "title": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro - tech.ifeng.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 09 Sep 2026 07:31:32 GMT",
+        "sha256": "06484b28b15a56b4c32bd5e69f3eaaeccaa64fca40405605afd4e47b301854ca",
+        "excerpt": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro tech.ifeng.com",
+        "checked_at": "2026-09-17T06:10:53+00:00"
       }
     ]
   },
