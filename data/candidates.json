@@ -1,5 +1,68 @@
 [
   {
+    "status": "approved",
+    "model": "Gemini 3.8",
+    "vendor": "Google",
+    "score": 100,
+    "important_minor": true,
+    "title_announcement": true,
+    "reasons": [],
+    "release_date": "2026-09-16",
+    "published_at": "2026-09-15T17:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "d4fc784a2522b6c3131f",
+    "official": true,
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+    "source_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "summary": "Google 发布 Gemini 3.8；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-19T05:57:42+00:00",
+    "last_seen": "2026-09-19T05:57:42+00:00",
+    "evidence": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "official": true,
+        "source_id": "google-models",
+        "raw_date": "2026-09-15T17:00:00+00:00",
+        "sha256": "8792882713629a23666e646cea6901591464826a8792d7239e6897c71c11e083",
+        "excerpt": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Sep 15, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet. Major upgrades in intelligence and parallel reasoning make them more intuitive to collaborate with and us",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Introducing Grok Voice Transcribe 2.0",
+    "vendor": "xAI",
+    "score": 40,
+    "title_announcement": false,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": "2026-09-18",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "285fa5115c9b658b57d9",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-voice-transcribe-2",
+    "source_title": "Introducing Grok Voice Transcribe 2.0",
+    "summary": "xAI 发布 Introducing Grok Voice Transcribe 2.0；具体里程碑意义待审核。",
+    "first_seen": "2026-09-19T05:57:42+00:00",
+    "last_seen": "2026-09-19T05:57:42+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-voice-transcribe-2",
+        "title": "Introducing Grok Voice Transcribe 2.0",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-09-18T00:00:00Z",
+        "sha256": "b697d352514f9262df5da33c413f50c0f7debb53f2ffcf05cf178089e54d276d",
+        "excerpt": "Introducing Grok Voice Transcribe 2.0 | SpaceXAI Back to news Sep 18, 2026 Introducing Grok Voice Transcribe 2.0 Announcing SpaceXAI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness. Try It Live View Docs Today we're releasing Grok Voice Transcribe 2.0, our latest speech-to-text model. A",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      }
+    ]
+  },
+  {
     "status": "pending",
     "model": "DeepSeek-V4.1",
     "vendor": "DeepSeek",
@@ -18,7 +81,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-18T05:58:29+00:00",
+    "last_seen": "2026-09-19T05:57:42+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -51,26 +114,6 @@
         "checked_at": "2026-09-11T06:04:01+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oUlBmLVdacm41WDU2M0FmaWdpcnVWSXM2b20ta1M1eGRyUnd4d0I5SjllQ0N3aEhfYjM0eTBDQjh4VDBqd1V6MHlfVjRyek85dVlzM21HVHM?oc=5",
-        "title": "DeepSeek V4.1 Flash正式发布:性能全面超越V4 Pro 成本更低 - 驱动之家",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 06:43:00 GMT",
-        "sha256": "d262b92b68d778d85032fda8529849923cfedc9e9a32a8b408ec3456b6ee55b9",
-        "excerpt": "DeepSeek V4.1 Flash正式发布:性能全面超越V4 Pro 成本更低 驱动之家",
-        "checked_at": "2026-09-11T06:04:01+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQYUlocnF2MjdKOURTUGFITm1tbzgtcG5Wc1ZqTm9lOTYyNjVOM3NyRUZYVzRTM29obVY1MnJBNXFpbHNZdllQQk5VRFA?oc=5",
-        "title": "DeepSeek V4.1 Flash发布:全面超越V4 Pro - 凤凰网科技",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 05:53:34 GMT",
-        "sha256": "62808044c081cfc913a8aaa1274d83ebf7796e5234e8ea120df67fdb39fbdbf5",
-        "excerpt": "DeepSeek V4.1 Flash发布:全面超越V4 Pro 凤凰网科技",
-        "checked_at": "2026-09-11T06:04:01+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbHBYNG9zOF8yaW43ekoxaVc0TkVrenlNaHRxV0lYeVBidW1TckgzX2I1VnkxSWF6aVJxMHhUYmZIX194enNqRmFrU1hyUGI1djNV?oc=5",
         "title": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! - 电子工程专辑",
         "official": false,
@@ -78,16 +121,6 @@
         "raw_date": "Fri, 11 Sep 2026 10:10:00 GMT",
         "sha256": "6574644fd0306bedebfcced86a15e8a14925cbc69cf6871153ea88aadede0d5a",
         "excerpt": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! 电子工程专辑",
-        "checked_at": "2026-09-12T05:52:44+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5scmlBRi1NaUpXeU91NXhFUlpxY09HYWdLTzZWTFpnN0FrYU4yU2JkZk1WcUJmOElzMFloQ1I0UU9td3p4dXJ6dl8xNmk?oc=5",
-        "title": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 - geekpark.net",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Fri, 11 Sep 2026 00:33:41 GMT",
-        "sha256": "412d3a008d4c78d664e21f0af0e07723e21b8b84b5d63230a690d6b335cd6102",
-        "excerpt": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 geekpark.net",
         "checked_at": "2026-09-12T05:52:44+00:00"
       },
       {
@@ -101,36 +134,6 @@
         "checked_at": "2026-09-14T06:22:29+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
-        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 03:50:21 GMT",
-        "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
-        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
-        "checked_at": "2026-09-16T06:06:11+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTmw3X3hjWjB5TUUtSDlnVHBGQm9hUlRpSEllMVVTQzNlcWt4SC00ZjdDb0ZaSEtpTE53Z2ZzMjdHY1pqNzV6NUt1ZHpDalRuUXBiS3FPZzBwTk0tYlBXMWlZbGZGQ3BrZWxVS0hBS3kza0VjY2haSGVTX2JYbmM?oc=5",
-        "title": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 - finance.sina.com.cn",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 05:50:00 GMT",
-        "sha256": "d9404ca177a0618c06b38a025a2d560590bd9bab9ea09cdfc34d734add9010e2",
-        "excerpt": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 finance.sina.com.cn",
-        "checked_at": "2026-09-17T06:10:53+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5aSmE2UVg4V0tTTXBSLVlNSGFCRjR6QmdGZm1TSUtQaFJxM1Rrb0VMWVlaZjctZmo4S1kyT2tvN25xbXpFLURzdVRzdy0?oc=5",
-        "title": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro - tech.ifeng.com",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Wed, 09 Sep 2026 07:31:32 GMT",
-        "sha256": "06484b28b15a56b4c32bd5e69f3eaaeccaa64fca40405605afd4e47b301854ca",
-        "excerpt": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro tech.ifeng.com",
-        "checked_at": "2026-09-17T06:10:53+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1YY1pfSElhS3hzc2ZXT255X0tWSkdQcFVNc2lmSmUtWm5CQy0xODQzLTQ0cTI3MDF6Mno5bEpKdlpqd3d5N3dXNUM4cw?oc=5",
         "title": "DeepSeek V4.1 Flash 中间版本开启内测 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
         "official": false,
@@ -141,24 +144,94 @@
         "checked_at": "2026-09-18T05:58:29+00:00"
       },
       {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTmw3X3hjWjB5TUUtSDlnVHBGQm9hUlRpSEllMVVTQzNlcWt4SC00ZjdDb0ZaSEtpTE53Z2ZzMjdHY1pqNzV6NUt1ZHpDalRuUXBiS3FPZzBwTk0tYlBXMWlZbGZGQ3BrZWxVS0hBS3kza0VjY2haSGVTX2JYbmM?oc=5",
+        "title": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 05:50:00 GMT",
+        "sha256": "ccaa4c79d6933cd2620813be89cd1c9ea7de758c956e7a5387cc568f24ba0c89",
+        "excerpt": "DeepSeek V4.1 Flash 模型正式发布:全面超越 V4 Pro、原生多模态视觉理解,API 定价下调 新浪财经",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5",
-        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36 Kr",
+        "title": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 - 36Kr",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Wed, 09 Sep 2026 17:12:00 GMT",
-        "sha256": "4ab4bcef526bd311a54df4232598c70c597507a4c39a7e35098b738f782c6a36",
-        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36 Kr",
-        "checked_at": "2026-09-18T05:58:29+00:00"
+        "sha256": "c839ece9b3ce34989bf32e81056eefd70d5a25a132eff1ce48b8e68c17116b92",
+        "excerpt": "DeepSeek V4.1 Flash发布,用pro的能力收flash的钱 36Kr",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oUlBmLVdacm41WDU2M0FmaWdpcnVWSXM2b20ta1M1eGRyUnd4d0I5SjllQ0N3aEhfYjM0eTBDQjh4VDBqd1V6MHlfVjRyek85dVlzM21HVHM?oc=5",
+        "title": "DeepSeek V4.1 Flash正式发布:性能全面超越V4 Pro 成本更低 - 驱动之家",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "d262b92b68d778d85032fda8529849923cfedc9e9a32a8b408ec3456b6ee55b9",
+        "excerpt": "DeepSeek V4.1 Flash正式发布:性能全面超越V4 Pro 成本更低 驱动之家",
+        "checked_at": "2026-09-19T05:57:42+00:00"
       },
       {
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5",
-        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36 Kr",
+        "title": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 - 36Kr",
         "official": false,
         "source_id": "china-news-discovery",
-        "raw_date": "Mon, 07 Sep 2026 20:15:00 GMT",
-        "sha256": "2f6ced373741a6dcececfe11dc247b77dca1de2d22091a6b35beee7a63cc9138",
-        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36 Kr",
-        "checked_at": "2026-09-18T05:58:29+00:00"
+        "raw_date": "Tue, 08 Sep 2026 07:00:00 GMT",
+        "sha256": "d2d80c9dc24533d369be249b94bb666ce079cd0b8a7a8b55bc17fa6a869c5b02",
+        "excerpt": "DeepSeek V4.1 Flash开始限时内测:新架构、原生多模态 36Kr",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5scmlBRi1NaUpXeU91NXhFUlpxY09HYWdLTzZWTFpnN0FrYU4yU2JkZk1WcUJmOElzMFloQ1I0UU9td3p4dXJ6dl8xNmk?oc=5",
+        "title": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 - 极客公园",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "5664a63d43c454fee67cb54a04af86ac20d7b40afed54aa04088a879571b39c3",
+        "excerpt": "DeepSeek V4.1 Flash 发布;罗永浩狂喷苹果折叠屏:全是抄的;马斯克「无聊公司」融资 30 亿美元|极客早知道 极客公园",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQYUlocnF2MjdKOURTUGFITm1tbzgtcG5Wc1ZqTm9lOTYyNjVOM3NyRUZYVzRTM29obVY1MnJBNXFpbHNZdllQQk5VRFA?oc=5",
+        "title": "DeepSeek V4.1 Flash发布:全面超越V4 Pro - 凤凰网科技",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "62808044c081cfc913a8aaa1274d83ebf7796e5234e8ea120df67fdb39fbdbf5",
+        "excerpt": "DeepSeek V4.1 Flash发布:全面超越V4 Pro 凤凰网科技",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
+        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
+        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5aSmE2UVg4V0tTTXBSLVlNSGFCRjR6QmdGZm1TSUtQaFJxM1Rrb0VMWVlaZjctZmo4S1kyT2tvN25xbXpFLURzdVRzdy0?oc=5",
+        "title": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro - 凤凰网科技",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 09 Sep 2026 07:00:00 GMT",
+        "sha256": "b1380630ba70e2b2d11bbc0a0858927ec25b6013bbb55d7612a1353a57800f18",
+        "excerpt": "DeepSeek V4.1 Flash预计9月10日前后发布,性能全面超越V4 Pro 凤凰网科技",
+        "checked_at": "2026-09-19T05:57:42+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1teDBoR21iLVdxZk5WQndaTk1QY3dfN05pYkRRY2t5NEQ1MjR2M2FaUlpmdE9SM2pFaHZ2MGpRRW5XVHdndVEtWWJIeW1wcUFhLWs3MHR2MUI0RDNvUENmMGwtMW9wSGtwd1F1bQ?oc=5",
+        "title": "明日发布!DeepSeek V4.1 Flash来了 - 温州新闻",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 09 Sep 2026 08:57:47 GMT",
+        "sha256": "256428eb1d40a1ffb298a3ca49b2dcdd2a15cdf3a2a0ec91542973f22d026bf3",
+        "excerpt": "明日发布!DeepSeek V4.1 Flash来了 温州新闻",
+        "checked_at": "2026-09-19T05:57:42+00:00"
       }
     ]
   },
