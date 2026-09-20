@@ -380,9 +380,9 @@
     "checked_at": "2026-09-17T06:10:53+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OQVJ0Qjk1dVpzMHZMWnNxaDhQS01FLVJfTmdoWmFna2o4bFF0S1ZHWFU0S1NTaDlNOVExM3daS19jSVExbXFtVDhSb2U4Zw?oc=5": {
-    "fingerprint": "9455c7b9eb6f02eb9c798090bedb41a63345d316d3ba0803d4f470cae37c6d45",
+    "fingerprint": "212c44a45443977676d6fdd9e373a3525c47877929b48436a01277a8f1701a2a",
     "completed": true,
-    "checked_at": "2026-09-19T05:57:42+00:00"
+    "checked_at": "2026-09-20T06:21:36+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMib0FVX3lxTE1hMDF5YTMxNkJ1QTkxY3pvaVMwNURnS1RteG5DaERBUW5reFFZZndxaHljOU16MTlhM2dlVWdQdzN1Sm5yeHluc3JwQ3hHTjNjZjc5a0tZRGhjbEt2Q2RNZENWVEtFdUJfQ2xZam5jRQ?oc=5": {
     "fingerprint": "f5b944bb675fd160c8f6ba23a6959070cda01c21abf908240db94c569f7fc790",
@@ -470,9 +470,9 @@
     "checked_at": "2026-09-19T05:57:42+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5": {
-    "fingerprint": "e72d73439865989abdf50b25269f06c298691ea9ad90d069637da9f398f706df",
+    "fingerprint": "7d80a40863d185e9ab7e0b4c4f606a1a7f49f879fffa24b161d6ec00a1026066",
     "completed": true,
-    "checked_at": "2026-09-19T05:57:42+00:00"
+    "checked_at": "2026-09-20T06:21:36+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQYUlocnF2MjdKOURTUGFITm1tbzgtcG5Wc1ZqTm9lOTYyNjVOM3NyRUZYVzRTM29obVY1MnJBNXFpbHNZdllQQk5VRFA?oc=5": {
     "fingerprint": "a5fa37f3b545dbd9bee3ece3d0c8849b1d70cd016ba4a5de6f770c0d35e1c998",
@@ -593,5 +593,25 @@
     "fingerprint": "f6f084e9f21eb58994d0e1cd1d65d1632d1d472e756ec9b0b8d19eac0814d986",
     "completed": true,
     "checked_at": "2026-09-19T05:57:42+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNeHRadzBjOWZRcGxtNnhpUDVNMUI2Z3Y0MFRTOGhUVy0xaml0UV9FcENjbTZVZmRPeXJNRW1jbWRzRjlOVDh4OXNYUUg1NS0zajhFTWJBQmRuX1hic3c?oc=5": {
+    "fingerprint": "f89c70c933dd10288464da3ff6e1d4b4751dfe143f2a3b6a8ddc99d49bfd171c",
+    "completed": true,
+    "checked_at": "2026-09-20T06:21:36+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5": {
+    "fingerprint": "b8e8e6b847a82ea97171848fac3364d2a01e774c0a926a99e700fab6de0246e7",
+    "completed": true,
+    "checked_at": "2026-09-20T06:21:36+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qN3hjYTFDbF9aQWYwdlJ2TzhrUWRLUmZMY2ljQ1hIYUd6TmZzak5SOExBNUlsaDYySEFSbHBFb3lsOXdQVEhaNkhJNkRaQQ?oc=5": {
+    "fingerprint": "948f5afa6c72615ba97b720837e42c5050f770e875d8e8a7736ddda964d192bc",
+    "completed": true,
+    "checked_at": "2026-09-20T06:21:36+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiqAVBVV95cUxNX1g1WUNla2VsZlRWWDN4SnctTUFHdGpFTVNzODFSM2xsTnFfN2E5bjFTVlZxdFVQRlZRWm5mdVJNN3YxX1pIUG51Q1p3TkxqMWJlb20za2xTRndaV0N4R1FxQzhYZjJ2WE9yMlBZV3BsUkdXaFlWdlc2MnBEWkVpYjNsbWFWbXZ3NnYya1Z3YmFISU9uTDcxU0xKUUE3bkZ1OXdsT1pTU2duWlNVajRWRVF3QzEwdEthVDRFcjhGQzQtMU1zbEd2enRCeFdLdThHY3JmdmQzTXpuMWkxalN6akUweU5tMnN4Q1ljZTZINnk5dG9EZWFLXy0yRjRzZGljQ3FsTU15SUJzNnhDa2ZLbTJJVGNPR3ZlbHNIcjhnQ3JOb2JKX2hPcFFDaWN4OFF2UHNBWUF2SlJTbHVqSzdfSmZCZjMxSjJMOVF3bDJqeFpESnhaV0s3bkctRGZ3VzJaSUU4akxCdXVhMjJGYk4zeEVwWnZRMnlUb205TVIxUHowUi1KX0FfQU9fTzZoLUlsVkZHdHkyYkZib3ZFNTg4TExzQ05WbGQ3SWRVV0JlMHRJMFdoSEhRdDR3dmlOZ2VkQ0dnZHdFX0V2WFp1SnZKdzZ0dHJTQzRJb3ZJSkk2b2VvX3NTMy1DSkVrenRLZ3l1UHV0VWdyREtHMzVONHlqN0FUaXJ6VFNfUlhldG1oNVVUWFFmTFcxTDlUdEpGSUN4ZXRHS1lRWmIwY0ZiZmduQlpleUpCbHlQWVd0Mmg0RHQyWjNFWk03S3Jlb1Z1NjZHZ3JkWjJmMS11dXZ5RUZQRkxBbDZzdTNPTllEcTByYlJySDBXQXlGTkhEMmhvU3BUMm5WMGUxSFFScHoyeVJEaEF4MlE3cjBUbzN1eGYxaXlhVElpT0s3Ng?oc=5": {
+    "fingerprint": "a793419381a1d7c90e88423c7ffb66f0be3e3ea1928608556e80a9396c83e966",
+    "completed": true,
+    "checked_at": "2026-09-20T06:21:36+00:00"
   }
 }
