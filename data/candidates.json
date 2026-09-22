@@ -1,5 +1,38 @@
 [
   {
+    "status": "pending",
+    "model": "Grok 4.7",
+    "vendor": "xAI",
+    "score": 85,
+    "important_minor": true,
+    "title_announcement": true,
+    "reasons": [
+      "发布日期无可核实的非占位时间戳；需确认日期口径。"
+    ],
+    "release_date": "2026-09-21",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "4aa17df9488756fcc680",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-4-7",
+    "source_title": "Introducing Grok 4.7",
+    "summary": "xAI 发布 Grok 4.7；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-22T06:18:19+00:00",
+    "last_seen": "2026-09-22T06:18:19+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-4-7",
+        "title": "Introducing Grok 4.7",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-09-21T00:00:00Z",
+        "sha256": "98e35138c836217569eda32a201313336cceb14030b1daee945551949739c748",
+        "excerpt": "Introducing Grok 4.7 | SpaceXAI Back to news Sep 21, 2026 Introducing Grok 4.7 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models. Try for free Start building Grok 4.7 is our most capable model for coding and knowledge work. It works longer on difficult t",
+        "checked_at": "2026-09-22T06:18:19+00:00"
+      }
+    ]
+  },
+  {
     "status": "approved",
     "model": "Gemini 3.8",
     "vendor": "Google",

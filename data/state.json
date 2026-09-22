@@ -623,5 +623,15 @@
     "fingerprint": "9c1aec700c6b3fec4a1e63b68bda21b3accbafdbb2f6e01cfb5a9ccf7692b8ce",
     "completed": true,
     "checked_at": "2026-09-21T06:25:42+00:00"
+  },
+  "openai-rss|https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
+    "fingerprint": "1aed899f4584a617d8ff9092c3f33a04c3fd626fb5ad985541911b655ce6e171",
+    "completed": true,
+    "checked_at": "2026-09-22T06:18:19+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-4-7": {
+    "fingerprint": "a7bd2862c34761b3d630f158f27328e36d2276df08d3ea2b3ebdc336a4ef10fc",
+    "completed": true,
+    "checked_at": "2026-09-22T06:18:19+00:00"
   }
 }
