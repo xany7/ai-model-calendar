@@ -1,6 +1,105 @@
 [
   {
     "status": "pending",
+    "model": "GPT-6",
+    "vendor": "OpenAI",
+    "score": 65,
+    "important_minor": false,
+    "title_announcement": false,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-09-23",
+    "published_at": "2026-09-22T21:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "fd953d8efbd93e7bb792",
+    "official": true,
+    "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "source_title": "Better prompt caching for GPT-6",
+    "summary": "OpenAI 发布 GPT-6；具体里程碑意义待审核。",
+    "first_seen": "2026-09-23T06:02:12+00:00",
+    "last_seen": "2026-09-23T06:02:12+00:00",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+        "title": "Better prompt caching for GPT-6",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Tue, 22 Sep 2026 21:00:00 GMT",
+        "sha256": "4861198fb158097b67e623050039af877657077d2935f9b558c1fea0c036d5e2",
+        "excerpt": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+        "checked_at": "2026-09-23T06:02:12+00:00"
+      }
+    ]
+  },
+  {
+    "status": "approved",
+    "model": "GPT-6 Sol",
+    "vendor": "OpenAI",
+    "score": 100,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [],
+    "release_date": "2026-09-23",
+    "published_at": "2026-09-22T18:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "83cb98ee61651bb73d7a",
+    "official": true,
+    "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "source_title": "Introducing GPT-6 Sol and Luna",
+    "summary": "OpenAI 发布 GPT-6 Sol；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-23T06:02:12+00:00",
+    "last_seen": "2026-09-23T06:02:12+00:00",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Tue, 22 Sep 2026 18:00:00 GMT",
+        "sha256": "ce04fd7a964d5d596076b142987bc6215c70c83d85f26d0c2ad37cafcd2ec139",
+        "excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "checked_at": "2026-09-23T06:02:12+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Claude Opus 5.5",
+    "vendor": "Anthropic",
+    "score": 85,
+    "important_minor": true,
+    "title_announcement": true,
+    "reasons": [
+      "发布日期无可核实的非占位时间戳；需确认日期口径。"
+    ],
+    "release_date": "2026-09-22",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "e96436c837decf8735c1",
+    "official": true,
+    "source_url": "https://www.anthropic.com/claude-opus-5-5",
+    "source_title": "Claude Opus 5.5",
+    "summary": "Anthropic 发布 Claude Opus 5.5；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-23T06:02:12+00:00",
+    "last_seen": "2026-09-23T06:02:12+00:00",
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "title": "Claude Opus 5.5",
+        "official": true,
+        "source_id": "anthropic-news",
+        "raw_date": "September 22, 2026",
+        "sha256": "617273a06dc424696804f6b89dd6c36dee23d4a2fe0adc26ac1ee31706e82f6d",
+        "excerpt": "Claude Opus 5.5 September 22, 2026 Scroll down We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier . It was tested be",
+        "checked_at": "2026-09-23T06:02:12+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Grok 4.7",
     "vendor": "xAI",
     "score": 85,
@@ -114,7 +213,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-21T06:25:42+00:00",
+    "last_seen": "2026-09-23T06:02:12+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -145,16 +244,6 @@
         "sha256": "9485831d73e2e8699e18d72b447a49a38c25fc77c67deac5ede86fcd8e26ef06",
         "excerpt": "启境回应媒体群误发小米澎程攻防内容;DeepSeek V4.1 Flash 模型发布;美的回应洗衣机联网19 小时|Do早报 DoNews",
         "checked_at": "2026-09-11T06:04:01+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbHBYNG9zOF8yaW43ekoxaVc0TkVrenlNaHRxV0lYeVBidW1TckgzX2I1VnkxSWF6aVJxMHhUYmZIX194enNqRmFrU1hyUGI1djNV?oc=5",
-        "title": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! - 电子工程专辑",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Fri, 11 Sep 2026 10:10:00 GMT",
-        "sha256": "6574644fd0306bedebfcced86a15e8a14925cbc69cf6871153ea88aadede0d5a",
-        "excerpt": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! 电子工程专辑",
-        "checked_at": "2026-09-12T05:52:44+00:00"
       },
       {
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1YY1pfSElhS3hzc2ZXT255X0tWSkdQcFVNc2lmSmUtWm5CQy0xODQzLTQ0cTI3MDF6Mno5bEpKdlpqd3d5N3dXNUM4cw?oc=5",
@@ -287,14 +376,24 @@
         "checked_at": "2026-09-21T06:25:42+00:00"
       },
       {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbHBYNG9zOF8yaW43ekoxaVc0TkVrenlNaHRxV0lYeVBidW1TckgzX2I1VnkxSWF6aVJxMHhUYmZIX194enNqRmFrU1hyUGI1djNV?oc=5",
+        "title": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! - 电子工程专辑",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 11 Sep 2026 07:00:00 GMT",
+        "sha256": "6574644fd0306bedebfcced86a15e8a14925cbc69cf6871153ea88aadede0d5a",
+        "excerpt": "DeepSeek V4.1 Flash 发布:更小、更快、更省的下一代多模态模型! 电子工程专辑",
+        "checked_at": "2026-09-23T06:02:12+00:00"
+      },
+      {
         "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
-        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - 新浪财经",
+        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - finance.sina.com.cn",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Wed, 16 Sep 2026 07:00:00 GMT",
-        "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
-        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
-        "checked_at": "2026-09-21T06:25:42+00:00"
+        "sha256": "558b24369c739960af8a194f6fd9e515c55b9df467162c4324633befb166efb1",
+        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 finance.sina.com.cn",
+        "checked_at": "2026-09-23T06:02:12+00:00"
       }
     ]
   },
