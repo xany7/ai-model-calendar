@@ -213,7 +213,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-24T06:13:07+00:00",
+    "last_seen": "2026-09-25T06:11:05+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -356,16 +356,6 @@
         "checked_at": "2026-09-21T06:25:42+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
-        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - InfoQ-CN",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sha256": "589d39522766aec7d3419726b7fe9b6025a076f231703d743bfa3bf48caecf05",
-        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache InfoQ-CN",
-        "checked_at": "2026-09-21T06:25:42+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ydHp1NkFEejZ2YTdQSHcyWU0xSjIwQ3RrX2hhOVJQY1llWDg1ZnFudjNuTnRKLUwzQ0I3MXY1bDBsRGg2RFNUZ0VJRVY4cHlDenhUODF5VTg?oc=5",
         "title": "DeepSeek V4.1 Flash模型正式发布 - Jiemian.com",
         "official": false,
@@ -394,6 +384,16 @@
         "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
         "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
         "checked_at": "2026-09-24T06:13:07+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
+        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - infoq.cn",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "08765c10c9660ef4d70ad50f564826e9bf6ad952e69b3f40fa28aa30f5ce83ea",
+        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache infoq.cn",
+        "checked_at": "2026-09-25T06:11:05+00:00"
       }
     ]
   },

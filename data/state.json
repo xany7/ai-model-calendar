@@ -600,9 +600,9 @@
     "checked_at": "2026-09-20T06:21:36+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5": {
-    "fingerprint": "0e0c7000d70cfee32974349d828ac2bc1a7ff581af7c00a1465afd94d06394ea",
+    "fingerprint": "130f2e31a072bf3ba0644d772c3480abad2f32cd7a1eb819ab341a1519b37ce4",
     "completed": true,
-    "checked_at": "2026-09-21T06:25:42+00:00"
+    "checked_at": "2026-09-25T06:11:05+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qN3hjYTFDbF9aQWYwdlJ2TzhrUWRLUmZMY2ljQ1hIYUd6TmZzak5SOExBNUlsaDYySEFSbHBFb3lsOXdQVEhaNkhJNkRaQQ?oc=5": {
     "fingerprint": "948f5afa6c72615ba97b720837e42c5050f770e875d8e8a7736ddda964d192bc",
@@ -678,5 +678,10 @@
     "fingerprint": "8b329a6044b543692a8b17606804b195f09484dd49a222f3a570afb7c0563f25",
     "completed": true,
     "checked_at": "2026-09-24T06:13:07+00:00"
+  },
+  "verge-ai|https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face": {
+    "fingerprint": "4a1a5bc91f04664f34dde1f11e71eab4064e752b5d7d3dd4382a8c68182605bd",
+    "completed": true,
+    "checked_at": "2026-09-25T06:11:05+00:00"
   }
 }
