@@ -683,5 +683,20 @@
     "fingerprint": "4a1a5bc91f04664f34dde1f11e71eab4064e752b5d7d3dd4382a8c68182605bd",
     "completed": true,
     "checked_at": "2026-09-25T06:11:05+00:00"
+  },
+  "openai-rss|https://openai.com/index/v7": {
+    "fingerprint": "76b33d008369d133c734d656b9f0f158792eac4a886542270d1298da6a9021d7",
+    "completed": true,
+    "checked_at": "2026-09-26T06:11:15+00:00"
+  },
+  "google-models|https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar": {
+    "fingerprint": "ea53fa28c79d17439efded077c54c5a53744014d71b468e21a6923f6a37f4932",
+    "completed": true,
+    "checked_at": "2026-09-26T06:11:15+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTEFVX3lxTE9GUGNGdUlVNnlzQm9LcjE1dUVJTjhoanlEZHc0U0JsdGxaMEN1azJBSHFtaXQ1WldMUDd2WTJwOGRyUUoyWEY0S0FuaFM?oc=5": {
+    "fingerprint": "eb193ce52dc3ada9acd0283d4ad4f8f3d89fdf7fcc08877387a59c97c27a11b9",
+    "completed": true,
+    "checked_at": "2026-09-26T06:11:15+00:00"
   }
 }
