@@ -20,7 +20,7 @@
     "source_title": "Better prompt caching for GPT-6",
     "summary": "OpenAI 发布 GPT-6；具体里程碑意义待审核。",
     "first_seen": "2026-09-23T06:02:12+00:00",
-    "last_seen": "2026-09-23T06:02:12+00:00",
+    "last_seen": "2026-09-28T07:00:14+00:00",
     "evidence": [
       {
         "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -31,6 +31,16 @@
         "sha256": "4861198fb158097b67e623050039af877657077d2935f9b558c1fea0c036d5e2",
         "excerpt": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
         "checked_at": "2026-09-23T06:02:12+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CMDVEcWRGYlN1VnREN25WdXdPcmgyVF9nVzRhUWFJend1alBMSTNHVE1vbklHQlRQT0Riek81OEIzdDk5Q1Q2S2tzTUl1UQ?oc=5",
+        "title": "刚刚,GPT-6 新模型掀桌,「白菜价」杀进 DeepSeek 腹地 - 36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Tue, 22 Sep 2026 11:22:00 GMT",
+        "sha256": "c4f2ae71a146ff4c4bac0174541113898c0d2e5285e98ca8b51d20019f35aecd",
+        "excerpt": "刚刚,GPT-6 新模型掀桌,「白菜价」杀进 DeepSeek 腹地 36kr.com",
+        "checked_at": "2026-09-28T07:00:14+00:00"
       }
     ]
   },
@@ -213,7 +223,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-27T06:39:01+00:00",
+    "last_seen": "2026-09-28T07:00:14+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -386,14 +396,34 @@
         "checked_at": "2026-09-27T06:39:01+00:00"
       },
       {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOOU9XV0FjNlduajViY09JQ093WWM5Umc1OGRqTS1RendCRkVONGNxdVF4ekY1NE0tclpJY1hGSS1LalQtRUJpNnZQMEtwN3FfYl9iQzFoc2xZNktjUEtqdjdn?oc=5",
+        "title": "DeepSeek V4.1 Pro被曝已开始灰度测试 - 观点网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 06:54:48 GMT",
+        "sha256": "6a7fd215d43b0d1efc6d04a2affb815d501266cb92007ffe8bde95937fa8daf2",
+        "excerpt": "DeepSeek V4.1 Pro被曝已开始灰度测试 观点网",
+        "checked_at": "2026-09-28T07:00:14+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kRVIybGRPUXhTaFA5TzJGMjRDNWlmaTJ3aFdTRFpocHBlTTdSM19OV2hYWGVldkFuUzlGeWFGT1ZtRXFUN2VzU0dvbkNJMzVfVG9FTUpURVk?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 驱动之家",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 06:14:00 GMT",
+        "sha256": "eea7310957481333f755f4558fee95a5a663459d4a7d43c848e533be702d37e6",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 驱动之家",
+        "checked_at": "2026-09-28T07:00:14+00:00"
+      },
+      {
         "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
-        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - finance.sina.com.cn",
+        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - 新浪财经",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Wed, 16 Sep 2026 07:00:00 GMT",
-        "sha256": "558b24369c739960af8a194f6fd9e515c55b9df467162c4324633befb166efb1",
-        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 finance.sina.com.cn",
-        "checked_at": "2026-09-27T06:39:01+00:00"
+        "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
+        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
+        "checked_at": "2026-09-28T07:00:14+00:00"
       }
     ]
   },
