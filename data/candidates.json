@@ -1,6 +1,75 @@
 [
   {
     "status": "pending",
+    "model": "Claude Sonnet 5.5",
+    "vendor": "Anthropic",
+    "score": 85,
+    "important_minor": true,
+    "title_announcement": true,
+    "reasons": [
+      "发布日期无可核实的非占位时间戳；需确认日期口径。"
+    ],
+    "release_date": "2026-09-28",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "a0de92dfb05a244e94cd",
+    "official": true,
+    "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "source_title": "Claude Sonnet 5.5",
+    "summary": "Anthropic 发布 Claude Sonnet 5.5；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-09-29T06:58:57+00:00",
+    "last_seen": "2026-09-29T06:58:57+00:00",
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/claude-sonnet-5-5",
+        "title": "Claude Sonnet 5.5",
+        "official": true,
+        "source_id": "anthropic-news",
+        "raw_date": "September 28, 2026",
+        "sha256": "d7b11724c1d51316324cd250df3ac3723f6d8553c5c6002913679182f9836f79",
+        "excerpt": "Claude Sonnet 5.5 September 28, 2026 Skip intro Scroll down Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work. Sonnet 5.5 is a faster, lower-cost complement to Claude Opus 5.5. Where Opus 5.5 is b",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "豆包大模型 1.8",
+    "vendor": "字节豆包",
+    "score": 45,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-28",
+    "published_at": "2026-09-28T12:48:51+00:00",
+    "date_precision": "timestamp",
+    "id": "f9c511bfebe256c081e7",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0tUWZYZFhzbkZMRHBJQ0R2TVZsZ0EzUGZkd0swc1o1RVpGRHJsOHIxOXVlTVhna1oxck5SNURsdHNzdVZHUF9aMjR3bWE?oc=5",
+    "source_title": "豆包大模型 1.8 发布,通用 Agent 模型成为了 AI 行业的新叙事 - 极客公园",
+    "summary": "字节豆包 发布 豆包大模型 1.8；具体里程碑意义待审核。",
+    "first_seen": "2026-09-29T06:58:57+00:00",
+    "last_seen": "2026-09-29T06:58:57+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0tUWZYZFhzbkZMRHBJQ0R2TVZsZ0EzUGZkd0swc1o1RVpGRHJsOHIxOXVlTVhna1oxck5SNURsdHNzdVZHUF9aMjR3bWE?oc=5",
+        "title": "豆包大模型 1.8 发布,通用 Agent 模型成为了 AI 行业的新叙事 - 极客公园",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 12:48:51 GMT",
+        "sha256": "d7d0fb71f4c888bec03d5d85fea22702cc40df1b91ebdd6901240ddf5838674c",
+        "excerpt": "豆包大模型 1.8 发布,通用 Agent 模型成为了 AI 行业的新叙事 极客公园",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "GPT-6",
     "vendor": "OpenAI",
     "score": 65,
@@ -223,7 +292,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-28T07:00:14+00:00",
+    "last_seen": "2026-09-29T06:58:57+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -293,16 +362,6 @@
         "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
         "sha256": "62808044c081cfc913a8aaa1274d83ebf7796e5234e8ea120df67fdb39fbdbf5",
         "excerpt": "DeepSeek V4.1 Flash发布:全面超越V4 Pro 凤凰网科技",
-        "checked_at": "2026-09-19T05:57:42+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
-        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
-        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
         "checked_at": "2026-09-19T05:57:42+00:00"
       },
       {
@@ -386,16 +445,6 @@
         "checked_at": "2026-09-27T06:39:01+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
-        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - InfoQ-CN",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sha256": "589d39522766aec7d3419726b7fe9b6025a076f231703d743bfa3bf48caecf05",
-        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache InfoQ-CN",
-        "checked_at": "2026-09-27T06:39:01+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOOU9XV0FjNlduajViY09JQ093WWM5Umc1OGRqTS1RendCRkVONGNxdVF4ekY1NE0tclpJY1hGSS1LalQtRUJpNnZQMEtwN3FfYl9iQzFoc2xZNktjUEtqdjdn?oc=5",
         "title": "DeepSeek V4.1 Pro被曝已开始灰度测试 - 观点网",
         "official": false,
@@ -416,14 +465,64 @@
         "checked_at": "2026-09-28T07:00:14+00:00"
       },
       {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqM0RLZmNRelJwSlpOd2xJeV81R1piamFlV2ZmWFlNS1Q2SUd5OUJ4ZkV6cHc0bTN4cTFvbDA2TGstNmlMWnRXOEZfbnZzQQ?oc=5",
+        "title": "DeepSeek V4.1 Pro被曝已开始灰度测试 - 观点网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 06:54:48 GMT",
+        "sha256": "6a7fd215d43b0d1efc6d04a2affb815d501266cb92007ffe8bde95937fa8daf2",
+        "excerpt": "DeepSeek V4.1 Pro被曝已开始灰度测试 观点网",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
+        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - infoq.cn",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "08765c10c9660ef4d70ad50f564826e9bf6ad952e69b3f40fa28aa30f5ce83ea",
+        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache infoq.cn",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
+        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - mtz.china.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "d35cc7c21515a4ee5d2362ea0cf07fc1b6ffffa554532c01ea9f09f2edaa2f8c",
+        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 mtz.china.com",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
         "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
-        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - 新浪财经",
+        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - finance.sina.com.cn",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Wed, 16 Sep 2026 07:00:00 GMT",
-        "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
-        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
-        "checked_at": "2026-09-28T07:00:14+00:00"
+        "sha256": "558b24369c739960af8a194f6fd9e515c55b9df467162c4324633befb166efb1",
+        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 finance.sina.com.cn",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 06:14:00 GMT",
+        "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
+        "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42SkljN2Y5Q0pYMTM3U0p2Z0RjZkJTNUw0blRzMzdUY19PTnBoYTVzaXhJTGo1VERoUHBNQUJ1dzVxS2tRQU1pZzV1WTh3MTBUMU5FSHZyT2NGQXYxOE04Ylp5OWRFVmVVcVp6dXYxT1ZveU1FM2F0ZDBtNFg4czA?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:45:00 GMT",
+        "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
+        "checked_at": "2026-09-29T06:58:57+00:00"
       }
     ]
   },
