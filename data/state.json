@@ -530,9 +530,9 @@
     "checked_at": "2026-09-16T06:06:11+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5": {
-    "fingerprint": "b98b6aa264eeefc315a40894478b6c918e9cf97c9386fd4d7a9c77173af458b0",
+    "fingerprint": "316354e75df85db5661c5a42d6f173f48eb0b41356205e4c200f82187dc3c734",
     "completed": true,
-    "checked_at": "2026-09-29T06:58:57+00:00"
+    "checked_at": "2026-09-30T06:47:35+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4c3dEVndZcDJKcmJ0TjhUMDZlSW5jSWJWNmVTUVJIeXZFZEZEQ3lyLXpUSm1JRjhfOVBsSzZEWlVQMGJkQURmSDE1eEtfZFZhUlF3MjFKSGNwelF4NTA1ck93?oc=5": {
     "fingerprint": "1703a0f8adda381b8fe210c1a5a522e4c70d77cf14a6b90da2e802fc870e60b4",
@@ -600,9 +600,9 @@
     "checked_at": "2026-09-20T06:21:36+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5": {
-    "fingerprint": "130f2e31a072bf3ba0644d772c3480abad2f32cd7a1eb819ab341a1519b37ce4",
+    "fingerprint": "0e0c7000d70cfee32974349d828ac2bc1a7ff581af7c00a1465afd94d06394ea",
     "completed": true,
-    "checked_at": "2026-09-29T06:58:57+00:00"
+    "checked_at": "2026-09-30T06:47:35+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qN3hjYTFDbF9aQWYwdlJ2TzhrUWRLUmZMY2ljQ1hIYUd6TmZzak5SOExBNUlsaDYySEFSbHBFb3lsOXdQVEhaNkhJNkRaQQ?oc=5": {
     "fingerprint": "948f5afa6c72615ba97b720837e42c5050f770e875d8e8a7736ddda964d192bc",
@@ -758,5 +758,20 @@
     "fingerprint": "d69332e300915d9bf773760f68152ff5d915c4bfd8e9b6155bdfd39e0c1a55c6",
     "completed": true,
     "checked_at": "2026-09-29T06:58:57+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-gpt-6-1-sol": {
+    "fingerprint": "404b9e7e0519a76268c39b0281fdfca523af9fab0d80b8ae15884e22051705a3",
+    "completed": true,
+    "checked_at": "2026-09-30T06:47:35+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-dots": {
+    "fingerprint": "3cb6bbf6447823133f92b0350a108e33d500256311818a0b87dd10c39560ce58",
+    "completed": true,
+    "checked_at": "2026-09-30T06:47:35+00:00"
+  },
+  "techcrunch-ai|https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less": {
+    "fingerprint": "9a8760ec8192a56c40067c8924dfd403645a01e61f9b7b16e29327729132815a",
+    "completed": true,
+    "checked_at": "2026-09-30T06:47:35+00:00"
   }
 }

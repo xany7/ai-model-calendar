@@ -1,6 +1,50 @@
 [
   {
     "status": "pending",
+    "model": "GPT-6.1 Sol",
+    "vendor": "OpenAI",
+    "score": 75,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。"
+    ],
+    "release_date": "2026-09-29",
+    "published_at": "2026-09-29T10:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "5c23ed75767a91d03911",
+    "official": true,
+    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "source_title": "Introducing GPT-6.1 Sol",
+    "summary": "OpenAI 发布 GPT-6.1 Sol；具体里程碑意义待审核。",
+    "first_seen": "2026-09-30T06:47:35+00:00",
+    "last_seen": "2026-09-30T06:47:35+00:00",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "title": "Introducing GPT-6.1 Sol",
+        "official": true,
+        "source_id": "openai-rss",
+        "raw_date": "Tue, 29 Sep 2026 10:00:00 GMT",
+        "sha256": "0bc032b00450588ff42a0b6b586fdbf3c9ef827a597df576bef5e3185b2ed53a",
+        "excerpt": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "checked_at": "2026-09-30T06:47:35+00:00"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less",
+        "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+        "official": false,
+        "source_id": "techcrunch-ai",
+        "raw_date": "Tue, 29 Sep 2026 17:15:00 +0000",
+        "sha256": "9bea0340df77e78dcd931f465b32e34a45539c73d3e34a965351735001c96120",
+        "excerpt": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
+        "checked_at": "2026-09-30T06:47:35+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Claude Sonnet 5.5",
     "vendor": "Anthropic",
     "score": 85,
@@ -292,7 +336,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-29T06:58:57+00:00",
+    "last_seen": "2026-09-30T06:47:35+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -475,26 +519,6 @@
         "checked_at": "2026-09-29T06:58:57+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
-        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - infoq.cn",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sha256": "08765c10c9660ef4d70ad50f564826e9bf6ad952e69b3f40fa28aa30f5ce83ea",
-        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache infoq.cn",
-        "checked_at": "2026-09-29T06:58:57+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
-        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - mtz.china.com",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "sha256": "d35cc7c21515a4ee5d2362ea0cf07fc1b6ffffa554532c01ea9f09f2edaa2f8c",
-        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 mtz.china.com",
-        "checked_at": "2026-09-29T06:58:57+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
         "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - finance.sina.com.cn",
         "official": false,
@@ -523,6 +547,26 @@
         "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
         "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
         "checked_at": "2026-09-29T06:58:57+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NbUxXWlpXWnBtcUxVOUQ4SkxWX3ZIZ0t5czRWQVFrT0dyaTItMkliOGtVN2dCdXU2VVdwaldBc1RSWjFqT1J5XzJOUU56TXFDODlUcXV1cmt5UQ?oc=5",
+        "title": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache - InfoQ-CN",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "589d39522766aec7d3419726b7fe9b6025a076f231703d743bfa3bf48caecf05",
+        "excerpt": "参数几乎翻倍,推理反而更省:DeepSeek V4.1-Flash 重构 KV Cache InfoQ-CN",
+        "checked_at": "2026-09-30T06:47:35+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oeFowVkZlNThVYjdPZTZUMEhHNGRPYmNMeW1OYm55VmotN3pxNThFbnhSSlNwYVpLSVdtTmE0VEFES193M1FtQWJJYzlHblc1dkQwRVd3eGpIcUxLYTlMOExXUTdhdw?oc=5",
+        "title": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 - 中华网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
+        "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
+        "checked_at": "2026-09-30T06:47:35+00:00"
       }
     ]
   },
