@@ -710,9 +710,9 @@
     "checked_at": "2026-09-28T07:00:14+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CMDVEcWRGYlN1VnREN25WdXdPcmgyVF9nVzRhUWFJend1alBMSTNHVE1vbklHQlRQT0Riek81OEIzdDk5Q1Q2S2tzTUl1UQ?oc=5": {
-    "fingerprint": "6d869df832b62a134b48fee6cce3822d572e66abe754e2c32b7168434803ade6",
+    "fingerprint": "084086a4904ee8dbfc086f282551800fbdfcc8d4ed347c77d4c7179bf9e0e48d",
     "completed": true,
-    "checked_at": "2026-09-28T07:00:14+00:00"
+    "checked_at": "2026-10-01T07:12:53+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kRVIybGRPUXhTaFA5TzJGMjRDNWlmaTJ3aFdTRFpocHBlTTdSM19OV2hYWGVldkFuUzlGeWFGT1ZtRXFUN2VzU0dvbkNJMzVfVG9FTUpURVk?oc=5": {
     "fingerprint": "7d1ed4c09fc2c0bbeda79760ef0ae618db3a9dd8d8fa5b5c2358e41016b8d5ab",
@@ -773,5 +773,25 @@
     "fingerprint": "9a8760ec8192a56c40067c8924dfd403645a01e61f9b7b16e29327729132815a",
     "completed": true,
     "checked_at": "2026-09-30T06:47:35+00:00"
+  },
+  "google-models|https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon": {
+    "fingerprint": "a1edb637185b7ed265111d2f7d7f8c0cd9ec7a66afc16d0faf6f40b00e5a4323",
+    "completed": true,
+    "checked_at": "2026-10-01T07:12:53+00:00"
+  },
+  "techcrunch-ai|https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet": {
+    "fingerprint": "2d690d83c053f7676cb542b989771fde7b62900fe1c0d043e2aadd93c20d23ca",
+    "completed": true,
+    "checked_at": "2026-10-01T07:12:53+00:00"
+  },
+  "verge-ai|https://www.theverge.com/tech/1002980/google-gemini-4-argon": {
+    "fingerprint": "ce9e7540d7493cdee571e7eae8d22decd5a3cd1c2b29360c40087ce0dd7ae1dc",
+    "completed": true,
+    "checked_at": "2026-10-01T07:12:53+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMickFVX3lxTE4yUUZNLXA3UHg1WHVwR3JFZVBqc1lLMFNZbk53MkhEOW9sbmNDRXNHeWFMdzlWdHpKNEVCOXhfM254Z185b2hVWXFaZHc5ZjhtUE1IUGc4QVlod21qckQwMEFSWGhHV2dtSEFPTi12MXNIZw?oc=5": {
+    "fingerprint": "2f406635a7526d06941eee12e6031292dd78399913461aacd6164b32f6817138",
+    "completed": true,
+    "checked_at": "2026-10-01T07:12:53+00:00"
   }
 }

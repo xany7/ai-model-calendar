@@ -1,5 +1,36 @@
 [
   {
+    "status": "approved",
+    "model": "Gemini 4",
+    "vendor": "Google",
+    "score": 100,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [],
+    "release_date": "2026-10-01",
+    "published_at": "2026-09-30T20:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "025c6065a8426119c01f",
+    "official": true,
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+    "source_title": "Gemini 4 Argon: our next era of frontier intelligence",
+    "summary": "Google 发布 Gemini 4；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-10-01T07:12:53+00:00",
+    "last_seen": "2026-10-01T07:12:53+00:00",
+    "evidence": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "official": true,
+        "source_id": "google-models",
+        "raw_date": "2026-09-30T20:00:00+00:00",
+        "sha256": "5dc0a8f4e82eb409fa6d3eb8923e0cf9d2dd9495d0427ef347adb25d2318d88b",
+        "excerpt": "Gemini 4 Argon: our next era of frontier intelligence Sep 30, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini 4 Argon delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense. Koray Kavukcuoglu SVP, Google",
+        "checked_at": "2026-10-01T07:12:53+00:00"
+      }
+    ]
+  },
+  {
     "status": "pending",
     "model": "GPT-6.1 Sol",
     "vendor": "OpenAI",
@@ -133,7 +164,7 @@
     "source_title": "Better prompt caching for GPT-6",
     "summary": "OpenAI 发布 GPT-6；具体里程碑意义待审核。",
     "first_seen": "2026-09-23T06:02:12+00:00",
-    "last_seen": "2026-09-28T07:00:14+00:00",
+    "last_seen": "2026-10-01T07:12:53+00:00",
     "evidence": [
       {
         "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -150,10 +181,10 @@
         "title": "刚刚,GPT-6 新模型掀桌,「白菜价」杀进 DeepSeek 腹地 - 36kr.com",
         "official": false,
         "source_id": "china-news-discovery",
-        "raw_date": "Tue, 22 Sep 2026 11:22:00 GMT",
+        "raw_date": "Tue, 22 Sep 2026 07:00:00 GMT",
         "sha256": "c4f2ae71a146ff4c4bac0174541113898c0d2e5285e98ca8b51d20019f35aecd",
         "excerpt": "刚刚,GPT-6 新模型掀桌,「白菜价」杀进 DeepSeek 腹地 36kr.com",
-        "checked_at": "2026-09-28T07:00:14+00:00"
+        "checked_at": "2026-10-01T07:12:53+00:00"
       }
     ]
   },
