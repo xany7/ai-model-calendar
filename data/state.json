@@ -620,9 +620,9 @@
     "checked_at": "2026-09-21T06:25:42+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5": {
-    "fingerprint": "269a033d7e08c0efd3190ed52059c33133a2ae3d2a6078efb6750f27e7e6ce6a",
+    "fingerprint": "9c1aec700c6b3fec4a1e63b68bda21b3accbafdbb2f6e01cfb5a9ccf7692b8ce",
     "completed": true,
-    "checked_at": "2026-09-29T06:58:57+00:00"
+    "checked_at": "2026-10-02T07:03:33+00:00"
   },
   "openai-rss|https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
     "fingerprint": "1aed899f4584a617d8ff9092c3f33a04c3fd626fb5ad985541911b655ce6e171",
@@ -793,5 +793,15 @@
     "fingerprint": "2f406635a7526d06941eee12e6031292dd78399913461aacd6164b32f6817138",
     "completed": true,
     "checked_at": "2026-10-01T07:12:53+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/barclays-scales-claude": {
+    "fingerprint": "6ce4f3fa24b00e1be61e53bea3fb9effde9420494890970d56e8463ad27675a3",
+    "completed": true,
+    "checked_at": "2026-10-02T07:03:33+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMib0FVX3lxTFBPMzVqYWFEaFBnQXU2VVNQV0pQc2lfUUttM1VzdnVVR3laUTRkcWxyLW5sTnIzd0JGMGpCYmxWRXgwWFFVYjVIM0VlMGJibmE3b3VoUExHNk1RZEpRcEgzY0ZDR1BPLVhwSVU5ZUNxYw?oc=5": {
+    "fingerprint": "1aa9be6c9bdef9a76f07f63c0fa16392c676a57deee7d69b4bfc21e25247b479",
+    "completed": true,
+    "checked_at": "2026-10-02T07:03:33+00:00"
   }
 }

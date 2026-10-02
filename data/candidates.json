@@ -367,7 +367,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-09-30T06:47:35+00:00",
+    "last_seen": "2026-10-02T07:03:33+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -550,16 +550,6 @@
         "checked_at": "2026-09-29T06:58:57+00:00"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
-        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - finance.sina.com.cn",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Wed, 16 Sep 2026 07:00:00 GMT",
-        "sha256": "558b24369c739960af8a194f6fd9e515c55b9df467162c4324633befb166efb1",
-        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 finance.sina.com.cn",
-        "checked_at": "2026-09-29T06:58:57+00:00"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
         "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
         "official": false,
@@ -598,6 +588,16 @@
         "sha256": "3845f8b93b5c2dd6473dc3743bdb4c4e8a038ade78dc007d93f39e288691839c",
         "excerpt": "一份报告读懂国产大模型竞争力:AiPy 发布 DeepSeek-V4.1-Flash 适配度测评 中华网",
         "checked_at": "2026-09-30T06:47:35+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNZTk2U2gwUmRrbGtYcGZpdXlxNzN5LW5wdjFzWHg3LVViX1VzNW1jWFkyZm5NVHNlcnpzczNWX1JmSXhNb3ZFaEU2bzIxRTZJaHFLdDY2SUtVWDZOcnNjdXJMQWVyUmlHRkNnRXNrU0xnQndpUVBfb0tfOXM2SS0xcG9aUjFadFFEN3poTVVqQVFTaEJYTXFsc0NWU01ZeFN1OXB4TzNiellZeW84cGt5RkdZWnVnTldIaG9LNC11cGZCcjRIV0xjY0lNdWhGNDIzSVhSaTRURkpTNE9WSHFvRldCRkRXbHlUMUJHbVNERHV1Ykdac2lKN0lZdE1LNXZfUTM0T2FGU19sRnNZU1FXbGt2dlM1N3NTQ0tNajhIQk1pRnlhX0MybWN2d2s1MjRpRXh5ZU0wSjdxeVZXckZ0ZTR4eFdGX1BDWWpJRjczcWpCdEs2OC1ncGNERHd2M3lnNEVPZXZ4NmJ1SEVUbXlsZFlNWjFVZjlzRzRtOUJuVV96TTRtVnlRTWhjWVhDampTelNsTkVFclI0cEZ4SEVIOWNhcDdwRURYU01iYk55ZlJXbTRSSHVMT0pOTTVXY2xWVUMzS1VGN1ZXWks1M1QzNk9aLVl1c05VQnctRG55eHBwdWF2d2xEa3hFYllzT3pibUhRYzBn?oc=5",
+        "title": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 16 Sep 2026 07:00:00 GMT",
+        "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
+        "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
+        "checked_at": "2026-10-02T07:03:33+00:00"
       }
     ]
   },
