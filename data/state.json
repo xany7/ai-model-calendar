@@ -803,5 +803,30 @@
     "fingerprint": "1aa9be6c9bdef9a76f07f63c0fa16392c676a57deee7d69b4bfc21e25247b479",
     "completed": true,
     "checked_at": "2026-10-02T07:03:33+00:00"
+  },
+  "mimo-releases|https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布": {
+    "fingerprint": "b6e936859af5ecd762fdea6c14e99952feea13b5dc286d4e378b588a9063a929",
+    "completed": true,
+    "checked_at": "2026-10-02T07:45:16+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjOWNUV1RmRXhXLU1rQmNpZk5TbWV5cDR0dTVlaVR5V0dRTzlLRWk4NHI2ZC1SVVdVZDEzUXhfaWJxRXg1eHlZcVBjcmo2ek5DYnBN?oc=5": {
+    "fingerprint": "0b44aa556b733ff93630440780f6c37353a9a47bcc9a6f3f33a7654e4115d1fa",
+    "completed": true,
+    "checked_at": "2026-10-02T07:45:16+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3b2FEUTk4WmI4ZnhmcFYyQzhNYnA2a1NwM2lvTkpCcTJCY0gtOTNnZ0FiS1R1QVd0RzJaUERtMmRSdTBSUFdZUDJNaUtVMjluTms0?oc=5": {
+    "fingerprint": "d7000129ba1ae3071e266d4a1fa52043c68b8cde0af740206a081489defee8e7",
+    "completed": true,
+    "checked_at": "2026-10-02T07:45:16+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qWXotRmNQcDQwT085ZV9tU28xVGdia0xfRF8yUWdfRnVOZDNCSkNGSWZtelQzQVctdnA5VklmeUtHQXJqM1NSbnhjQUpUaDJjRnptNWZ3M3VhTXYzSVNXZG9ibmRKdw?oc=5": {
+    "fingerprint": "a163292e6b054d1300a43ce6cbe3846a2aa3d7774277755a8d5ca46ba57708be",
+    "completed": true,
+    "checked_at": "2026-10-02T07:45:16+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ScWJtcE1FRzRKdURwQzJYaW5td3RqaDdpQW1iZ01iNVN1SS1NUlVDME5rZTN0ZHNhUzNmOXZwT2NjVVg2THFkT1V2NTVIbEFSMHNGQk85U0lqeFQ3MVFWZ09TZGg?oc=5": {
+    "fingerprint": "e9d3d9760fe9f0a931211379c009606434e5cf42dcc8172dd8ad625e8f6a11f0",
+    "completed": true,
+    "checked_at": "2026-10-02T07:45:16+00:00"
   }
 }

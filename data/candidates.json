@@ -1,5 +1,40 @@
 [
   {
+    "status": "pending",
+    "model": "MiMo-V2",
+    "vendor": "小米 MiMo",
+    "score": 55,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-23",
+    "published_at": "2026-09-23T11:56:00+00:00",
+    "date_precision": "timestamp",
+    "id": "0b5571ef1871a01f7287",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3b2FEUTk4WmI4ZnhmcFYyQzhNYnA2a1NwM2lvTkpCcTJCY0gtOTNnZ0FiS1R1QVd0RzJaUERtMmRSdTBSUFdZUDJNaUtVMjluTms0?oc=5",
+    "source_title": "MiMo-V2.6刚发布 小米罗福莉推出全新MiMo-V3架构 深度引用DeepSeek多项技术成果 - eu.36kr.com",
+    "summary": "小米 MiMo 发布 MiMo-V2；具体里程碑意义待审核。",
+    "first_seen": "2026-10-02T07:45:16+00:00",
+    "last_seen": "2026-10-02T07:45:16+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3b2FEUTk4WmI4ZnhmcFYyQzhNYnA2a1NwM2lvTkpCcTJCY0gtOTNnZ0FiS1R1QVd0RzJaUERtMmRSdTBSUFdZUDJNaUtVMjluTms0?oc=5",
+        "title": "MiMo-V2.6刚发布 小米罗福莉推出全新MiMo-V3架构 深度引用DeepSeek多项技术成果 - eu.36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 23 Sep 2026 11:56:00 GMT",
+        "sha256": "2b1878e1c7819c48b93df7f5b6c93d793e0a3fa934ca682afd585aeaadb26497",
+        "excerpt": "MiMo-V2.6刚发布 小米罗福莉推出全新MiMo-V3架构 深度引用DeepSeek多项技术成果 eu.36kr.com",
+        "checked_at": "2026-10-02T07:45:16+00:00"
+      }
+    ]
+  },
+  {
     "status": "approved",
     "model": "Gemini 4",
     "vendor": "Google",
@@ -367,7 +402,7 @@
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
     "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-09-09T06:01:52+00:00",
-    "last_seen": "2026-10-02T07:03:33+00:00",
+    "last_seen": "2026-10-02T07:45:16+00:00",
     "evidence": [
       {
         "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
@@ -598,6 +633,16 @@
         "sha256": "3409c8b21655e8e9bc1f10fc2f93f318f224c88a01f23cac6b706fda576bab10",
         "excerpt": "国金证券:DeepSeek V4.1 Flash发布 关注国产大模型与AI应用 新浪财经",
         "checked_at": "2026-10-02T07:03:33+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjOWNUV1RmRXhXLU1rQmNpZk5TbWV5cDR0dTVlaVR5V0dRTzlLRWk4NHI2ZC1SVVdVZDEzUXhfaWJxRXg1eHlZcVBjcmo2ek5DYnBN?oc=5",
+        "title": "DeepSeek V4.1 Flash正式发布 以Pro级能力打造高性价比AI模型新标杆 - eu.36kr.com",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "sha256": "db48e94f9bfac1247e6660c487817147c714094cbec81939fdc5acedfe90376c",
+        "excerpt": "DeepSeek V4.1 Flash正式发布 以Pro级能力打造高性价比AI模型新标杆 eu.36kr.com",
+        "checked_at": "2026-10-02T07:45:16+00:00"
       }
     ]
   },
