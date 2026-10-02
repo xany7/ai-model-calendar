@@ -1,6 +1,6 @@
 [
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "MiMo-V2",
     "vendor": "小米 MiMo",
     "score": 55,
@@ -32,7 +32,10 @@
         "excerpt": "MiMo-V2.6刚发布 小米罗福莉推出全新MiMo-V3架构 深度引用DeepSeek多项技术成果 eu.36kr.com",
         "checked_at": "2026-10-02T07:45:16+00:00"
       }
-    ]
+    ],
+    "decision_reason": "标题与中文相连时模型名被错误截断；正文标题实际提及已收录的 MiMo-V2.6 和架构研究，不是 MiMo-V2 的独立新发布。",
+    "reviewed_at": "2026-10-02T07:48:14+00:00",
+    "reviewed_by": "Codex-2026-10-02-parser-verification"
   },
   {
     "status": "approved",

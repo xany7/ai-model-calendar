@@ -70,13 +70,18 @@ def test_mimo_empty_or_changed_page_is_an_error(monkeypatch, raw):
     ('mimo-v2.5-pro 发布', 'mimo-v2.5-pro'),
     ('MiMo-V3-Pro 发布', 'MiMo-V3-Pro'),
     ('Introducing MiMo-V2-Omni', 'MiMo-V2-Omni'),
+    ('MiMo-V2.6刚发布', 'MiMo-V2.6'),
+    ('小米MiMo-V2.5-Pro正式发布', 'MiMo-V2.5-Pro'),
+    ('Introducing MiMo-V2.6.', 'MiMo-V2.6'),
+    ('Introducing MiMo-V2.6-Pro.', 'MiMo-V2.6-Pro'),
+    ('Introducing MiMo-V2.6-TTS.', 'MiMo-V2.6-TTS'),
 ])
 def test_mimo_model_identity(title, model):
     assert app.identify(title) == ('小米 MiMo', model)
 
 
 @pytest.mark.parametrize('model', ['MiMo-V2.5-ASR', 'MiMo-V2-TTS', 'MiMo-7B',
-                                  'MiMo-V2-Flash', 'MiMo-V2.6-Pro-Ultraspeed'])
+                                  'MiMo-V2-Flash', 'MiMo-V2.6-Pro-Ultraspeed', 'MiMo-V2.6-TTS.'])
 def test_mimo_specialist_small_and_efficiency_variants_are_excluded(model):
     assert app.classify({'title': model + ' 发布'}, MIMO, date(2026, 10, 2)) is None
 
@@ -95,6 +100,13 @@ def test_mimo_flagship_is_not_dropped_when_specialist_is_also_announced():
            'raw_date': '2026-09-22', 'detail_verified': True}
     result = app.classify(row, MIMO, date(2026, 10, 2))
     assert result['model'] == 'MiMo-V3-Pro' and result['status'] == 'pending'
+
+
+def test_pages_artifact_name_is_shared_and_unique_per_attempt():
+    workflow = (Path(__file__).parents[1] / '.github/workflows/calendar.yml').read_text()
+    unique = 'github-pages-${{ github.run_id }}-${{ github.run_attempt }}'
+    assert 'name: ' + unique in workflow
+    assert 'artifact_name: ' + unique in workflow
 
 
 def test_collect_preserves_events_and_source_failure_then_deduplicates(tmp_path, monkeypatch):

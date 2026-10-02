@@ -27,7 +27,7 @@ PATTERNS = {
  '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*(?:\s+Thinking)?\b',
  '智谱 GLM': r'\bGLM[ -]?\d+(?:\.\d+)*\b',
  '字节豆包': r'(?:\bSeed[ -]?\d+(?:\.\d+)*\b|(?:豆包|Doubao)(?:大模型)?\s*\d+(?:\.\d+)*)',
- '小米 MiMo': r'\bMiMo[ -](?:V\d+(?:\.\d+)*(?:[ -](?:Pro(?:-Ultraspeed)?|Omni|Flash|TTS|ASR))?|\d+B(?:-[A-Za-z]+)?)\b',
+ '小米 MiMo': r'(?<![A-Za-z0-9])MiMo[ -](?:V\d+(?:\.\d+)*(?:[ -](?:Pro(?:-Ultraspeed)?|Omni|Flash|TTS|ASR))?|\d+B(?:-[A-Za-z]+)?)(?![A-Za-z0-9]|\.\d)',
 }
 LAUNCH = re.compile(r'introduc(?:e|es|ing)|announc(?:e|es|ing)|launch(?:ed|es)?|releas(?:e|ed|ing)|available (?:today|now)|officially live|正式发布|正式上线|现已上线|全新发布|开源|发布',re.I)
 MILESTONE = re.compile(r'flagship|frontier|next.generation|new generation|most (?:capable|advanced|intelligent|powerful)|best .{0,40} model yet|major leap|significant (?:leap|improvement)|step change|旗舰|新一代|里程碑|全新一代|最强.{0,12}模型|重大(?:能力|性能)跃迁',re.I)
