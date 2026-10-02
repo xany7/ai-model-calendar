@@ -22,7 +22,7 @@ PATTERNS = {
  'Anthropic': r'\bClaude\s+(?:(?:Opus|Sonnet|Haiku|Fable|Mythos)\s+)?\d+(?:\.\d+)*\b',
  'Google': r'\bGemini[ -]?\d+(?:\.\d+)*(?:\s+(?:Flash(?:\s+Cyber)?|Pro|Deep Think))?\b',
  'xAI': r'\bGrok[ -]?\d+(?:\.\d+)*\b',
- 'DeepSeek': r'\bDeepSeek[ -]?(?:V|R)\d+(?:\.\d+)*(?:-Exp)?\b',
+ 'DeepSeek': r'(?<![A-Za-z0-9])DeepSeek[ -]?(?:V|R)\d+(?:\.\d+)*(?:[ -](?:Exp|Flash|Pro))?(?![A-Za-z0-9]|\.\d)',
  '阿里千问': r'\bQwen[ -]?\d+(?:\.\d+)*(?:-(?:Coder|Max(?:-Thinking|-Preview)?|Flash-Next))?\b',
  '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*(?:\s+Thinking)?\b',
  '智谱 GLM': r'\bGLM[ -]?\d+(?:\.\d+)*\b',
@@ -53,6 +53,10 @@ def allowed(url, domains):
  return p.scheme=='https' and any(host==d or host.endswith('.'+d) for d in domains)
 def model_key(vendor, model):
  normalized=re.sub(r'[^a-z0-9.]','',clean(model).lower())
+ # Seed and Doubao name the same ByteDance foundation model family.
+ if vendor=='字节豆包':
+  alias=re.fullmatch(r'(?:Seed|Doubao|豆包)(?:大模型)?[ -]?(\d+(?:\.\d+)*)',clean(model),re.I)
+  if alias:normalized='seed'+alias[1]
  return hashlib.sha256((vendor+'|'+normalized).encode()).hexdigest()[:20]
 def identify(title, vendor=None):
  title=clean(title)
@@ -67,6 +71,9 @@ def parse_date(raw):
  if not raw:return None,None,'unknown'
  try:
   value=str(raw).strip()
+  # dateutil fills missing fields from today; require an explicit, unambiguous
+  # calendar day before parsing so year/month strings cannot invent a release.
+  if not re.match(r'^20\d{2}-\d{1,2}-\d{1,2}(?:T|\s|$)',value) and not DATES.search(value) and not re.search(r'\b\d{1,2}\s+(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+20\d{2}\b',value,re.I):return None,None,'unknown'
   d=dateparser.parse(value)
   has_time=bool(re.search(r'\d{1,2}:\d{2}',value))
   if has_time and d.tzinfo and (d.hour or d.minute or d.second):
@@ -97,24 +104,42 @@ def article_details(raw):
  s=BeautifulSoup(raw,'html.parser'); title=s.find('h1')
  title=clean(title.get_text(' ',strip=True)) if title else ''
  values=[]
- def walk(obj):
-  if isinstance(obj,dict):
-   if obj.get('datePublished'):values.append(obj['datePublished'])
-   for v in obj.values():walk(v)
-  elif isinstance(obj,list):
-   for v in obj:walk(v)
+ def publication_nodes(obj, in_graph=False):
+  # Only the page's publication object(s), not nested related-article cards.
+  if isinstance(obj,list):
+   for v in obj:publication_nodes(v,in_graph=True)
+  elif isinstance(obj,dict):
+   heading=clean(obj.get('headline') or obj.get('name') or '')
+   # Graph nodes need a matching headline; unrelated linked publications are
+   # not the current article even when they are the only node with a date.
+   matches=bool(title and heading and heading.casefold()==title.casefold())
+   primary=(matches if in_graph else not heading or matches)
+   if primary and obj.get('datePublished'):values.append(obj['datePublished'])
+   if '@graph' in obj:publication_nodes(obj['@graph'],in_graph=True)
  for tag in s.select('script[type="application/ld+json"]'):
-  try:walk(json.loads(tag.string or tag.get_text()))
+  try:publication_nodes(json.loads(tag.string or tag.get_text()))
   except (ValueError,TypeError):pass
- for m in s.select('meta[property="article:published_time"],meta[itemprop="datePublished"],time'):
-  values.append(m.get('content') or m.get('datetime') or m.get_text())
+ for m in s.select('meta[property="article:published_time"],meta[itemprop="datePublished"]'):
+  if m.find_parent(['aside','a','footer','nav']):continue
+  scope=m.find_parent(attrs={'itemscope':True})
+  heading=scope.find('h1') if scope else None
+  if scope and (not heading or clean(heading.get_text(' ',strip=True))!=title):continue
+  if m.find_parent('body') and not scope:continue
+  values.append(m.get('content'))
+ # Only a dedicated byline immediately beside the article heading can supply
+ # an unstructured date. Flattened article prose loses related-card ancestry.
+ heading=s.find('h1');byline=heading.find_next_sibling() if heading else None
+ if not values and byline and byline.name not in ('a','aside','nav','footer') and not byline.find_parent(['a','aside','nav','footer']) and not byline.select('a,aside,nav,footer'):
+  label=clean(byline.get_text(' ',strip=True))
+  if DATES.fullmatch(label):
+   time_node=byline if byline.name=='time' else byline.find('time')
+   values.append(time_node.get('datetime') or label if time_node else label)
  text=visible(s)
- if not values:
-  m=DATES.search(text[:1200])
-  if m:values.append(m.group())
- # Prefer actual offset-bearing timestamps to CMS day markers.
- dates=[(v,parse_date(v)) for v in values]
- chosen=next((v for v,d in dates if d[2]=='timestamp'),values[0] if values else None)
+ dates=[(v,parse_date(v)) for v in values if v]
+ # Conflicting publication days are ambiguous; keep the candidate for review.
+ raw_days={dateparser.parse(str(v)).date().isoformat() for v,d in dates if d[0]}
+ valid=[(v,d) for v,d in dates if d[0]]
+ chosen=None if len(raw_days)>1 else next((v for v,d in valid if d[2]=='timestamp'),valid[0][0] if valid else None)
  return title,text[:8000],chosen
 
 def discover(source):
@@ -127,13 +152,14 @@ def discover(source):
    if e.get('link') and allowed(e.link,source['domains']):
     rows.append({'title':clean(e.get('title','')),'url':e.link,'raw_date':e.get('published'),
                  'text':clean(BeautifulSoup(e.get('summary',''),'html.parser').get_text(' ',strip=True)),
-                 'detail_verified':bool(source.get('trusted_feed_content'))})
+                 'detail_verified':bool(source.get('trusted_feed_content')),
+                 'date_verified':bool(source.get('official') and source.get('trusted_feed_content')),'date_provenance':'official-rss' if source.get('official') else 'news-rss'})
  elif kind=='github_readme':
   for line in raw.splitlines():
    m=re.match(r'^[-*]\s+(20\d{2}-\d{2}-\d{2}):\s*(.+)',line)
    if m:
     rows.append({'title':m[2][:250],'text':m[2],'url':source['page_url']+'#news',
-                 'raw_date':m[1],'detail_verified':True})
+                 'raw_date':m[1],'detail_verified':True,'date_verified':True,'date_provenance':'official-dated-entry'})
  elif kind=='github_org':
   for repo in json.loads(raw):
    if repo.get('fork') or repo.get('archived'):continue
@@ -170,14 +196,14 @@ def discover(source):
     text=visible(BeautifulSoup(''.join(body),'html.parser'))
     if not text:raise ValueError('Dated release section has no body')
     rows.append({'title':m[2],'url':final.split('#',1)[0]+'#'+heading['id'],
-                 'text':text[:8000],'raw_date':m[1],'detail_verified':True})
+                 'text':text[:8000],'raw_date':m[1],'detail_verified':True,'date_verified':True,'date_provenance':'official-dated-entry'})
   elif kind=='changelog':
    for block in s.select('.update-container'):
     ident=block.get('id','')
     if re.fullmatch(r'20\d{2}-\d{1,2}-\d{1,2}',ident):
      text=clean(block.get_text(' ',strip=True)).replace('\u200b','')
      text=re.sub(r'^'+re.escape(ident)+r'\s*','',text)
-     rows.append({'title':text[:150],'url':source['url']+'#'+ident,'text':text[:2500],'raw_date':ident,'detail_verified':True})
+     rows.append({'title':text[:150],'url':source['url']+'#'+ident,'text':text[:2500],'raw_date':ident,'detail_verified':True,'date_verified':True,'date_provenance':'official-dated-entry'})
   else:
    area=s.find('main') or s
    for a in area.select('a[href]'):
@@ -225,19 +251,24 @@ def classify(item, source, today):
  if major:score+=10
  elif important_minor:score+=10
  else:reasons.append('小版本尚无明确的旗舰定位或重大能力跃迁证据。')
- if precision=='timestamp':score+=15
- else:reasons.append('发布日期无可核实的非占位时间戳；需确认日期口径。')
+ # Date precision is not release confidence: a verified official calendar day
+ # is sufficient for an all-day event, without fabricating a timestamp.
+ verified_date=bool(day and precision in ('timestamp','official-date-only') and source.get('official')
+                    and item.get('detail_verified') and item.get('date_verified'))
+ if verified_date:score+=15
+ else:reasons.append('发布日期未核实；需确认官方日期口径。')
  if not source.get('official'):reasons.append('新闻仅作发现线索，必须补充官方来源。')
  if RUMOR.search(title+' '+item.get('text','')[:220]):reasons.append('可能是传闻/预告，不自动收录。')
  if not item.get('detail_verified'):reasons.append('正文未验证或只有目录/仓库信息。')
  if day and date.fromisoformat(day)>today:reasons.append('未来日期：等待正式发布。')
  title_announcement=bool(LAUNCH.search(title) or MILESTONE.search(title) or title.lower().strip()==model.lower())
  if not title_announcement:reasons.append('标题不是明确发布公告，需排除使用案例或后续报道。')
- auto=(score>=95 and source.get('official') and (major or important_minor) and launch and title_announcement and milestone and precision=='timestamp'
+ auto=(score>=95 and source.get('official') and (major or important_minor) and launch and title_announcement and milestone and verified_date
        and item.get('detail_verified') and not RUMOR.search(title+' '+item.get('text','')[:220])
        and day and date.fromisoformat(day)<=today)
  return {'status':'published' if auto else 'pending','model':model,'vendor':vendor,'score':score,'important_minor':important_minor,
-         'title_announcement':title_announcement,'reasons':reasons,'release_date':day,'published_at':stamp,'date_precision':precision}
+         'title_announcement':title_announcement,'reasons':reasons,'release_date':day,'published_at':stamp,'date_precision':precision,
+         'date_provenance':item.get('date_provenance'),'date_verified':bool(verified_date)}
 
 def candidate_rank(candidate):
  """Prefer the model's own announcement over later integrations and case studies."""
@@ -265,7 +296,9 @@ def collect():
    parsed=parse_date(item.get('raw_date'))[0]
    if parsed and date.fromisoformat(parsed)<cutoff:continue
    url=canonical_url(item['url']); state_key=source['id']+'|'+url+('|'+str(item.get('raw_date')) if source['kind']=='github_readme' else '')
-   fingerprint=hashlib.sha256(json.dumps(item,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+   # New provenance annotations must not invalidate completed source content
+   # and resurrect already-reviewed rumors when rules change.
+   fingerprint=hashlib.sha256(json.dumps({k:v for k,v in item.items() if k not in ('date_verified','date_provenance')},sort_keys=True,ensure_ascii=False).encode()).hexdigest()
    cached=state.get(state_key,{})
    if cached.get('fingerprint')==fingerprint and cached.get('completed'):
     stats['duplicates']+=1;continue
@@ -280,7 +313,12 @@ def collect():
      if len(text)<120:raise ValueError('Article body too short or requires JavaScript')
      if title:item['title']=title
      item['text']=text;item['detail_verified']=True
-     if raw_date:item['raw_date']=raw_date
+     # Keep the announcement's trusted RSS date; related article <time> tags
+     # in a detail page must not replace it.
+     trusted_rss=source['kind']=='rss' and source.get('trusted_feed_content') and item.get('raw_date')
+     if trusted_rss:item['date_verified']=True;item['date_provenance']='official-rss'
+     elif raw_date:item['raw_date']=raw_date;item['date_verified']=True;item['date_provenance']='official-article'
+     else:item['date_verified']=False;item['date_provenance']='unverified-listing'
     except Exception as e:
      item['detail_verified']=False;status['errors'].append(url+': '+str(e)[:120])
    result=classify(item,source,today)
@@ -294,7 +332,7 @@ def collect():
    # Keep conflicting official dates for review, never silently overwrite them.
    conflict=old and old.get('release_date') and result['release_date'] and old['release_date']!=result['release_date'] and old.get('official') and source['official'] and old['score']>=75 and result['score']>=75
    evidence={'url':url,'title':item['title'][:250],'official':source['official'],'source_id':source['id'],
-             'raw_date':item.get('raw_date'),'sha256':hashlib.sha256(item.get('text','').encode()).hexdigest(),
+             'raw_date':item.get('raw_date'),'date_provenance':item.get('date_provenance'),'date_verified':item.get('date_verified',False),'sha256':hashlib.sha256(item.get('text','').encode()).hexdigest(),
              'excerpt':item.get('text','')[:320],'checked_at':start}
    candidate={**result,'id':key,'official':source['official'],'source_url':url,'source_title':item['title'][:250],
               'summary':f"{result['vendor']} 发布 {result['model']}；"+("官方将其定位为新一代或旗舰模型。" if MILESTONE.search(item.get('text','')[:2500]) else '具体里程碑意义待审核。'),
@@ -307,7 +345,7 @@ def collect():
    if conflict:
     candidate['status']='pending';candidate['reasons'].append('多个官方来源日期冲突，须人工核实。')
    if candidate['status']=='published' and config['auto_publish']:
-    event=event_from_candidate(candidate,'rules-v1',start)
+    event=event_from_candidate(candidate,'rules-v2-date-only',start)
     events.append(event);known.add(key);candidate['status']='approved';stats['published']+=1
    else:candidate['status']='pending';stats['pending']+=int(not old)
    by_id[key]=candidate
@@ -326,8 +364,9 @@ def collect():
 def event_from_candidate(c, reviewer, timestamp):
  return {'id':c['id'],'vendor':c['vendor'],'model':c['model'],'release_date':c['release_date'],
          'published_at':c.get('published_at'),'date_precision':c['date_precision'],
+         'date_provenance':c.get('date_provenance'),'date_verified':c.get('date_verified',True),
          'date_note':c.get('date_note') or ('官方发布时间已换算为北京时间。' if c['date_precision']=='timestamp' else '官方仅标日期，按公告标注日记录；无法确定准确的北京时间跨日。'),
-         'summary':c['summary'],'source_url':c['source_url'],'sources':list(dict.fromkeys([c['source_url']]+[e['url'] for e in c.get('evidence',[])])),
+         'summary':c['summary'],'source_url':c['source_url'],'sources':list(dict.fromkeys([c['source_url']]+(c.get('reviewed_sources') if 'reviewed_sources' in c else [e['url'] for e in c.get('evidence',[])]))),
          'milestone_reason':c.get('milestone_reason') or '官方明确宣告的新一代/旗舰模型；规则分 '+str(c['score']),
          'reviewed_by':reviewer,'created_at':timestamp,'updated_at':timestamp,'sequence':0,'status':'confirmed'}
 
@@ -348,11 +387,21 @@ def review():
    raise ValueError('Official GitHub evidence must belong to the configured vendor organization')
   for env in ('MODEL_NAME','REVIEW_SUMMARY','REVIEW_REASON','DATE_NOTE'):
    if not os.environ.get(env,'').strip():raise ValueError(env+' is required to approve')
+  # Only preserve exact time backed by the same reviewed official source.
+  # A news discovery timestamp is not converted into official release time
+  # merely because the reviewer supplied an official URL and calendar day.
+  official_time=any(e.get('official') and canonical_url(e['url'])==canonical_url(url)
+                    and parse_date(e.get('raw_date'))[1]==c.get('published_at')
+                    for e in c.get('evidence',[])) if c.get('published_at') else False
   c.update(model=clean(os.environ['MODEL_NAME']),release_date=day,summary=clean(os.environ['REVIEW_SUMMARY']),
            source_url=url,milestone_reason=clean(os.environ['REVIEW_REASON']),date_note=clean(os.environ['DATE_NOTE']))
   # A manual date override cannot retain an incompatible timestamp.
-  if c.get('published_at') and parse_date(c['published_at'])[0]!=day:c['published_at']=None
+  if c.get('published_at') and (not official_time or parse_date(c['published_at'])[0]!=day):c['published_at']=None
   c['date_precision']='timestamp' if c.get('published_at') else 'reviewed-date'
+  # Preserve discovery evidence in the candidate, but publish only the
+  # explicitly reviewed official source, not unverified or other-model news.
+  c['reviewed_sources']=[url];c['date_verified']=True
+  c['date_provenance']='manual-official-review'
   event_id=model_key(c['vendor'],c['model'])
   if any(e['id']==event_id for e in events):raise ValueError('Model already exists; edit its event to correct it')
   events.append(event_from_candidate({**c,'id':event_id},os.getenv('GITHUB_ACTOR','maintainer'),now()))
@@ -360,6 +409,8 @@ def review():
  else:raise ValueError('Unknown review action')
  c['reviewed_at']=now();c['reviewed_by']=os.getenv('GITHUB_ACTOR','maintainer')
  write('events.json',events);write('candidates.json',candidates)
+ health=read('health.json',{});health['pending']=sum(c['status']=='pending' for c in candidates)
+ write('health.json',health)
 
 def validate(events):
  ids=set()
@@ -399,7 +450,8 @@ def build(out=None):
  (out/'calendar.ics').write_bytes(make_ics(events))
  for src in (ROOT/'web').iterdir():shutil.copy2(src,out/src.name)
  pending=[c for c in read('candidates.json',[]) if c['status']=='pending']
- public={'config':config,'events':events,'pending':pending,'health':read('health.json',{}),'generated_at':now()}
+ health={**read('health.json',{}),'pending':len(pending)}
+ public={'config':config,'events':events,'pending':pending,'health':health,'generated_at':now()}
  (out/'data.json').write_text(json.dumps(public,ensure_ascii=False,indent=2))
  (out/'health.json').write_text(json.dumps(public['health'],ensure_ascii=False,indent=2))
  (out/'events.json').write_text(json.dumps(events,ensure_ascii=False,indent=2))

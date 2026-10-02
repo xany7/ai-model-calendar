@@ -69,7 +69,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "GPT-6.1 Sol",
     "vendor": "OpenAI",
     "score": 75,
@@ -84,9 +84,9 @@
     "date_precision": "timestamp",
     "id": "5c23ed75767a91d03911",
     "official": true,
-    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
     "source_title": "Introducing GPT-6.1 Sol",
-    "summary": "OpenAI 发布 GPT-6.1 Sol；具体里程碑意义待审核。",
+    "summary": "GPT-6.1 Sol 发布,显著提升编程、计算机使用与复杂多步专业工作能力。",
     "first_seen": "2026-09-30T06:47:35+00:00",
     "last_seen": "2026-09-30T06:47:35+00:00",
     "evidence": [
@@ -110,10 +110,20 @@
         "excerpt": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
         "checked_at": "2026-09-30T06:47:35+00:00"
       }
-    ]
+    ],
+    "date_provenance": "official-rss",
+    "milestone_reason": "独立官方发布公告;相比 GPT-6 Sol 的多步专业任务与计算机使用能力明显提升,属于重要能力升级,并非仅降价。",
+    "date_note": "官方 RSS 发布时间为 2026-09-29 10:00 UTC(北京时间 18:00),按北京时间 2026-09-29 记录。",
+    "reviewed_sources": [
+      "https://openai.com/index/introducing-gpt-6-1-sol/"
+    ],
+    "date_verified": true,
+    "event_id": "5c23ed75767a91d03911",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)"
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "Claude Sonnet 5.5",
     "vendor": "Anthropic",
     "score": 85,
@@ -124,12 +134,12 @@
     ],
     "release_date": "2026-09-28",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "a0de92dfb05a244e94cd",
     "official": true,
     "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
     "source_title": "Claude Sonnet 5.5",
-    "summary": "Anthropic 发布 Claude Sonnet 5.5；官方将其定位为新一代或旗舰模型。",
+    "summary": "Claude Sonnet 5.5 正式可用,升级编程、视觉与长程任务能力。",
     "first_seen": "2026-09-29T06:58:57+00:00",
     "last_seen": "2026-09-29T06:58:57+00:00",
     "evidence": [
@@ -143,10 +153,20 @@
         "excerpt": "Claude Sonnet 5.5 September 28, 2026 Skip intro Scroll down Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work. Sonnet 5.5 is a faster, lower-cost complement to Claude Opus 5.5. Where Opus 5.5 is b",
         "checked_at": "2026-09-29T06:58:57+00:00"
       }
-    ]
+    ],
+    "date_provenance": "official-article",
+    "milestone_reason": "Claude 5.5 家族新模型;官方确认相对 Sonnet 5 的编程、图像理解和长程任务能力大幅升级,不仅是速度或价格调整。",
+    "date_note": "官方公告日期为 2026-09-28,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
+    "reviewed_sources": [
+      "https://www.anthropic.com/claude-sonnet-5-5"
+    ],
+    "date_verified": true,
+    "event_id": "a0de92dfb05a244e94cd",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "豆包大模型 1.8",
     "vendor": "字节豆包",
     "score": 45,
@@ -179,10 +199,17 @@
         "excerpt": "豆包大模型 1.8 发布,通用 Agent 模型成为了 AI 行业的新叙事 极客公园",
         "checked_at": "2026-09-29T06:58:57+00:00"
       }
-    ]
+    ],
+    "decision_reason": "豆包 1.8 即 Seed1.8，官方首次发布日期为 2025-12-18，已有同一事件；2026-09-28 是新闻重发时间，不是模型首发。",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "reviewed_sources": [
+      "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model"
+    ],
+    "duplicate_of": "8dead3fcefce710274aa"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "GPT-6",
     "vendor": "OpenAI",
     "score": 65,
@@ -224,6 +251,12 @@
         "excerpt": "刚刚,GPT-6 新模型掀桌,「白菜价」杀进 DeepSeek 腹地 36kr.com",
         "checked_at": "2026-10-01T07:12:53+00:00"
       }
+    ],
+    "decision_reason": "缓存优化文章，不是 GPT-6 模型首次发布；GPT-6 Astra/Sol 的独立发布已收录。",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "reviewed_sources": [
+      "https://openai.com/index/better-prompt-caching-for-gpt-6/"
     ]
   },
   {
@@ -258,7 +291,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "Claude Opus 5.5",
     "vendor": "Anthropic",
     "score": 85,
@@ -269,12 +302,12 @@
     ],
     "release_date": "2026-09-22",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "e96436c837decf8735c1",
     "official": true,
     "source_url": "https://www.anthropic.com/claude-opus-5-5",
     "source_title": "Claude Opus 5.5",
-    "summary": "Anthropic 发布 Claude Opus 5.5；官方将其定位为新一代或旗舰模型。",
+    "summary": "Claude Opus 5.5 发布,成为 Claude 5.5 家族首款模型,提升复杂专业与长程任务表现。",
     "first_seen": "2026-09-23T06:02:12+00:00",
     "last_seen": "2026-09-23T06:02:12+00:00",
     "evidence": [
@@ -288,10 +321,20 @@
         "excerpt": "Claude Opus 5.5 September 22, 2026 Scroll down We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier . It was tested be",
         "checked_at": "2026-09-23T06:02:12+00:00"
       }
-    ]
+    ],
+    "date_provenance": "official-article",
+    "milestone_reason": "新 Claude 5.5 家族首款旗舰模型,官方确认能力跃迁并在平台公开可用,符合重要小版本收录标准。",
+    "date_note": "官方公告日期为 2026-09-22,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
+    "reviewed_sources": [
+      "https://www.anthropic.com/claude-opus-5-5"
+    ],
+    "date_verified": true,
+    "event_id": "e96436c837decf8735c1",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)"
   },
   {
-    "status": "pending",
+    "status": "approved",
     "model": "Grok 4.7",
     "vendor": "xAI",
     "score": 85,
@@ -302,12 +345,12 @@
     ],
     "release_date": "2026-09-21",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "4aa17df9488756fcc680",
     "official": true,
     "source_url": "https://x.ai/news/grok-4-7",
     "source_title": "Introducing Grok 4.7",
-    "summary": "xAI 发布 Grok 4.7；官方将其定位为新一代或旗舰模型。",
+    "summary": "Grok 4.7 发布,采用更大的新基座与长程任务训练,提升编程和知识工作能力。",
     "first_seen": "2026-09-22T06:18:19+00:00",
     "last_seen": "2026-09-22T06:18:19+00:00",
     "evidence": [
@@ -321,7 +364,17 @@
         "excerpt": "Introducing Grok 4.7 | SpaceXAI Back to news Sep 21, 2026 Introducing Grok 4.7 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models. Try for free Start building Grok 4.7 is our most capable model for coding and knowledge work. It works longer on difficult t",
         "checked_at": "2026-09-22T06:18:19+00:00"
       }
-    ]
+    ],
+    "date_provenance": "official-article",
+    "milestone_reason": "官方定位为其最强编程与知识工作模型,升级模型基座和长程任务训练,API 当日可用。",
+    "date_note": "官方公告日期为 2026-09-21;结构化数据的午夜值视为日期占位,不当作确切时刻。按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
+    "reviewed_sources": [
+      "https://x.ai/news/grok-4-7"
+    ],
+    "date_verified": true,
+    "event_id": "4aa17df9488756fcc680",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)"
   },
   {
     "status": "approved",
@@ -355,7 +408,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Introducing Grok Voice Transcribe 2.0",
     "vendor": "xAI",
     "score": 40,
@@ -384,11 +437,17 @@
         "excerpt": "Introducing Grok Voice Transcribe 2.0 | SpaceXAI Back to news Sep 18, 2026 Introducing Grok Voice Transcribe 2.0 Announcing SpaceXAI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness. Try It Live View Docs Today we're releasing Grok Voice Transcribe 2.0, our latest speech-to-text model. A",
         "checked_at": "2026-09-19T05:57:42+00:00"
       }
+    ],
+    "decision_reason": "Grok Voice Transcribe 2.0 为 speech-to-text 专项语音转写模型，不属于通用旗舰大模型范围。",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "reviewed_sources": [
+      "https://x.ai/news/grok-voice-transcribe-2"
     ]
   },
   {
-    "status": "pending",
-    "model": "DeepSeek-V4.1",
+    "status": "approved",
+    "model": "DeepSeek-V4.1-Flash",
     "vendor": "DeepSeek",
     "score": 85,
     "important_minor": true,
@@ -398,12 +457,12 @@
     ],
     "release_date": "2026-09-10",
     "published_at": null,
-    "date_precision": "official-date-only",
+    "date_precision": "reviewed-date",
     "id": "7ab9fbb2e86b6ca52cfc",
     "official": true,
-    "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash",
+    "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
     "source_title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
-    "summary": "DeepSeek 发布 DeepSeek-V4.1；官方将其定位为新一代或旗舰模型。",
+    "summary": "DeepSeek-V4.1-Flash 发布,采用新 Causal Encoder-Decoder 架构,具备原生视觉理解并升级通用能力。",
     "first_seen": "2026-09-09T06:01:52+00:00",
     "last_seen": "2026-10-02T07:45:16+00:00",
     "evidence": [
@@ -647,7 +706,18 @@
         "excerpt": "DeepSeek V4.1 Flash正式发布 以Pro级能力打造高性价比AI模型新标杆 eu.36kr.com",
         "checked_at": "2026-10-02T07:45:16+00:00"
       }
-    ]
+    ],
+    "date_provenance": "official-article",
+    "milestone_reason": "官方首发的新架构通用模型,能力超过并替代 V4-Pro;原生视觉和架构升级构成里程碑,不以 Flash 后缀简单视为效率补丁。V4.1-Pro 传闻不作为本条依据。",
+    "date_note": "官方公告日期为 2026-09-10,元数据只有日期;按公告标注日设为全天事件,不虚构时刻,无法确定准确的北京时间跨日。",
+    "reviewed_sources": [
+      "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+    ],
+    "date_verified": true,
+    "event_id": "68389521061e0c866fd8",
+    "reviewed_at": "2026-10-02T08:07:10+00:00",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "evidence_note": "历史发现阶段曾将 Flash 与 Pro 截断为同名；本次仅批准 Flash 官方首发。保留全部原始发现证据，但非官方线索及 Pro 传闻未作为批准依据，也不写入正式事件来源。"
   },
   {
     "status": "approved",

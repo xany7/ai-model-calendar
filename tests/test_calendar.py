@@ -11,7 +11,7 @@ TODAY=date(2026,9,8)
 SOURCE={'official':True,'vendor':'OpenAI'}
 def sample(**kw):
  d={'title':'Introducing GPT-7','text':'Our new generation flagship model is available today.',
-    'raw_date':'2026-09-07T17:30:00Z','detail_verified':True}
+    'raw_date':'2026-09-07T17:30:00Z','detail_verified':True,'date_verified':True}
  d.update(kw);return d
 def event():
  return {'id':'stable-model-id','vendor':'OpenAI','model':'GPT-7 测试','release_date':'2026-09-08',
@@ -30,7 +30,7 @@ def test_verified_major_auto_publishes():
  assert app.classify(sample(),SOURCE,TODAY)['status']=='published'
 @pytest.mark.parametrize('changes',[
  {'title':'Introducing GPT-7.1','text':'A useful update is available today.'},
- {'title':'Introducing GPT-7.01','text':'A useful update is available today.'}, {'raw_date':'2026-09-07'},
+ {'title':'Introducing GPT-7.01','text':'A useful update is available today.'}, {'raw_date':None},
  {'raw_date':'2026-09-10T17:00:00Z'}, {'detail_verified':False},
  {'title':'GPT-7 will launch next week'}, {'text':'A nice update is now available.'}
 ])

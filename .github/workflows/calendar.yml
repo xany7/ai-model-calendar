@@ -36,7 +36,7 @@ jobs:
       - run: pip install -r requirements.txt pytest==9.1.1
       - run: python -m pytest -q
       - name: Collect official sources and news
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect)
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[collect]'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: python calendar_service.py collect

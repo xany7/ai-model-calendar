@@ -1,0 +1,75 @@
+{
+  "reviewed_at": "2026-10-02T08:07:10+00:00",
+  "base_commit": "a9c996944e68eacdadaca2c968c8122a50349c5e",
+  "policy": "保持通用旗舰、首次公开可用与重要能力升级门槛；可靠官方日精度可按全天记录，不虚构时间。",
+  "decisions": [
+    {
+      "candidate_id": "5c23ed75767a91d03911",
+      "action": "approve",
+      "event_id": "5c23ed75767a91d03911",
+      "model": "GPT-6.1 Sol",
+      "release_date": "2026-09-29",
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "date_provenance": "official-rss",
+      "reason": "独立官方发布公告；相比 GPT-6 Sol 的多步专业任务与计算机使用能力明显提升，属于重要能力升级，并非仅降价。"
+    },
+    {
+      "candidate_id": "a0de92dfb05a244e94cd",
+      "action": "approve",
+      "event_id": "a0de92dfb05a244e94cd",
+      "model": "Claude Sonnet 5.5",
+      "release_date": "2026-09-28",
+      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "date_provenance": "official-article",
+      "reason": "Claude 5.5 家族新模型；官方确认相对 Sonnet 5 的编程、图像理解和长程任务能力大幅升级，不仅是速度或价格调整。"
+    },
+    {
+      "candidate_id": "e96436c837decf8735c1",
+      "action": "approve",
+      "event_id": "e96436c837decf8735c1",
+      "model": "Claude Opus 5.5",
+      "release_date": "2026-09-22",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "date_provenance": "official-article",
+      "reason": "新 Claude 5.5 家族首款旗舰模型，官方确认能力跃迁并在平台公开可用，符合重要小版本收录标准。"
+    },
+    {
+      "candidate_id": "4aa17df9488756fcc680",
+      "action": "approve",
+      "event_id": "4aa17df9488756fcc680",
+      "model": "Grok 4.7",
+      "release_date": "2026-09-21",
+      "source_url": "https://x.ai/news/grok-4-7",
+      "date_provenance": "official-article",
+      "reason": "官方定位为其最强编程与知识工作模型，升级模型基座和长程任务训练，API 当日可用。"
+    },
+    {
+      "candidate_id": "7ab9fbb2e86b6ca52cfc",
+      "action": "approve",
+      "event_id": "68389521061e0c866fd8",
+      "model": "DeepSeek-V4.1-Flash",
+      "release_date": "2026-09-10",
+      "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+      "date_provenance": "official-article",
+      "reason": "官方首发的新架构通用模型，能力超过并替代 V4-Pro；原生视觉和架构升级构成里程碑，不以 Flash 后缀简单视为效率补丁。V4.1-Pro 传闻不作为本条依据。"
+    },
+    {
+      "candidate_id": "fd953d8efbd93e7bb792",
+      "action": "reject",
+      "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6/",
+      "reason": "缓存优化文章，不是 GPT-6 模型首次发布；GPT-6 Astra/Sol 的独立发布已收录。"
+    },
+    {
+      "candidate_id": "285fa5115c9b658b57d9",
+      "action": "reject",
+      "source_url": "https://x.ai/news/grok-voice-transcribe-2",
+      "reason": "Grok Voice Transcribe 2.0 为 speech-to-text 专项语音转写模型，不属于通用旗舰大模型范围。"
+    },
+    {
+      "candidate_id": "f9c511bfebe256c081e7",
+      "action": "reject",
+      "source_url": "https://seed.bytedance.com/zh/blog/official-release-of-seed1-8-a-generalized-agentic-model",
+      "reason": "豆包 1.8 即 Seed1.8，官方首次发布日期为 2025-12-18，已有同一事件；2026-09-28 是新闻重发时间，不是模型首发。"
+    }
+  ]
+}

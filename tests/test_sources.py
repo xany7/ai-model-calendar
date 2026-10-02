@@ -86,20 +86,20 @@ def test_mimo_specialist_small_and_efficiency_variants_are_excluded(model):
     assert app.classify({'title': model + ' 发布'}, MIMO, date(2026, 10, 2)) is None
 
 
-def test_mimo_date_only_requires_review_and_dedup_is_stable():
+def test_mimo_verified_date_only_auto_publishes_and_dedup_is_stable():
     row = {'title': 'MiMo-V2.6 系列发布', 'text': '新一代旗舰推理模型',
-           'raw_date': '2026-09-22', 'detail_verified': True}
+           'raw_date': '2026-09-22', 'detail_verified': True, 'date_verified': True}
     result = app.classify(row, MIMO, date(2026, 10, 2))
-    assert result['status'] == 'pending'
+    assert result['status'] == 'published'
     assert result['important_minor'] and result['published_at'] is None
     assert app.model_key('小米 MiMo', 'MiMo-V2.6') == app.model_key('小米 MiMo', 'mimo v2.6')
 
 
 def test_mimo_flagship_is_not_dropped_when_specialist_is_also_announced():
     row = {'title': 'MiMo-V3-Pro 与 MiMo-V3-TTS 正式发布', 'text': '新一代旗舰模型',
-           'raw_date': '2026-09-22', 'detail_verified': True}
+           'raw_date': '2026-09-22', 'detail_verified': True, 'date_verified': True}
     result = app.classify(row, MIMO, date(2026, 10, 2))
-    assert result['model'] == 'MiMo-V3-Pro' and result['status'] == 'pending'
+    assert result['model'] == 'MiMo-V3-Pro' and result['status'] == 'published'
 
 
 def test_pages_artifact_name_is_shared_and_unique_per_attempt():
@@ -121,7 +121,7 @@ def test_collect_preserves_events_and_source_failure_then_deduplicates(tmp_path,
     def discover(s):
         if s['id'] == failed['id']:
             raise ValueError('No entries parsed')
-        return [{'title': 'MiMo-V9 系列发布', 'text': '新一代旗舰模型',
+        return [{'title': 'MiMo-V9 系列发布', 'text': '型号细节还需要确认',
                  'raw_date': app.datetime.now(app.CST).date().isoformat(),
                  'detail_verified': True, 'url': MIMO['url'] + '#new-release'}]
     monkeypatch.setattr(app, 'discover', discover)
