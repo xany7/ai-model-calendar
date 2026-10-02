@@ -1,5 +1,98 @@
 [
   {
+    "status": "pending",
+    "model": "DeepSeek V4.1 Pro",
+    "vendor": "DeepSeek",
+    "score": 30,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-28",
+    "published_at": "2026-09-28T07:45:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "aa2c54afb591879de0cd",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBzY0dFb0JSTGwwOUVfeEh4OHBYS2hTNTlQajhLMERlRjJidWY3T3NPWTlvSlkxanExal9KNGhjdkVjSkJBVFJTZ2Ywd2lrZXpSLVlzOXJMNEdpekVVV2NvRGFyNjlhYmJYdkliX21MTUpsNm5XajlHZW9uWnk5STVBN1Fza185UGEtbWlB?oc=5",
+    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+    "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
+    "first_seen": "2026-10-02T08:24:24+00:00",
+    "last_seen": "2026-10-02T08:24:24+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 06:14:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "75132992ba97709ab529c6a1ae8a36dfe841fdaa27e393608282f00c60f01fd5",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 finance.sina.com.cn",
+        "checked_at": "2026-10-02T08:24:24+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBzY0dFb0JSTGwwOUVfeEh4OHBYS2hTNTlQajhLMERlRjJidWY3T3NPWTlvSlkxanExal9KNGhjdkVjSkJBVFJTZ2Ywd2lrZXpSLVlzOXJMNEdpekVVV2NvRGFyNjlhYmJYdkliX21MTUpsNm5XajlHZW9uWnk5STVBN1Fza185UGEtbWlB?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:45:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "75132992ba97709ab529c6a1ae8a36dfe841fdaa27e393608282f00c60f01fd5",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 finance.sina.com.cn",
+        "checked_at": "2026-10-02T08:24:24+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "MiMo-V3",
+    "vendor": "小米 MiMo",
+    "score": 40,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-23",
+    "published_at": "2026-09-23T12:02:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "ecc8228545615763ad89",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kWDJ2VlhNYVBfQ3NmV1gzWkRGRjI3UnBrQUZyd3pCZUNXZzBXY1dNMEgxQ0ZOekluS2h5dzJodGh3dGJyZURWOW1xb3NyQkZQUHM3YlNabw?oc=5",
+    "source_title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 环球网",
+    "summary": "小米 MiMo 发布 MiMo-V3；具体里程碑意义待审核。",
+    "first_seen": "2026-10-02T08:24:24+00:00",
+    "last_seen": "2026-10-02T08:24:24+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kWDJ2VlhNYVBfQ3NmV1gzWkRGRjI3UnBrQUZyd3pCZUNXZzBXY1dNMEgxQ0ZOekluS2h5dzJodGh3dGJyZURWOW1xb3NyQkZQUHM3YlNabw?oc=5",
+        "title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 环球网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 23 Sep 2026 12:02:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "284b4492f4149807775a5bc07ee2ae30bb36a56a5a8f6b7f74a666857f3f7068",
+        "excerpt": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 环球网",
+        "checked_at": "2026-10-02T08:24:24+00:00"
+      }
+    ]
+  },
+  {
     "status": "rejected",
     "model": "MiMo-V2",
     "vendor": "小米 MiMo",

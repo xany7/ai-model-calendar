@@ -1418,6 +1418,28 @@
     "status": "confirmed"
   },
   {
+    "id": "68389521061e0c866fd8",
+    "vendor": "DeepSeek",
+    "model": "DeepSeek-V4.1-Flash",
+    "release_date": "2026-09-10",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "official-article",
+    "date_verified": true,
+    "date_note": "官方公告日期为 2026-09-10,元数据只有日期;按公告标注日设为全天事件,不虚构时刻,无法确定准确的北京时间跨日。",
+    "summary": "DeepSeek-V4.1-Flash 发布,采用新 Causal Encoder-Decoder 架构,具备原生视觉理解并升级通用能力。",
+    "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "sources": [
+      "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+    ],
+    "milestone_reason": "官方首发的新架构通用模型,能力超过并替代 V4-Pro;原生视觉和架构升级构成里程碑,不以 Flash 后缀简单视为效率补丁。V4.1-Pro 传闻不作为本条依据。",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "created_at": "2026-10-02T08:07:10+00:00",
+    "updated_at": "2026-10-02T08:07:10+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "d4fc784a2522b6c3131f",
     "vendor": "Google",
     "model": "Gemini 3.8",
@@ -1434,132 +1456,6 @@
     "reviewed_by": "rules-v1",
     "created_at": "2026-09-19T05:57:42+00:00",
     "updated_at": "2026-09-19T05:57:42+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "90fa6866866539b369b8",
-    "vendor": "小米 MiMo",
-    "model": "MiMo-V2.6",
-    "release_date": "2026-09-22",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_note": "采用小米官方模型发布日志中该型号/系列的章节日期 2026-09-22；仅日期精度，不使用整页更新时间，不虚构具体时刻。",
-    "summary": "小米发布 MiMo-V2.6 系列，Pro 旗舰升级全模态理解与复杂项目、长程任务能力；同场 Flash 与 Pro-UltraSpeed 合并记录。",
-    "source_url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
-    "sources": [
-      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布"
-    ],
-    "milestone_reason": "官方明确定位为最强大的万亿参数旗舰推理模型，具备全模态能力；同场高效和加速变体不重复记为里程碑。",
-    "reviewed_by": "Codex-2026-10-02-official-MiMo-backfill",
-    "created_at": "2026-10-02T07:33:43+00:00",
-    "updated_at": "2026-10-02T07:33:43+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "83cb98ee61651bb73d7a",
-    "vendor": "OpenAI",
-    "model": "GPT-6 Sol",
-    "release_date": "2026-09-23",
-    "published_at": "2026-09-22T18:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_note": "官方发布时间已换算为北京时间。",
-    "summary": "OpenAI 发布 GPT-6 Sol；官方将其定位为新一代或旗舰模型。",
-    "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-    "sources": [
-      "https://openai.com/index/introducing-gpt-6-sol-and-luna"
-    ],
-    "milestone_reason": "官方明确宣告的新一代/旗舰模型；规则分 100",
-    "reviewed_by": "rules-v1",
-    "created_at": "2026-09-23T06:02:12+00:00",
-    "updated_at": "2026-09-23T06:02:12+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "025c6065a8426119c01f",
-    "vendor": "Google",
-    "model": "Gemini 4",
-    "release_date": "2026-10-01",
-    "published_at": "2026-09-30T20:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_note": "官方发布时间已换算为北京时间。",
-    "summary": "Google 发布 Gemini 4；官方将其定位为新一代或旗舰模型。",
-    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
-    "sources": [
-      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon"
-    ],
-    "milestone_reason": "官方明确宣告的新一代/旗舰模型；规则分 100",
-    "reviewed_by": "rules-v1",
-    "created_at": "2026-10-01T07:12:53+00:00",
-    "updated_at": "2026-10-01T07:12:53+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "5c23ed75767a91d03911",
-    "vendor": "OpenAI",
-    "model": "GPT-6.1 Sol",
-    "release_date": "2026-09-29",
-    "published_at": "2026-09-29T10:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_provenance": "official-rss",
-    "date_verified": true,
-    "date_note": "官方 RSS 发布时间为 2026-09-29 10:00 UTC(北京时间 18:00),按北京时间 2026-09-29 记录。",
-    "summary": "GPT-6.1 Sol 发布,显著提升编程、计算机使用与复杂多步专业工作能力。",
-    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-    "sources": [
-      "https://openai.com/index/introducing-gpt-6-1-sol/"
-    ],
-    "milestone_reason": "独立官方发布公告;相比 GPT-6 Sol 的多步专业任务与计算机使用能力明显提升,属于重要能力升级,并非仅降价。",
-    "reviewed_by": "Codex (maintainer-approved review)",
-    "created_at": "2026-10-02T08:07:10+00:00",
-    "updated_at": "2026-10-02T08:07:10+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "a0de92dfb05a244e94cd",
-    "vendor": "Anthropic",
-    "model": "Claude Sonnet 5.5",
-    "release_date": "2026-09-28",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_provenance": "official-article",
-    "date_verified": true,
-    "date_note": "官方公告日期为 2026-09-28,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
-    "summary": "Claude Sonnet 5.5 正式可用,升级编程、视觉与长程任务能力。",
-    "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
-    "sources": [
-      "https://www.anthropic.com/claude-sonnet-5-5"
-    ],
-    "milestone_reason": "Claude 5.5 家族新模型;官方确认相对 Sonnet 5 的编程、图像理解和长程任务能力大幅升级,不仅是速度或价格调整。",
-    "reviewed_by": "Codex (maintainer-approved review)",
-    "created_at": "2026-10-02T08:07:10+00:00",
-    "updated_at": "2026-10-02T08:07:10+00:00",
-    "sequence": 0,
-    "status": "confirmed"
-  },
-  {
-    "id": "e96436c837decf8735c1",
-    "vendor": "Anthropic",
-    "model": "Claude Opus 5.5",
-    "release_date": "2026-09-22",
-    "published_at": null,
-    "date_precision": "reviewed-date",
-    "date_provenance": "official-article",
-    "date_verified": true,
-    "date_note": "官方公告日期为 2026-09-22,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
-    "summary": "Claude Opus 5.5 发布,成为 Claude 5.5 家族首款模型,提升复杂专业与长程任务表现。",
-    "source_url": "https://www.anthropic.com/claude-opus-5-5",
-    "sources": [
-      "https://www.anthropic.com/claude-opus-5-5"
-    ],
-    "milestone_reason": "新 Claude 5.5 家族首款旗舰模型,官方确认能力跃迁并在平台公开可用,符合重要小版本收录标准。",
-    "reviewed_by": "Codex (maintainer-approved review)",
-    "created_at": "2026-10-02T08:07:10+00:00",
-    "updated_at": "2026-10-02T08:07:10+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -1586,24 +1482,128 @@
     "status": "confirmed"
   },
   {
-    "id": "68389521061e0c866fd8",
-    "vendor": "DeepSeek",
-    "model": "DeepSeek-V4.1-Flash",
-    "release_date": "2026-09-10",
+    "id": "90fa6866866539b369b8",
+    "vendor": "小米 MiMo",
+    "model": "MiMo-V2.6",
+    "release_date": "2026-09-22",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "采用小米官方模型发布日志中该型号/系列的章节日期 2026-09-22；仅日期精度，不使用整页更新时间，不虚构具体时刻。",
+    "summary": "小米发布 MiMo-V2.6 系列，Pro 旗舰升级全模态理解与复杂项目、长程任务能力；同场 Flash 与 Pro-UltraSpeed 合并记录。",
+    "source_url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
+    "sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布"
+    ],
+    "milestone_reason": "官方明确定位为最强大的万亿参数旗舰推理模型，具备全模态能力；同场高效和加速变体不重复记为里程碑。",
+    "reviewed_by": "Codex-2026-10-02-official-MiMo-backfill",
+    "created_at": "2026-10-02T07:33:43+00:00",
+    "updated_at": "2026-10-02T07:33:43+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "e96436c837decf8735c1",
+    "vendor": "Anthropic",
+    "model": "Claude Opus 5.5",
+    "release_date": "2026-09-22",
     "published_at": null,
     "date_precision": "reviewed-date",
     "date_provenance": "official-article",
     "date_verified": true,
-    "date_note": "官方公告日期为 2026-09-10,元数据只有日期;按公告标注日设为全天事件,不虚构时刻,无法确定准确的北京时间跨日。",
-    "summary": "DeepSeek-V4.1-Flash 发布,采用新 Causal Encoder-Decoder 架构,具备原生视觉理解并升级通用能力。",
-    "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "date_note": "官方公告日期为 2026-09-22,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
+    "summary": "Claude Opus 5.5 发布,成为 Claude 5.5 家族首款模型,提升复杂专业与长程任务表现。",
+    "source_url": "https://www.anthropic.com/claude-opus-5-5",
     "sources": [
-      "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+      "https://www.anthropic.com/claude-opus-5-5"
     ],
-    "milestone_reason": "官方首发的新架构通用模型,能力超过并替代 V4-Pro;原生视觉和架构升级构成里程碑,不以 Flash 后缀简单视为效率补丁。V4.1-Pro 传闻不作为本条依据。",
+    "milestone_reason": "新 Claude 5.5 家族首款旗舰模型,官方确认能力跃迁并在平台公开可用,符合重要小版本收录标准。",
     "reviewed_by": "Codex (maintainer-approved review)",
     "created_at": "2026-10-02T08:07:10+00:00",
     "updated_at": "2026-10-02T08:07:10+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "83cb98ee61651bb73d7a",
+    "vendor": "OpenAI",
+    "model": "GPT-6 Sol",
+    "release_date": "2026-09-23",
+    "published_at": "2026-09-22T18:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方发布时间已换算为北京时间。",
+    "summary": "OpenAI 发布 GPT-6 Sol；官方将其定位为新一代或旗舰模型。",
+    "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+    ],
+    "milestone_reason": "官方明确宣告的新一代/旗舰模型；规则分 100",
+    "reviewed_by": "rules-v1",
+    "created_at": "2026-09-23T06:02:12+00:00",
+    "updated_at": "2026-09-23T06:02:12+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "a0de92dfb05a244e94cd",
+    "vendor": "Anthropic",
+    "model": "Claude Sonnet 5.5",
+    "release_date": "2026-09-28",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "official-article",
+    "date_verified": true,
+    "date_note": "官方公告日期为 2026-09-28,未提供可信具体时刻;按公告标注日设为全天事件,无法确定准确的北京时间跨日。",
+    "summary": "Claude Sonnet 5.5 正式可用,升级编程、视觉与长程任务能力。",
+    "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "sources": [
+      "https://www.anthropic.com/claude-sonnet-5-5"
+    ],
+    "milestone_reason": "Claude 5.5 家族新模型;官方确认相对 Sonnet 5 的编程、图像理解和长程任务能力大幅升级,不仅是速度或价格调整。",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "created_at": "2026-10-02T08:07:10+00:00",
+    "updated_at": "2026-10-02T08:07:10+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "5c23ed75767a91d03911",
+    "vendor": "OpenAI",
+    "model": "GPT-6.1 Sol",
+    "release_date": "2026-09-29",
+    "published_at": "2026-09-29T10:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "official-rss",
+    "date_verified": true,
+    "date_note": "官方 RSS 发布时间为 2026-09-29 10:00 UTC(北京时间 18:00),按北京时间 2026-09-29 记录。",
+    "summary": "GPT-6.1 Sol 发布,显著提升编程、计算机使用与复杂多步专业工作能力。",
+    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-1-sol/"
+    ],
+    "milestone_reason": "独立官方发布公告;相比 GPT-6 Sol 的多步专业任务与计算机使用能力明显提升,属于重要能力升级,并非仅降价。",
+    "reviewed_by": "Codex (maintainer-approved review)",
+    "created_at": "2026-10-02T08:07:10+00:00",
+    "updated_at": "2026-10-02T08:07:10+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "025c6065a8426119c01f",
+    "vendor": "Google",
+    "model": "Gemini 4",
+    "release_date": "2026-10-01",
+    "published_at": "2026-09-30T20:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_note": "官方发布时间已换算为北京时间。",
+    "summary": "Google 发布 Gemini 4；官方将其定位为新一代或旗舰模型。",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon"
+    ],
+    "milestone_reason": "官方明确宣告的新一代/旗舰模型；规则分 100",
+    "reviewed_by": "rules-v1",
+    "created_at": "2026-10-01T07:12:53+00:00",
+    "updated_at": "2026-10-01T07:12:53+00:00",
     "sequence": 0,
     "status": "confirmed"
   }
