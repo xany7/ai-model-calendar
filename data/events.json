@@ -843,6 +843,27 @@
     "status": "confirmed"
   },
   {
+    "id": "cae16f1aa756aa6e5632",
+    "vendor": "小米 MiMo",
+    "model": "MiMo-V2-Pro",
+    "release_date": "2026-03-18",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "采用小米官方模型发布日志中该型号/系列的章节日期 2026-03-18；仅日期精度，不使用整页更新时间，不虚构具体时刻。",
+    "summary": "小米发布万亿参数 MiMo-V2-Pro 旗舰，采用混合注意力架构，支持百万上下文与长程智能体任务。",
+    "source_url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-03-18-mimo-v2-pro-发布",
+    "sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-03-18-mimo-v2-pro-发布",
+      "https://mimo.mi.com/docs/en-US/news/previous-news/v2-pro-release"
+    ],
+    "milestone_reason": "官方独立发布的通用旗舰基座，面向智能体工作流；首次公开可用按官方发布日志记录。",
+    "reviewed_by": "Codex-2026-10-02-official-MiMo-backfill",
+    "created_at": "2026-10-02T07:33:43+00:00",
+    "updated_at": "2026-10-02T07:33:43+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "abbd4a2949304a0150fa",
     "vendor": "智谱 GLM",
     "model": "GLM-5.1",
@@ -939,6 +960,27 @@
     "reviewed_by": "Codex-2025-2026-official-backfill",
     "created_at": "2026-09-08T10:41:32+00:00",
     "updated_at": "2026-09-08T10:41:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "c261c02599ee4c53df78",
+    "vendor": "小米 MiMo",
+    "model": "MiMo-V2.5-Pro",
+    "release_date": "2026-04-23",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "采用小米官方模型发布日志中该型号/系列的章节日期 2026-04-23；仅日期精度，不使用整页更新时间，不虚构具体时刻。",
+    "summary": "小米开启 MiMo-V2.5 系列公测，Pro 旗舰强化复杂软件工程与近千轮工具调用，系列同步升级原生多模态能力。",
+    "source_url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-04-23-mimo-v25-pro-发布",
+    "sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-04-23-mimo-v25-pro-发布",
+      "https://mimo.mi.com/docs/zh-CN/news/latest/v2.5-news"
+    ],
+    "milestone_reason": "官方称 Pro 为当时最强模型，并明确说明相较 V2-Pro 的全方位智能体能力跃升；同场通用系列合并，不单列语音型号。",
+    "reviewed_by": "Codex-2026-10-02-official-MiMo-backfill",
+    "created_at": "2026-10-02T07:33:43+00:00",
+    "updated_at": "2026-10-02T07:33:43+00:00",
     "sequence": 0,
     "status": "confirmed"
   },
@@ -1392,6 +1434,26 @@
     "reviewed_by": "rules-v1",
     "created_at": "2026-09-19T05:57:42+00:00",
     "updated_at": "2026-09-19T05:57:42+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "90fa6866866539b369b8",
+    "vendor": "小米 MiMo",
+    "model": "MiMo-V2.6",
+    "release_date": "2026-09-22",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_note": "采用小米官方模型发布日志中该型号/系列的章节日期 2026-09-22；仅日期精度，不使用整页更新时间，不虚构具体时刻。",
+    "summary": "小米发布 MiMo-V2.6 系列，Pro 旗舰升级全模态理解与复杂项目、长程任务能力；同场 Flash 与 Pro-UltraSpeed 合并记录。",
+    "source_url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
+    "sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布"
+    ],
+    "milestone_reason": "官方明确定位为最强大的万亿参数旗舰推理模型，具备全模态能力；同场高效和加速变体不重复记为里程碑。",
+    "reviewed_by": "Codex-2026-10-02-official-MiMo-backfill",
+    "created_at": "2026-10-02T07:33:43+00:00",
+    "updated_at": "2026-10-02T07:33:43+00:00",
     "sequence": 0,
     "status": "confirmed"
   },

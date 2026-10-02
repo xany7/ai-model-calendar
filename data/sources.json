@@ -118,10 +118,22 @@
     "vendor": "字节豆包",
     "kind": "seed",
     "official": true,
-    "url": "https://seed.bytedance.com/zh/blog",
+    "url": "https://seed.bytedance.com/zh/blog_list/foundation",
     "domains": [
       "seed.bytedance.com"
-    ]
+    ],
+    "article_base_url": "https://seed.bytedance.com/zh/blog/"
+  },
+  {
+    "id": "mimo-releases",
+    "vendor": "小米 MiMo",
+    "kind": "dated_headings",
+    "official": true,
+    "url": "https://mimo.mi.com/docs/zh-CN/updates/model",
+    "domains": [
+      "mimo.mi.com"
+    ],
+    "content_selector": ".mdxContent"
   },
   {
     "id": "techcrunch-ai",
@@ -148,7 +160,7 @@
     "vendor": null,
     "kind": "rss",
     "official": false,
-    "url": "https://news.google.com/rss/search?q=%28DeepSeek+OR+Qwen+OR+Kimi+OR+GLM+OR+%E8%B1%86%E5%8C%85%29+%28%E5%8F%91%E5%B8%83+OR+launch%29+when%3A45d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "url": "https://news.google.com/rss/search?q=%28DeepSeek+OR+Qwen+OR+Kimi+OR+GLM+OR+%E8%B1%86%E5%8C%85+OR+MiMo%29+%28%E5%8F%91%E5%B8%83+OR+launch%29+when%3A45d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
     "domains": [
       "news.google.com"
     ],

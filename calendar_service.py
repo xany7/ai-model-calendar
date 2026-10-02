@@ -16,7 +16,7 @@ from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent
 CST = ZoneInfo('Asia/Shanghai')
-VENDORS = ['OpenAI','Anthropic','Google','xAI','DeepSeek','阿里千问','月之暗面 Kimi','智谱 GLM','字节豆包']
+VENDORS = ['OpenAI','Anthropic','Google','xAI','DeepSeek','阿里千问','月之暗面 Kimi','智谱 GLM','字节豆包','小米 MiMo']
 PATTERNS = {
  'OpenAI': r'\b(?:GPT[ -]?\d+(?:\.\d+)*(?:[ -](?:Astra|Sol|Codex))?|OpenAI\s+o\d+)\b',
  'Anthropic': r'\bClaude\s+(?:(?:Opus|Sonnet|Haiku|Fable|Mythos)\s+)?\d+(?:\.\d+)*\b',
@@ -27,6 +27,7 @@ PATTERNS = {
  '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*(?:\s+Thinking)?\b',
  '智谱 GLM': r'\bGLM[ -]?\d+(?:\.\d+)*\b',
  '字节豆包': r'(?:\bSeed[ -]?\d+(?:\.\d+)*\b|(?:豆包|Doubao)(?:大模型)?\s*\d+(?:\.\d+)*)',
+ '小米 MiMo': r'\bMiMo[ -](?:V\d+(?:\.\d+)*(?:[ -](?:Pro(?:-Ultraspeed)?|Omni|Flash|TTS|ASR))?|\d+B(?:-[A-Za-z]+)?)\b',
 }
 LAUNCH = re.compile(r'introduc(?:e|es|ing)|announc(?:e|es|ing)|launch(?:ed|es)?|releas(?:e|ed|ing)|available (?:today|now)|officially live|正式发布|正式上线|现已上线|全新发布|开源|发布',re.I)
 MILESTONE = re.compile(r'flagship|frontier|next.generation|new generation|most (?:capable|advanced|intelligent|powerful)|best .{0,40} model yet|major leap|significant (?:leap|improvement)|step change|旗舰|新一代|里程碑|全新一代|最强.{0,12}模型|重大(?:能力|性能)跃迁',re.I)
@@ -118,6 +119,8 @@ def article_details(raw):
 
 def discover(source):
  raw,final=fetch(source['url']); kind=source['kind']; rows=[]
+ if kind in ('seed','dated_headings') and not allowed(final,source['domains']):
+  raise ValueError('Discovery redirected outside official domains')
  if kind=='rss':
   feed=feedparser.parse(raw)
   for e in feed.entries[:300]:
@@ -151,8 +154,23 @@ def discover(source):
        if sub.get('TitleKey'):
         millis=item.get('ArticleMeta',{}).get('PublishDate')
         day=datetime.fromtimestamp(millis/1000,CST).date().isoformat() if millis else None
-        rows.append({'title':sub.get('Title',''),'url':urljoin(source['url']+'/',sub['TitleKey']),
+        rows.append({'title':sub.get('Title',''),'url':urljoin(source.get('article_base_url',source['url']+'/'),sub['TitleKey']),
                      'text':sub.get('Abstract',''),'raw_date':day})
+  elif kind=='dated_headings':
+   # SSR release logs: use each section's date, never the page's updated date.
+   area=s.select_one(source['content_selector'])
+   for heading in area.select('h2') if area else []:
+    m=re.fullmatch(r'(20\d{2}-\d{2}-\d{2})\s+(.+)',clean(heading.get_text(' ',strip=True)))
+    if not m or not heading.get('id'):continue
+    date.fromisoformat(m[1])
+    body=[]
+    for sibling in heading.next_siblings:
+     if getattr(sibling,'name',None) in ('h1','h2'):break
+     body.append(str(sibling))
+    text=visible(BeautifulSoup(''.join(body),'html.parser'))
+    if not text:raise ValueError('Dated release section has no body')
+    rows.append({'title':m[2],'url':final.split('#',1)[0]+'#'+heading['id'],
+                 'text':text[:8000],'raw_date':m[1],'detail_verified':True})
   elif kind=='changelog':
    for block in s.select('.update-container'):
     ident=block.get('id','')
@@ -187,11 +205,13 @@ def discover(source):
 def classify(item, source, today):
  title=clean(item['title']); vendor,model=identify(title,source.get('vendor'))
  if not model:
-  if source.get('official') and LAUNCH.search(title) and re.search(r'model|模型|Claude|Gemini|Grok|DeepSeek|Qwen|Kimi|GLM|Seed|豆包',title,re.I) and not EXCLUDE.search(title):
+  if source.get('official') and LAUNCH.search(title) and re.search(r'model|模型|Claude|Gemini|Grok|DeepSeek|Qwen|Kimi|GLM|Seed|豆包|MiMo',title,re.I) and not EXCLUDE.search(title):
    day,stamp,precision=parse_date(item.get('raw_date'))
    return {'status':'pending','model':title[:110],'vendor':vendor,'score':40,'title_announcement':False,'reasons':['未知命名：需确认是否为通用旗舰模型及规范模型名。'],'release_date':day,'published_at':stamp,'date_precision':precision}
   return None
  if EXCLUDE.search(title):return None
+ # Speech-only, small and efficiency variants are outside this flagship calendar.
+ if vendor=='小米 MiMo' and re.search(r'\bMiMo[ -](?:\d+B|V\d+(?:\.\d+)*[ -](?:TTS|ASR|Flash|Pro-Ultraspeed))\b',model,re.I):return None
  text=title+' '+item.get('text','')[:2500]
  day,stamp,precision=parse_date(item.get('raw_date'))
  score=40 if source.get('official') else 10; reasons=[]
