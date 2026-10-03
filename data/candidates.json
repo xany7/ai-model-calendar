@@ -21,34 +21,34 @@
     "id": "aa2c54afb591879de0cd",
     "official": false,
     "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBzY0dFb0JSTGwwOUVfeEh4OHBYS2hTNTlQajhLMERlRjJidWY3T3NPWTlvSlkxanExal9KNGhjdkVjSkJBVFJTZ2Ywd2lrZXpSLVlzOXJMNEdpekVVV2NvRGFyNjlhYmJYdkliX21MTUpsNm5XajlHZW9uWnk5STVBN1Fza185UGEtbWlB?oc=5",
-    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-02T08:24:24+00:00",
+    "last_seen": "2026-10-03T06:36:07+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
-        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Mon, 28 Sep 2026 06:14:00 GMT",
         "date_provenance": "news-rss",
         "date_verified": false,
-        "sha256": "75132992ba97709ab529c6a1ae8a36dfe841fdaa27e393608282f00c60f01fd5",
-        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 finance.sina.com.cn",
-        "checked_at": "2026-10-02T08:24:24+00:00"
+        "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
+        "checked_at": "2026-10-03T06:36:07+00:00"
       },
       {
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBzY0dFb0JSTGwwOUVfeEh4OHBYS2hTNTlQajhLMERlRjJidWY3T3NPWTlvSlkxanExal9KNGhjdkVjSkJBVFJTZ2Ywd2lrZXpSLVlzOXJMNEdpekVVV2NvRGFyNjlhYmJYdkliX21MTUpsNm5XajlHZW9uWnk5STVBN1Fza185UGEtbWlB?oc=5",
-        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - finance.sina.com.cn",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
         "official": false,
         "source_id": "china-news-discovery",
         "raw_date": "Mon, 28 Sep 2026 07:45:00 GMT",
         "date_provenance": "news-rss",
         "date_verified": false,
-        "sha256": "75132992ba97709ab529c6a1ae8a36dfe841fdaa27e393608282f00c60f01fd5",
-        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 finance.sina.com.cn",
-        "checked_at": "2026-10-02T08:24:24+00:00"
+        "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
+        "checked_at": "2026-10-03T06:36:07+00:00"
       }
     ]
   },
