@@ -1,6 +1,47 @@
 [
   {
     "status": "pending",
+    "model": "豆包2.2",
+    "vendor": "字节豆包",
+    "score": 30,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-08-31",
+    "published_at": "2026-08-31T07:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "8351fbc656dc66347702",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGamx6TXo5V19Xa2ktVzFCdG9OWXJQazhaMk9OUURDbmJjVk02aHFVaktza3ZIU05kNmJ0enZmVDc0NDYtU2JBMGNJVTcyZWQzMmNn?oc=5",
+    "source_title": "曝字节豆包2.2推迟发布:正全力攻坚Coding相关能力 - 搜狐网",
+    "summary": "字节豆包 发布 豆包2.2；具体里程碑意义待审核。",
+    "first_seen": "2026-10-05T07:07:52+00:00",
+    "last_seen": "2026-10-05T07:07:52+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGamx6TXo5V19Xa2ktVzFCdG9OWXJQazhaMk9OUURDbmJjVk02aHFVaktza3ZIU05kNmJ0enZmVDc0NDYtU2JBMGNJVTcyZWQzMmNn?oc=5",
+        "title": "曝字节豆包2.2推迟发布:正全力攻坚Coding相关能力 - 搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 31 Aug 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "31c212326fec211cf7902a3f67cee20daf44411afa4f73d3e93c8e9d160ded68",
+        "excerpt": "曝字节豆包2.2推迟发布:正全力攻坚Coding相关能力 搜狐网",
+        "checked_at": "2026-10-05T07:07:52+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "DeepSeek V4.1 Pro",
     "vendor": "DeepSeek",
     "score": 30,
