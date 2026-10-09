@@ -470,9 +470,9 @@
     "checked_at": "2026-09-19T05:57:42+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhN1Zudld5bHlaMlN2bVpadkZvcnRnQjNmeVJ2TExpVGtUa252dFNuWXZFWTdSaE1qTUJUU0IyV3F4YXBnd1FJc0lYZUJsZw?oc=5": {
-    "fingerprint": "871a8ca6b1fcc176d3f34e0e660296dc95258ac272aea53174256a26aad75495",
+    "fingerprint": "f0085cae67ef731dc346d3fe9785ec1717bc5f614101207afb7789a8476e85f1",
     "completed": true,
-    "checked_at": "2026-09-21T06:25:42+00:00"
+    "checked_at": "2026-10-09T07:27:14+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQYUlocnF2MjdKOURTUGFITm1tbzgtcG5Wc1ZqTm9lOTYyNjVOM3NyRUZYVzRTM29obVY1MnJBNXFpbHNZdllQQk5VRFA?oc=5": {
     "fingerprint": "a5fa37f3b545dbd9bee3ece3d0c8849b1d70cd016ba4a5de6f770c0d35e1c998",
@@ -710,9 +710,9 @@
     "checked_at": "2026-09-28T07:00:14+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CMDVEcWRGYlN1VnREN25WdXdPcmgyVF9nVzRhUWFJend1alBMSTNHVE1vbklHQlRQT0Riek81OEIzdDk5Q1Q2S2tzTUl1UQ?oc=5": {
-    "fingerprint": "b7ff5866bb7bb2c7cbbd86b1ab7080f9de366c64fcbd40a4d2443f62072d02a7",
+    "fingerprint": "9a908e11146fa6501597538be0434a80995d5dbb6ee0c2afbf88422637bf5956",
     "completed": true,
-    "checked_at": "2026-10-06T07:36:52+00:00"
+    "checked_at": "2026-10-09T07:27:14+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kRVIybGRPUXhTaFA5TzJGMjRDNWlmaTJ3aFdTRFpocHBlTTdSM19OV2hYWGVldkFuUzlGeWFGT1ZtRXFUN2VzU0dvbkNJMzVfVG9FTUpURVk?oc=5": {
     "fingerprint": "e98ac90b6d7b0a28bcfe6532834d40610ff690aed5bcafe9d641a94a1084a091",
@@ -760,9 +760,9 @@
     "checked_at": "2026-09-29T06:58:57+00:00"
   },
   "openai-rss|https://openai.com/index/introducing-gpt-6-1-sol": {
-    "fingerprint": "3b9267d3ecde55ad12b5a7b7f1f5089ef4cec38d945cbdcd109521112b26ffb8",
+    "fingerprint": "404b9e7e0519a76268c39b0281fdfca523af9fab0d80b8ae15884e22051705a3",
     "completed": true,
-    "checked_at": "2026-10-08T07:28:39+00:00"
+    "checked_at": "2026-10-09T07:27:14+00:00"
   },
   "openai-rss|https://openai.com/index/introducing-dots": {
     "fingerprint": "3cb6bbf6447823133f92b0350a108e33d500256311818a0b87dd10c39560ce58",
@@ -800,9 +800,9 @@
     "checked_at": "2026-10-02T07:03:33+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMib0FVX3lxTFBPMzVqYWFEaFBnQXU2VVNQV0pQc2lfUUttM1VzdnVVR3laUTRkcWxyLW5sTnIzd0JGMGpCYmxWRXgwWFFVYjVIM0VlMGJibmE3b3VoUExHNk1RZEpRcEgzY0ZDR1BPLVhwSVU5ZUNxYw?oc=5": {
-    "fingerprint": "1aa9be6c9bdef9a76f07f63c0fa16392c676a57deee7d69b4bfc21e25247b479",
+    "fingerprint": "2ce4bc7c89d8cae5f25d5bcf33cf9feea6fb764c5aa875ad9823c0e256ab40b3",
     "completed": true,
-    "checked_at": "2026-10-02T07:03:33+00:00"
+    "checked_at": "2026-10-09T07:27:14+00:00"
   },
   "mimo-releases|https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布": {
     "fingerprint": "b6e936859af5ecd762fdea6c14e99952feea13b5dc286d4e378b588a9063a929",
@@ -1008,5 +1008,20 @@
     "fingerprint": "e5ea9fdc6fa195b23fd610d28e18b73839c2457a94188d79b53ad89a6a6c3b30",
     "completed": true,
     "checked_at": "2026-10-08T07:28:39+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/2026-usage-policy-update": {
+    "fingerprint": "87b57d91a13b752b2b8b5b2e9d6156f54c12c3af95835e5adc44311689e007d8",
+    "completed": true,
+    "checked_at": "2026-10-09T07:27:14+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/genesis-mission-commitment": {
+    "fingerprint": "2a75e39260e43b7572a1fc85f2acb2e0b2586612efba7ca8dc28274c862dd903",
+    "completed": true,
+    "checked_at": "2026-10-09T07:27:14+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/anthropic-cyber-mission": {
+    "fingerprint": "030e2a263bc3e55444337df70066330b4a485f79f61e4b865c76ea4ee8d87bb8",
+    "completed": true,
+    "checked_at": "2026-10-09T07:27:14+00:00"
   }
 }
