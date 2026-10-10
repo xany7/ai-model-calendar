@@ -61,11 +61,11 @@
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBzY0dFb0JSTGwwOUVfeEh4OHBYS2hTNTlQajhLMERlRjJidWY3T3NPWTlvSlkxanExal9KNGhjdkVjSkJBVFJTZ2Ywd2lrZXpSLVlzOXJMNEdpekVVV2NvRGFyNjlhYmJYdkliX21MTUpsNm5XajlHZW9uWnk5STVBN1Fza185UGEtbWlB?oc=5",
-    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 新浪财经",
+    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01bDdOS3BvQlZQYWplcjlEUDRWN0Fyb3ZHRmVES0ZYN0FTeDEwbGN2ZXE1aXFJbndwYTdaTlZDQlRzZ1VXT09BUVBWVEM?oc=5",
+    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 凤凰网科技",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-08T07:28:39+00:00",
+    "last_seen": "2026-10-10T07:12:58+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -114,6 +114,18 @@
         "sha256": "e5aae710412a7b81570244c218248765116590ff1adc5ff74c55bffd38e72e3d",
         "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 新浪财经",
         "checked_at": "2026-10-08T07:28:39+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01bDdOS3BvQlZQYWplcjlEUDRWN0Fyb3ZHRmVES0ZYN0FTeDEwbGN2ZXE1aXFJbndwYTdaTlZDQlRzZ1VXT09BUVBWVEM?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 凤凰网科技",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "a2b1217ebde6e448d0048b57872d5bbd570e070ecc91df95e847a8880f24f36d",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 凤凰网科技",
+        "checked_at": "2026-10-10T07:12:58+00:00"
       }
     ]
   },
@@ -130,18 +142,18 @@
       "新闻仅作发现线索，必须补充官方来源。",
       "正文未验证或只有目录/仓库信息。"
     ],
-    "release_date": "2026-09-23",
-    "published_at": "2026-09-23T12:02:00+00:00",
+    "release_date": "2026-09-24",
+    "published_at": "2026-09-24T07:00:00+00:00",
     "date_precision": "timestamp",
     "date_provenance": "news-rss",
     "date_verified": false,
     "id": "ecc8228545615763ad89",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kWDJ2VlhNYVBfQ3NmV1gzWkRGRjI3UnBrQUZyd3pCZUNXZzBXY1dNMEgxQ0ZOekluS2h5dzJodGh3dGJyZURWOW1xb3NyQkZQUHM3YlNabw?oc=5",
-    "source_title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 环球网",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZkZha1VCUzg1Q3IwWmk4OWhmdEFHVU5CSU9rYUhtbzJfWE1HTF9IcXJfUzR4NUFaX1NfbmVGZm9zbDRWSW5TdVJkWTd5S1lZa2VaNXpaSE1DMzBtNnpxTnNWZU1IcW1WZjhkSUYzbHk1QlJDczNjdURJZWRpdzV0ODlIRVo2ejg?oc=5",
+    "source_title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 新浪财经",
     "summary": "小米 MiMo 发布 MiMo-V3；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-02T08:24:24+00:00",
+    "last_seen": "2026-10-10T07:12:58+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kWDJ2VlhNYVBfQ3NmV1gzWkRGRjI3UnBrQUZyd3pCZUNXZzBXY1dNMEgxQ0ZOekluS2h5dzJodGh3dGJyZURWOW1xb3NyQkZQUHM3YlNabw?oc=5",
@@ -154,6 +166,18 @@
         "sha256": "284b4492f4149807775a5bc07ee2ae30bb36a56a5a8f6b7f74a666857f3f7068",
         "excerpt": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 环球网",
         "checked_at": "2026-10-02T08:24:24+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZkZha1VCUzg1Q3IwWmk4OWhmdEFHVU5CSU9rYUhtbzJfWE1HTF9IcXJfUzR4NUFaX1NfbmVGZm9zbDRWSW5TdVJkWTd5S1lZa2VaNXpaSE1DMzBtNnpxTnNWZU1IcW1WZjhkSUYzbHk1QlJDczNjdURJZWRpdzV0ODlIRVo2ejg?oc=5",
+        "title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Thu, 24 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "7f12e31951e8a2086356486f36cca265a47a3d0577078d391b797a22edc25f83",
+        "excerpt": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 新浪财经",
+        "checked_at": "2026-10-10T07:12:58+00:00"
       }
     ]
   },
