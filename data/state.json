@@ -1103,5 +1103,25 @@
     "fingerprint": "7dc36ca3b869c8cd57d5716b747805618cdb78550b809eb3f9da03540f0fbcc6",
     "completed": true,
     "checked_at": "2026-10-13T07:46:45+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon": {
+    "fingerprint": "f79dce6fb2d62a1d0f193efc4e09975cd372589ac47ac1505d8258e75ef314bf",
+    "completed": true,
+    "checked_at": "2026-10-14T06:11:35+00:00"
+  },
+  "verge-ai|https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon": {
+    "fingerprint": "2c2fbbc13c5a6a8d481cd749954562fedf41e43e3476bb68a98acf14f6572d9d",
+    "completed": true,
+    "checked_at": "2026-10-14T06:11:35+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZY09hQ3diQ3dOY3hZWC1jSEw4UHBud2FjZHFUNTFrQ2RDU09mUlY1LVpsY3l0NFdmOHVyLWFaZFdMS1picXBRd1pqR2pSXzRZdk1RVU5R?oc=5": {
+    "fingerprint": "265d816ad202ea7b2dadae0320d175a08409bf5c9130d22a14543addd32d0b5d",
+    "completed": true,
+    "checked_at": "2026-10-14T06:11:35+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjNlY2ZmZ3cnRUUU00QWpFRDRnYk1odlk1dGNKelltbVpscEpqR1dlSW92YVpRRWQ3RUVKc3dkLUR2dU5UXy1CVmNXSS1ENGxHRDVmUE9n?oc=5": {
+    "fingerprint": "4208ea0752258b220747e8e8ee4f62306e8218fd74eea159baa15e63ef34777f",
+    "completed": true,
+    "checked_at": "2026-10-14T06:11:35+00:00"
   }
 }
