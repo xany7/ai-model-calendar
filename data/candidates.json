@@ -1,6 +1,80 @@
 [
   {
     "status": "pending",
+    "model": "Introducing Grok Voice 3.0",
+    "vendor": "xAI",
+    "score": 40,
+    "title_announcement": false,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": "2026-10-14",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "13b699d564869d21746d",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-voice-3",
+    "source_title": "Introducing Grok Voice 3.0",
+    "summary": "xAI 发布 Introducing Grok Voice 3.0；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-10-15T05:55:56+00:00",
+    "last_seen": "2026-10-15T05:55:56+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-voice-3",
+        "title": "Introducing Grok Voice 3.0",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-10-14T00:00:00Z",
+        "date_provenance": "official-article",
+        "date_verified": true,
+        "sha256": "167b8e706e0bca06af8a6c8803dbb1f8edb1ccc8549014495a6c9a25a4e4a903",
+        "excerpt": "Introducing Grok Voice 3.0 | SpaceXSI Back to news Oct 14, 2026 Introducing Grok Voice 3.0 The world’s most intelligent voice model. Try It Free View Docs Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model. It sets a new record for resolving customer support calls, has class-lea",
+        "checked_at": "2026-10-15T05:55:56+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
+    "model": "Qwen 4",
+    "vendor": "阿里千问",
+    "score": 40,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-22",
+    "published_at": "2026-09-22T07:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "c0cae7d4d8f75affacfd",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSl9CWlU0THp6ZG1vZXFVUVFFYUt4UXhMcHVrYjFnV1hPc1pqcENCbC1rQ2RkdUhONzREeXdkeXltWkQ2S0h0eUFMZnRUaVRCVUFwWnIxS1Z3RXpkdTNuRF9wNEtpZDBvUW1mV25uY2Q4OEpfRVpieURIR1JkMENLeVdn?oc=5",
+    "source_title": "Qwen 4 Max 在 Apsara 2026 上发布:四个层级 - OrcaRouter",
+    "summary": "阿里千问 发布 Qwen 4；具体里程碑意义待审核。",
+    "first_seen": "2026-10-15T05:55:56+00:00",
+    "last_seen": "2026-10-15T05:55:56+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSl9CWlU0THp6ZG1vZXFVUVFFYUt4UXhMcHVrYjFnV1hPc1pqcENCbC1rQ2RkdUhONzREeXdkeXltWkQ2S0h0eUFMZnRUaVRCVUFwWnIxS1Z3RXpkdTNuRF9wNEtpZDBvUW1mV25uY2Q4OEpfRVpieURIR1JkMENLeVdn?oc=5",
+        "title": "Qwen 4 Max 在 Apsara 2026 上发布:四个层级 - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Tue, 22 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "52ca52c1117f533cc09595f3fcffb4a734e5b2a0ad5951acd9953e6f33729ef3",
+        "excerpt": "Qwen 4 Max 在 Apsara 2026 上发布:四个层级 OrcaRouter",
+        "checked_at": "2026-10-15T05:55:56+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "豆包2.2",
     "vendor": "字节豆包",
     "score": 30,

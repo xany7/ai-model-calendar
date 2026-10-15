@@ -1123,5 +1123,40 @@
     "fingerprint": "4208ea0752258b220747e8e8ee4f62306e8218fd74eea159baa15e63ef34777f",
     "completed": true,
     "checked_at": "2026-10-14T06:11:35+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/singapore-office-opening": {
+    "fingerprint": "0ad6d38f8f1758a0e2ba1f8c38932e65df5dbffe28429aa3a88078fd239d9f3c",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-voice-3": {
+    "fingerprint": "45e9b7d7dc8ce492e348322f12700e9f065291cfd6a58959badf13b4d46d9566",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiV0FVX3lxTE1QQ3JaMTV4bmZRMDlGSTFTYWRYS0IzVWM1RURhRUNzWHZXZXlqM0VvaUFHZEpINVpNMkUyMU1FYWY3X1JWaTFBazRnRzJUNXpoRzRKams2SQ?oc=5": {
+    "fingerprint": "40dae98821863e1d222cf2546e944a47541609b8998e82865fb1eaaa81d6fa3c",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hZ0NaaDJWRTRGbXdmcnBPQ1ZRWEpaMFppdHBnUG82YnFoMTBDMWZUZkJIc2ZPMGpnejBGNjZkNXBRV0lmUW9iaGZXU2ZGUHh1OFltUnNwQzYtdWdjTjk5Tko5MA?oc=5": {
+    "fingerprint": "912ddf22b352720837dffab12079386033cf6a12eeba6af610152d1de2e5519b",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iaEYtZ0h6cWVQOGNuQy1JOGFiTzVSRVZfaUdPTnpybnlsZld3dFFwcGEwSTBNaGtxYkFXUzVTd2l6OXdqR1pNRHVzbzRKX2xSQXhTbnln?oc=5": {
+    "fingerprint": "59c647c1fb15c6e5ae153428f6a088c091dd1b06fff73778906fa45b9c21d6ca",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiggFBVV95cUxNSl9CWlU0THp6ZG1vZXFVUVFFYUt4UXhMcHVrYjFnV1hPc1pqcENCbC1rQ2RkdUhONzREeXdkeXltWkQ2S0h0eUFMZnRUaVRCVUFwWnIxS1Z3RXpkdTNuRF9wNEtpZDBvUW1mV25uY2Q4OEpfRVpieURIR1JkMENLeVdn?oc=5": {
+    "fingerprint": "20b58b2839260c3103c2a8de2b7e68b892576937cd38d384c9b577a27c386bcb",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMif0FVX3lxTE5tb1NLSUZrTTRlVDJKMFExdm1HaGpLNWo2N1NYVXJINURSZFB6dDJKUEIteWdKTUtMUVAxd0xtWEJHMDkzLWtOWmN6R0szYnhPUGhsWXYwbi11RzdEUGV4OGJwZFVFNk0wak9vVk44X2VyRFFrN2Nwc2xmVmpmU1E?oc=5": {
+    "fingerprint": "f0cf112d7e0e5552f52710d4de23f2941ab2ebdabf2c692e623deab1623c0e50",
+    "completed": true,
+    "checked_at": "2026-10-15T05:55:56+00:00"
   }
 }
