@@ -135,11 +135,11 @@
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01bDdOS3BvQlZQYWplcjlEUDRWN0Fyb3ZHRmVES0ZYN0FTeDEwbGN2ZXE1aXFJbndwYTdaTlZDQlRzZ1VXT09BUVBWVEM?oc=5",
-    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 凤凰网科技",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NtdlFLVGhDR25GVlluSFhMaTVCYkJBZ001Q1lJdG9ReHV1LUFDZ2g1VkNZYktZV2lRSGRHaDN3WlBmVXBKUzZJU2NHbE5TeER6ckNxUFZGZEg1S2hjTmo1WUtfNHZwNS05THM3TnI1SmFLVlc1eUU0ci1jS04tMFAxRFdueGhn?oc=5",
+    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-10T07:12:58+00:00",
+    "last_seen": "2026-10-17T05:38:05+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -200,6 +200,30 @@
         "sha256": "a2b1217ebde6e448d0048b57872d5bbd570e070ecc91df95e847a8880f24f36d",
         "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 凤凰网科技",
         "checked_at": "2026-10-10T07:12:58+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOOU9XV0FjNlduajViY09JQ093WWM5Umc1OGRqTS1RendCRkVONGNxdVF4ekY1NE0tclpJY1hGSS1LalQtRUJpNnZQMEtwN3FfYl9iQzFoc2xZNktjUEtqdjdn?oc=5",
+        "title": "DeepSeek V4.1 Pro被曝已开始灰度测试 - 观点网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "6a7fd215d43b0d1efc6d04a2affb815d501266cb92007ffe8bde95937fa8daf2",
+        "excerpt": "DeepSeek V4.1 Pro被曝已开始灰度测试 观点网",
+        "checked_at": "2026-10-17T05:38:05+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NtdlFLVGhDR25GVlluSFhMaTVCYkJBZ001Q1lJdG9ReHV1LUFDZ2g1VkNZYktZV2lRSGRHaDN3WlBmVXBKUzZJU2NHbE5TeER6ckNxUFZGZEg1S2hjTmo1WUtfNHZwNS05THM3TnI1SmFLVlc1eUU0ci1jS04tMFAxRFdueGhn?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "9111dbd604c453672e2fc0d733f85b85bc5bbf992e308f045f1cf63c2504eff8",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 搜狐网",
+        "checked_at": "2026-10-17T05:38:05+00:00"
       }
     ]
   },
