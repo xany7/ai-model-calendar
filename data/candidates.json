@@ -1,6 +1,46 @@
 [
   {
     "status": "pending",
+    "model": "MiMo-V2.6-Pro",
+    "vendor": "小米 MiMo",
+    "score": 45,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-09-22",
+    "published_at": "2026-09-22T07:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "18b101ecea132df7f259",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbTh0ZnlpWkQ5SUxLUU1VbEJtUXYtRHZVUlg5c3U5cG95T3FtcXlWNVJzbnVzYUw5Nl9lb1p1UENPWU1tRWRsdHhreS0xbERsNnAzYkVR?oc=5",
+    "source_title": "小米发布新一代MiMo大模型,MiMo-V2.6-Pro首次支持全模态 - 搜狐网",
+    "summary": "小米 MiMo 发布 MiMo-V2.6-Pro；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-10-19T06:16:13+00:00",
+    "last_seen": "2026-10-19T06:16:13+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbTh0ZnlpWkQ5SUxLUU1VbEJtUXYtRHZVUlg5c3U5cG95T3FtcXlWNVJzbnVzYUw5Nl9lb1p1UENPWU1tRWRsdHhreS0xbERsNnAzYkVR?oc=5",
+        "title": "小米发布新一代MiMo大模型,MiMo-V2.6-Pro首次支持全模态 - 搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Tue, 22 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "08f36f6a18052c231ee4ec05c4486f1fda6278b5897c16a422d4fcd990d22472",
+        "excerpt": "小米发布新一代MiMo大模型,MiMo-V2.6-Pro首次支持全模态 搜狐网",
+        "checked_at": "2026-10-19T06:16:13+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Introducing Grok Voice 3.0",
     "vendor": "xAI",
     "score": 40,
