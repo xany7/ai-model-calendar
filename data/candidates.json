@@ -1,6 +1,47 @@
 [
   {
     "status": "pending",
+    "model": "豆包4.19",
+    "vendor": "字节豆包",
+    "score": 30,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-10-20",
+    "published_at": "2026-10-20T03:34:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "7653defc8f5a6ef71014",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xeG9RNUFwVG9OcldhZkNhRDdNZVZYS1FzelJYNXVBMnlHRnZReXctc0RvXzNuN1FHc25QU2tUMzdvRTZZeTVsNFo2YUxXVy1peU1WcjdITjc?oc=5",
+    "source_title": "QuestMobile榜单发布:豆包4.19亿断层领先 千问增速5076% - 驱动之家",
+    "summary": "字节豆包 发布 豆包4.19；具体里程碑意义待审核。",
+    "first_seen": "2026-10-20T06:05:35+00:00",
+    "last_seen": "2026-10-20T06:05:35+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xeG9RNUFwVG9OcldhZkNhRDdNZVZYS1FzelJYNXVBMnlHRnZReXctc0RvXzNuN1FHc25QU2tUMzdvRTZZeTVsNFo2YUxXVy1peU1WcjdITjc?oc=5",
+        "title": "QuestMobile榜单发布:豆包4.19亿断层领先 千问增速5076% - 驱动之家",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Tue, 20 Oct 2026 03:34:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "2794c15a4822ab9b9300e516cfc0010e6e85a8d7e3ecb7e5b5cdd57e6143d877",
+        "excerpt": "QuestMobile榜单发布:豆包4.19亿断层领先 千问增速5076% 驱动之家",
+        "checked_at": "2026-10-20T06:05:35+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "MiMo-V2.6-Pro",
     "vendor": "小米 MiMo",
     "score": 45,
