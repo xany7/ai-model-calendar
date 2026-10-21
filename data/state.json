@@ -70,9 +70,9 @@
     "checked_at": "2026-09-08T06:57:40+00:00"
   },
   "anthropic-news|https://www.anthropic.com/claude-fable-and-mythos-5-1": {
-    "fingerprint": "476006eb9b00157fde35fbbcb4b72f2b0f91aa48b34a50b553366618d269790c",
+    "fingerprint": "5308c67e943209fe82b1a27fa25d85050a69245f9c67cc6d18a9bec3b3596261",
     "completed": true,
-    "checked_at": "2026-09-08T06:57:40+00:00"
+    "checked_at": "2026-10-21T06:05:37+00:00"
   },
   "anthropic-news|https://www.anthropic.com/news/enterprise-frontier-safeguards": {
     "fingerprint": "6940a40c66d7903734427e63b9b09cd1eecefde052253ae19c35d77e58439c42",
@@ -550,9 +550,9 @@
     "checked_at": "2026-09-18T05:58:29+00:00"
   },
   "anthropic-news|https://www.anthropic.com/news/life-sciences-verification-program": {
-    "fingerprint": "a66d7e8a09d29a9c8f44246197757de4e74c76b800fb5c32a54beb1f186060d2",
+    "fingerprint": "0a2023e2a9c930863f902e5cfdc1faf36d05634f4a585ecde0f4a49ab23ca798",
     "completed": true,
-    "checked_at": "2026-09-18T05:58:29+00:00"
+    "checked_at": "2026-10-21T06:05:37+00:00"
   },
   "anthropic-news|https://www.anthropic.com/news/model-hardware-standard-research-preview": {
     "fingerprint": "f0db2eb7962be0ab4b068286a45d8fb7943ba5f39cae6145a7aaa6380393d574",
@@ -1020,9 +1020,9 @@
     "checked_at": "2026-10-09T07:27:14+00:00"
   },
   "anthropic-news|https://www.anthropic.com/news/anthropic-cyber-mission": {
-    "fingerprint": "030e2a263bc3e55444337df70066330b4a485f79f61e4b865c76ea4ee8d87bb8",
+    "fingerprint": "2b5fc26858b134d08ac91585b8bb704d5121150f8e31fc4625661e006dc5139b",
     "completed": true,
-    "checked_at": "2026-10-09T07:27:14+00:00"
+    "checked_at": "2026-10-21T06:05:37+00:00"
   },
   "openai-rss|https://openai.com/index/asana-browser-agent": {
     "fingerprint": "78ed6080b15ef38d62e6bb426595c3ea981230b79b1462110ee3ff6bb7221c33",
@@ -1055,9 +1055,9 @@
     "checked_at": "2026-10-11T07:15:55+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE10dzB2ckQxX0hISVJXV3V2dFQ3RmtxbGxyRE15cUQ5VlZtNnNESHZJMVpYWGF1WlJiZXRLcFNtSWNySnRCbUpTVTBISzRBZGdyRjlkbzBLSWc?oc=5": {
-    "fingerprint": "12bbaf9973c061107728720c747dd48b366da12b56d8a5e6cf39d14ded87368c",
+    "fingerprint": "32d309784b48c12179d1ff17f8a67923a92b38382fb89a0dbce369852474eebb",
     "completed": true,
-    "checked_at": "2026-10-12T07:25:44+00:00"
+    "checked_at": "2026-10-21T06:05:37+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMif0FVX3lxTE5pdjhmU3VEWEo1Xzhob3lrZmhadGVSYTJNYjdzWmZkbldvVHUyTDMzVmRSaEFGZGFDUWxUMDhTWmJ4Y1dDbkJuOHFkRUZfWm0xWEVoMHhYNWdFTllFYU1FZ3lnOUJNUmZCRS1BQ280SzgtMHZwazBuNnBzOGdPZ28?oc=5": {
     "fingerprint": "180892a97bc94b8da14e3ebb9b42460b0a0f396d99aca5603ae67de7c74ea693",
@@ -1323,5 +1323,15 @@
     "fingerprint": "a5986e8ec9a7d474abe85b94d76d92769f97acedc9a3a241e06b711691e98dda",
     "completed": true,
     "checked_at": "2026-10-20T06:05:35+00:00"
+  },
+  "openai-rss|https://openai.com/index/terminal-x": {
+    "fingerprint": "57225ede3a2b0a2f45b0675726e502b218d3aaf0e6833d45c0346a76bd437f63",
+    "completed": true,
+    "checked_at": "2026-10-21T06:05:37+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/announcements": {
+    "fingerprint": "1d60ed06b95554f4c00e1bde9fc7dbbd30d70b4073e4c9b04771314da5e490c0",
+    "completed": true,
+    "checked_at": "2026-10-21T06:05:37+00:00"
   }
 }
