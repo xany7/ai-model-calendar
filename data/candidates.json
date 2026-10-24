@@ -1,6 +1,91 @@
 [
   {
     "status": "pending",
+    "model": "Kimi K3.1",
+    "vendor": "月之暗面 Kimi",
+    "score": 85,
+    "important_minor": true,
+    "title_announcement": true,
+    "reasons": [
+      "发布日期未核实；需确认官方日期口径。"
+    ],
+    "release_date": "2026-10-24",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_provenance": "unverified-listing",
+    "date_verified": false,
+    "id": "54f55cf9a088eb9135fb",
+    "official": true,
+    "source_url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+    "source_title": "Introducing Kimi K3.1 Pro",
+    "summary": "月之暗面 Kimi 发布 Kimi K3.1；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-10-24T05:57:22+00:00",
+    "last_seen": "2026-10-24T05:57:22+00:00",
+    "evidence": [
+      {
+        "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+        "title": "Introducing Kimi K3.1 Pro",
+        "official": true,
+        "source_id": "kimi-blog",
+        "raw_date": "2026-10-24",
+        "date_provenance": "unverified-listing",
+        "date_verified": false,
+        "sha256": "6e139deeae8234f1468ba59cfd3e32249ee7ae618bcbe168e821607a295d49b6",
+        "excerpt": "Scroll to explore Introducing Kimi K3.1 Pro We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capa",
+        "checked_at": "2026-10-24T05:57:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5meEltOVVWcnJvS3Z5R0VwQjVUbkhnS0RyekF1cGpCVUh1M3NuNFpOWkxJQTllSnEwVGJ2UEtfUkpNYU9razdhREdIMHVjZw?oc=5",
+        "title": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了-36氪 - 36kr",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 23 Oct 2026 11:32:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "813fde1e0d982bc686f53f6dc05a659d7efbae718e1a34b3af6a0799b75a023f",
+        "excerpt": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了-36氪 36kr",
+        "checked_at": "2026-10-24T05:57:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBuQWE1Mk90WVcyejdIYVNsVE9iQ3EzTGRWQW1xeXhqdWljczd3WjgxdFRaMnp5SlQ1QmEyYXUwaERCMGR5Rlo0MjBwcDNId200dUt4YXZVZVBYNG02NnhMSjlNT1VIV29LR2JMQVFGZUl3bUVNMTV5bk52a1U?oc=5",
+        "title": "Kimi K3.1 Pro发布:多项测试超越GPT-6,最强开源模型回归 - 新浪财经",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sat, 24 Oct 2026 02:00:42 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "17a4fe81a784ba0ed78b8036bcec94025bf51c70d3f0b21321100f95c9f6a977",
+        "excerpt": "Kimi K3.1 Pro发布:多项测试超越GPT-6,最强开源模型回归 新浪财经",
+        "checked_at": "2026-10-24T05:57:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YNUpYSFZKUTVlZWdGeVlUMTNUQ0RSXzdpZloxMHhYZG5ianNhU2RGd3pxUEY0dUpUM3YtakNHbnBMbktaX3BRcGVLdXF5YTh3RnJtTjIzMU9BMlNDM2VJQ3FVb1ByQ3JQNXc?oc=5",
+        "title": "Kimi K3.1 Pro模型发布:3万亿级参数,支持100万上下文 - 风闻",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sat, 24 Oct 2026 04:32:52 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "e86a760fc3166f05b4c7d943e9cf782993ddb69516345fde93ecc22a6aa9bea1",
+        "excerpt": "Kimi K3.1 Pro模型发布:3万亿级参数,支持100万上下文 风闻",
+        "checked_at": "2026-10-24T05:57:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORWJBaVk1UVA1amZwVmwxZHhhQmg3LUswOFpYdFlwZmNMekFzOGVqOU5fRkNoVi1ITkRMUlF1cVBXazlxMkwyMGdLb2RKdnVtRTQzUTA0NHVEUjFWY3cwQnYxQlZGUHd1cDBtN1laVFFOaGJHRzBUbG11dmQxNlBBckc1eFZPUElnaG4wTQ?oc=5",
+        "title": "Kimi K3.1 Pro 发布,上下文达 100 万 token,开放权重将于 11 月 4 日前公布 - Pasquale Pillitteri",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 23 Oct 2026 20:00:30 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "e315fa4f3a9b7e9dba4c64ac56aa68e030cf38efc97ad4d179a173d32a0bb953",
+        "excerpt": "Kimi K3.1 Pro 发布,上下文达 100 万 token,开放权重将于 11 月 4 日前公布 Pasquale Pillitteri",
+        "checked_at": "2026-10-24T05:57:22+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "GPT-6.1",
     "vendor": "OpenAI",
     "score": 55,
