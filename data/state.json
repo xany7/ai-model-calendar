@@ -1375,9 +1375,9 @@
     "checked_at": "2026-10-24T05:57:22+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiTkFVX3lxTE5meEltOVVWcnJvS3Z5R0VwQjVUbkhnS0RyekF1cGpCVUh1M3NuNFpOWkxJQTllSnEwVGJ2UEtfUkpNYU9razdhREdIMHVjZw?oc=5": {
-    "fingerprint": "2b397b30442179a084464bf9932e9f7662b3a7938b8681eeeaa629e73fd19bc3",
+    "fingerprint": "dde6d502d4c20d22af90eec46564a27b81ba8573b05f633a8a57e6623e695f91",
     "completed": true,
-    "checked_at": "2026-10-24T05:57:22+00:00"
+    "checked_at": "2026-10-25T06:12:19+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMifEFVX3lxTFBuQWE1Mk90WVcyejdIYVNsVE9iQ3EzTGRWQW1xeXhqdWljczd3WjgxdFRaMnp5SlQ1QmEyYXUwaERCMGR5Rlo0MjBwcDNId200dUt4YXZVZVBYNG02NnhMSjlNT1VIV29LR2JMQVFGZUl3bUVNMTV5bk52a1U?oc=5": {
     "fingerprint": "ec4842e11a4262e47bc28a361a2db3112006ea280163f824346dee8df1c8d173",
@@ -1403,5 +1403,15 @@
     "fingerprint": "40f1def6349c91453438fbe2ada327627e54f07eb8b16ce045cc433541166a11",
     "completed": true,
     "checked_at": "2026-10-24T05:57:22+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiV0FVX3lxTE15bU1wc2FGOWRqa3lZZTBzQkNTRXRiMHNGR2s4S1lQU3paM2VLUHZTam5IRzgwZDRlNnFjalhybDZwdzBBX1RHYWdwajBMZ01BUDQwNms2NA?oc=5": {
+    "fingerprint": "1ab28e56c93aa3aa9cb970696b7c64fce34f7723be7b50972fd47f485e54bba7",
+    "completed": true,
+    "checked_at": "2026-10-25T06:12:19+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0ZjaENsR3BsWXUyaEwySzRrejc3cG5TUEFmWm5aYXI3eGpVOVhFWXBZbFJtTnpyMnFBdkFvU3hWeFh5SEJVbVRYeC1hSWdhbG5HbmRvY1lfUTExZ2ZHWHVxckwtWFZyM2pUVWE1U2lRWFVMaUFQOXRlMWZUNnkzUlF0THh6X2t4?oc=5": {
+    "fingerprint": "63439dcb2325d14d4b824655dbf8e05cd9a40ba4d5f434d3439970caeba4a35e",
+    "completed": true,
+    "checked_at": "2026-10-25T06:12:19+00:00"
   }
 }

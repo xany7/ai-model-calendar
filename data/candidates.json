@@ -20,7 +20,7 @@
     "source_title": "Introducing Kimi K3.1 Pro",
     "summary": "月之暗面 Kimi 发布 Kimi K3.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-10-24T05:57:22+00:00",
-    "last_seen": "2026-10-24T05:57:22+00:00",
+    "last_seen": "2026-10-25T06:12:19+00:00",
     "evidence": [
       {
         "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
@@ -32,18 +32,6 @@
         "date_verified": false,
         "sha256": "6e139deeae8234f1468ba59cfd3e32249ee7ae618bcbe168e821607a295d49b6",
         "excerpt": "Scroll to explore Introducing Kimi K3.1 Pro We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capa",
-        "checked_at": "2026-10-24T05:57:22+00:00"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5meEltOVVWcnJvS3Z5R0VwQjVUbkhnS0RyekF1cGpCVUh1M3NuNFpOWkxJQTllSnEwVGJ2UEtfUkpNYU9razdhREdIMHVjZw?oc=5",
-        "title": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了-36氪 - 36kr",
-        "official": false,
-        "source_id": "china-news-discovery",
-        "raw_date": "Fri, 23 Oct 2026 11:32:00 GMT",
-        "date_provenance": "news-rss",
-        "date_verified": false,
-        "sha256": "813fde1e0d982bc686f53f6dc05a659d7efbae718e1a34b3af6a0799b75a023f",
-        "excerpt": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了-36氪 36kr",
         "checked_at": "2026-10-24T05:57:22+00:00"
       },
       {
@@ -81,6 +69,42 @@
         "sha256": "e315fa4f3a9b7e9dba4c64ac56aa68e030cf38efc97ad4d179a173d32a0bb953",
         "excerpt": "Kimi K3.1 Pro 发布,上下文达 100 万 token,开放权重将于 11 月 4 日前公布 Pasquale Pillitteri",
         "checked_at": "2026-10-24T05:57:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15bU1wc2FGOWRqa3lZZTBzQkNTRXRiMHNGR2s4S1lQU3paM2VLUHZTam5IRzgwZDRlNnFjalhybDZwdzBBX1RHYWdwajBMZ01BUDQwNms2NA?oc=5",
+        "title": "Kimi K3.1 Pro发布:多项测试超越GPT-6,最强开源模型回归 - 麻省理工科技评论",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sat, 24 Oct 2026 02:12:07 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "c575191c75a527f58cfa68bcf5fca70fffe2e99d527678f255a1147f97c50340",
+        "excerpt": "Kimi K3.1 Pro发布:多项测试超越GPT-6,最强开源模型回归 麻省理工科技评论",
+        "checked_at": "2026-10-25T06:12:19+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5meEltOVVWcnJvS3Z5R0VwQjVUbkhnS0RyekF1cGpCVUh1M3NuNFpOWkxJQTllSnEwVGJ2UEtfUkpNYU9razdhREdIMHVjZw?oc=5",
+        "title": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了 - 36Kr",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 23 Oct 2026 11:32:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "a052d937d209625c1cbf827416fa8f4be6dcdb87cd961a71b9bf16ae0e4eceb8",
+        "excerpt": "Kimi K3.1 Pro刚发布,社区先炸了:比K3快、性能逼近Opus,但额度10分钟就烧光了 36Kr",
+        "checked_at": "2026-10-25T06:12:19+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0ZjaENsR3BsWXUyaEwySzRrejc3cG5TUEFmWm5aYXI3eGpVOVhFWXBZbFJtTnpyMnFBdkFvU3hWeFh5SEJVbVRYeC1hSWdhbG5HbmRvY1lfUTExZ2ZHWHVxckwtWFZyM2pUVWE1U2lRWFVMaUFQOXRlMWZUNnkzUlF0THh6X2t4?oc=5",
+        "title": "Kimi K3.1 Pro发布:开放权重模型逼近闭源前沿,Agent竞赛重塑智算版图 - 搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sun, 25 Oct 2026 02:27:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "15cd4540fe84123c670ff2d7d6fb666697dc5a297460d58ce32272db3c1f12fb",
+        "excerpt": "Kimi K3.1 Pro发布:开放权重模型逼近闭源前沿,Agent竞赛重塑智算版图 搜狐网",
+        "checked_at": "2026-10-25T06:12:19+00:00"
       }
     ]
   },
