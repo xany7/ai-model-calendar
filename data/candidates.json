@@ -516,14 +516,14 @@
     "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。"
   },
   {
-    "status": "rejected",
+    "status": "pending",
     "model": "豆包2.2",
     "vendor": "字节豆包",
     "score": 30,
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。"
+      "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。"
     ],
     "release_date": null,
     "published_at": null,
@@ -551,9 +551,9 @@
         "checked_at": "2026-10-05T07:07:52+00:00"
       }
     ],
-    "reviewed_at": "2026-10-26T08:01:48+00:00",
+    "reviewed_at": "2026-10-26T08:05:39+00:00",
     "reviewed_by": "Codex (authorized by xany7)",
-    "decision_reason": "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。",
+    "decision_reason": "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。",
     "reviewed_sources": [
       "https://seed.bytedance.com/zh/blog_list/foundation",
       "https://seed.bytedance.com/zh/models?view_from=homepage_tab"
@@ -575,7 +575,7 @@
       "延期新闻不满足已正式发布门槛。"
     ],
     "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。",
-    "decision_scope": "discovery-only"
+    "current_evidence_decision": "excluded"
   },
   {
     "status": "pending",
@@ -710,14 +710,14 @@
     "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。"
   },
   {
-    "status": "rejected",
+    "status": "pending",
     "model": "MiMo-V3",
     "vendor": "小米 MiMo",
     "score": 40,
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。"
+      "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。"
     ],
     "release_date": null,
     "published_at": null,
@@ -757,9 +757,9 @@
         "checked_at": "2026-10-10T07:12:58+00:00"
       }
     ],
-    "reviewed_at": "2026-10-26T08:01:48+00:00",
+    "reviewed_at": "2026-10-26T08:05:39+00:00",
     "reviewed_by": "Codex (authorized by xany7)",
-    "decision_reason": "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。",
+    "decision_reason": "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。",
     "reviewed_sources": [
       "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
       "https://mimo.xiaomi.com/",
@@ -787,7 +787,7 @@
       "官方模型日志与研究主页未能补充本线索所需的模型首发证据。"
     ],
     "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。",
-    "decision_scope": "discovery-only"
+    "current_evidence_decision": "excluded"
   },
   {
     "status": "rejected",

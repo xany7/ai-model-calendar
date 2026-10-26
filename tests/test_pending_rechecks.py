@@ -160,20 +160,3 @@ def test_real_versions_still_match(name):
 
 def test_statistical_match_does_not_hide_a_later_real_version():
     assert app.identify('豆包4.19亿用户，Seed2.1正式发布', '字节豆包') == ('字节豆包', 'Seed2.1')
-
-
-@pytest.mark.parametrize('verified_launch', [False, True])
-def test_discovery_only_exclusion_requires_independent_verified_official_launch(repo, verified_launch):
-    row, calls, body, clock = repo
-    old=seed_pending(row,status='rejected',official=False,decision_scope='discovery-only',
-                     source_url='https://news.example/technical-report',decision_reason='Technical report only')
-    if verified_launch:
-        body[0]=body[0].replace('<main>','<meta property="article:published_time" content="2026-10-23"><main>')
-    app.collect()
-    c=app.read('candidates.json')[0]
-    assert c['status']==('approved' if verified_launch else 'rejected')
-    assert len(app.read('events.json'))==int(verified_launch)
-    if verified_launch:
-        assert c['prior_reviews'][0]['decision_reason']==old['decision_reason']
-        assert c['prior_reviews'][0]['source_url']==old['source_url']
-        assert 'decision_reason' not in c

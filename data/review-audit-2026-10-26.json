@@ -1,15 +1,15 @@
 {
-  "reviewed_at": "2026-10-26T07:59:31+00:00",
+  "reviewed_at": "2026-10-26T08:05:39+00:00",
   "reviewed_by": "Codex (authorized by xany7)",
   "base_commit": "3d8377eb8af86b99ddd339ab7fda4540bbd5e9e6",
   "policy": "维持通用旗舰、重要能力升级、首次公开可用及可靠官方日期门槛；新闻、延期、灰测、技术报告和专用语音不自动收录。",
   "counts": {
     "reviewed": 9,
     "approved": 1,
-    "rejected": 6,
-    "deferred": 2,
+    "rejected": 4,
+    "deferred": 4,
     "confirmed_events": 80,
-    "pending": 2
+    "pending": 4
   },
   "decisions": [
     {
@@ -116,19 +116,19 @@
     {
       "candidate_id": "8351fbc656dc66347702",
       "model": "豆包2.2",
-      "action": "reject",
-      "status": "rejected",
+      "action": "defer",
+      "status": "pending",
       "release_date": null,
-      "reviewed_at": "2026-10-26T08:01:48+00:00",
+      "reviewed_at": "2026-10-26T08:05:39+00:00",
       "reviewed_by": "Codex (authorized by xany7)",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGamx6TXo5V19Xa2ktVzFCdG9OWXJQazhaMk9OUURDbmJjVk02aHFVaktza3ZIU05kNmJ0enZmVDc0NDYtU2JBMGNJVTcyZWQzMmNn?oc=5",
       "sources": [
         "https://seed.bytedance.com/zh/blog_list/foundation",
         "https://seed.bytedance.com/zh/models?view_from=homepage_tab"
       ],
-      "reason": "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。",
+      "reason": "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。",
       "date_note": "原始日期仅在发现证据中保留，不能据此认定模型首发。",
-      "decision_scope": "discovery-only"
+      "current_evidence_decision": "excluded"
     },
     {
       "candidate_id": "aa2c54afb591879de0cd",
@@ -149,10 +149,10 @@
     {
       "candidate_id": "ecc8228545615763ad89",
       "model": "MiMo-V3",
-      "action": "reject",
-      "status": "rejected",
+      "action": "defer",
+      "status": "pending",
       "release_date": null,
-      "reviewed_at": "2026-10-26T08:01:48+00:00",
+      "reviewed_at": "2026-10-26T08:05:39+00:00",
       "reviewed_by": "Codex (authorized by xany7)",
       "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZkZha1VCUzg1Q3IwWmk4OWhmdEFHVU5CSU9rYUhtbzJfWE1HTF9IcXJfUzR4NUFaX1NfbmVGZm9zbDRWSW5TdVJkWTd5S1lZa2VaNXpaSE1DMzBtNnpxTnNWZU1IcW1WZjhkSUYzbHk1QlJDczNjdURJZWRpdzV0ODlIRVo2ejg?oc=5",
       "sources": [
@@ -160,9 +160,9 @@
         "https://mimo.xiaomi.com/",
         "https://arxiv.org/abs/2609.26368"
       ],
-      "reason": "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。",
+      "reason": "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。 当前这条证据已审核且不予发布；模型级候选保留待证，等待独立官方首发与日期，避免永久压制未来真实发布。",
       "date_note": "原始日期仅在发现证据中保留，不能据此认定模型首发。",
-      "decision_scope": "discovery-only"
+      "current_evidence_decision": "excluded"
     }
   ]
 }

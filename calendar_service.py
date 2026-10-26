@@ -346,11 +346,7 @@ def collect():
    key=model_key(result['vendor'],result['model'])
    if key in known:entry['completed']=True;stats['duplicates']+=1;continue
    old=by_id.get(key)
-   # Excluding a delay/technical-news item must not veto a future independently
-   # verified official launch of that model. Other terminal reviews stay final.
-   supersedes_excluded=bool(old and old.get('decision_scope')=='discovery-only' and old['status']=='rejected'
-                           and source['official'] and result['status']=='published' and canonical_url(old['source_url'])!=url)
-   if old and old['status'] in ('rejected','approved') and not supersedes_excluded:entry['completed']=True;continue
+   if old and old['status'] in ('rejected','approved'):entry['completed']=True;continue
    if source['official']:
     entry.update(completed=False,pending_rechecks=rechecks)
    # Keep conflicting official dates for review, never silently overwrite them.
@@ -362,9 +358,7 @@ def collect():
               'summary':f"{result['vendor']} 发布 {result['model']}；"+("官方将其定位为新一代或旗舰模型。" if MILESTONE.search(item.get('text','')[:2500]) else '具体里程碑意义待审核。'),
               'first_seen':old['first_seen'] if old else start,'last_seen':start,'evidence':(old.get('evidence',[]) if old else [])}
    # A deferred review remains inspectable when fresh official evidence arrives.
-   if supersedes_excluded:
-    candidate['prior_reviews']=old.get('prior_reviews',[])+[{k:old[k] for k in ('status','reviewed_at','reviewed_by','decision_reason','decision_scope','source_url') if k in old}]
-   elif old:
+   if old:
     for field in ('reviewed_at','reviewed_by','decision_reason','reviewed_sources'):
      if field in old:candidate[field]=old[field]
    candidate['evidence']=[e for e in candidate['evidence'] if e['url']!=url]+[evidence]
