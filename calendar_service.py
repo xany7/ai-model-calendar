@@ -16,6 +16,7 @@ from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent
 CST = ZoneInfo('Asia/Shanghai')
+PENDING_RECHECK_LIMIT = 3
 VENDORS = ['OpenAI','Anthropic','Google','xAI','DeepSeek','阿里千问','月之暗面 Kimi','智谱 GLM','字节豆包','小米 MiMo']
 PATTERNS = {
  'OpenAI': r'\b(?:GPT[ -]?\d+(?:\.\d+)*(?:[ -](?:Astra|Sol|Codex))?|OpenAI\s+o\d+)\b',
@@ -26,7 +27,7 @@ PATTERNS = {
  '阿里千问': r'\bQwen[ -]?\d+(?:\.\d+)*(?:-(?:Coder|Max(?:-Thinking|-Preview)?|Flash-Next))?\b',
  '月之暗面 Kimi': r'\bKimi[ -]?K\d+(?:\.\d+)*(?:\s+Thinking)?\b',
  '智谱 GLM': r'\bGLM[ -]?\d+(?:\.\d+)*\b',
- '字节豆包': r'(?:\bSeed[ -]?\d+(?:\.\d+)*\b|(?:豆包|Doubao)(?:大模型)?\s*\d+(?:\.\d+)*)',
+ '字节豆包': r'(?:\bSeed[ -]?\d+(?:\.\d+)*(?![A-Za-z0-9]|\.\d)|(?:豆包|Doubao)(?:大模型)?\s*\d+(?:\.\d+)*)',
  '小米 MiMo': r'(?<![A-Za-z0-9])MiMo[ -](?:V\d+(?:\.\d+)*(?:[ -](?:Pro(?:-Ultraspeed)?|Omni|Flash|TTS|ASR))?|\d+B(?:-[A-Za-z]+)?)(?![A-Za-z0-9]|\.\d)',
 }
 LAUNCH = re.compile(r'introduc(?:e|es|ing)|announc(?:e|es|ing)|launch(?:ed|es)?|releas(?:e|ed|ing)|available (?:today|now)|officially live|正式发布|正式上线|现已上线|全新发布|开源|发布',re.I)
@@ -62,8 +63,11 @@ def identify(title, vendor=None):
  title=clean(title)
  # Match the title only: a competitor in benchmark tables is never a release.
  for v in ([vendor] if vendor else VENDORS):
-  m=re.search(PATTERNS[v], title, re.I)
-  if m:return v,m.group()
+  for m in re.finditer(PATTERNS[v], title, re.I):
+   # Audience, money and percentage figures are not model versions. Check the
+   # whole numeric token so the regex cannot backtrack from 4.19亿 to 4.1.
+   if v=='字节豆包' and re.match(r'\s*(?:[万亿千百%％]|(?:million|billion)(?![A-Za-z]))',title[m.end():],re.I):continue
+   return v,m.group()
  return vendor,None
 
 def parse_date(raw):
@@ -300,7 +304,20 @@ def collect():
    # and resurrect already-reviewed rumors when rules change.
    fingerprint=hashlib.sha256(json.dumps({k:v for k,v in item.items() if k not in ('date_verified','date_provenance')},sort_keys=True,ensure_ascii=False).encode()).hexdigest()
    cached=state.get(state_key,{})
-   if cached.get('fingerprint')==fingerprint and cached.get('completed'):
+   # Migrate legacy completed entries only when they still own an unresolved
+   # official candidate. Preserve terminal reviews and unrelated completed URLs.
+   unresolved=source['official'] and next((c for c in by_id.values() if c['status']=='pending' and
+                ((c.get('official') and canonical_url(c['source_url'])==url) or
+                 any(e.get('official') and e.get('source_id')==source['id'] and canonical_url(e['url'])==url for e in c.get('evidence',[])))),None)
+   unchanged=cached.get('fingerprint')==fingerprint
+   rechecks=cached.get('pending_rechecks',0) if unchanged else 0
+   if unchanged and unresolved:
+    try:checked=datetime.fromisoformat(cached['checked_at']).astimezone(timezone.utc)
+    except (KeyError,TypeError,ValueError):checked=None
+    if rechecks>=PENDING_RECHECK_LIMIT or (checked and datetime.fromisoformat(start)<checked+timedelta(hours=24*2**rechecks)):
+     stats['duplicates']+=1;continue
+    rechecks+=1
+   elif unchanged and cached.get('completed'):
     stats['duplicates']+=1;continue
    if source['official'] and not item.get('detail_verified') and source['kind']!='github_org':
     if attempted>=12:
@@ -322,13 +339,20 @@ def collect():
     except Exception as e:
      item['detail_verified']=False;status['errors'].append(url+': '+str(e)[:120])
    result=classify(item,source,today)
-   state[state_key]={'fingerprint':fingerprint,'completed':bool(item.get('detail_verified') or not source['official'] or source['kind']=='github_org'),'checked_at':start}
+   entry={'fingerprint':fingerprint,'completed':bool(item.get('detail_verified') or not source['official'] or source['kind']=='github_org'),'checked_at':start}
+   state[state_key]=entry
    if not result:continue
    if result['release_date'] and date.fromisoformat(result['release_date'])<cutoff:continue
    key=model_key(result['vendor'],result['model'])
-   if key in known:stats['duplicates']+=1;continue
+   if key in known:entry['completed']=True;stats['duplicates']+=1;continue
    old=by_id.get(key)
-   if old and old['status'] in ('rejected','approved'):continue
+   # Excluding a delay/technical-news item must not veto a future independently
+   # verified official launch of that model. Other terminal reviews stay final.
+   supersedes_excluded=bool(old and old.get('decision_scope')=='discovery-only' and old['status']=='rejected'
+                           and source['official'] and result['status']=='published' and canonical_url(old['source_url'])!=url)
+   if old and old['status'] in ('rejected','approved') and not supersedes_excluded:entry['completed']=True;continue
+   if source['official']:
+    entry.update(completed=False,pending_rechecks=rechecks)
    # Keep conflicting official dates for review, never silently overwrite them.
    conflict=old and old.get('release_date') and result['release_date'] and old['release_date']!=result['release_date'] and old.get('official') and source['official'] and old['score']>=75 and result['score']>=75
    evidence={'url':url,'title':item['title'][:250],'official':source['official'],'source_id':source['id'],
@@ -337,6 +361,12 @@ def collect():
    candidate={**result,'id':key,'official':source['official'],'source_url':url,'source_title':item['title'][:250],
               'summary':f"{result['vendor']} 发布 {result['model']}；"+("官方将其定位为新一代或旗舰模型。" if MILESTONE.search(item.get('text','')[:2500]) else '具体里程碑意义待审核。'),
               'first_seen':old['first_seen'] if old else start,'last_seen':start,'evidence':(old.get('evidence',[]) if old else [])}
+   # A deferred review remains inspectable when fresh official evidence arrives.
+   if supersedes_excluded:
+    candidate['prior_reviews']=old.get('prior_reviews',[])+[{k:old[k] for k in ('status','reviewed_at','reviewed_by','decision_reason','decision_scope','source_url') if k in old}]
+   elif old:
+    for field in ('reviewed_at','reviewed_by','decision_reason','reviewed_sources'):
+     if field in old:candidate[field]=old[field]
    candidate['evidence']=[e for e in candidate['evidence'] if e['url']!=url]+[evidence]
    if old and old.get('official') and not source['official']:
     old['evidence']=candidate['evidence'];old['last_seen']=start;continue
@@ -348,6 +378,8 @@ def collect():
     event=event_from_candidate(candidate,'rules-v2-date-only',start)
     events.append(event);known.add(key);candidate['status']='approved';stats['published']+=1
    else:candidate['status']='pending';stats['pending']+=int(not old)
+   if source['official']:
+    entry['completed']=candidate['status']=='approved'
    by_id[key]=candidate
   if status['errors'] and not error:status['status']='degraded'
   old_status=next((s for s in previous.get('sources',[]) if s['id']==source['id']),{})
