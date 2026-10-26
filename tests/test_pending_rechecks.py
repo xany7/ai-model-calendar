@@ -62,8 +62,10 @@ def test_legacy_completed_pending_is_rechecked_and_can_publish(repo):
     assert len(calls) == 1 and len(app.read('events.json')) == 1
 
 
-def test_unresolved_date_has_bounded_backoff_and_keeps_review(repo):
+@pytest.mark.parametrize('excluded_detail', [False, True])
+def test_unresolved_date_has_bounded_backoff_and_keeps_review(repo, excluded_detail):
     row, calls, body, clock = repo
+    if excluded_detail:body[0]=body[0].replace('Introducing GPT-7','GPT-7 system card')
     seed_pending(row, reviewed_at='2026-10-25T00:00:00Z', reviewed_by='maintainer',
                  decision_reason='Await own publication date')
     app.collect()
@@ -82,7 +84,8 @@ def test_unresolved_date_has_bounded_backoff_and_keeps_review(repo):
     c = app.read('candidates.json')[0]
     assert c['status'] == 'pending' and c['reviewed_by'] == 'maintainer'
     assert c['decision_reason'] == 'Await own publication date'
-    assert not c['date_verified'] and c['date_provenance'] == 'unverified-listing'
+    if not excluded_detail:
+        assert not c['date_verified'] and c['date_provenance'] == 'unverified-listing'
 
 
 def test_changed_listing_resets_exhausted_retry_budget(repo):

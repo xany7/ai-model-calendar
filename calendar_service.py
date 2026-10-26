@@ -341,6 +341,7 @@ def collect():
    result=classify(item,source,today)
    entry={'fingerprint':fingerprint,'completed':bool(item.get('detail_verified') or not source['official'] or source['kind']=='github_org'),'checked_at':start}
    state[state_key]=entry
+   if unresolved:entry.update(completed=False,pending_rechecks=rechecks)
    if not result:continue
    if result['release_date'] and date.fromisoformat(result['release_date'])<cutoff:continue
    key=model_key(result['vendor'],result['model'])
