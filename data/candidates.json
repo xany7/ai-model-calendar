@@ -20,7 +20,7 @@
     "source_title": "Introducing Kimi K3.1 Pro",
     "summary": "月之暗面 Kimi 发布 Kimi K3.1；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-10-24T05:57:22+00:00",
-    "last_seen": "2026-10-25T06:12:19+00:00",
+    "last_seen": "2026-10-26T06:19:28+00:00",
     "evidence": [
       {
         "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
@@ -105,6 +105,78 @@
         "sha256": "15cd4540fe84123c670ff2d7d6fb666697dc5a297460d58ce32272db3c1f12fb",
         "excerpt": "Kimi K3.1 Pro发布:开放权重模型逼近闭源前沿,Agent竞赛重塑智算版图 搜狐网",
         "checked_at": "2026-10-25T06:12:19+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aRXRxQ0M5TEtzTEdoZlU2bUhGMUxkeFRJOVVfb0ltenRMNHAyUmx2a2N2R3JjeW55bmFmem4yUGozblptLUluZGNBZ1BJVVJtMmF0TGJBdDg3VW85TzVSN2g4R24xZw?oc=5",
+        "title": "Kimi K3.1 Pro深夜“炸场”:2.8万亿参数蝉联全球规模最大开源模型,月之暗面上市前夜提速场景交付 - 每日经济新闻",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sun, 25 Oct 2026 13:32:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "9be9ff3d13555e3647ef3142026cab7cec26a5d73d30611779b2b8370b7f2c06",
+        "excerpt": "Kimi K3.1 Pro深夜“炸场”:2.8万亿参数蝉联全球规模最大开源模型,月之暗面上市前夜提速场景交付 每日经济新闻",
+        "checked_at": "2026-10-26T06:19:28+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DcXdrVDREQ05pYUZXNFZrUWR6Wnc2eGFPdnlKZUV5aXNVNDJGbDRpVnFHWFFORkQ5SHY2cnZnT2JsdXh1Rzc2X0trazJkWG8?oc=5",
+        "title": "Kimi K3.1 Pro模型发布:3万亿级参数,支持100万上下文 - 维科号",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 26 Oct 2026 01:31:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "131f36d2fffa330ec08a775e05b6487035f9d9ea529db9f671e2eb4752528c56",
+        "excerpt": "Kimi K3.1 Pro模型发布:3万亿级参数,支持100万上下文 维科号",
+        "checked_at": "2026-10-26T06:19:28+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XN2t1dFo5U3BsUG45VmY2dTNuS2tmdG10UnhKbW1DR2FlZjdYY3ByXzNZMW1HNlZBaS05di03SGJ3WGlGeGxWRjFZVGRMalhTYndkY0dHRzV5N3VBbEtjYjlEMHdvOWVT?oc=5",
+        "title": "Kimi K3.1 Pro发布,月之暗面最强3万亿级模型 - 三易生活",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sun, 25 Oct 2026 09:54:56 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "37b6b851a7ac1e2a8ae63922af29257dd400762f55049b05e675f8c245d25f7f",
+        "excerpt": "Kimi K3.1 Pro发布,月之暗面最强3万亿级模型 三易生活",
+        "checked_at": "2026-10-26T06:19:28+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUzVnZXBZSGh2RFkzbk9yeGpWbG9TOHZUZzJWN0lGNjROZkVpRXA5OTEya3BzRUZaWE9oT2JLbmxCSU1iVkVzZDhQUDFkX3JVNVJ3ZXMtQ2xBVUxQd3JsWm9QZVJwUEd6dk5vb3d0SWlfNEJ1b2dUeWpCcjlGaUc5V1pTNUVYR3pZbnRfVw?oc=5",
+        "title": "Kimi K3.1 Pro 正式发布;OpenAI估值目标据悉下调至1.25万亿美元; - 手机搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 26 Oct 2026 02:11:50 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "117db2dbbce22ae78924d197cdd2f8139711c76fefbe65d9ffecc5bec8c61279",
+        "excerpt": "Kimi K3.1 Pro 正式发布;OpenAI估值目标据悉下调至1.25万亿美元; 手机搜狐网",
+        "checked_at": "2026-10-26T06:19:28+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnQtQ1hJSTU4V3FDZm9aQVlBSnFrR3IzMVhtaXJhLV8tdFRsc1JwTkpncmhvSWs3enhfVGZ5MkUxZkR6WUZsdV9WandQMEF5Y1hPYUVaQmNuRmNIWnh5dHl2YlVqa05RczFfSnE2NzB1VnhhdGczbW9SM2ZCMm9PMXFxazRVYWc3bUd3R21UZ1NlVjZ5ZlNPX1YyU0xLWUtXa2tIZQ?oc=5",
+        "title": "Moonshot 在 Kimi K3.1 Pro 发布遇到问题后重置订阅用户额度 - Mezha.net",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sun, 25 Oct 2026 20:54:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "dc31769f3b9fad6f56a3118bf9803738ab8ab8e12f17fc22a8526bb92343d261",
+        "excerpt": "Moonshot 在 Kimi K3.1 Pro 发布遇到问题后重置订阅用户额度 Mezha.net",
+        "checked_at": "2026-10-26T06:19:28+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NMnRyQ3FBdXotQWg0aXczQUFEOVh5S0hnVHFRZkFnRF92YTVWQVVZQ094eDIzd1Fjb3pncm5aWWtUcG01Qy1XV1pEbnp0Y0nSAUJBVV95cUxNZVFtUUhDbzZvaWRRYVJiOHVDX2pUY0pILThiR2pNOGdPZ2sxcEdjZTVsTm1HMzlUczFYbzdYR2d6SEE?oc=5",
+        "title": "Kimi K3.1 Pro 即将发布,Moonshot 减少网络攻击能力 - VOI.ID",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 26 Oct 2026 04:10:05 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "61a948e65df84b028143d30c049e937512917d03adb40b6a959db74428e383d1",
+        "excerpt": "Kimi K3.1 Pro 即将发布,Moonshot 减少网络攻击能力 VOI.ID",
+        "checked_at": "2026-10-26T06:19:28+00:00"
       }
     ]
   },
