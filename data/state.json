@@ -1357,7 +1357,8 @@
   "kimi-blog|https://www.kimi.com/en/blog/kimi-k3-1-pro": {
     "fingerprint": "6db4b8efdb31c32cd7d3793ed3a1db4ab9215e3110274a2bb2a018d71ed42ca1",
     "completed": true,
-    "checked_at": "2026-10-24T05:57:22+00:00"
+    "checked_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_at": "2026-10-26T07:59:31+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zVkdwQ1Z0RVEwc2oxSUQxcEY0SWxPM3pueDlyLWNCc1VIdEpfajVaTXA1TWNyMFdjUWYxVnREUll1bnVCRko5RnpHRERzWjBEcnc5Q2Z5dU9nT2tUMGVURw?oc=5": {
     "fingerprint": "7c5712800bd8b6d03fb4d77ad349f4310b1b2f3a2b21dad2ded7d643e0c52236",

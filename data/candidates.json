@@ -1,7 +1,7 @@
 [
   {
-    "status": "pending",
-    "model": "Kimi K3.1",
+    "status": "approved",
+    "model": "Kimi K3.1 Pro",
     "vendor": "月之暗面 Kimi",
     "score": 85,
     "important_minor": true,
@@ -9,16 +9,16 @@
     "reasons": [
       "发布日期未核实；需确认官方日期口径。"
     ],
-    "release_date": "2026-10-24",
+    "release_date": "2026-10-23",
     "published_at": null,
-    "date_precision": "official-date-only",
-    "date_provenance": "unverified-listing",
-    "date_verified": false,
+    "date_precision": "reviewed-date",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
     "id": "54f55cf9a088eb9135fb",
     "official": true,
     "source_url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
     "source_title": "Introducing Kimi K3.1 Pro",
-    "summary": "月之暗面 Kimi 发布 Kimi K3.1；官方将其定位为新一代或旗舰模型。",
+    "summary": "Kimi K3.1 Pro 首次公开可用;最强三万亿级通用模型支持百万上下文,显著升级代码、3D 创作、金融研究与长程 Agent。Highspeed 同场合并,权重计划稍后补发。",
     "first_seen": "2026-10-24T05:57:22+00:00",
     "last_seen": "2026-10-26T06:19:28+00:00",
     "evidence": [
@@ -178,10 +178,48 @@
         "excerpt": "Kimi K3.1 Pro 即将发布,Moonshot 减少网络攻击能力 VOI.ID",
         "checked_at": "2026-10-26T06:19:28+00:00"
       }
+    ],
+    "milestone_reason": "官方独立公告确认 K3.1 首款 Pro 为其最强三万亿级通用模型,代码、3D、金融研究和长程 Agent 能力显著升级;官方中英文 Kimi Code 更新日志明确 2026-10-23 已全量上线。按首次公开可用口径采用 10-23,披露研究博客目录 10-24 的差异;不等待 11-04 权重补发,也不将 Highspeed 单独重复收录。",
+    "date_note": "采用官方中英文 Kimi Code 更新日志的 2026-10-23 全量上线日期,作为已核实的最早公开可用日;研究博客目录另标 2026-10-24,不能视为更早公开可用记录的否定。官方未提供时区时间戳,按原标注日设全天事件,无法确定准确北京时间跨日;11-04 前权重补发不另计首发。",
+    "reviewed_sources": [
+      "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "https://www.kimi.com/code/docs/kimi-code/whats-new.html",
+      "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+      "https://www.kimi.com/en/blog/"
+    ],
+    "event_id": "9b6c0cf4d07b6c778969",
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "decision_reason": "官方独立公告确认 K3.1 首款 Pro 为其最强三万亿级通用模型，代码、3D、金融研究和长程 Agent 能力显著升级；官方中英文 Kimi Code 更新日志明确 2026-10-23 已全量上线。按首次公开可用口径采用 10-23，披露研究博客目录 10-24 的差异；不等待 11-04 权重补发，也不将 Highspeed 单独重复收录。",
+    "review_checks": [
+      {
+        "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://www.kimi.com/code/docs/kimi-code/whats-new.html",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://www.kimi.com/en/blog/",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "官方正文确认模型已在 Kimi 产品与 API 可用，并解释能力升级。",
+      "中英文 Code 日志同时明确 10-23 已全量上线，目录 10-24 为不同发布载体日期；采用较早的官方可用记录。"
     ]
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "GPT-6.1",
     "vendor": "OpenAI",
     "score": 55,
@@ -218,10 +256,26 @@
         "excerpt": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
         "checked_at": "2026-10-21T06:05:37+00:00"
       }
+    ],
+    "decision_reason": "官方 2026-10-20 Terminal X 文章是金融客户应用案例，不是 GPT-6.1 独立首发公告；GPT-6.1 Sol 的 2026-09-29 官方发布已经收录，不新增 GPT-6.1 泛称事件。",
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "reviewed_sources": [
+      "https://openai.com/index/terminal-x/"
+    ],
+    "review_checks": [
+      {
+        "url": "https://openai.com/index/terminal-x/",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "页面的 Startup、Finance、API 与客户评估内容表明其为使用案例；文章日期不是模型发布日期。"
     ]
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "豆包4.19",
     "vendor": "字节豆包",
     "score": 30,
@@ -259,10 +313,33 @@
         "excerpt": "QuestMobile榜单发布:豆包4.19亿断层领先 千问增速5076% 驱动之家",
         "checked_at": "2026-10-20T06:05:35+00:00"
       }
+    ],
+    "decision_reason": "标题中的 4.19 亿是 QuestMobile 榜单用户规模，不是豆包 4.19 模型版本。官方基础模型目录与模型页亦不能为该数字提供独立发布依据；拒绝数值误识别，保留原始新闻证据。",
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "reviewed_sources": [
+      "https://seed.bytedance.com/zh/blog_list/foundation",
+      "https://seed.bytedance.com/zh/models?view_from=homepage_tab"
+    ],
+    "review_checks": [
+      {
+        "url": "https://seed.bytedance.com/zh/blog_list/foundation",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://seed.bytedance.com/zh/models?view_from=homepage_tab",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "原始新闻标题中数字紧接“亿”，语义为用户规模。",
+      "官方模型目录展示 Seed2.1，未提供此统计数字对应的模型公告；不由目录缺项推断其他模型不存在。"
     ]
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "MiMo-V2.6-Pro",
     "vendor": "小米 MiMo",
     "score": 45,
@@ -299,10 +376,27 @@
         "excerpt": "小米发布新一代MiMo大模型,MiMo-V2.6-Pro首次支持全模态 搜狐网",
         "checked_at": "2026-10-19T06:16:13+00:00"
       }
-    ]
+    ],
+    "decision_reason": "官方日志 2026-09-22 的 MiMo-V2.6 系列已明确包含 Pro、Flash 与 Pro-Ultraspeed；现有事件 90fa6866866539b369b8 已合并记录 Pro 旗舰能力，新闻中的同日 Pro 不是独立新首发。",
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "reviewed_sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布"
+    ],
+    "review_checks": [
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "官方该日章节同时列出三个型号，与既有系列事件一致。"
+    ],
+    "duplicate_of": "90fa6866866539b369b8"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Introducing Grok Voice 3.0",
     "vendor": "xAI",
     "score": 40,
@@ -333,6 +427,22 @@
         "excerpt": "Introducing Grok Voice 3.0 | SpaceXSI Back to news Oct 14, 2026 Introducing Grok Voice 3.0 The world’s most intelligent voice model. Try It Free View Docs Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model. It sets a new record for resolving customer support calls, has class-lea",
         "checked_at": "2026-10-15T05:55:56+00:00"
       }
+    ],
+    "decision_reason": "官方 2026-10-14 公告明确 Grok Voice 3.0 是 speech-to-speech 专用语音模型和语音 API；不属于既有通用旗舰模型范围，拒绝新增通用模型日历事件。",
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "reviewed_sources": [
+      "https://x.ai/news/grok-voice-3"
+    ],
+    "review_checks": [
+      {
+        "url": "https://x.ai/news/grok-voice-3",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "官方正文描述语音客服、双工交互和每分钟计费，确认专项语音用途。"
     ]
   },
   {
@@ -343,21 +453,18 @@
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "需确认旗舰级或里程碑意义。",
-      "发布日期未核实；需确认官方日期口径。",
-      "新闻仅作发现线索，必须补充官方来源。",
-      "正文未验证或只有目录/仓库信息。"
+      "Qwen 4 Max 线索仍只有新闻聚合来源。已查看官方 Qwen3.8 News 和 Qwen3.8-Flash-Next README，后者将 Qwen4 描述为后续完整系列的架构预览；未取得 Qwen4 独立正式发布与可靠日期证据。保留待审，不把新闻 2026-09-22 当作发布日期，也不推断模型不存在。"
     ],
-    "release_date": "2026-09-22",
-    "published_at": "2026-09-22T07:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_provenance": "news-rss",
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "date_provenance": "unverified-news",
     "date_verified": false,
     "id": "c0cae7d4d8f75affacfd",
     "official": false,
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSl9CWlU0THp6ZG1vZXFVUVFFYUt4UXhMcHVrYjFnV1hPc1pqcENCbC1rQ2RkdUhONzREeXdkeXltWkQ2S0h0eUFMZnRUaVRCVUFwWnIxS1Z3RXpkdTNuRF9wNEtpZDBvUW1mV25uY2Q4OEpfRVpieURIR1JkMENLeVdn?oc=5",
     "source_title": "Qwen 4 Max 在 Apsara 2026 上发布:四个层级 - OrcaRouter",
-    "summary": "阿里千问 发布 Qwen 4；具体里程碑意义待审核。",
+    "summary": "Qwen 4 线索待核实：尚无本次可确认的官方独立首发及日期。",
     "first_seen": "2026-10-15T05:55:56+00:00",
     "last_seen": "2026-10-15T05:55:56+00:00",
     "evidence": [
@@ -373,32 +480,61 @@
         "excerpt": "Qwen 4 Max 在 Apsara 2026 上发布:四个层级 OrcaRouter",
         "checked_at": "2026-10-15T05:55:56+00:00"
       }
-    ]
+    ],
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "decision_reason": "Qwen 4 Max 线索仍只有新闻聚合来源。已查看官方 Qwen3.8 News 和 Qwen3.8-Flash-Next README，后者将 Qwen4 描述为后续完整系列的架构预览；未取得 Qwen4 独立正式发布与可靠日期证据。保留待审，不把新闻 2026-09-22 当作发布日期，也不推断模型不存在。",
+    "reviewed_sources": [
+      "https://github.com/QwenLM/Qwen3.8#news",
+      "https://github.com/QwenLM/Qwen3.8-Flash-Next",
+      "https://qwen.ai/blog"
+    ],
+    "review_checks": [
+      {
+        "url": "https://github.com/QwenLM/Qwen3.8#news",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://qwen.ai/blog",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "Qwen3.8 News 记录当前系列发布。",
+      "Flash-Next README 明确区分架构预览与完整 Qwen4 系列，不能替代 Qwen4 首发证据。"
+    ],
+    "review_limitations": [
+      "Qwen 博客依赖客户端渲染，网页工具未返回可读正文；本次采用可读官方仓库交叉核查，未将空页解释为没有发布。"
+    ],
+    "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "豆包2.2",
     "vendor": "字节豆包",
     "score": 30,
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "需确认旗舰级或里程碑意义。",
-      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
-      "发布日期未核实；需确认官方日期口径。",
-      "新闻仅作发现线索，必须补充官方来源。",
-      "正文未验证或只有目录/仓库信息。"
+      "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。"
     ],
-    "release_date": "2026-08-31",
-    "published_at": "2026-08-31T07:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_provenance": "news-rss",
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "date_provenance": "unverified-news",
     "date_verified": false,
     "id": "8351fbc656dc66347702",
     "official": false,
     "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGamx6TXo5V19Xa2ktVzFCdG9OWXJQazhaMk9OUURDbmJjVk02aHFVaktza3ZIU05kNmJ0enZmVDc0NDYtU2JBMGNJVTcyZWQzMmNn?oc=5",
     "source_title": "曝字节豆包2.2推迟发布:正全力攻坚Coding相关能力 - 搜狐网",
-    "summary": "字节豆包 发布 豆包2.2；具体里程碑意义待审核。",
+    "summary": "豆包2.2 线索待核实：尚无本次可确认的官方独立首发及日期。",
     "first_seen": "2026-10-05T07:07:52+00:00",
     "last_seen": "2026-10-05T07:07:52+00:00",
     "evidence": [
@@ -414,7 +550,32 @@
         "excerpt": "曝字节豆包2.2推迟发布:正全力攻坚Coding相关能力 搜狐网",
         "checked_at": "2026-10-05T07:07:52+00:00"
       }
-    ]
+    ],
+    "reviewed_at": "2026-10-26T08:01:48+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "decision_reason": "原线索明确为豆包2.2延期报道，不是模型已公开可用公告，因此排除该发现线索；官方 Seed 基础模型目录和模型页尚不能核实豆包2.2正式首发日期。不据此断言型号不存在；未来独立官方首发仍须满足全部收录门槛。",
+    "reviewed_sources": [
+      "https://seed.bytedance.com/zh/blog_list/foundation",
+      "https://seed.bytedance.com/zh/models?view_from=homepage_tab"
+    ],
+    "review_checks": [
+      {
+        "url": "https://seed.bytedance.com/zh/blog_list/foundation",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://seed.bytedance.com/zh/models?view_from=homepage_tab",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "官方目录最近通用发布条目为 2026-06-23 Seed2.1，模型页亦为 Seed2.1。",
+      "延期新闻不满足已正式发布门槛。"
+    ],
+    "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。",
+    "decision_scope": "discovery-only"
   },
   {
     "status": "pending",
@@ -424,22 +585,18 @@
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "需确认旗舰级或里程碑意义。",
-      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
-      "发布日期未核实；需确认官方日期口径。",
-      "新闻仅作发现线索，必须补充官方来源。",
-      "正文未验证或只有目录/仓库信息。"
+      "V4.1 Pro 新闻为“有望发布/灰度测试”线索。已查看官方 Research & News 及 V4.1 Flash 官方 API 文档；文档只说在未来 V4.1 Pro 上线前将旧 Pro 请求路由至 Flash，不能据此确认 Pro 已发布。保留待审，9月28日新闻时间不当作正式发布日期，也不与已收录 Flash 混同。"
     ],
-    "release_date": "2026-09-28",
-    "published_at": "2026-09-28T07:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_provenance": "news-rss",
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "date_provenance": "unverified-news",
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NtdlFLVGhDR25GVlluSFhMaTVCYkJBZ001Q1lJdG9ReHV1LUFDZ2g1VkNZYktZV2lRSGRHaDN3WlBmVXBKUzZJU2NHbE5TeER6ckNxUFZGZEg1S2hjTmo1WUtfNHZwNS05THM3TnI1SmFLVlc1eUU0ci1jS04tMFAxRFdueGhn?oc=5",
     "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
-    "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
+    "summary": "DeepSeek V4.1 Pro 线索待核实：尚无本次可确认的官方独立首发及日期。",
     "first_seen": "2026-10-02T08:24:24+00:00",
     "last_seen": "2026-10-17T05:38:05+00:00",
     "evidence": [
@@ -527,31 +684,51 @@
         "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 搜狐网",
         "checked_at": "2026-10-17T05:38:05+00:00"
       }
-    ]
+    ],
+    "reviewed_at": "2026-10-26T07:59:31+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "decision_reason": "V4.1 Pro 新闻为“有望发布/灰度测试”线索。已查看官方 Research & News 及 V4.1 Flash 官方 API 文档；文档只说在未来 V4.1 Pro 上线前将旧 Pro 请求路由至 Flash，不能据此确认 Pro 已发布。保留待审，9月28日新闻时间不当作正式发布日期，也不与已收录 Flash 混同。",
+    "reviewed_sources": [
+      "https://www.deepseek.com/en/news/",
+      "https://api-docs.deepseek.com/zh-cn/news/news260910/"
+    ],
+    "review_checks": [
+      {
+        "url": "https://www.deepseek.com/en/news/",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://api-docs.deepseek.com/zh-cn/news/news260910/",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      }
+    ],
+    "review_findings": [
+      "官方文档将 V4.1 Pro 上线作为未来条件；未取得本候选独立已公开可用公告。"
+    ],
+    "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "MiMo-V3",
     "vendor": "小米 MiMo",
     "score": 40,
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "需确认旗舰级或里程碑意义。",
-      "发布日期未核实；需确认官方日期口径。",
-      "新闻仅作发现线索，必须补充官方来源。",
-      "正文未验证或只有目录/仓库信息。"
+      "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。"
     ],
-    "release_date": "2026-09-24",
-    "published_at": "2026-09-24T07:00:00+00:00",
-    "date_precision": "timestamp",
-    "date_provenance": "news-rss",
+    "release_date": null,
+    "published_at": null,
+    "date_precision": "unknown",
+    "date_provenance": "unverified-news",
     "date_verified": false,
     "id": "ecc8228545615763ad89",
     "official": false,
     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZkZha1VCUzg1Q3IwWmk4OWhmdEFHVU5CSU9rYUhtbzJfWE1HTF9IcXJfUzR4NUFaX1NfbmVGZm9zbDRWSW5TdVJkWTd5S1lZa2VaNXpaSE1DMzBtNnpxTnNWZU1IcW1WZjhkSUYzbHk1QlJDczNjdURJZWRpdzV0ODlIRVo2ejg?oc=5",
     "source_title": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 - 新浪财经",
-    "summary": "小米 MiMo 发布 MiMo-V3；具体里程碑意义待审核。",
+    "summary": "MiMo-V3 线索待核实：尚无本次可确认的官方独立首发及日期。",
     "first_seen": "2026-10-02T08:24:24+00:00",
     "last_seen": "2026-10-10T07:12:58+00:00",
     "evidence": [
@@ -579,7 +756,38 @@
         "excerpt": "小米MiMo-V3全新架构核心技术HySparse2正式发布 百万Token下预填充算力降低5倍 新浪财经",
         "checked_at": "2026-10-10T07:12:58+00:00"
       }
-    ]
+    ],
+    "reviewed_at": "2026-10-26T08:01:48+00:00",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "decision_reason": "原线索对应 HySparse2 架构研究；原始论文 arXiv:2609.26368 于2026-09-22提交，讨论两级KV共享注意力，并在80B-A3B模型上进行实验，不是MiMo-V3模型正式公开可用公告。排除该技术报道，论文提交日和9月23/24日新闻日均不当作模型首发；不据此断言未来MiMo-V3不存在。",
+    "reviewed_sources": [
+      "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
+      "https://mimo.xiaomi.com/",
+      "https://arxiv.org/abs/2609.26368"
+    ],
+    "review_checks": [
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/updates/model#2026-09-22-mimo-v26-系列发布",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://mimo.xiaomi.com/",
+        "checked_at": "2026-10-26T07:59:31+00:00",
+        "method": "official-page-read"
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.26368",
+        "checked_at": "2026-10-26T08:01:48+00:00",
+        "method": "primary-research-read"
+      }
+    ],
+    "review_findings": [
+      "HySparse2原始论文为架构研究并描述80B-A3B实验，不构成MiMo-V3正式模型发布。",
+      "官方模型日志与研究主页未能补充本线索所需的模型首发证据。"
+    ],
+    "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。",
+    "decision_scope": "discovery-only"
   },
   {
     "status": "rejected",

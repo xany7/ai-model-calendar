@@ -1606,5 +1606,30 @@
     "updated_at": "2026-10-01T07:12:53+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "9b6c0cf4d07b6c778969",
+    "vendor": "月之暗面 Kimi",
+    "model": "Kimi K3.1 Pro",
+    "release_date": "2026-10-23",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
+    "date_note": "采用官方中英文 Kimi Code 更新日志的 2026-10-23 全量上线日期,作为已核实的最早公开可用日;研究博客目录另标 2026-10-24,不能视为更早公开可用记录的否定。官方未提供时区时间戳,按原标注日设全天事件,无法确定准确北京时间跨日;11-04 前权重补发不另计首发。",
+    "summary": "Kimi K3.1 Pro 首次公开可用;最强三万亿级通用模型支持百万上下文,显著升级代码、3D 创作、金融研究与长程 Agent。Highspeed 同场合并,权重计划稍后补发。",
+    "source_url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+    "sources": [
+      "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "https://www.kimi.com/code/docs/kimi-code/whats-new.html",
+      "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+      "https://www.kimi.com/en/blog/"
+    ],
+    "milestone_reason": "官方独立公告确认 K3.1 首款 Pro 为其最强三万亿级通用模型,代码、3D、金融研究和长程 Agent 能力显著升级;官方中英文 Kimi Code 更新日志明确 2026-10-23 已全量上线。按首次公开可用口径采用 10-23,披露研究博客目录 10-24 的差异;不等待 11-04 权重补发,也不将 Highspeed 单独重复收录。",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "created_at": "2026-10-26T07:59:31+00:00",
+    "updated_at": "2026-10-26T07:59:31+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]
