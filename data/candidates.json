@@ -1,5 +1,47 @@
 [
   {
+    "status": "pending",
+    "model": "DeepSeek V5",
+    "vendor": "DeepSeek",
+    "score": 20,
+    "important_minor": false,
+    "title_announcement": false,
+    "reasons": [
+      "未确认已经发布/可用。",
+      "需确认旗舰级或里程碑意义。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-10-28",
+    "published_at": "2026-10-28T05:18:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "ef37bf9409dfd1d82b9d",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVDcxWFY0SFBCU3g0N3FxTnd2ZDBtUWhGNXlCWEJrempjVGJ3enljNGU0dXZVenEtZnBURnJJb09VbHBVRnc0SlBMVWxKYmNfVDU4cjktZVM?oc=5",
+    "source_title": "下一波果然是大的 DeepSeek V5大模型已现身官方代码库 - 驱动之家",
+    "summary": "DeepSeek 发布 DeepSeek V5；具体里程碑意义待审核。",
+    "first_seen": "2026-10-28T06:53:20+00:00",
+    "last_seen": "2026-10-28T06:53:20+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVDcxWFY0SFBCU3g0N3FxTnd2ZDBtUWhGNXlCWEJrempjVGJ3enljNGU0dXZVenEtZnBURnJJb09VbHBVRnc0SlBMVWxKYmNfVDU4cjktZVM?oc=5",
+        "title": "下一波果然是大的 DeepSeek V5大模型已现身官方代码库 - 驱动之家",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 28 Oct 2026 05:18:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "99b5119031fde7ae05ab11cbd3a355e2abb894413d69a2c3beaf0ab5bb2195c3",
+        "excerpt": "下一波果然是大的 DeepSeek V5大模型已现身官方代码库 驱动之家",
+        "checked_at": "2026-10-28T06:53:20+00:00"
+      }
+    ]
+  },
+  {
     "status": "approved",
     "model": "Kimi K3.1 Pro",
     "vendor": "月之暗面 Kimi",
