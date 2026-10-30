@@ -3,29 +3,27 @@
     "status": "pending",
     "model": "DeepSeek V5",
     "vendor": "DeepSeek",
-    "score": 20,
+    "score": 40,
     "important_minor": false,
-    "title_announcement": false,
+    "title_announcement": true,
     "reasons": [
-      "未确认已经发布/可用。",
       "需确认旗舰级或里程碑意义。",
       "发布日期未核实；需确认官方日期口径。",
       "新闻仅作发现线索，必须补充官方来源。",
-      "正文未验证或只有目录/仓库信息。",
-      "标题不是明确发布公告，需排除使用案例或后续报道。"
+      "正文未验证或只有目录/仓库信息。"
     ],
     "release_date": "2026-10-28",
-    "published_at": "2026-10-28T05:18:00+00:00",
+    "published_at": "2026-10-28T08:26:00+00:00",
     "date_precision": "timestamp",
     "date_provenance": "news-rss",
     "date_verified": false,
     "id": "ef37bf9409dfd1d82b9d",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVDcxWFY0SFBCU3g0N3FxTnd2ZDBtUWhGNXlCWEJrempjVGJ3enljNGU0dXZVenEtZnBURnJJb09VbHBVRnc0SlBMVWxKYmNfVDU4cjktZVM?oc=5",
-    "source_title": "下一波果然是大的 DeepSeek V5大模型已现身官方代码库 - 驱动之家",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yNUNIRXNSTmxzd0x5Und5eUlJTzBMUlJRSGljYjJNa2R5RHREdzNTTUJaZ182bGwwSGV5a2FpZzFsYTRkUkswWG1KXzZZV2s?oc=5",
+    "source_title": "AI日报:DeepMind发布世界模型Genie4;WorkBuddy上线远程控制;DeepSeek V5 惊现官方代码库 - AIBase",
     "summary": "DeepSeek 发布 DeepSeek V5；具体里程碑意义待审核。",
     "first_seen": "2026-10-28T06:53:20+00:00",
-    "last_seen": "2026-10-28T06:53:20+00:00",
+    "last_seen": "2026-10-30T07:13:38+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVDcxWFY0SFBCU3g0N3FxTnd2ZDBtUWhGNXlCWEJrempjVGJ3enljNGU0dXZVenEtZnBURnJJb09VbHBVRnc0SlBMVWxKYmNfVDU4cjktZVM?oc=5",
@@ -38,6 +36,18 @@
         "sha256": "99b5119031fde7ae05ab11cbd3a355e2abb894413d69a2c3beaf0ab5bb2195c3",
         "excerpt": "下一波果然是大的 DeepSeek V5大模型已现身官方代码库 驱动之家",
         "checked_at": "2026-10-28T06:53:20+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yNUNIRXNSTmxzd0x5Und5eUlJTzBMUlJRSGljYjJNa2R5RHREdzNTTUJaZ182bGwwSGV5a2FpZzFsYTRkUkswWG1KXzZZV2s?oc=5",
+        "title": "AI日报:DeepMind发布世界模型Genie4;WorkBuddy上线远程控制;DeepSeek V5 惊现官方代码库 - AIBase",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 28 Oct 2026 08:26:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "c95b92bd08601e63c59d8bbda12bd3fd68aa427540a9ee762efa279083a0b55c",
+        "excerpt": "AI日报:DeepMind发布世界模型Genie4;WorkBuddy上线远程控制;DeepSeek V5 惊现官方代码库 AIBase",
+        "checked_at": "2026-10-30T07:13:38+00:00"
       }
     ]
   },
@@ -640,7 +650,7 @@
     "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
     "summary": "DeepSeek V4.1 Pro 线索待核实：尚无本次可确认的官方独立首发及日期。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-29T07:10:34+00:00",
+    "last_seen": "2026-10-30T07:13:38+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -725,6 +735,18 @@
         "sha256": "6a7fd215d43b0d1efc6d04a2affb815d501266cb92007ffe8bde95937fa8daf2",
         "excerpt": "DeepSeek V4.1 Pro被曝已开始灰度测试 观点网",
         "checked_at": "2026-10-29T07:10:34+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rU0U4cW03eXVSTmZHdHExS20xSnoyVWZYV0VTZVQxcHNJQjhCS1FsXzlnbEszT2NvYnZLeVp0UzVad0toM2ItRkpQTVVCWlN3VVVZVnNTY1BoWGc4V3JNbzE3c19EVldnQU1Ib0lUMU0yemZ5NHU4ZXJTcEdZdw?oc=5",
+        "title": "DeepSeek V4.1 Pro 与 V4 Pro:其中一款有价格表 - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 30 Oct 2026 01:52:08 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "e993d0dc1960fb8347cf6b8c4d055eb4948e86a2f123c3466005c50e73c2f5b0",
+        "excerpt": "DeepSeek V4.1 Pro 与 V4 Pro:其中一款有价格表 OrcaRouter",
+        "checked_at": "2026-10-30T07:13:38+00:00"
       }
     ],
     "reviewed_at": "2026-10-26T07:59:31+00:00",
