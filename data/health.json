@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-30T07:13:38+00:00",
-  "finished_at": "2026-10-30T07:13:40+00:00",
+  "checked_at": "2026-10-31T07:01:42+00:00",
+  "finished_at": "2026-10-31T07:01:44+00:00",
   "status": "degraded",
   "sources": [
     {
@@ -10,10 +10,10 @@
       "official": true,
       "status": "ok",
       "entries": 300,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "anthropic-news",
@@ -22,10 +22,10 @@
       "official": true,
       "status": "ok",
       "entries": 30,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "google-ai",
@@ -34,10 +34,10 @@
       "official": true,
       "status": "ok",
       "entries": 20,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "google-models",
@@ -46,11 +46,11 @@
       "official": true,
       "status": "error",
       "entries": 0,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [
         "No entries parsed (page structure changed, dynamic page, or invalid feed)"
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_success": "2026-10-29T07:10:34+00:00"
     },
     {
@@ -60,10 +60,10 @@
       "official": true,
       "status": "ok",
       "entries": 90,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "deepseek-news",
@@ -72,10 +72,10 @@
       "official": true,
       "status": "ok",
       "entries": 5,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "qwen-github",
@@ -84,10 +84,10 @@
       "official": true,
       "status": "ok",
       "entries": 58,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "qwen-release-log",
@@ -96,10 +96,10 @@
       "official": true,
       "status": "ok",
       "entries": 8,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "kimi-blog",
@@ -108,10 +108,10 @@
       "official": true,
       "status": "ok",
       "entries": 10,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "glm-releases",
@@ -120,10 +120,10 @@
       "official": true,
       "status": "ok",
       "entries": 23,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "seed-blog",
@@ -132,10 +132,10 @@
       "official": true,
       "status": "ok",
       "entries": 12,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "mimo-releases",
@@ -144,10 +144,10 @@
       "official": true,
       "status": "ok",
       "entries": 11,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "techcrunch-ai",
@@ -156,10 +156,10 @@
       "official": false,
       "status": "ok",
       "entries": 20,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "verge-ai",
@@ -168,10 +168,10 @@
       "official": false,
       "status": "ok",
       "entries": 10,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     },
     {
       "id": "china-news-discovery",
@@ -179,17 +179,17 @@
       "url": "https://news.google.com/rss/search?q=%28DeepSeek+OR+Qwen+OR+Kimi+OR+GLM+OR+%E8%B1%86%E5%8C%85+OR+MiMo%29+%28%E5%8F%91%E5%B8%83+OR+launch%29+when%3A45d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "official": false,
       "status": "ok",
-      "entries": 33,
-      "checked_at": "2026-10-30T07:13:38+00:00",
+      "entries": 100,
+      "checked_at": "2026-10-31T07:01:42+00:00",
       "errors": [],
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T07:13:38+00:00"
+      "last_success": "2026-10-31T07:01:42+00:00"
     }
   ],
   "stats": {
     "published": 0,
     "pending": 0,
-    "duplicates": 43
+    "duplicates": 55
   },
   "pending": 5
 }

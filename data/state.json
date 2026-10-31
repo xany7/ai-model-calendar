@@ -1541,9 +1541,9 @@
     "checked_at": "2026-10-29T07:10:34+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QVUpmd0dKMlQxTm16WTRQTnFpa1dtZUpyLVkzangtMS1ySkJORFU0LXRuVXBrUDV1SktpY1BHcXF3SVQ5c0dtYTNkSnJkTjdpWkxqaTFPNG4tZw?oc=5": {
-    "fingerprint": "03e671f675431b1f8f9e3e8ea359373aa240c9bbaab4e93f3bc21a2eb423a177",
+    "fingerprint": "5fdc284242f498e2b5540e013d291c399351f7e94eedb59fc2ec44e9b3aa79a8",
     "completed": true,
-    "checked_at": "2026-10-29T07:10:34+00:00"
+    "checked_at": "2026-10-31T07:01:42+00:00"
   },
   "china-news-discovery|https://news.google.com/rss/articles/CBMifkFVX3lxTE5rU0U4cW03eXVSTmZHdHExS20xSnoyVWZYV0VTZVQxcHNJQjhCS1FsXzlnbEszT2NvYnZLeVp0UzVad0toM2ItRkpQTVVCWlN3VVVZVnNTY1BoWGc4V3JNbzE3c19EVldnQU1Ib0lUMU0yemZ5NHU4ZXJTcEdZdw?oc=5": {
     "fingerprint": "08958f7f37afe79fffc0fb2d8cf39bf6d18bb42e234075df67adcaf69fbab1a3",
@@ -1559,5 +1559,20 @@
     "fingerprint": "7ea57e0dd9ead394e51d7dc6da2c02283c1931d9e647c637a01db535b0c648c2",
     "completed": true,
     "checked_at": "2026-10-30T07:13:38+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiTEFVX3lxTFBfNlFCdUs4VlBFSkU4RmdrNkx3d3VqZVVJeFhnbEZjZXFNZDh0THg4VTN2TmNlWXRCMm9jUUJub09vQ1J4dVRKa3VIMVM?oc=5": {
+    "fingerprint": "da5afd3efdb33be130b86ba1566bb3ad57d7764d854f0bd01c5eed81ca7004c3",
+    "completed": true,
+    "checked_at": "2026-10-31T07:01:42+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ2p6dUllQTg1OUpCbUx2TWlFMlY2S2tkVGNNSVE3OWRLTXJsdjB1ajVnVDhuZmZFd0FySWpmZkhhZ2ctcElJWi1kM3RmeThkUlRoX0FXWTNNNXRMODZMQVhSYTRuX2ZsaWp6dGJMbE9ZMmw1VXI4LUQ0aGx5cjhHSHdfOGU0Ty1aQ2pVUQ?oc=5": {
+    "fingerprint": "9aebf559153bffe8d4dae111405746d0ce664abd2a4e1667bb8f0467fde7006d",
+    "completed": true,
+    "checked_at": "2026-10-31T07:01:42+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiakFVX3lxTE1BZHo1ckxvaU9BYWRVQVpPN25mMXM0Z09vWVJhX3hOVTJmTEhsYmlHVEU2MzBjRGFYQWNxaEJINzJjWmNsRHBWNzQtZVNlbl8wTmVNSXl4d3JJWHZxV3RmRVNpTURnYWR2Qnc?oc=5": {
+    "fingerprint": "5f3db888233a7d37df02c0d8c677fb861c5b51d6216f61fd7cebd17336af5b60",
+    "completed": true,
+    "checked_at": "2026-10-31T07:01:42+00:00"
   }
 }
