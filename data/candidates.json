@@ -637,20 +637,24 @@
     "important_minor": false,
     "title_announcement": true,
     "reasons": [
-      "V4.1 Pro 新闻为“有望发布/灰度测试”线索。已查看官方 Research & News 及 V4.1 Flash 官方 API 文档；文档只说在未来 V4.1 Pro 上线前将旧 Pro 请求路由至 Flash，不能据此确认 Pro 已发布。保留待审，9月28日新闻时间不当作正式发布日期，也不与已收录 Flash 混同。"
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
     ],
-    "release_date": null,
-    "published_at": null,
-    "date_precision": "unknown",
-    "date_provenance": "unverified-news",
+    "release_date": "2026-09-28",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NtdlFLVGhDR25GVlluSFhMaTVCYkJBZ001Q1lJdG9ReHV1LUFDZ2g1VkNZYktZV2lRSGRHaDN3WlBmVXBKUzZJU2NHbE5TeER6ckNxUFZGZEg1S2hjTmo1WUtfNHZwNS05THM3TnI1SmFLVlc1eUU0ci1jS04tMFAxRFdueGhn?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQSnVRZHRBaDNfcC1pdkQzTlBQbWctMko3UGw1U1dZS0hKN0hHZlo2dkFIc1hvdkduVnNzS2M4OU16MFVNbi1JdmliTUE3cjJ3aWc?oc=5",
     "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
-    "summary": "DeepSeek V4.1 Pro 线索待核实：尚无本次可确认的官方独立首发及日期。",
+    "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-10-30T07:13:38+00:00",
+    "last_seen": "2026-11-02T07:42:49+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -747,6 +751,18 @@
         "sha256": "e993d0dc1960fb8347cf6b8c4d055eb4948e86a2f123c3466005c50e73c2f5b0",
         "excerpt": "DeepSeek V4.1 Pro 与 V4 Pro:其中一款有价格表 OrcaRouter",
         "checked_at": "2026-10-30T07:13:38+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQSnVRZHRBaDNfcC1pdkQzTlBQbWctMko3UGw1U1dZS0hKN0hHZlo2dkFIc1hvdkduVnNzS2M4OU16MFVNbi1JdmliTUE3cjJ3aWc?oc=5",
+        "title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "9111dbd604c453672e2fc0d733f85b85bc5bbf992e308f045f1cf63c2504eff8",
+        "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 搜狐网",
+        "checked_at": "2026-11-02T07:42:49+00:00"
       }
     ],
     "reviewed_at": "2026-10-26T07:59:31+00:00",
@@ -755,23 +771,7 @@
     "reviewed_sources": [
       "https://www.deepseek.com/en/news/",
       "https://api-docs.deepseek.com/zh-cn/news/news260910/"
-    ],
-    "review_checks": [
-      {
-        "url": "https://www.deepseek.com/en/news/",
-        "checked_at": "2026-10-26T07:59:31+00:00",
-        "method": "official-page-read"
-      },
-      {
-        "url": "https://api-docs.deepseek.com/zh-cn/news/news260910/",
-        "checked_at": "2026-10-26T07:59:31+00:00",
-        "method": "official-page-read"
-      }
-    ],
-    "review_findings": [
-      "官方文档将 V4.1 Pro 上线作为未来条件；未取得本候选独立已公开可用公告。"
-    ],
-    "date_note": "原新闻日期仅用于发现；本次未核实正式模型发布日期。"
+    ]
   },
   {
     "status": "pending",
