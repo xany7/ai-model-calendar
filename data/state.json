@@ -1584,5 +1584,20 @@
     "fingerprint": "89d27aec69c181fa0433cc96e72ea878ae06bfaae5c356d694e1dba401d969d9",
     "completed": true,
     "checked_at": "2026-11-02T07:42:49+00:00"
+  },
+  "openai-rss|https://openai.com/index/grid-protectors-program": {
+    "fingerprint": "d43e4a16871297b47bfa9ad1d76f77af50a96e98db694dbf9f71c031bc10190e",
+    "completed": true,
+    "checked_at": "2026-11-03T07:57:37+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026": {
+    "fingerprint": "173365c28f885908d6423f7d1619b31eb68fc665ea4f235ad8b7433ecf7b83e0",
+    "completed": true,
+    "checked_at": "2026-11-03T07:57:37+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiSEFVX3lxTE9fd2dhTVI4ME5aU3ZNSDFKUkxiRWpPN1B2N0N1RFVCS0dUTURMd09qVjNMTU84Mk9Bejl4dHd2N0szNG1WZnpqSA?oc=5": {
+    "fingerprint": "21d7cf209f449b72a30690bfc98f9217798cccdc8cf5c3b26d72752107b2433b",
+    "completed": true,
+    "checked_at": "2026-11-03T07:57:37+00:00"
   }
 }
