@@ -654,7 +654,7 @@
     "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-11-02T07:42:49+00:00",
+    "last_seen": "2026-11-05T07:56:35+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -763,6 +763,18 @@
         "sha256": "9111dbd604c453672e2fc0d733f85b85bc5bbf992e308f045f1cf63c2504eff8",
         "excerpt": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 搜狐网",
         "checked_at": "2026-11-02T07:42:49+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JWTRfT2ltTERxWGh2OWhDR3lrQl9nVlRSQzNlQll1bmtSalRlUnNoRWNtSFp6S2RqWmpleE1nOUN4UER2S0JTWjhBTFNNbUtnenRwQWlGYnNBYnJNQnpEM0RzdGh1MkZfS1hxREpld3hQNlF1Q3Rj?oc=5",
+        "title": "Ripple 65B 对比 DeepSeek V4.1 Pro:其中一个并不存在 - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 04 Nov 2026 19:37:01 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "28b398de45a629dd2bc37b4052e895e2832bd1a85c80b46b7128c6db31677914",
+        "excerpt": "Ripple 65B 对比 DeepSeek V4.1 Pro:其中一个并不存在 OrcaRouter",
+        "checked_at": "2026-11-05T07:56:35+00:00"
       }
     ],
     "reviewed_at": "2026-10-26T07:59:31+00:00",
