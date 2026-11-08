@@ -1,6 +1,46 @@
 [
   {
     "status": "pending",
+    "model": "DeepSeek-V4-Pro",
+    "vendor": "DeepSeek",
+    "score": 40,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-11-07",
+    "published_at": "2026-11-07T09:41:54+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "19d4e2798be8866b3744",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNUJNa0F6c3doSTVDcXFmMndBMDBXZ1REOXpqNFdiQjVwOU5Wc3pCWTZ5dGtHd2VRcEU2TDh2eG1XeWFTX09YUlZ1bEdTb0EwMWZYX1l6MU5OemdhdFR3elpMVFVPdENCbmliTzdfaURWMVRDUFZpdGJ0clkxclJMaWhhLWJVLVNrR0RQc09B?oc=5",
+    "source_title": "Qwen3.5 9B uncensored 发布,蒸馏自 DeepSeek-V4-Pro,100 个提示只拒绝 3 个 - Pasquale Pillitteri",
+    "summary": "DeepSeek 发布 DeepSeek-V4-Pro；具体里程碑意义待审核。",
+    "first_seen": "2026-11-08T07:26:26+00:00",
+    "last_seen": "2026-11-08T07:26:26+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNUJNa0F6c3doSTVDcXFmMndBMDBXZ1REOXpqNFdiQjVwOU5Wc3pCWTZ5dGtHd2VRcEU2TDh2eG1XeWFTX09YUlZ1bEdTb0EwMWZYX1l6MU5OemdhdFR3elpMVFVPdENCbmliTzdfaURWMVRDUFZpdGJ0clkxclJMaWhhLWJVLVNrR0RQc09B?oc=5",
+        "title": "Qwen3.5 9B uncensored 发布,蒸馏自 DeepSeek-V4-Pro,100 个提示只拒绝 3 个 - Pasquale Pillitteri",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Sat, 07 Nov 2026 09:41:54 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "b0601272dd6b6e9eb2ee7a3ae0b30ef40bb599e98ae23492af891216ede79a89",
+        "excerpt": "Qwen3.5 9B uncensored 发布,蒸馏自 DeepSeek-V4-Pro,100 个提示只拒绝 3 个 Pasquale Pillitteri",
+        "checked_at": "2026-11-08T07:26:26+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "DeepSeek V5",
     "vendor": "DeepSeek",
     "score": 40,
