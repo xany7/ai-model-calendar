@@ -1639,5 +1639,11 @@
     "fingerprint": "c712bf0d0af3940fc20023801a9626ca957f745a794cdb4f65008ede35a76532",
     "completed": true,
     "checked_at": "2026-11-09T08:02:01+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+    "fingerprint": "45cc17d6ed3744a3be416f66a8a9a11f642f7b2d0ff1fb0b9f7280fff062415c",
+    "completed": false,
+    "checked_at": "2026-11-10T08:27:07+00:00",
+    "pending_rechecks": 0
   }
 }

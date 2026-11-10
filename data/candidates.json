@@ -1,6 +1,46 @@
 [
   {
     "status": "pending",
+    "model": "Claude Fable 5.2",
+    "vendor": "Anthropic",
+    "score": 60,
+    "important_minor": false,
+    "title_announcement": false,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "标题不是明确发布公告，需排除使用案例或后续报道。"
+    ],
+    "release_date": "2026-11-09",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "date_provenance": "unverified-listing",
+    "date_verified": false,
+    "id": "8c5c5ad712dd88fd2730",
+    "official": true,
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "source_title": "Claude Fable 5.2 and Mythos 5.2",
+    "summary": "Anthropic 发布 Claude Fable 5.2；具体里程碑意义待审核。",
+    "first_seen": "2026-11-10T08:27:07+00:00",
+    "last_seen": "2026-11-10T08:27:07+00:00",
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "title": "Claude Fable 5.2 and Mythos 5.2",
+        "official": true,
+        "source_id": "anthropic-news",
+        "raw_date": "Nov 9, 2026",
+        "date_provenance": "unverified-listing",
+        "date_verified": false,
+        "sha256": "e84698a27abe350431714612ac900d96ec8c02caa42b9dc1ce4b48e3e8f63401",
+        "excerpt": "November 9, 2026 Claude Fable 5.2 and Mythos 5.2 We’ve upgraded Claude Fable and Claude Mythos-models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped our eng",
+        "checked_at": "2026-11-10T08:27:07+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "DeepSeek-V4-Pro",
     "vendor": "DeepSeek",
     "score": 40,
