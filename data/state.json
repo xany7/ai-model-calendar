@@ -1642,8 +1642,33 @@
   },
   "anthropic-news|https://www.anthropic.com/claude-fable-and-mythos-5-2": {
     "fingerprint": "45cc17d6ed3744a3be416f66a8a9a11f642f7b2d0ff1fb0b9f7280fff062415c",
+    "completed": true,
+    "checked_at": "2026-11-11T07:46:46+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-businesses-chatgpt": {
+    "fingerprint": "c3216c65f21f8dfaa39107a40cb7fc33b619ccc4419de18ff75dd02162174c33",
+    "completed": true,
+    "checked_at": "2026-11-11T07:46:46+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/roadshow-launch": {
+    "fingerprint": "c058e8e6f2a97d3598f203866d37474287fc85cb0f0989a55e87ed916f982289",
+    "completed": true,
+    "checked_at": "2026-11-11T07:46:46+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare": {
+    "fingerprint": "1fdb0356a2ea8348299ed6fc7a403c25fe311c78bdfad2e580625c67559ec740",
     "completed": false,
-    "checked_at": "2026-11-10T08:27:07+00:00",
+    "checked_at": "2026-11-11T07:46:46+00:00",
     "pending_rechecks": 0
+  },
+  "verge-ai|https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": {
+    "fingerprint": "ed4501dc945cc756c732d7fa01b9a530a3993bf1eedb88dbd6162d1a9c788318",
+    "completed": true,
+    "checked_at": "2026-11-11T07:46:46+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiggFBVV95cUxNWTNVcTVNbTB3V29TZXh1cjVVT1ZIN0s2Qm4tS25GSU4zR092aWlpWUF3S3hRWDJwVHBacm9xMmxleDhTemlXYlBsV3ZFbnpGZG5PNTVKS2hfbWtuZVkxOGZyQzNlU1hGWU5vZmM5ZnpvZTlkRkVhLUZjMG1ydm4weGx3?oc=5": {
+    "fingerprint": "ec252cb0d83fea8bee3ae8cacdab840b401a8a8a741a3c20dc980ee7091bfa87",
+    "completed": true,
+    "checked_at": "2026-11-11T07:46:46+00:00"
   }
 }
