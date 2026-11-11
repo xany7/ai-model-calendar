@@ -1631,5 +1631,27 @@
     "updated_at": "2026-10-26T07:59:31+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "8c5c5ad712dd88fd2730",
+    "vendor": "Anthropic",
+    "model": "Claude Fable 5.2",
+    "release_date": "2026-11-09",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
+    "date_note": "采用 Anthropic 官方公告正文标注的 2026-11-09,Availability 段明确 Fable 5.2 当日可用。正文仅给日期,未获得可信具体时刻;按公告标注日设全天事件,无法确定准确北京时间跨日。",
+    "summary": "Claude Fable 5.2 于官方公告当日公开可用,升级复杂编码、推理、视觉与科学研究能力;同底座 Mythos 5.2 按验证计划受限开放,合并记录。",
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "sources": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    ],
+    "milestone_reason": "官方独立公告确认 5.2 面向最复杂技术任务,编码、推理、视觉、长程多智能体与科学研究能力显著升级,综合评测高于 Opus 5.5;不以降价或加速作为收录依据。Fable 当日全平台可用;同底座 Mythos 不另记一次首发。",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "created_at": "2026-11-11T05:55:41+00:00",
+    "updated_at": "2026-11-11T05:55:41+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]

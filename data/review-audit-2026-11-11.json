@@ -1,0 +1,105 @@
+{
+  "reviewed_at": "2026-11-11T05:55:41+00:00",
+  "reviewed_by": "Codex (authorized by xany7)",
+  "base_commit": "cf91e91e84c1d8907fd5d836bfbf94194e38785b",
+  "policy": "按现有通用旗舰、重大能力升级、首次公开可用及可靠官方日期标准审核；缺少证据只保留待审，不认定模型不存在。",
+  "counts": {
+    "reviewed": 7,
+    "approved": 1,
+    "rejected": 1,
+    "deferred": 5,
+    "confirmed_events": 81,
+    "pending": 5
+  },
+  "decisions": [
+    {
+      "candidate_id": "8c5c5ad712dd88fd2730",
+      "model": "Claude Fable 5.2",
+      "action": "approve",
+      "status": "approved",
+      "event_id": "8c5c5ad712dd88fd2730",
+      "release_date": "2026-11-09",
+      "reason": "官方独立公告确认 5.2 面向最复杂技术任务，编码、推理、视觉、长程多智能体与科学研究能力显著升级，综合评测高于 Opus 5.5；不以降价或加速作为收录依据。Fable 当日全平台可用；同底座 Mythos 不另记一次首发。",
+      "date_note": "采用 Anthropic 官方公告正文标注的 2026-11-09，Availability 段明确 Fable 5.2 当日可用。正文仅给日期，未获得可信具体时刻；按公告标注日设全天事件，无法确定准确北京时间跨日。",
+      "sources": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ]
+    },
+    {
+      "candidate_id": "19d4e2798be8866b3744",
+      "model": "DeepSeek-V4-Pro",
+      "action": "reject",
+      "status": "rejected",
+      "duplicate_of": "9a8dd0e16d6ce5745758",
+      "reason": "该新闻是第三方 Qwen3.5 9B 蒸馏模型的发布报道，DeepSeek-V4-Pro 只是被引用的教师模型，不是 DeepSeek 新首发。官方 2026-04-24 V4 Preview 公告已同时发布 Pro 与 Flash，现有事件 9a8dd0e16d6ce5745758 已合并记录，故拒绝重复误报；新闻 2026-11-07 不是 V4-Pro 首发日。",
+      "sources": [
+        "https://www.deepseek.com/en/news/v4-preview/"
+      ]
+    },
+    {
+      "candidate_id": "ef37bf9409dfd1d82b9d",
+      "model": "DeepSeek V5",
+      "action": "defer",
+      "status": "pending",
+      "verified_release_date": null,
+      "reason": "官方新闻目录未提供可核实的 V5 独立首发公告；代码库命名和新闻不是模型已公开可用证据。",
+      "sources": [
+        "https://www.deepseek.com/en/news/"
+      ],
+      "candidate_record_changed": false
+    },
+    {
+      "candidate_id": "c0cae7d4d8f75affacfd",
+      "model": "Qwen 4",
+      "action": "defer",
+      "status": "pending",
+      "verified_release_date": null,
+      "reason": "官方组织和 Qwen3.8 News 可核实当前系列，但未取得 Qwen4 的独立公告及可靠日期；不把架构预览或新闻聚合日期当作首发。",
+      "sources": [
+        "https://github.com/QwenLM/Qwen3.8"
+      ],
+      "candidate_record_changed": false
+    },
+    {
+      "candidate_id": "8351fbc656dc66347702",
+      "model": "豆包2.2",
+      "action": "defer",
+      "status": "pending",
+      "verified_release_date": null,
+      "reason": "官方基础模型目录和模型页可核实 Seed2.1，不足以确认 Seed2.2；原延期报道不是发布公告。",
+      "sources": [
+        "https://seed.bytedance.com/en/blog_list/foundation"
+      ],
+      "candidate_record_changed": false
+    },
+    {
+      "candidate_id": "aa2c54afb591879de0cd",
+      "model": "DeepSeek V4.1 Pro",
+      "action": "defer",
+      "status": "pending",
+      "verified_release_date": null,
+      "reason": "V4.1-Flash 官方公告将 V4.1-Pro 作为后续发布对象；当前 API 旧 Pro 名称和 Flash 服务版本不能证明 V4.1-Pro 首发。灰测新闻日期不是可靠首发日。",
+      "sources": [
+        "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+      ],
+      "candidate_record_changed": false
+    },
+    {
+      "candidate_id": "ecc8228545615763ad89",
+      "model": "MiMo-V3",
+      "action": "defer",
+      "status": "pending",
+      "verified_release_date": null,
+      "reason": "官方模型发布日志可核实最新条目为 2026-09-22 MiMo-V2.6 系列；未取得 V3 模型独立首发与公开可用日期。HySparse2 架构研究线索不等于模型发布。",
+      "sources": [
+        "https://mimo.mi.com/docs/zh-CN/updates/model"
+      ],
+      "candidate_record_changed": false
+    }
+  ],
+  "limitations": [
+    "未获得五个待审型号的可靠首次公开可用日期，不能使用新闻日期替代。",
+    "Seed 中文基础模型目录读取不可用，采用英文同类官方目录和中文 Seed2.1 模型页交叉核查。",
+    "只处理本次候选审核，不修复采集器、旧候选日期覆盖、漏收录或来源健康问题；health 的检查时间和来源状态保持原样。"
+  ]
+}
