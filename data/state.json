@@ -1658,8 +1658,8 @@
   "google-ai|https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare": {
     "fingerprint": "1fdb0356a2ea8348299ed6fc7a403c25fe311c78bdfad2e580625c67559ec740",
     "completed": false,
-    "checked_at": "2026-11-11T07:46:46+00:00",
-    "pending_rechecks": 0
+    "checked_at": "2026-11-12T08:23:25+00:00",
+    "pending_rechecks": 1
   },
   "verge-ai|https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": {
     "fingerprint": "ed4501dc945cc756c732d7fa01b9a530a3993bf1eedb88dbd6162d1a9c788318",
@@ -1670,5 +1670,11 @@
     "fingerprint": "ec252cb0d83fea8bee3ae8cacdab840b401a8a8a741a3c20dc980ee7091bfa87",
     "completed": true,
     "checked_at": "2026-11-11T07:46:46+00:00"
+  },
+  "xai-news|https://x.ai/news/grok-bot-1-0": {
+    "fingerprint": "ffeee73af89ca2845699ec1044a9556fe3b1c554f42097df5667b05d9c28a14e",
+    "completed": false,
+    "checked_at": "2026-11-12T08:23:25+00:00",
+    "pending_rechecks": 0
   }
 }

@@ -1,6 +1,40 @@
 [
   {
     "status": "pending",
+    "model": "Introducing Grok Bot 1.0",
+    "vendor": "xAI",
+    "score": 40,
+    "title_announcement": false,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": "2026-11-02",
+    "published_at": null,
+    "date_precision": "official-date-only",
+    "id": "b7ac63b65260f80829c4",
+    "official": true,
+    "source_url": "https://x.ai/news/grok-bot-1-0",
+    "source_title": "Introducing Grok Bot 1.0",
+    "summary": "xAI 发布 Introducing Grok Bot 1.0；具体里程碑意义待审核。",
+    "first_seen": "2026-11-12T08:23:25+00:00",
+    "last_seen": "2026-11-12T08:23:25+00:00",
+    "evidence": [
+      {
+        "url": "https://x.ai/news/grok-bot-1-0",
+        "title": "Introducing Grok Bot 1.0",
+        "official": true,
+        "source_id": "xai-news",
+        "raw_date": "2026-11-02T00:00:00Z",
+        "date_provenance": "official-article",
+        "date_verified": true,
+        "sha256": "95e5b78cacbd270ec19e31787b0fc6e85c2873ef87e36d079343c6d94de75f40",
+        "excerpt": "Introducing Grok Bot 1.0 | SpaceXSI Back to news Nov 2, 2026 Introducing Grok Bot 1.0 Bots now work with your whole team, take on work without being asked, and get more done, faster. Download for macOS Contact sales 0:00 / 0:00 Today we’re launching Grok Bot 1.0, a major update to our AI teammates. Since introducing Gr",
+        "checked_at": "2026-11-12T08:23:25+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Google Cloud launches Gemini for healthcare.",
     "vendor": "Google",
     "score": 40,
@@ -17,7 +51,7 @@
     "source_title": "Google Cloud launches Gemini for healthcare.",
     "summary": "Google 发布 Google Cloud launches Gemini for healthcare.；具体里程碑意义待审核。",
     "first_seen": "2026-11-11T07:46:46+00:00",
-    "last_seen": "2026-11-11T07:46:46+00:00",
+    "last_seen": "2026-11-12T08:23:25+00:00",
     "evidence": [
       {
         "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
@@ -27,9 +61,9 @@
         "raw_date": "2026-11-10T13:00:00+00:00",
         "date_provenance": "official-article",
         "date_verified": true,
-        "sha256": "3aad58236ead1e16bbaf175d731de9b77faee413317e5efd958e20ab0173b2c8",
+        "sha256": "529ac2bea3838a68f8e065f05d17aa12b77b15ffb7166006323736f5ff52f9b3",
         "excerpt": "Google Cloud launches Gemini for healthcare. Nov 10, 2026 Google Cloud has announced Gemini for healthcare , an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated actio",
-        "checked_at": "2026-11-11T07:46:46+00:00"
+        "checked_at": "2026-11-12T08:23:25+00:00"
       }
     ]
   },
