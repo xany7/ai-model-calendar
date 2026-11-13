@@ -1676,5 +1676,10 @@
     "completed": false,
     "checked_at": "2026-11-12T08:23:25+00:00",
     "pending_rechecks": 0
+  },
+  "google-ai|https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
+    "fingerprint": "e98df24b89ec98b293b050fef1dbb19bca6481583f77aa026f03b1ec3036384f",
+    "completed": true,
+    "checked_at": "2026-11-13T08:04:10+00:00"
   }
 }
