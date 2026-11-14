@@ -1674,12 +1674,17 @@
   "xai-news|https://x.ai/news/grok-bot-1-0": {
     "fingerprint": "ffeee73af89ca2845699ec1044a9556fe3b1c554f42097df5667b05d9c28a14e",
     "completed": false,
-    "checked_at": "2026-11-12T08:23:25+00:00",
-    "pending_rechecks": 0
+    "checked_at": "2026-11-14T07:38:06+00:00",
+    "pending_rechecks": 1
   },
   "google-ai|https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
     "fingerprint": "e98df24b89ec98b293b050fef1dbb19bca6481583f77aa026f03b1ec3036384f",
     "completed": true,
     "checked_at": "2026-11-13T08:04:10+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-chatgpt-wallet": {
+    "fingerprint": "456d9d1d5700f6bbae38266064ce13305f43aed8bc164e8e38bb9d4651381541",
+    "completed": true,
+    "checked_at": "2026-11-14T07:38:06+00:00"
   }
 }
