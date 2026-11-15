@@ -1658,8 +1658,8 @@
   "google-ai|https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare": {
     "fingerprint": "1fdb0356a2ea8348299ed6fc7a403c25fe311c78bdfad2e580625c67559ec740",
     "completed": false,
-    "checked_at": "2026-11-12T08:23:25+00:00",
-    "pending_rechecks": 1
+    "checked_at": "2026-11-15T07:54:09+00:00",
+    "pending_rechecks": 2
   },
   "verge-ai|https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": {
     "fingerprint": "ed4501dc945cc756c732d7fa01b9a530a3993bf1eedb88dbd6162d1a9c788318",

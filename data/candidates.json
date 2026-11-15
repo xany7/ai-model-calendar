@@ -51,7 +51,7 @@
     "source_title": "Google Cloud launches Gemini for healthcare.",
     "summary": "Google 发布 Google Cloud launches Gemini for healthcare.；具体里程碑意义待审核。",
     "first_seen": "2026-11-11T07:46:46+00:00",
-    "last_seen": "2026-11-12T08:23:25+00:00",
+    "last_seen": "2026-11-15T07:54:09+00:00",
     "evidence": [
       {
         "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
@@ -61,9 +61,9 @@
         "raw_date": "2026-11-10T13:00:00+00:00",
         "date_provenance": "official-article",
         "date_verified": true,
-        "sha256": "529ac2bea3838a68f8e065f05d17aa12b77b15ffb7166006323736f5ff52f9b3",
+        "sha256": "b68f009e1bcc5a02862f82d6953bfe64f0d75bde51b9c8f91a37c49c749e4234",
         "excerpt": "Google Cloud launches Gemini for healthcare. Nov 10, 2026 Google Cloud has announced Gemini for healthcare , an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated actio",
-        "checked_at": "2026-11-12T08:23:25+00:00"
+        "checked_at": "2026-11-15T07:54:09+00:00"
       }
     ]
   },
