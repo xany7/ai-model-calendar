@@ -1686,5 +1686,25 @@
     "fingerprint": "456d9d1d5700f6bbae38266064ce13305f43aed8bc164e8e38bb9d4651381541",
     "completed": true,
     "checked_at": "2026-11-14T07:38:06+00:00"
+  },
+  "openai-rss|https://openai.com/index/lvmh-media-division-partnership": {
+    "fingerprint": "f924d784dcc98544f4e04f61e166e51f221f84be38b172e31abda498c2820785",
+    "completed": true,
+    "checked_at": "2026-11-17T09:15:56+00:00"
+  },
+  "openai-rss|https://openai.com/index/the-kings-trust-and-openai": {
+    "fingerprint": "c46a7536108a78a3185039fd72305f96b4419af39a9ec1420a806ea2dc21ea3c",
+    "completed": true,
+    "checked_at": "2026-11-17T09:15:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lV2VHSm1DT2JBMHVFLVZKOVFJb0wwcW9TWFRGQ1NZbjhrNkE5MHo3THFsOHVHTFd6NjZSdEVwUFpNX205N2cxLXFheHVIU1F6R0lxQUZHOTZtRHJ1?oc=5": {
+    "fingerprint": "ec1787ad00cbdb0245e0a281ac80f667d3583dda4282b5529ee4163a59f9b3f9",
+    "completed": true,
+    "checked_at": "2026-11-17T09:15:56+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiakFVX3lxTFBfME1kYzFEdjlUMGZGSVowYW83SGNqa21hYkJtUlVoLTFrLUFBQjk1dnFTZ21CWGVZTE1oSHdZOGE4Mm5jdnQ2V2VnUGpka0dWMmJ5eldHaEJVeGpTM0tFTmJHOWVLMWRGRkE?oc=5": {
+    "fingerprint": "e4a2a4c0e1174a90a88b1c054d98841667be8797ea0c442adc3b8a8dcd8ac012",
+    "completed": true,
+    "checked_at": "2026-11-17T09:15:56+00:00"
   }
 }

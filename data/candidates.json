@@ -1,6 +1,46 @@
 [
   {
     "status": "pending",
+    "model": "Qwen4-Max",
+    "vendor": "阿里千问",
+    "score": 40,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "需确认旗舰级或里程碑意义。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-11-16",
+    "published_at": "2026-11-16T09:17:21+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "55581ff99ca004ddbac2",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfME1kYzFEdjlUMGZGSVowYW83SGNqa21hYkJtUlVoLTFrLUFBQjk1dnFTZ21CWGVZTE1oSHdZOGE4Mm5jdnQ2V2VnUGpka0dWMmJ5eldHaEJVeGpTM0tFTmJHOWVLMWRGRkE?oc=5",
+    "source_title": "Qwen4-Max 与 Kimi K4:一个已发布,另一个却从未发布 - OrcaRouter",
+    "summary": "阿里千问 发布 Qwen4-Max；具体里程碑意义待审核。",
+    "first_seen": "2026-11-17T09:15:56+00:00",
+    "last_seen": "2026-11-17T09:15:56+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfME1kYzFEdjlUMGZGSVowYW83SGNqa21hYkJtUlVoLTFrLUFBQjk1dnFTZ21CWGVZTE1oSHdZOGE4Mm5jdnQ2V2VnUGpka0dWMmJ5eldHaEJVeGpTM0tFTmJHOWVLMWRGRkE?oc=5",
+        "title": "Qwen4-Max 与 Kimi K4:一个已发布,另一个却从未发布 - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 16 Nov 2026 09:17:21 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "12f5e80c3ac6287694c7ed53930b7ebcbe950b52a363979e1081fefd3b0ccdc2",
+        "excerpt": "Qwen4-Max 与 Kimi K4:一个已发布,另一个却从未发布 OrcaRouter",
+        "checked_at": "2026-11-17T09:15:56+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Introducing Grok Bot 1.0",
     "vendor": "xAI",
     "score": 40,
