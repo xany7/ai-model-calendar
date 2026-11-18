@@ -1,0 +1,95 @@
+{
+  "reviewed_at": "2026-11-18T14:03:19+00:00",
+  "base_commit": "634a278daea740b91b8b62b651b47e5b7516bd26",
+  "reviewed_by": "Codex (authorized by xany7)",
+  "counts": {
+    "reviewed": 9,
+    "approved": 2,
+    "rejected": 3,
+    "deferred": 4,
+    "confirmed_events": 83,
+    "pending": 4
+  },
+  "decisions": [
+    {
+      "model": "GPT-6.2 Astra",
+      "action": "approved",
+      "release_date": "2026-11-18",
+      "reason": "官方独立公告将 Astra 定位为新前沿模型,专业工作、科学研究、编码、视觉与计算机使用显著升级;同场 Sol 合并说明,不单独重复计数。",
+      "sources": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ]
+    },
+    {
+      "model": "Qwen4-Max",
+      "action": "approved",
+      "release_date": "2026-11-11",
+      "reason": "官方将其定位为新一代旗舰多模态模型；11-11预览版已在Token Plan公开可用，11-16正式公告确认新架构及复杂任务能力升级。按既有规则将预览与正式版合并为首次可用事件。",
+      "sources": [
+        "https://www.alibabacloud.com/help/zh/model-studio/newly-released-models",
+        "https://www.alibabacloud.com/help/zh/model-studio/qwen4-max-preview",
+        "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1"
+      ]
+    },
+    {
+      "model": "Introducing Grok Bot 1.0",
+      "action": "rejected",
+      "release_date": "2026-11-11",
+      "reason": "官方 2026-11-11 公告为 AI teammates 智能体产品升级，不是独立通用旗舰模型首发。",
+      "sources": [
+        "https://x.ai/news/grok-bot-1-0"
+      ]
+    },
+    {
+      "model": "Google Cloud launches Gemini for healthcare.",
+      "action": "rejected",
+      "release_date": "2026-11-10",
+      "reason": "官方 2026-11-10 公告是医疗行业 AI 解决方案与工作流平台，不是新通用基座模型首发。",
+      "sources": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare"
+      ]
+    },
+    {
+      "model": "Qwen 4",
+      "action": "rejected",
+      "release_date": null,
+      "reason": "本条为旧第三方聚合新闻中的宽泛系列名，旧定档未获官方证实；已核实的 Qwen4-Max 首次可用及正式版合并到规范型号事件，不将其重复计数；不代表排除未来其他 Qwen4 型号。",
+      "sources": [
+        "https://github.com/QwenLM/Qwen3.8#news",
+        "https://github.com/QwenLM/Qwen3.8-Flash-Next",
+        "https://qwen.ai/blog"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "model": "DeepSeek V5",
+      "verified_release_date": null,
+      "reason": "本次官方来源未核实独立首发与公开可用日期，继续待审，不把新闻日当发布日期。",
+      "source": "https://api-docs.deepseek.com/updates/"
+    },
+    {
+      "model": "DeepSeek V4.1 Pro",
+      "verified_release_date": null,
+      "reason": "本次官方来源未核实独立首发与公开可用日期，继续待审，不把新闻日当发布日期。",
+      "source": "https://deepseek.com/en/news/deepseek-v4-1-flash/"
+    },
+    {
+      "model": "豆包2.2",
+      "verified_release_date": null,
+      "reason": "本次官方来源未核实独立首发与公开可用日期，继续待审，不把新闻日当发布日期。",
+      "source": "https://seed.bytedance.com/en/blog_list/foundation"
+    },
+    {
+      "model": "MiMo-V3",
+      "verified_release_date": null,
+      "reason": "本次官方来源未核实独立首发与公开可用日期，继续待审，不把新闻日当发布日期。",
+      "source": "https://mimo.mi.com/docs/zh-CN/updates/model"
+    }
+  ],
+  "limitations": [
+    "仅更新审核数据，不修改采集器或来源配置；Google Models来源连续失败仍待修复。",
+    "Qwen来源为已核实的厂商阿里云官方站，但既有review命令白名单仅含qwen.ai/GitHub；依README手动补录流程处理，未放宽白名单。",
+    "Macaron不在既有十厂商日历范围，本次不扩展范围或将托管上线当首发。"
+  ]
+}

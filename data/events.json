@@ -1653,5 +1653,51 @@
     "updated_at": "2026-11-11T05:55:41+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "536b99714a2f8e477bdc",
+    "vendor": "OpenAI",
+    "model": "GPT-6.2 Astra",
+    "release_date": "2026-11-18",
+    "published_at": "2026-11-17T17:45:00+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
+    "date_note": "官方 RSS 时间 2026-11-17 17:45 UTC,换算北京时间为 2026-11-18 01:45;公告正文明确当日可用。按北京时间记录全天事件。",
+    "summary": "GPT-6.2 Astra 与同场 Sol 已在 ChatGPT Work、Codex 和 API 可用;Astra 强化复杂专业工作、科研、编程与计算机使用,Sol 为高效通用型号,合并记录。",
+    "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    ],
+    "milestone_reason": "官方独立公告将 Astra 定位为新前沿模型,专业工作、科学研究、编码、视觉与计算机使用显著升级;同场 Sol 合并说明,不单独重复计数。",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "created_at": "2026-11-18T14:03:19+00:00",
+    "updated_at": "2026-11-18T14:03:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "55581ff99ca004ddbac2",
+    "vendor": "阿里千问",
+    "model": "Qwen4-Max",
+    "release_date": "2026-11-11",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
+    "date_note": "按项目首次公开可用口径采用阿里云官方上架日志 2026-11-11 Qwen4-Max-Preview；2026-11-16 是正式版公告及上架日，不重复计数。仅官方日期，无可靠时刻，不推算北京时间跨日。11-18为后续新闻日期，不是模型首发日。",
+    "summary": "Qwen4-Max 首次以 Preview 在 Token Plan 公开可用；新一代旗舰多模态模型提升编程、视觉与复杂智能体能力。11月16日正式版发布并开放 API，合并记录。",
+    "source_url": "https://www.alibabacloud.com/help/zh/model-studio/newly-released-models",
+    "sources": [
+      "https://www.alibabacloud.com/help/zh/model-studio/newly-released-models",
+      "https://www.alibabacloud.com/help/zh/model-studio/qwen4-max-preview",
+      "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1"
+    ],
+    "milestone_reason": "官方将其定位为新一代旗舰多模态模型；11-11预览版已在Token Plan公开可用，11-16正式公告确认新架构及复杂任务能力升级。按既有规则将预览与正式版合并为首次可用事件。",
+    "reviewed_by": "Codex (authorized by xany7)",
+    "created_at": "2026-11-18T14:03:19+00:00",
+    "updated_at": "2026-11-18T14:03:19+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]
