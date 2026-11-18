@@ -1672,10 +1672,10 @@
     "checked_at": "2026-11-11T07:46:46+00:00"
   },
   "xai-news|https://x.ai/news/grok-bot-1-0": {
-    "fingerprint": "ffeee73af89ca2845699ec1044a9556fe3b1c554f42097df5667b05d9c28a14e",
+    "fingerprint": "8072513a7a825417a7ff47244d0a292884e36e81959c88e342921956cb261d35",
     "completed": false,
-    "checked_at": "2026-11-16T08:01:53+00:00",
-    "pending_rechecks": 2
+    "checked_at": "2026-11-18T08:35:42+00:00",
+    "pending_rechecks": 0
   },
   "google-ai|https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
     "fingerprint": "e98df24b89ec98b293b050fef1dbb19bca6481583f77aa026f03b1ec3036384f",
@@ -1706,5 +1706,26 @@
     "fingerprint": "e4a2a4c0e1174a90a88b1c054d98841667be8797ea0c442adc3b8a8dcd8ac012",
     "completed": true,
     "checked_at": "2026-11-17T09:15:56+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+    "fingerprint": "18b7a4f3f7aebde5952a0888638137077630ac4ee7b12ba3a6cc5ac357e4e1c4",
+    "completed": false,
+    "checked_at": "2026-11-18T08:35:42+00:00",
+    "pending_rechecks": 0
+  },
+  "openai-rss|https://openai.com/index/introducing-chatgpt-for-sales": {
+    "fingerprint": "003d51727165cfd8e1193749349b45f907ef0d68ca03e76c94f287cbb59b724f",
+    "completed": true,
+    "checked_at": "2026-11-18T08:35:42+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-openai-for-chile": {
+    "fingerprint": "05648e0af2458b48c8ff0e8a01ad9e23767a169441f018023b4f5b32f7a54de1",
+    "completed": true,
+    "checked_at": "2026-11-18T08:35:42+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiakFVX3lxTE9Cejg3VjBfX3E5Zjc0MmpDRUhCdUI1S1RPY1MwU18zTEVmTENGN3I0TDhVZ29rMFNCaE5wdVdBNGVUOVlvMTF0TlBqeUk1b2VwbDBFV1FRY3haUkEydFVGRlp1Y0M0cDBFZEE?oc=5": {
+    "fingerprint": "4f073bbd41733ca2c25056289a1799bdfd52fdf12b362c7d7a91bcc1239973ae",
+    "completed": true,
+    "checked_at": "2026-11-18T08:35:42+00:00"
   }
 }
