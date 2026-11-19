@@ -1657,9 +1657,8 @@
   },
   "google-ai|https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare": {
     "fingerprint": "1fdb0356a2ea8348299ed6fc7a403c25fe311c78bdfad2e580625c67559ec740",
-    "completed": false,
-    "checked_at": "2026-11-15T07:54:09+00:00",
-    "pending_rechecks": 2
+    "completed": true,
+    "checked_at": "2026-11-19T08:51:20+00:00"
   },
   "verge-ai|https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": {
     "fingerprint": "ed4501dc945cc756c732d7fa01b9a530a3993bf1eedb88dbd6162d1a9c788318",
@@ -1673,9 +1672,8 @@
   },
   "xai-news|https://x.ai/news/grok-bot-1-0": {
     "fingerprint": "8072513a7a825417a7ff47244d0a292884e36e81959c88e342921956cb261d35",
-    "completed": false,
-    "checked_at": "2026-11-18T08:35:42+00:00",
-    "pending_rechecks": 0
+    "completed": true,
+    "checked_at": "2026-11-19T08:51:20+00:00"
   },
   "google-ai|https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade": {
     "fingerprint": "e98df24b89ec98b293b050fef1dbb19bca6481583f77aa026f03b1ec3036384f",
@@ -1709,9 +1707,8 @@
   },
   "openai-rss|https://openai.com/index/introducing-gpt-6-2-astra-sol": {
     "fingerprint": "18b7a4f3f7aebde5952a0888638137077630ac4ee7b12ba3a6cc5ac357e4e1c4",
-    "completed": false,
-    "checked_at": "2026-11-18T08:35:42+00:00",
-    "pending_rechecks": 0
+    "completed": true,
+    "checked_at": "2026-11-19T08:51:20+00:00"
   },
   "openai-rss|https://openai.com/index/introducing-chatgpt-for-sales": {
     "fingerprint": "003d51727165cfd8e1193749349b45f907ef0d68ca03e76c94f287cbb59b724f",
