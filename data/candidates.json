@@ -1,5 +1,39 @@
 [
   {
+    "status": "pending",
+    "model": "Introducing Tool Retrieval in the Gemini API",
+    "vendor": "Google",
+    "score": 40,
+    "title_announcement": false,
+    "reasons": [
+      "未知命名：需确认是否为通用旗舰模型及规范模型名。"
+    ],
+    "release_date": "2026-11-20",
+    "published_at": "2026-11-19T18:00:00+00:00",
+    "date_precision": "timestamp",
+    "id": "2fb4a367f3babbbf129c",
+    "official": true,
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+    "source_title": "Introducing Tool Retrieval in the Gemini API",
+    "summary": "Google 发布 Introducing Tool Retrieval in the Gemini API；具体里程碑意义待审核。",
+    "first_seen": "2026-11-20T08:37:50+00:00",
+    "last_seen": "2026-11-20T08:37:50+00:00",
+    "evidence": [
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+        "title": "Introducing Tool Retrieval in the Gemini API",
+        "official": true,
+        "source_id": "google-ai",
+        "raw_date": "2026-11-19T18:00:00+00:00",
+        "date_provenance": "official-article",
+        "date_verified": true,
+        "sha256": "af82be287424af2eb9dea696c24f677694ec74cea5155309cfc5aed2aae98bca",
+        "excerpt": "Introducing Tool Retrieval in the Gemini API Nov 19, 2026 | x.com Facebook LinkedIn Mail Copy link Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accu",
+        "checked_at": "2026-11-20T08:37:50+00:00"
+      }
+    ]
+  },
+  {
     "status": "approved",
     "model": "GPT-6.2 Astra",
     "vendor": "OpenAI",

@@ -1724,5 +1724,11 @@
     "fingerprint": "4f073bbd41733ca2c25056289a1799bdfd52fdf12b362c7d7a91bcc1239973ae",
     "completed": true,
     "checked_at": "2026-11-18T08:35:42+00:00"
+  },
+  "google-ai|https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval": {
+    "fingerprint": "f0a4aaea22fe859e11da27ed939fed7c2dc1a76acb7f6fa3594431b1f50b0615",
+    "completed": false,
+    "checked_at": "2026-11-20T08:37:50+00:00",
+    "pending_rechecks": 0
   }
 }
