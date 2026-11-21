@@ -1730,5 +1730,15 @@
     "completed": false,
     "checked_at": "2026-11-20T08:37:50+00:00",
     "pending_rechecks": 0
+  },
+  "openai-rss|https://openai.com/business/customer-stories/hebbia": {
+    "fingerprint": "ae25d1d1762252dfa1915d0681e85d060b76533f8be02a0ac1320eadcbc15741",
+    "completed": true,
+    "checked_at": "2026-11-21T08:19:36+00:00"
+  },
+  "anthropic-news|https://www.anthropic.com/news/ipo-close": {
+    "fingerprint": "49feb8fda0b997e2695ee87e08ac810c5e9971f98d8991350e805de0136a8508",
+    "completed": true,
+    "checked_at": "2026-11-21T08:19:36+00:00"
   }
 }
