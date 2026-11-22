@@ -17,7 +17,7 @@
     "source_title": "Introducing Tool Retrieval in the Gemini API",
     "summary": "Google 发布 Introducing Tool Retrieval in the Gemini API；具体里程碑意义待审核。",
     "first_seen": "2026-11-20T08:37:50+00:00",
-    "last_seen": "2026-11-20T08:37:50+00:00",
+    "last_seen": "2026-11-22T08:03:22+00:00",
     "evidence": [
       {
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
@@ -29,7 +29,7 @@
         "date_verified": true,
         "sha256": "af82be287424af2eb9dea696c24f677694ec74cea5155309cfc5aed2aae98bca",
         "excerpt": "Introducing Tool Retrieval in the Gemini API Nov 19, 2026 | x.com Facebook LinkedIn Mail Copy link Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accu",
-        "checked_at": "2026-11-20T08:37:50+00:00"
+        "checked_at": "2026-11-22T08:03:22+00:00"
       }
     ]
   },
@@ -330,7 +330,7 @@
     "source_title": "AI日报:DeepMind发布世界模型Genie4;WorkBuddy上线远程控制;DeepSeek V5 惊现官方代码库 - AIBase",
     "summary": "DeepSeek 发布 DeepSeek V5；具体里程碑意义待审核。",
     "first_seen": "2026-10-28T06:53:20+00:00",
-    "last_seen": "2026-10-30T07:13:38+00:00",
+    "last_seen": "2026-11-22T08:03:22+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SVDcxWFY0SFBCU3g0N3FxTnd2ZDBtUWhGNXlCWEJrempjVGJ3enljNGU0dXZVenEtZnBURnJJb09VbHBVRnc0SlBMVWxKYmNfVDU4cjktZVM?oc=5",
@@ -355,6 +355,18 @@
         "sha256": "c95b92bd08601e63c59d8bbda12bd3fd68aa427540a9ee762efa279083a0b55c",
         "excerpt": "AI日报:DeepMind发布世界模型Genie4;WorkBuddy上线远程控制;DeepSeek V5 惊现官方代码库 AIBase",
         "checked_at": "2026-10-30T07:13:38+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wZU5PSktMemxDVEQxNzdDalRZSzlkRl9EcTlUaDlLRndmVGVRYkRMV2tyLWliVVpYUUc4TmJtZW5vOUd3cWxLRTNCMDg?oc=5",
+        "title": "苹果发触屏笔记本,最高 11 万元;DeepSeek V5 模型代码现身;宇树首发财报,净利增 270% - 极客公园",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "9ab94fd4c096370c67404335257786dab9df8d53eba88c12b29fe5128f9bd90f",
+        "excerpt": "苹果发触屏笔记本,最高 11 万元;DeepSeek V5 模型代码现身;宇树首发财报,净利增 270% 极客公园",
+        "checked_at": "2026-11-22T08:03:22+00:00"
       }
     ]
   },
@@ -950,18 +962,18 @@
       "新闻仅作发现线索，必须补充官方来源。",
       "正文未验证或只有目录/仓库信息。"
     ],
-    "release_date": "2026-09-28",
-    "published_at": "2026-09-28T07:00:00+00:00",
+    "release_date": "2026-10-30",
+    "published_at": "2026-10-30T07:00:00+00:00",
     "date_precision": "timestamp",
     "date_provenance": "news-rss",
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQSnVRZHRBaDNfcC1pdkQzTlBQbWctMko3UGw1U1dZS0hKN0hHZlo2dkFIc1hvdkduVnNzS2M4OU16MFVNbi1JdmliTUE3cjJ3aWc?oc=5",
-    "source_title": "有望国庆发布 DeepSeek V4.1 Pro已开始测试:性能值得期待 - 搜狐网",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uQUYyby01QTB2M25fX1hnRFdhbnVoRGFXc3J6Mmp2dGpQWGdISVZrandoLTZ5MFJIMF9VTWwwekVNNzcyWndRVVM0Q205c1Y3M1VRNkJaN3NfZ2IzYTZHQTAxZElYdG9RR0VWRTYyekRfeTNhWmc?oc=5",
+    "source_title": "DeepSeek V4.1 Pro 会以开放权重形式发布吗? - OrcaRouter",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-11-05T07:56:35+00:00",
+    "last_seen": "2026-11-22T08:03:22+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -1082,6 +1094,30 @@
         "sha256": "28b398de45a629dd2bc37b4052e895e2832bd1a85c80b46b7128c6db31677914",
         "excerpt": "Ripple 65B 对比 DeepSeek V4.1 Pro:其中一个并不存在 OrcaRouter",
         "checked_at": "2026-11-05T07:56:35+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lY0xDeEVKZkJOZE5HMi1lNW1vcFhGc3pjem1sRkdaME8zRGpmVkRjNDBnUlVkUHVwbWRTbXdvQXdHUGtHLUxnOVNwUDBNd1l3Q1BiZ2N4S2JPUE1NaUpXXzNqSkZ0Ti1DWWUtbnh0UU1qRVNhVmc?oc=5",
+        "title": "DeepSeek V4.1 Pro 发布日期:尚无日期,以及三种了解何时会改变的方法 - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 30 Oct 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "626936713b876a194d5ad77ff06f3042cfb41399cd250a92b24fb57cae14fda8",
+        "excerpt": "DeepSeek V4.1 Pro 发布日期:尚无日期,以及三种了解何时会改变的方法 OrcaRouter",
+        "checked_at": "2026-11-22T08:03:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uQUYyby01QTB2M25fX1hnRFdhbnVoRGFXc3J6Mmp2dGpQWGdISVZrandoLTZ5MFJIMF9VTWwwekVNNzcyWndRVVM0Q205c1Y3M1VRNkJaN3NfZ2IzYTZHQTAxZElYdG9RR0VWRTYyekRfeTNhWmc?oc=5",
+        "title": "DeepSeek V4.1 Pro 会以开放权重形式发布吗? - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Fri, 30 Oct 2026 07:00:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "e1044a99cb00d10e6f2b8b772288bae0f8f6db41aec1a58eb3db90ae7bc9b7c6",
+        "excerpt": "DeepSeek V4.1 Pro 会以开放权重形式发布吗? OrcaRouter",
+        "checked_at": "2026-11-22T08:03:22+00:00"
       }
     ],
     "reviewed_at": "2026-10-26T07:59:31+00:00",
