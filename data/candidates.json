@@ -1,6 +1,46 @@
 [
   {
     "status": "pending",
+    "model": "GLM-5.4",
+    "vendor": "智谱 GLM",
+    "score": 45,
+    "important_minor": false,
+    "title_announcement": true,
+    "reasons": [
+      "小版本尚无明确的旗舰定位或重大能力跃迁证据。",
+      "发布日期未核实；需确认官方日期口径。",
+      "新闻仅作发现线索，必须补充官方来源。",
+      "正文未验证或只有目录/仓库信息。"
+    ],
+    "release_date": "2026-11-23",
+    "published_at": "2026-11-23T06:53:15+00:00",
+    "date_precision": "timestamp",
+    "date_provenance": "news-rss",
+    "date_verified": false,
+    "id": "f42cef5e16785362a486",
+    "official": false,
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xWGo0MEJnOXVYVFVnWHpmVVp4TDhSYlpxLTF3dHI5VHdPTHpKX2hFRFBkaDFZcEJSbTBvMmVGZ2dzcUlBNWZEVVFRT1BKMHM3SFNPWXBKSzUyNzBlWlFmdGhOdWdVUQ?oc=5",
+    "source_title": "GLM-5.4 vs GLM-5.5:现在发布还是等待3T旗舰? - OrcaRouter",
+    "summary": "智谱 GLM 发布 GLM-5.4；官方将其定位为新一代或旗舰模型。",
+    "first_seen": "2026-11-23T09:10:03+00:00",
+    "last_seen": "2026-11-23T09:10:03+00:00",
+    "evidence": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xWGo0MEJnOXVYVFVnWHpmVVp4TDhSYlpxLTF3dHI5VHdPTHpKX2hFRFBkaDFZcEJSbTBvMmVGZ2dzcUlBNWZEVVFRT1BKMHM3SFNPWXBKSzUyNzBlWlFmdGhOdWdVUQ?oc=5",
+        "title": "GLM-5.4 vs GLM-5.5:现在发布还是等待3T旗舰? - OrcaRouter",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 23 Nov 2026 06:53:15 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "8d44e1cd5dd8bb33e4b9781c1bdae2264bb15b19821cdc536c83e1f2291163fc",
+        "excerpt": "GLM-5.4 vs GLM-5.5:现在发布还是等待3T旗舰? OrcaRouter",
+        "checked_at": "2026-11-23T09:10:03+00:00"
+      }
+    ]
+  },
+  {
+    "status": "pending",
     "model": "Introducing Tool Retrieval in the Gemini API",
     "vendor": "Google",
     "score": 40,

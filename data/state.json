@@ -1780,5 +1780,15 @@
     "fingerprint": "562209de0309f6b1efbc1b5a4d7326e35af87dc7967abfd2898a7555dc660444",
     "completed": true,
     "checked_at": "2026-11-22T08:03:22+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HX3VpbjhDMllrYmtISlBxRG5VZWttRVkxSE5zMHdCTlVxa1FBZXRnUl9XV3Q3TXNzaWJqZnRaUTNCSVVEcGI3d3JtQkltSHVWbVVNV2xVb0E?oc=5": {
+    "fingerprint": "9f544fb592e4326fc118ee602bfd586bef95ae046505838b9e63e61562bf1aa2",
+    "completed": true,
+    "checked_at": "2026-11-23T09:10:03+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xWGo0MEJnOXVYVFVnWHpmVVp4TDhSYlpxLTF3dHI5VHdPTHpKX2hFRFBkaDFZcEJSbTBvMmVGZ2dzcUlBNWZEVVFRT1BKMHM3SFNPWXBKSzUyNzBlWlFmdGhOdWdVUQ?oc=5": {
+    "fingerprint": "10252019ab551bd50ba59271ed6c6029c9a841c9857dced8bc367393d9777299",
+    "completed": true,
+    "checked_at": "2026-11-23T09:10:03+00:00"
   }
 }
