@@ -1728,8 +1728,8 @@
   "google-ai|https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval": {
     "fingerprint": "f0a4aaea22fe859e11da27ed939fed7c2dc1a76acb7f6fa3594431b1f50b0615",
     "completed": false,
-    "checked_at": "2026-11-22T08:03:22+00:00",
-    "pending_rechecks": 1
+    "checked_at": "2026-11-24T11:01:06+00:00",
+    "pending_rechecks": 2
   },
   "openai-rss|https://openai.com/business/customer-stories/hebbia": {
     "fingerprint": "ae25d1d1762252dfa1915d0681e85d060b76533f8be02a0ac1320eadcbc15741",
@@ -1790,5 +1790,20 @@
     "fingerprint": "10252019ab551bd50ba59271ed6c6029c9a841c9857dced8bc367393d9777299",
     "completed": true,
     "checked_at": "2026-11-23T09:10:03+00:00"
+  },
+  "openai-rss|https://openai.com/index/introducing-shirudo": {
+    "fingerprint": "67c83214d865a3178db55541a3f4a3aeb4964128552d90ce738420419e0cb284",
+    "completed": true,
+    "checked_at": "2026-11-24T11:01:06+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5anRwVHFfc081UWNIZDJWaW1YMEsyVU1CN0l3OFM1WEtRbE1pUlZkSzFINzlQUjYwZzFTNWhYZUdtR1dZWnZlUkJoZmtGaUs1V05GcUhHUmp3QjFleWc?oc=5": {
+    "fingerprint": "d505a9f4b9df8c44815d0334813c977582ba4a5b61a6b71c387dba414d500e9a",
+    "completed": true,
+    "checked_at": "2026-11-24T11:01:06+00:00"
+  },
+  "china-news-discovery|https://news.google.com/rss/articles/CBMif0FVX3lxTFBpRDhqUmRYUlBHUUU1OEZOV0ZtN0VxamNpZ0R6TndXeTR3OUJvcFBFaFd6N3dZYU1qcW9UU29qVGpjUldkay1kRVlQYnpnSlkzZE15WkJsc1psRVJ1SThYYkUtb3EtbzdtVG5MUFdRalJEUkI0MkdrR0gxbFlxUjg?oc=5": {
+    "fingerprint": "c3312017b73659a03d4f5065e033438d4e13971b2b905b3419a4684ddd98210b",
+    "completed": true,
+    "checked_at": "2026-11-24T11:01:06+00:00"
   }
 }

@@ -23,7 +23,7 @@
     "source_title": "GLM-5.4 vs GLM-5.5:现在发布还是等待3T旗舰? - OrcaRouter",
     "summary": "智谱 GLM 发布 GLM-5.4；官方将其定位为新一代或旗舰模型。",
     "first_seen": "2026-11-23T09:10:03+00:00",
-    "last_seen": "2026-11-23T09:10:03+00:00",
+    "last_seen": "2026-11-24T11:01:06+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xWGo0MEJnOXVYVFVnWHpmVVp4TDhSYlpxLTF3dHI5VHdPTHpKX2hFRFBkaDFZcEJSbTBvMmVGZ2dzcUlBNWZEVVFRT1BKMHM3SFNPWXBKSzUyNzBlWlFmdGhOdWdVUQ?oc=5",
@@ -36,6 +36,18 @@
         "sha256": "8d44e1cd5dd8bb33e4b9781c1bdae2264bb15b19821cdc536c83e1f2291163fc",
         "excerpt": "GLM-5.4 vs GLM-5.5:现在发布还是等待3T旗舰? OrcaRouter",
         "checked_at": "2026-11-23T09:10:03+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5anRwVHFfc081UWNIZDJWaW1YMEsyVU1CN0l3OFM1WEtRbE1pUlZkSzFINzlQUjYwZzFTNWhYZUdtR1dZWnZlUkJoZmtGaUs1V05GcUhHUmp3QjFleWc?oc=5",
+        "title": "智谱 GLM-5.4 模型发布,已上线 Coding Plan - 同花顺",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Mon, 23 Nov 2026 05:10:32 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "9120dbd2e8bb11c1917c1f4787964ec2de1567a82a6e583f14c1b36ee60ccba9",
+        "excerpt": "智谱 GLM-5.4 模型发布,已上线 Coding Plan 同花顺",
+        "checked_at": "2026-11-24T11:01:06+00:00"
       }
     ]
   },
@@ -57,7 +69,7 @@
     "source_title": "Introducing Tool Retrieval in the Gemini API",
     "summary": "Google 发布 Introducing Tool Retrieval in the Gemini API；具体里程碑意义待审核。",
     "first_seen": "2026-11-20T08:37:50+00:00",
-    "last_seen": "2026-11-22T08:03:22+00:00",
+    "last_seen": "2026-11-24T11:01:06+00:00",
     "evidence": [
       {
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
@@ -67,9 +79,9 @@
         "raw_date": "2026-11-19T18:00:00+00:00",
         "date_provenance": "official-article",
         "date_verified": true,
-        "sha256": "af82be287424af2eb9dea696c24f677694ec74cea5155309cfc5aed2aae98bca",
+        "sha256": "0c8a0914f76ac33a6589778dcbcec473a70b63dbd41205b106ba671bae983bbd",
         "excerpt": "Introducing Tool Retrieval in the Gemini API Nov 19, 2026 | x.com Facebook LinkedIn Mail Copy link Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accu",
-        "checked_at": "2026-11-22T08:03:22+00:00"
+        "checked_at": "2026-11-24T11:01:06+00:00"
       }
     ]
   },
