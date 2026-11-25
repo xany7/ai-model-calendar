@@ -1805,5 +1805,10 @@
     "fingerprint": "c3312017b73659a03d4f5065e033438d4e13971b2b905b3419a4684ddd98210b",
     "completed": true,
     "checked_at": "2026-11-24T11:01:06+00:00"
+  },
+  "openai-rss|https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+    "fingerprint": "6a08dbfa3fa51d143c25687f6622087b93e8ae0f578d8f0fc3ec4ac819328a03",
+    "completed": true,
+    "checked_at": "2026-11-25T09:53:26+00:00"
   }
 }
