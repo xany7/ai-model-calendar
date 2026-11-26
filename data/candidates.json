@@ -1014,18 +1014,18 @@
       "新闻仅作发现线索，必须补充官方来源。",
       "正文未验证或只有目录/仓库信息。"
     ],
-    "release_date": "2026-10-30",
-    "published_at": "2026-10-30T07:00:00+00:00",
+    "release_date": "2026-11-25",
+    "published_at": "2026-11-25T14:06:00+00:00",
     "date_precision": "timestamp",
     "date_provenance": "news-rss",
     "date_verified": false,
     "id": "aa2c54afb591879de0cd",
     "official": false,
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uQUYyby01QTB2M25fX1hnRFdhbnVoRGFXc3J6Mmp2dGpQWGdISVZrandoLTZ5MFJIMF9VTWwwekVNNzcyWndRVVM0Q205c1Y3M1VRNkJaN3NfZ2IzYTZHQTAxZElYdG9RR0VWRTYyekRfeTNhWmc?oc=5",
-    "source_title": "DeepSeek V4.1 Pro 会以开放权重形式发布吗? - OrcaRouter",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VSHhETmdVZ2VFU0xSYVhCQ2RBSUZQUHNMTFg3b0V2d2FkNDk3bHp2XzZKUFdYTFFlVkgxdXFVWFZoeV9JUExUb2hIdXV2eXcwc1N0TkVkUXU?oc=5",
+    "source_title": "DeepSeek V4.1 Pro被指12月发布:摆脱NVIDIA、拥抱国产AI芯片倒计时 - 驱动之家",
     "summary": "DeepSeek 发布 DeepSeek V4.1 Pro；具体里程碑意义待审核。",
     "first_seen": "2026-10-02T08:24:24+00:00",
-    "last_seen": "2026-11-22T08:03:22+00:00",
+    "last_seen": "2026-11-26T09:36:56+00:00",
     "evidence": [
       {
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBURmVmU0pxYjlpZ2xScy1kbmlrQnVfam9DS3FQTVJMTlVra3NDS2VyeXF0R1ltNzNMOGozdFJqWlFhc05QbTNYSTBCVjlXbE1UMUhud2lFVkhwMzJHSjVRUjhWbGRqQ2pzRjBaZ2djRGdCcVNmcGdRXzFBcnFuS3c?oc=5",
@@ -1170,6 +1170,18 @@
         "sha256": "e1044a99cb00d10e6f2b8b772288bae0f8f6db41aec1a58eb3db90ae7bc9b7c6",
         "excerpt": "DeepSeek V4.1 Pro 会以开放权重形式发布吗? OrcaRouter",
         "checked_at": "2026-11-22T08:03:22+00:00"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VSHhETmdVZ2VFU0xSYVhCQ2RBSUZQUHNMTFg3b0V2d2FkNDk3bHp2XzZKUFdYTFFlVkgxdXFVWFZoeV9JUExUb2hIdXV2eXcwc1N0TkVkUXU?oc=5",
+        "title": "DeepSeek V4.1 Pro被指12月发布:摆脱NVIDIA、拥抱国产AI芯片倒计时 - 驱动之家",
+        "official": false,
+        "source_id": "china-news-discovery",
+        "raw_date": "Wed, 25 Nov 2026 14:06:00 GMT",
+        "date_provenance": "news-rss",
+        "date_verified": false,
+        "sha256": "33b86f2915f45fcba5a776685659c96318208b3784d386a55de022fb167da674",
+        "excerpt": "DeepSeek V4.1 Pro被指12月发布:摆脱NVIDIA、拥抱国产AI芯片倒计时 驱动之家",
+        "checked_at": "2026-11-26T09:36:56+00:00"
       }
     ],
     "reviewed_at": "2026-10-26T07:59:31+00:00",
