@@ -60,7 +60,7 @@
     "reviewed_by": "xany7"
   },
   {
-    "status": "pending",
+    "status": "rejected",
     "model": "Introducing Tool Retrieval in the Gemini API",
     "vendor": "Google",
     "score": 40,
@@ -91,7 +91,10 @@
         "excerpt": "Introducing Tool Retrieval in the Gemini API Nov 19, 2026 | x.com Facebook LinkedIn Mail Copy link Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accu",
         "checked_at": "2026-11-24T11:01:06+00:00"
       }
-    ]
+    ],
+    "decision_reason": "Google 2026-11-19 官方公告的是 Gemini Interactions API 的 Tool Retrieval 功能预览，供已有模型调用工具时按需加载参数结构，不是独立通用模型首发。",
+    "reviewed_at": "2026-11-27T03:26:17+00:00",
+    "reviewed_by": "xany7"
   },
   {
     "status": "approved",
