@@ -1699,5 +1699,27 @@
     "updated_at": "2026-11-18T14:03:19+00:00",
     "sequence": 0,
     "status": "confirmed"
+  },
+  {
+    "id": "f42cef5e16785362a486",
+    "vendor": "智谱 GLM",
+    "model": "GLM-5.4",
+    "release_date": "2026-11-23",
+    "published_at": null,
+    "date_precision": "reviewed-date",
+    "date_provenance": "manual-official-review",
+    "date_verified": true,
+    "date_note": "智谱 AutoClaw 官方公告(https://autoclaw.z.ai/en/blog/model/GLM-5.4/)于 2026-11-23 确认 GLM Coding Plan 已可用。按官方标注日期记全天事件,不采用第三方报道时间。",
+    "summary": "智谱 GLM-5.4 于 11 月 23 日已在 GLM Coding Plan 可用,引入 Loop Transformer 与视觉输入;通用 API 和开放权重未公布上线日期。",
+    "source_url": "https://z.ai/blog/glm-5.4?lang=en",
+    "sources": [
+      "https://z.ai/blog/glm-5.4?lang=en"
+    ],
+    "milestone_reason": "智谱独立公告介绍首个 Loop Transformer 旗舰模型,新增视觉输入,并将应用从编程拓展到工程设计等任务。",
+    "reviewed_by": "xany7",
+    "created_at": "2026-11-27T03:25:32+00:00",
+    "updated_at": "2026-11-27T03:25:32+00:00",
+    "sequence": 0,
+    "status": "confirmed"
   }
 ]
